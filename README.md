@@ -96,6 +96,7 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [Django Tutorial](https://docs.djangoproject.com/en/stable/intro/tutorial01/) | 📖 Tutorial | Official Django web framework tutorial |
 | [Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) | 📖 Tutorial Series | Comprehensive Flask tutorial |
 | [FastAPI Tutorial](https://fastapi.tiangolo.com/tutorial/) | 📖 Tutorial | Modern Python API development |
+| [Mega Tutorial](https://github.com/getvmio/free-python-resources) | 📖 Knowledge Repo | Modern Python development |
 
 ### ☕ Java
 | Resource | Type | Description |

@@ -143,6 +143,11 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [PostgreSQL Tutorial](https://www.postgresqltutorial.com/) | 📖 Tutorial | Comprehensive PostgreSQL guide |
 | [MySQL Tutorial](https://dev.mysql.com/doc/mysql-tutorial-excerpt/8.0/en/) | 📖 Tutorial | Official MySQL tutorial |
 | [SQLBolt](https://sqlbolt.com/) | 🎮 Interactive Lessons | Learn SQL with interactive exercises |
+| [TSQL Tutorial](https://www.tsql.info/) | 📖 Tutorial | Complete T-SQL (Transact-SQL) tutorial |
+| [Microsoft SQL Server Learning](https://docs.microsoft.com/en-us/sql/sql-server/) | 📚 Documentation | Official SQL Server documentation |
+| [TSQL Fundamentals](https://www.red-gate.com/simple-talk/databases/sql-server/t-sql-programming-sql-server/) | 📖 Articles | T-SQL programming fundamentals |
+| [SQLServerTutorial.net](https://www.sqlservertutorial.net/) | 📖 Tutorial | SQL Server and T-SQL tutorials |
+| [TSQL Code Snippets](https://github.com/Microsoft/sql-server-samples) | 💻 Examples | Microsoft SQL Server code samples |
 
 ### 📊 NoSQL Databases
 | Resource | Type | Description |
@@ -154,10 +159,18 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 ### 🌊 Stream Processing & Real-time Databases
 | Resource | Type | Description |
 |----------|------|-------------|
+| [Apache Kafka Documentation](https://kafka.apache.org/documentation/) | 📚 Documentation | Official Apache Kafka documentation |
+| [Kafka Tutorials](https://kafka-tutorials.confluent.io/) | 📖 Tutorials | Step-by-step Kafka tutorials by Confluent |
+| [Kafka Connect Documentation](https://docs.confluent.io/platform/current/connect/index.html) | 📚 Documentation | Kafka Connect for data integration |
+| [Kafka Streams Documentation](https://kafka.apache.org/documentation/streams/) | 📚 Documentation | Stream processing with Kafka Streams |
+| [Apache Kafka Course](https://developer.confluent.io/learn-kafka/) | 🎓 Course | Free comprehensive Kafka course |
+| [Kafka Schema Registry](https://docs.confluent.io/platform/current/schema-registry/index.html) | 📚 Documentation | Schema evolution and compatibility |
 | [ksqlDB Documentation](https://docs.ksqldb.io/) | 📚 Documentation | Official ksqlDB documentation and tutorials |
 | [ksqlDB Tutorials](https://kafka-tutorials.confluent.io/ksqldb.html) | 📖 Tutorials | Hands-on ksqlDB tutorials by Confluent |
 | [Confluent Developer](https://developer.confluent.io/courses/) | 🎓 Courses | Free Apache Kafka and ksqlDB courses |
 | [ksqlDB Quick Start](https://docs.ksqldb.io/en/latest/operate-and-deploy/quick-start/) | 🚀 Quick Start | Get started with ksqlDB in minutes |
+| [Apache Pulsar Documentation](https://pulsar.apache.org/docs/en/standalone/) | 📚 Documentation | Apache Pulsar distributed messaging |
+| [Apache Storm Tutorial](https://storm.apache.org/releases/current/Tutorial.html) | 📖 Tutorial | Real-time computation system |
 | [Apache Flink Documentation](https://flink.apache.org/learn.html) | 📚 Documentation | Complete Apache Flink learning resources |
 | [Flink Training Courses](https://training.ververica.com/) | 🎓 Courses | Free Flink training by Ververica |
 | [Flink Forward Videos](https://www.flink-forward.org/resources) | 🎥 Videos | Conference talks and presentations |
@@ -165,9 +178,12 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [Flink CDC Tutorial](https://ververica.github.io/flink-cdc-connectors/master/) | 📖 Tutorial | Change Data Capture with Flink |
 | [Real-time Analytics with ksqlDB](https://github.com/confluentinc/demo-realtime-analytics-adventure) | 💻 Demo | Hands-on real-time analytics project |
 | [Flink Playground](https://flink.apache.org/try.html) | 🎮 Interactive | Try Flink online without installation |
+| [Kafka vs Pulsar vs RabbitMQ](https://www.confluent.io/blog/kafka-fastest-messaging-system/) | 📰 Article | Messaging systems comparison |
 | [Kafka Streams vs ksqlDB](https://www.confluent.io/blog/kafka-streams-vs-ksqldb-compared/) | 📰 Article | Comparison guide for stream processing |
 | [Flink SQL Cookbook](https://github.com/ververica/flink-sql-cookbook) | 📖 Cookbook | SQL recipes for Apache Flink |
 | [Building Real-time Applications](https://www.youtube.com/playlist?list=PLa7VYi0yPIH2eX8qfmPL7R9LgQwgaHUNh) | 🎥 Video Series | YouTube series on stream processing |
+| [Kafka Performance Testing](https://kafka.apache.org/documentation/#performance) | 📖 Guide | Performance testing and tuning |
+| [Event Sourcing with Kafka](https://www.confluent.io/blog/event-sourcing-cqrs-stream-processing-apache-kafka-whats-connection/) | 📰 Article | Event-driven architecture patterns |
 
 ## 🔌 APIs & Integration
 

@@ -32,6 +32,7 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 - [🤖 Automation & Workflows](#-automation--workflows)
 - [📈 Data Visualization & Analytics](#-data-visualization--analytics)
 - [🖥️ Content Management](#️-content-management)
+- [🧠 AI & Machine Learning](#-ai--machine-learning)
 - [📝 Version Control](#-version-control)
 - [🧪 Testing](#-testing)
 - [📱 Mobile Development](#-mobile-development)
@@ -310,6 +311,107 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [Strapi Documentation](https://docs.strapi.io/) | 📚 Documentation | Open-source headless CMS |
 | [Ghost Publishing Platform](https://ghost.org/docs/) | 📚 Documentation | Modern publishing platform |
 | [Forestry CMS](https://forestry.io/docs/) | 📚 Documentation | Git-based CMS documentation |
+
+## 🧠 AI & Machine Learning
+
+### 🎓 Machine Learning Fundamentals
+| Resource | Type | Description |
+|----------|------|-------------|
+| [Machine Learning Course - Stanford](https://www.coursera.org/learn/machine-learning) | 🎓 Course | Andrew Ng's famous ML course (audit for free) |
+| [CS229 Stanford ML Course](http://cs229.stanford.edu/) | 🎓 Course | Stanford's machine learning course materials |
+| [Fast.ai Practical Deep Learning](https://course.fast.ai/) | 🎓 Course | Practical deep learning for coders |
+| [MIT Introduction to Machine Learning](https://ocw.mit.edu/courses/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/) | 🎓 Course | MIT's computational thinking and data science |
+| [Kaggle Learn](https://www.kaggle.com/learn) | 🎓 Courses | Free micro-courses on ML, Python, and data science |
+| [Google AI Education](https://ai.google/education/) | 🎓 Courses | Google's AI and ML educational resources |
+| [Elements of AI](https://www.elementsofai.com/) | 🎓 Course | University of Helsinki's introduction to AI |
+
+### 🐍 Python for AI/ML
+| Resource | Type | Description |
+|----------|------|-------------|
+| [Python Machine Learning](https://github.com/rasbt/python-machine-learning-book-3rd-edition) | 📚 Book | Free chapters and code for ML with Python |
+| [Scikit-learn Documentation](https://scikit-learn.org/stable/tutorial/index.html) | 📚 Documentation | Complete scikit-learn tutorials |
+| [Pandas Documentation](https://pandas.pydata.org/docs/user_guide/index.html) | 📚 Documentation | Data manipulation and analysis |
+| [NumPy Tutorials](https://numpy.org/learn/) | 📖 Tutorial | Numerical computing with Python |
+| [Matplotlib Tutorials](https://matplotlib.org/stable/tutorials/index.html) | 📖 Tutorial | Data visualization with Python |
+| [Seaborn Tutorial](https://seaborn.pydata.org/tutorial.html) | 📖 Tutorial | Statistical data visualization |
+
+### 🧠 Deep Learning
+| Resource | Type | Description |
+|----------|------|-------------|
+| [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning) | 🎓 Course | Andrew Ng's deep learning course (audit for free) |
+| [Deep Learning Book](https://www.deeplearningbook.org/) | 📚 Book | Free online deep learning textbook |
+| [TensorFlow Tutorials](https://www.tensorflow.org/tutorials) | 📖 Tutorial | Official TensorFlow learning resources |
+| [PyTorch Tutorials](https://pytorch.org/tutorials/) | 📖 Tutorial | Official PyTorch learning resources |
+| [Keras Documentation](https://keras.io/guides/) | 📚 Documentation | High-level neural networks API |
+| [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) | 📚 Book | Free online book by Michael Nielsen |
+| [CS231n Stanford CNN Course](http://cs231n.stanford.edu/) | 🎓 Course | Convolutional Neural Networks for Visual Recognition |
+
+### 🤖 AI Tools & Frameworks
+| Resource | Type | Description |
+|----------|------|-------------|
+| [Hugging Face Transformers](https://huggingface.co/docs/transformers/index) | 📚 Documentation | State-of-the-art NLP models |
+| [OpenAI API Documentation](https://platform.openai.com/docs) | 📚 Documentation | GPT and other AI model APIs |
+| [LangChain Documentation](https://python.langchain.com/docs/get_started/introduction) | 📚 Documentation | Building applications with LLMs |
+| [Gradio Documentation](https://gradio.app/docs/) | 📚 Documentation | Build ML web apps quickly |
+| [Streamlit Documentation](https://docs.streamlit.io/) | 📚 Documentation | Build data apps in Python |
+| [MLflow Documentation](https://mlflow.org/docs/latest/index.html) | 📚 Documentation | ML lifecycle management |
+| [Weights & Biases](https://docs.wandb.ai/) | 📚 Documentation | Experiment tracking and visualization |
+
+### 📊 Data Science & Analytics
+| Resource | Type | Description |
+|----------|------|-------------|
+| [Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) | 📚 Book | Free Python Data Science Handbook |
+| [Jupyter Notebook Documentation](https://jupyter-notebook.readthedocs.io/) | 📚 Documentation | Interactive computing environment |
+| [Google Colab](https://colab.research.google.com/) | 🛠️ Tool | Free GPU/TPU Jupyter notebooks |
+| [Apache Spark Documentation](https://spark.apache.org/docs/latest/) | 📚 Documentation | Large-scale data processing |
+| [Dask Documentation](https://docs.dask.org/) | 📚 Documentation | Parallel computing with Python |
+| [Apache Airflow Tutorial](https://airflow.apache.org/docs/apache-airflow/stable/tutorial/) | 📖 Tutorial | Workflow orchestration platform |
+
+### 🗣️ Natural Language Processing
+| Resource | Type | Description |
+|----------|------|-------------|
+| [spaCy Course](https://course.spacy.io/) | 🎓 Course | Advanced NLP with spaCy |
+| [NLTK Book](https://www.nltk.org/book/) | 📚 Book | Natural Language Processing with Python |
+| [Hugging Face NLP Course](https://huggingface.co/course/chapter1/1) | 🎓 Course | Complete NLP course using Transformers |
+| [CS224n Stanford NLP](http://web.stanford.edu/class/cs224n/) | 🎓 Course | Natural Language Processing with Deep Learning |
+| [OpenNMT Documentation](https://opennmt.net/) | 📚 Documentation | Neural machine translation |
+
+### 👁️ Computer Vision
+| Resource | Type | Description |
+|----------|------|-------------|
+| [OpenCV Tutorials](https://docs.opencv.org/4.x/d9/df8/tutorial_root.html) | 📖 Tutorial | Computer vision library tutorials |
+| [CS231n Assignments](http://cs231n.github.io/) | 💻 Assignments | Stanford computer vision assignments |
+| [PyImageSearch](https://pyimagesearch.com/start-here/) | 📖 Tutorials | Computer vision and image processing |
+| [Detectron2 Tutorial](https://detectron2.readthedocs.io/tutorials/getting_started.html) | 📖 Tutorial | Object detection and segmentation |
+| [YOLO Documentation](https://docs.ultralytics.com/) | 📚 Documentation | Real-time object detection |
+
+### 🎮 Reinforcement Learning
+| Resource | Type | Description |
+|----------|------|-------------|
+| [OpenAI Gym](https://gym.openai.com/docs/) | 📚 Documentation | RL environment toolkit |
+| [Stable Baselines3](https://stable-baselines3.readthedocs.io/) | 📚 Documentation | RL algorithms implementation |
+| [CS285 Berkeley Deep RL](http://rail.eecs.berkeley.edu/deeprlcourse/) | 🎓 Course | Deep Reinforcement Learning |
+| [Spinning Up in Deep RL](https://spinningup.openai.com/) | 📚 Guide | OpenAI's deep RL educational resource |
+
+### 🔧 MLOps & Production
+| Resource | Type | Description |
+|----------|------|-------------|
+| [MLOps Specialization](https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops) | 🎓 Course | DeepLearning.AI MLOps course (audit for free) |
+| [DVC Documentation](https://dvc.org/doc) | 📚 Documentation | Data version control for ML |
+| [Kubeflow Documentation](https://www.kubeflow.org/docs/) | 📚 Documentation | ML workflows on Kubernetes |
+| [BentoML Documentation](https://docs.bentoml.org/) | 📚 Documentation | Model serving framework |
+| [Seldon Core Documentation](https://docs.seldon.io/projects/seldon-core/en/latest/) | 📚 Documentation | ML deployment on Kubernetes |
+
+### 🆓 Free AI Development Platforms
+| Resource | Type | Description |
+|----------|------|-------------|
+| [Google Colab](https://colab.research.google.com/) | ☁️ Platform | Free GPU/TPU Jupyter environment |
+| [Kaggle Notebooks](https://www.kaggle.com/code) | ☁️ Platform | Free GPU notebooks and datasets |
+| [Hugging Face Spaces](https://huggingface.co/spaces) | ☁️ Platform | Free ML model hosting |
+| [Replit AI](https://replit.com/) | ☁️ Platform | AI-powered coding environment |
+| [GitHub Copilot](https://github.com/features/copilot) | 🤖 Tool | AI pair programmer (free for students) |
+| [Papers with Code](https://paperswithcode.com/) | 📰 Repository | Latest ML research with code |
+| [Model Zoo](https://modelzoo.co/) | 🏪 Repository | Pre-trained models repository |
 
 ## 📝 Version Control
 

@@ -1,3 +1,28 @@
+```
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║    ██████╗  ██████╗  █████╗ ██████╗     ████████╗ ██████╗                  ║
+║    ██████╗  ██████╗  █████╗ ██████╗     ████████╗ ██████╗                  ║
+║    ██████╗  ██████╗  █████╗ ██████╗     ████████╗ ██████╗                  ║
+║    ██╔══██╗██╔═══██╗██╔══██╗██╔══██╗    ╚══██╔══╝██╔═══██╗                  ║
+║    ██████╔╝██║   ██║███████║██║  ██║       ██║   ██║   ██║                  ║
+║    ██╔══██╗██║   ██║██╔══██║██║  ██║       ██║   ██║   ██║                  ║
+║    ██║  ██║╚██████╔╝██║  ██║██████╔╝       ██║   ╚██████╔╝                  ║
+║    ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═════╝        ╚═╝    ╚═════╝                   ║
+║                                                                              ║
+║    ███████╗██╗   ██╗██╗     ██╗     ███████╗████████╗ █████╗  ██████╗██╗  ██╗║
+║    ██╔════╝██║   ██║██║     ██║     ██╔════╝╚══██╔══╝██╔══██╗██╔════╝██║ ██╔╝║
+║    █████╗  ██║   ██║██║     ██║     ███████╗   ██║   ███████║██║     █████╔╝ ║
+║    ██╔══╝  ██║   ██║██║     ██║     ╚════██║   ██║   ██╔══██║██║     ██╔═██╗ ║
+║    ██║     ╚██████╔╝███████╗███████╗███████║   ██║   ██║  ██║╚██████╗██║  ██╗║
+║    ╚═╝      ╚═════╝ ╚══════╝╚══════╝╚══════╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝║
+║                                                                              ║
+║       🛣️  Frontend → Backend → DevOps → FullStack Developer → 🚀            ║
+║                                                                              ║
+║       "Your journey to mastering the complete development stack"             ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
 # 🛣️ Road-To-FullStack
 
 A comprehensive collection of **FREE** resources to become a Full-Stack Developer with DevOps skills. This roadmap includes courses, tutorials, documentation, and hands-on projects that are publicly available for anyone to learn and grow.
@@ -498,29 +523,6 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [Database Comparison Guide](https://db-engines.com/en/ranking) | 📊 Rankings | Database popularity and feature comparison |
 | [Cloud Provider Comparison](https://comparecloud.in/) | 📊 Comparison | AWS vs Azure vs GCP feature comparison |
 | [Programming Language Performance](https://benchmarksgame-team.pages.debian.net/benchmarksgame/) | 📊 Benchmarks | Language performance comparisons |
-| [Web Framework Benchmarks](https://www.techempower.com/benchmarks/) | 📊 Performance | Web framework speed comparisons |
-
-### 🎓 Learning Progress Trackers
-| Resource | Type | Description |
-|----------|------|-------------|
-| [100 Days of Code](https://www.100daysofcode.com/) | 📅 Challenge | Coding challenge with progress tracking |
-| [Codecademy Skill Paths](https://www.codecademy.com/catalog/subject/web-development) | 🎯 Visual Paths | Interactive learning progress visualization |
-| [freeCodeCamp Curriculum](https://www.freecodecamp.org/learn) | 🗺️ Progress Map | Visual curriculum with completion tracking |
-| [The Odin Project](https://www.theodinproject.com/paths) | 🗺️ Learning Path | Visual full-stack curriculum tracker |
-
-### 🔧 Tool & Service Ecosystem Maps
-| Resource | Type | Description |
-|----------|------|-------------|
-| [JavaScript Ecosystem](https://2022.stateofjs.com/en-US/libraries/) | 🗺️ Ecosystem Map | JS libraries and frameworks landscape |
-| [DevOps Toolchain](https://xebialabs.com/periodic-table-of-devops-tools/) | 🗺️ Periodic Table | DevOps tools organized by category |
-| [Cloud Native Landscape](https://landscape.cncf.io/) | 🗺️ Interactive Map | CNCF project ecosystem visualization |
-| [API Ecosystem](https://nordicapis.com/api-economy-ecosystem-map/) | 🗺️ Ecosystem Map | API tools and services landscape |
-
-### 📚 Visual Learning Aids
-| Resource | Type | Description |
-|----------|------|-------------|
-| [Visualgo](https://visualgo.net/) | 🎮 Interactive | Algorithm and data structure visualizations |
-| [CSS Grid Garden](https://cssgridgarden.com/) | 🎮 Interactive | Visual CSS Grid learning game |
 | [Flexbox Froggy](https://flexboxfroggy.com/) | 🎮 Interactive | Visual CSS Flexbox learning game |
 | [Regex101](https://regex101.com/) | 🛠️ Visual Tool | Regular expression visualization and testing |
 | [JSON Crack](https://jsoncrack.com/) | 📊 Visualizer | JSON data structure visualization |
@@ -541,47 +543,47 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 |----------|------|-------------|
 | [Jest Documentation](https://jestjs.io/docs/getting-started) | 📚 Documentation | JavaScript testing framework |
 | [Testing Library](https://testing-library.com/docs/) | 📚 Documentation | Simple and complete testing utilities |
+| [Visualgo](https://visualgo.net/) | 🎮 Interactive | Algorithm and data structure visualizations |k |
+| [CSS Grid Garden](https://cssgridgarden.com/) | 🎮 Interactive | Visual CSS Grid learning game || [Postman Learning Center](https://learning.postman.com/) | 🎓 Courses | API testing with Postman |
+| [Flexbox Froggy](https://flexboxfroggy.com/) | 🎮 Interactive | Visual CSS Flexbox learning game |
+| [Regex101](https://regex101.com/) | 🛠️ Visual Tool | Regular expression visualization and testing |## <img src="https://img.shields.io/badge/Mobile-61DAFB?style=for-the-badge&logo=react&logoColor=black" /> Mobile Development
+| [JSON Crack](https://jsoncrack.com/) | 📊 Visualizer | JSON data structure visualization |
+| [Git Visualizer](https://git-school.github.io/visualizing-git/) | 🔄 Interactive | Git commands visualization |
+
+## <img src="https://img.shields.io/badge/Version%20Control-F05032?style=for-the-badge&logo=git&logoColor=white" /> Version Controlact Native |
+|
+| Resource | Type | Description || [Ionic Framework](https://ionicframework.com/docs) | 📚 Documentation | Hybrid mobile app development |
+|----------|------|-------------|
+| [Pro Git Book](https://git-scm.com/book) | 📚 Book | Complete Git version control book |## <img src="https://img.shields.io/badge/Web3-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white" /> Web3 & Blockchain
+| [GitHub Skills](https://skills.github.com/) | 🎮 Interactive Courses | GitHub-specific skills and workflows |
+| [Atlassian Git Tutorials](https://www.atlassian.com/git/tutorials) | 📖 Tutorials | Comprehensive Git tutorials |
+| [Learn Git Branching](https://learngitbranching.js.org/) | 🎮 Interactive Tutorial | Visual Git branching tutorial |
+ment |
+## <img src="https://img.shields.io/badge/Testing-C21325?style=for-the-badge&logo=jest&logoColor=white" /> Testingprogramming |
+ |
+| Resource | Type | Description || [Hardhat Tutorial](https://hardhat.org/tutorial/) | 📖 Tutorial | Ethereum development environment |
+|----------|------|-------------|
+| [Jest Documentation](https://jestjs.io/docs/getting-started) | 📚 Documentation | JavaScript testing framework |## <img src="https://img.shields.io/badge/System%20Design-4A90E2?style=for-the-badge&logo=architecture&logoColor=white" /> System Design
+| [Testing Library](https://testing-library.com/docs/) | 📚 Documentation | Simple and complete testing utilities |
 | [Cypress Documentation](https://docs.cypress.io/) | 📚 Documentation | End-to-end testing framework |
 | [Postman Learning Center](https://learning.postman.com/) | 🎓 Courses | API testing with Postman |
-
-## <img src="https://img.shields.io/badge/Mobile-61DAFB?style=for-the-badge&logo=react&logoColor=black" /> Mobile Development
-
+design large-scale systems |
+## <img src="https://img.shields.io/badge/Mobile-61DAFB?style=for-the-badge&logo=react&logoColor=black" /> Mobile Developments |
+| [Microservices.io](https://microservices.io/) | 📋 Patterns | Microservices architecture patterns |
 | Resource | Type | Description |
-|----------|------|-------------|
+|----------|------|-------------|## <img src="https://img.shields.io/badge/Algorithms-FF6B6B?style=for-the-badge&logo=leetcode&logoColor=white" /> Algorithms & Data Structures
 | [React Native Tutorial](https://reactnative.dev/docs/tutorial) | 📖 Tutorial | Build mobile apps with React Native |
 | [Flutter Documentation](https://docs.flutter.dev/) | 📚 Documentation | Google's UI toolkit for mobile |
 | [Ionic Framework](https://ionicframework.com/docs) | 📚 Documentation | Hybrid mobile app development |
-
+in action |
 ## <img src="https://img.shields.io/badge/Web3-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white" /> Web3 & Blockchain
-
+erence |
 | Resource | Type | Description |
 |----------|------|-------------|
-| [Ethereum Documentation](https://ethereum.org/en/developers/docs/) | 📚 Documentation | Ethereum blockchain development |
+| [Ethereum Documentation](https://ethereum.org/en/developers/docs/) | 📚 Documentation | Ethereum blockchain development || [MIT OpenCourseWare - Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/) | 🎓 Course | MIT's Introduction to Algorithms |
 | [Solidity by Example](https://solidity-by-example.org/) | 📖 Examples | Learn Solidity smart contract programming |
-| [Web3.js Documentation](https://web3js.readthedocs.io/) | 📚 Documentation | Ethereum JavaScript API |
+| [Web3.js Documentation](https://web3js.readthedocs.io/) | 📚 Documentation | Ethereum JavaScript API |## <img src="https://img.shields.io/badge/CS%20Fundamentals-6B73FF?style=for-the-badge&logo=computer&logoColor=white" /> Computer Science Fundamentals
 | [Hardhat Tutorial](https://hardhat.org/tutorial/) | 📖 Tutorial | Ethereum development environment |
-
-## <img src="https://img.shields.io/badge/System%20Design-4A90E2?style=for-the-badge&logo=architecture&logoColor=white" /> System Design
-
-| Resource | Type | Description |
-|----------|------|-------------|
-| [System Design Primer](https://github.com/donnemartin/system-design-primer) | 📋 Guide | Learn how to design large-scale systems |
-| [High Scalability](http://highscalability.com/) | 📰 Articles | Real-world architecture case studies |
-| [Microservices.io](https://microservices.io/) | 📋 Patterns | Microservices architecture patterns |
-
-## <img src="https://img.shields.io/badge/Algorithms-FF6B6B?style=for-the-badge&logo=leetcode&logoColor=white" /> Algorithms & Data Structures
-
-| Resource | Type | Description |
-|----------|------|-------------|
-| [Algorithm Visualizer](https://algorithm-visualizer.org/) | 🎮 Interactive | Visualize algorithms in action |
-| [VisuAlgo](https://visualgo.net/) | 🎮 Interactive | Algorithm and data structure visualizations |
-| [Big-O Cheat Sheet](https://www.bigocheatsheet.com/) | 📋 Reference | Time and space complexity reference |
-| [GeeksforGeeks](https://www.geeksforgeeks.org/) | 📖 Articles | Comprehensive algorithm tutorials |
-| [Khan Academy - Algorithms](https://www.khanacademy.org/computing/computer-science/algorithms) | 🎓 Course | Introduction to algorithms |
-| [MIT OpenCourseWare - Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/) | 🎓 Course | MIT's Introduction to Algorithms |
-
-## <img src="https://img.shields.io/badge/CS%20Fundamentals-6B73FF?style=for-the-badge&logo=computer&logoColor=white" /> Computer Science Fundamentals
-
 | Resource | Type | Description |
 |----------|------|-------------|
 | [CS50x - Harvard](https://cs50.harvard.edu/x/) | 🎓 Course | Introduction to Computer Science |
@@ -611,58 +613,81 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 ## <img src="https://img.shields.io/badge/Documentation-4B8BBE?style=for-the-badge&logo=read%20the%20docs&logoColor=white" /> Documentation & Communication
 
 | Resource | Type | Description |
-|----------|------|-------------|
-| [GitBook](https://www.gitbook.com/) | 📝 Platform | Free documentation platform |
-| [Notion](https://www.notion.so/) | 📝 Platform | All-in-one workspace (free tier) |
-| [Markdown Guide](https://www.markdownguide.org/) | 📖 Guide | Complete Markdown reference |
-| [Technical Writing Courses](https://developers.google.com/tech-writing) | 🎓 Course | Google's technical writing courses |
-| [Hemingway Editor](http://www.hemingwayapp.com/) | 🛠️ Tool | Make your writing clear and bold |
 
-## <img src="https://img.shields.io/badge/Free%20Services-FF6B35?style=for-the-badge&logo=freecodecampfire&logoColor=white" /> Free Development Services
+## <img src="https://img.shields.io/badge/Dev%20Tools-007ACC?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" /> Development Tools & IDEs
 
 | Resource | Type | Description |
+|----------|------|-------------|| [Technical Writing Courses](https://developers.google.com/tech-writing) | 🎓 Course | Google's technical writing courses |
+| [Visual Studio Code](https://code.visualstudio.com/) | 🛠️ IDE | Free, powerful code editor |
+| [VS Code Tips and Tricks](https://code.visualstudio.com/docs/getstarted/tips-and-tricks) | 📖 Guide | Official VS Code productivity tips |
+| [VS Code Extension Development](https://code.visualstudio.com/api) | 📚 Documentation | Build your own VS Code extensions |io/badge/Free%20Services-FF6B35?style=for-the-badge&logo=freecodecampfire&logoColor=white" /> Free Development Services
+| [VS Code Marketplace](https://marketplace.visualstudio.com/vscode) | 🔌 Extensions | Thousands of free extensions |
+| [GitHub Codespaces](https://github.com/features/codespaces) | ☁️ IDE | Cloud development environment |
+| [Replit](https://replit.com/) | ☁️ IDE | Online coding environment |
+| [CodePen](https://codepen.io/) | ☁️ IDE | Online front-end development environment |
+| [JSFiddle](https://jsfiddle.net/) | ☁️ IDE | Online JavaScript playground |oyment |
+| [RegExr](https://regexr.com/) | 🛠️ Tool | Learn and test regular expressions |rless functions |
+| [JSON Formatter](https://jsonformatter.curiousconcept.com/) | 🛠️ Tool | Format and validate JSON |
+| [Vim Adventures](https://vim-adventures.com/) | 🎮 Game | Learn Vim editor through gaming |
+| [Emacs Tutorial](https://www.gnu.org/software/emacs/tour/) | 📖 Tutorial | Learn the Emacs editor |ess database |
+ngoDB hosting |
+## <img src="https://img.shields.io/badge/Documentation-4B8BBE?style=for-the-badge&logo=read%20the%20docs&logoColor=white" /> Documentation & Communication
+| [SendGrid](https://sendgrid.com/) | 📧 Email | Free email delivery service |
+| Resource | Type | Description |
 |----------|------|-------------|
-| [GitHub](https://github.com/) | 🔧 Platform | Free Git repository hosting |
+| [GitBook](https://www.gitbook.com/) | 📝 Platform | Free documentation platform |io/badge/Learning%20Paths-9B59B6?style=for-the-badge&logo=roadmap&logoColor=white" /> Learning Paths
+| [Notion](https://www.notion.so/) | 📝 Platform | All-in-one workspace (free tier) |
+| [Markdown Guide](https://www.markdownguide.org/) | 📖 Guide | Complete Markdown reference |
+| [Technical Writing Courses](https://developers.google.com/tech-writing) | 🎓 Course | Google's technical writing courses |mple projects**
+| [Hemingway Editor](http://www.hemingwayapp.com/) | 🛠️ Tool | Make your writing clear and bold |2. **📝 Version control with Git** → **🟢 Basic backend with Node.js**
+ Deploy simple applications**
+## <img src="https://img.shields.io/badge/Free%20Services-FF6B35?style=for-the-badge&logo=freecodecampfire&logoColor=white" /> Free Development Services
+
+| Resource | Type | Description |*🐍 Backend framework (Express/Django)**
+|----------|------|-------------|2. **🗄️ Database design** → **🔌 API development** → **🧪 Testing**
+| [GitHub](https://github.com/) | 🔧 Platform | Free Git repository hosting |ic CI/CD)**
 | [Netlify](https://www.netlify.com/) | 🚀 Hosting | Free static site hosting and deployment |
 | [Vercel](https://vercel.com/) | 🚀 Hosting | Free frontend hosting and serverless functions |
 | [Railway](https://railway.app/) | 🚀 Hosting | Free full-stack application hosting |
-| [Supabase](https://supabase.com/) | 💾 Backend | Free Firebase alternative |
-| [PlanetScale](https://planetscale.com/) | 💾 Database | Free MySQL-compatible serverless database |
+| [Supabase](https://supabase.com/) | 💾 Backend | Free Firebase alternative |2. **🧪 Advanced testing** → **⚡ Performance optimization**
+| [PlanetScale](https://planetscale.com/) | 💾 Database | Free MySQL-compatible serverless database |best practices** → **📱 Mobile/🔗 Web3 specialization**
 | [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) | 💾 Database | Free MongoDB hosting |
 | [Cloudinary](https://cloudinary.com/) | 🖼️ Media | Free image and video management |
 | [SendGrid](https://sendgrid.com/) | 📧 Email | Free email delivery service |
-| [Twilio](https://www.twilio.com/) | 📱 Communication | Free trial for SMS/voice services |
-
+| [Twilio](https://www.twilio.com/) | 📱 Communication | Free trial for SMS/voice services |ng more free resources! Please ensure all resources are:
+ access
 ## <img src="https://img.shields.io/badge/Learning%20Paths-9B59B6?style=for-the-badge&logo=roadmap&logoColor=white" /> Learning Paths
-
-### 🌱 Beginner Path (3-6 months)
+- ✅ Publicly available
+### 🌱 Beginner Path (3-6 months)to full-stack development
 1. **📝 HTML/CSS basics** → **⚡ JavaScript fundamentals** → **🔨 Simple projects**
 2. **📝 Version control with Git** → **🟢 Basic backend with Node.js**
 3. **🔍 Database basics (SQL)** → **🚀 Deploy simple applications**
-
+s compilation is open source and available under the [MIT License](LICENSE).
 ### 🌿 Intermediate Path (6-12 months)
 1. **⚛️ Frontend framework (React/Vue)** → **🐍 Backend framework (Express/Django)**
 2. **🗄️ Database design** → **🔌 API development** → **🧪 Testing**
-3. **🐳 Basic DevOps (Docker, basic CI/CD)**
+3. **🐳 Basic DevOps (Docker, basic CI/CD)**⭐ **Star this repository** if you find it helpful, and share it with fellow developers on their journey to becoming full-stack developers!
 
-### 🌳 Advanced Path (12+ months)
-1. **🏗️ System design** → **🔧 Microservices** → **☁️ Cloud platforms**
-2. **🧪 Advanced testing** → **⚡ Performance optimization**
-3. **🛡️ Security best practices** → **📱 Mobile/🔗 Web3 specialization**
 
-## 🤝 Contributing
 
-Feel free to contribute by adding more free resources! Please ensure all resources are:
-- ✅ Completely free to access
-- ✅ High quality and up-to-date
-- ✅ Publicly available
-- ✅ Relevant to full-stack development
 
-## 📄 License
 
-This compilation is open source and available under the [MIT License](LICENSE).
 
----
 
-⭐ **Star this repository** if you find it helpful, and share it with fellow developers on their journey to becoming full-stack developers!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+⭐ **Star this repository** if you find it helpful, and share it with fellow developers on their journey to becoming full-stack developers!---This compilation is open source and available under the [MIT License](LICENSE).## 📄 License- ✅ Relevant to full-stack development- ✅ Publicly available- ✅ High quality and up-to-date- ✅ Completely free to accessFeel free to contribute by adding more free resources! Please ensure all resources are:## 🤝 Contributing3. **🛡️ Security best practices** → **📱 Mobile/🔗 Web3 specialization**2. **🧪 Advanced testing** → **⚡ Performance optimization**1. **🏗️ System design** → **🔧 Microservices** → **☁️ Cloud platforms**### 🌳 Advanced Path (12+ months)
 

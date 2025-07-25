@@ -19,14 +19,19 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 - [🗄️ Databases](#️-databases)
   - [🔍 SQL Databases](#-sql-databases)
   - [📊 NoSQL Databases](#-nosql-databases)
+  - [🌊 Stream Processing & Real-time Databases](#-stream-processing--real-time-databases)
 - [🔌 APIs & Integration](#-apis--integration)
 - [🛡️ Security](#️-security)
 - [⚡ Performance & Optimization](#-performance--optimization)
 - [☁️ DevOps & Cloud](#️-devops--cloud)
   - [🐳 Docker & Containerization](#-docker--containerization)
+  - [☸️ Kubernetes](#️-kubernetes)
   - [🌩️ Cloud Platforms](#️-cloud-platforms)
   - [🔄 CI/CD](#-cicd)
   - [📊 Monitoring & Logging](#-monitoring--logging)
+- [🤖 Automation & Workflows](#-automation--workflows)
+- [📈 Data Visualization & Analytics](#-data-visualization--analytics)
+- [🖥️ Content Management](#️-content-management)
 - [📝 Version Control](#-version-control)
 - [🧪 Testing](#-testing)
 - [📱 Mobile Development](#-mobile-development)
@@ -146,6 +151,24 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [Redis Tutorial](https://redis.io/docs/manual/tutorial/) | 📖 Tutorial | Official Redis tutorial |
 | [Firebase Documentation](https://firebase.google.com/docs) | 📚 Documentation | Complete Firebase/Firestore guide |
 
+### 🌊 Stream Processing & Real-time Databases
+| Resource | Type | Description |
+|----------|------|-------------|
+| [ksqlDB Documentation](https://docs.ksqldb.io/) | 📚 Documentation | Official ksqlDB documentation and tutorials |
+| [ksqlDB Tutorials](https://kafka-tutorials.confluent.io/ksqldb.html) | 📖 Tutorials | Hands-on ksqlDB tutorials by Confluent |
+| [Confluent Developer](https://developer.confluent.io/courses/) | 🎓 Courses | Free Apache Kafka and ksqlDB courses |
+| [ksqlDB Quick Start](https://docs.ksqldb.io/en/latest/operate-and-deploy/quick-start/) | 🚀 Quick Start | Get started with ksqlDB in minutes |
+| [Apache Flink Documentation](https://flink.apache.org/learn.html) | 📚 Documentation | Complete Apache Flink learning resources |
+| [Flink Training Courses](https://training.ververica.com/) | 🎓 Courses | Free Flink training by Ververica |
+| [Flink Forward Videos](https://www.flink-forward.org/resources) | 🎥 Videos | Conference talks and presentations |
+| [Stream Processing with Apache Flink](https://www.oreilly.com/library/view/stream-processing-with/9781491974285/) | 📚 Book | O'Reilly book (free with trial) |
+| [Flink CDC Tutorial](https://ververica.github.io/flink-cdc-connectors/master/) | 📖 Tutorial | Change Data Capture with Flink |
+| [Real-time Analytics with ksqlDB](https://github.com/confluentinc/demo-realtime-analytics-adventure) | 💻 Demo | Hands-on real-time analytics project |
+| [Flink Playground](https://flink.apache.org/try.html) | 🎮 Interactive | Try Flink online without installation |
+| [Kafka Streams vs ksqlDB](https://www.confluent.io/blog/kafka-streams-vs-ksqldb-compared/) | 📰 Article | Comparison guide for stream processing |
+| [Flink SQL Cookbook](https://github.com/ververica/flink-sql-cookbook) | 📖 Cookbook | SQL recipes for Apache Flink |
+| [Building Real-time Applications](https://www.youtube.com/playlist?list=PLa7VYi0yPIH2eX8qfmPL7R9LgQwgaHUNh) | 🎥 Video Series | YouTube series on stream processing |
+
 ## 🔌 APIs & Integration
 
 | Resource | Type | Description |
@@ -187,14 +210,31 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 |----------|------|-------------|
 | [Docker Get Started](https://docs.docker.com/get-started/) | 📖 Tutorial | Official Docker tutorial |
 | [Play with Docker](https://labs.play-with-docker.com/) | 🧪 Interactive Lab | Hands-on Docker learning environment |
+
+### ☸️ Kubernetes
+| Resource | Type | Description |
+|----------|------|-------------|
 | [Kubernetes Basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/) | 📖 Tutorial | Official Kubernetes tutorial |
+| [Kubernetes Learning Path](https://azure.microsoft.com/en-us/resources/kubernetes-learning-path/) | 🎓 Course | Microsoft's free Kubernetes learning path |
+| [Kubernetes the Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way) | 📖 Tutorial | Bootstrap Kubernetes the hard way on Google Cloud Platform |
+| [Katacoda Kubernetes Scenarios](https://www.katacoda.com/courses/kubernetes) | 🎮 Interactive | Hands-on Kubernetes scenarios |
+| [CNCF Kubernetes Training](https://www.cncf.io/certification/training/) | 🎓 Training | Cloud Native Computing Foundation training resources |
+| [Kubernetes Academy](https://kube.academy/) | 🎓 Course | Free Kubernetes courses by VMware |
+| [Play with Kubernetes](https://labs.play-with-k8s.com/) | 🧪 Interactive Lab | Hands-on Kubernetes playground |
 
 ### 🌩️ Cloud Platforms
 | Resource | Type | Description |
 |----------|------|-------------|
 | [AWS Free Tier](https://aws.amazon.com/free/) | ☁️ Platform | Free AWS services and tutorials |
+| [AWS Training and Certification](https://aws.amazon.com/training/) | 🎓 Courses | Free AWS digital training courses |
+| [AWS Well-Architected](https://aws.amazon.com/architecture/well-architected/) | 📋 Framework | AWS architecture best practices |
+| [AWS Workshops](https://workshops.aws/) | 🧪 Workshops | Hands-on AWS learning workshops |
 | [Google Cloud Skills Boost](https://www.cloudskillsboost.google/) | 🎓 Courses | Free Google Cloud courses |
+| [Google Cloud Architecture Center](https://cloud.google.com/architecture) | 📋 Guides | Cloud architecture patterns and guides |
 | [Azure Learning Paths](https://docs.microsoft.com/en-us/learn/azure/) | 🎓 Courses | Microsoft Azure learning resources |
+| [Azure Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/) | 📋 Guides | Azure architecture best practices |
+| [Azure Free Account](https://azure.microsoft.com/en-us/free/) | ☁️ Platform | Free Azure services and credits |
+| [Azure Fundamentals](https://docs.microsoft.com/en-us/learn/paths/azure-fundamentals/) | 🎓 Course | Complete Azure fundamentals learning path |
 | [Heroku Dev Center](https://devcenter.heroku.com/) | 📚 Documentation | Heroku deployment guides |
 
 ### 🔄 CI/CD
@@ -211,6 +251,49 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [Grafana Tutorials](https://grafana.com/tutorials/) | 📖 Tutorials | Data visualization and monitoring |
 | [ELK Stack Tutorial](https://www.elastic.co/guide/en/elastic-stack-get-started/current/get-started-elastic-stack.html) | 📖 Tutorial | Elasticsearch, Logstash, and Kibana |
 | [Jaeger Documentation](https://www.jaegertracing.io/docs/) | 📚 Documentation | Distributed tracing system |
+
+## 🤖 Automation & Workflows
+
+| Resource | Type | Description |
+|----------|------|-------------|
+| [n8n Documentation](https://docs.n8n.io/) | 📚 Documentation | Complete n8n workflow automation guide |
+| [n8n Academy](https://docs.n8n.io/courses/) | 🎓 Course | Free n8n automation courses |
+| [n8n Community Workflows](https://n8n.io/workflows/) | 💻 Templates | Ready-to-use automation workflows |
+| [Zapier Learning Center](https://zapier.com/learn/) | 🎓 Course | Automation fundamentals and best practices |
+| [Microsoft Power Automate Learning](https://docs.microsoft.com/en-us/learn/powerplatform/power-automate) | 🎓 Course | Free Power Automate training |
+| [IFTTT Platform](https://ifttt.com/explore) | 🎮 Interactive | Simple automation recipes and triggers |
+| [GitHub Actions Workflow Examples](https://github.com/actions/starter-workflows) | 💻 Templates | Pre-built GitHub Actions workflows |
+| [Ansible Getting Started](https://docs.ansible.com/ansible/latest/user_guide/intro_getting_started.html) | 📖 Tutorial | IT automation with Ansible |
+| [Terraform Tutorials](https://learn.hashicorp.com/terraform) | 📖 Tutorials | Infrastructure as Code with Terraform |
+| [Puppet Learning VM](https://puppet.com/try-puppet/puppet-learning-vm/) | 🧪 Interactive | Learn Puppet configuration management |
+
+## 📈 Data Visualization & Analytics
+
+| Resource | Type | Description |
+|----------|------|-------------|
+| [Tableau Public Training](https://public.tableau.com/en-us/s/resources) | 🎓 Course | Free Tableau Public training resources |
+| [Tableau Learning Path](https://help.tableau.com/current/guides/get-started-tutorial/en-us/get-started-tutorial-home.htm) | 📖 Tutorial | Complete Tableau learning guide |
+| [Tableau Community](https://community.tableau.com/s/) | 👥 Community | Forums, tips, and user-generated content |
+| [Tableau Sample Workbooks](https://public.tableau.com/en-us/gallery/?tab=viz-of-the-day&type=viz-of-the-day) | 💻 Examples | Inspiring data visualizations and templates |
+| [Power BI Learning Path](https://docs.microsoft.com/en-us/learn/powerplatform/power-bi) | 🎓 Course | Microsoft Power BI training |
+| [D3.js Tutorial](https://observablehq.com/@d3/learn-d3) | 📖 Tutorial | Interactive data visualization with D3.js |
+| [Chart.js Documentation](https://www.chartjs.org/docs/latest/) | 📚 Documentation | Simple yet flexible JavaScript charting |
+| [Plotly Dash Tutorial](https://dash.plotly.com/tutorial) | 📖 Tutorial | Build analytical web applications |
+| [Apache Superset](https://superset.apache.org/) | 🛠️ Tool | Modern data exploration platform |
+| [Grafana Fundamentals](https://grafana.com/tutorials/grafana-fundamentals/) | 🎓 Course | Data visualization and monitoring |
+
+## 🖥️ Content Management
+
+| Resource | Type | Description |
+|----------|------|-------------|
+| [Sanity Studio Documentation](https://www.sanity.io/docs) | 📚 Documentation | Complete Sanity CMS documentation |
+| [Sanity School](https://www.sanity.io/school) | 🎓 Course | Free Sanity CMS courses and tutorials |
+| [Sanity Templates](https://www.sanity.io/templates) | 💻 Templates | Ready-to-use Sanity project templates |
+| [Sanity Community](https://www.sanity.io/community) | 👥 Community | Community forum and resources |
+| [Contentful University](https://www.contentful.com/developers/docs/) | 📚 Documentation | Headless CMS documentation |
+| [Strapi Documentation](https://docs.strapi.io/) | 📚 Documentation | Open-source headless CMS |
+| [Ghost Publishing Platform](https://ghost.org/docs/) | 📚 Documentation | Modern publishing platform |
+| [Forestry CMS](https://forestry.io/docs/) | 📚 Documentation | Git-based CMS documentation |
 
 ## 📝 Version Control
 
@@ -282,12 +365,17 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | Resource | Type | Description |
 |----------|------|-------------|
 | [Visual Studio Code](https://code.visualstudio.com/) | 🛠️ IDE | Free, powerful code editor |
+| [VS Code Tips and Tricks](https://code.visualstudio.com/docs/getstarted/tips-and-tricks) | 📖 Guide | Official VS Code productivity tips |
+| [VS Code Extension Development](https://code.visualstudio.com/api) | 📚 Documentation | Build your own VS Code extensions |
+| [VS Code Marketplace](https://marketplace.visualstudio.com/vscode) | 🔌 Extensions | Thousands of free extensions |
 | [GitHub Codespaces](https://github.com/features/codespaces) | ☁️ IDE | Cloud development environment |
 | [Replit](https://replit.com/) | ☁️ IDE | Online coding environment |
 | [CodePen](https://codepen.io/) | ☁️ IDE | Online front-end development environment |
 | [JSFiddle](https://jsfiddle.net/) | ☁️ IDE | Online JavaScript playground |
 | [RegExr](https://regexr.com/) | 🛠️ Tool | Learn and test regular expressions |
 | [JSON Formatter](https://jsonformatter.curiousconcept.com/) | 🛠️ Tool | Format and validate JSON |
+| [Vim Adventures](https://vim-adventures.com/) | 🎮 Game | Learn Vim editor through gaming |
+| [Emacs Tutorial](https://www.gnu.org/software/emacs/tour/) | 📖 Tutorial | Learn the Emacs editor |
 
 ## 📖 Documentation & Communication
 

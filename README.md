@@ -4,51 +4,89 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 
 ## 📚 Table of Contents
 
-- [🎨 Frontend Development](#-frontend-development)
-  - [📝 HTML & CSS](#html--css)
-  - [⚡ JavaScript](#javascript)
-  - [⚛️ Frontend Frameworks](#️-frontend-frameworks)
-  - [🎨 UI/UX Design](#-uiux-design)
-- [⚙️ Backend Development](#️-backend-development)
-  - [🟢 Node.js](#-nodejs)
-  - [🐍 Python](#-python)
-  - [☕ Java](#-java)
-  - [💎 Ruby](#-ruby)
-  - [🦀 Rust](#-rust)
-  - [🐹 Go](#-go)
-- [🗄️ Databases](#️-databases)
-  - [🔍 SQL Databases](#-sql-databases)
-  - [📊 NoSQL Databases](#-nosql-databases)
-  - [🌊 Stream Processing & Real-time Databases](#-stream-processing--real-time-databases)
-- [🔌 APIs & Integration](#-apis--integration)
-- [🛡️ Security](#️-security)
-- [⚡ Performance & Optimization](#-performance--optimization)
-- [☁️ DevOps & Cloud](#️-devops--cloud)
-  - [🐳 Docker & Containerization](#-docker--containerization)
-  - [☸️ Kubernetes](#️-kubernetes)
-  - [🌩️ Cloud Platforms](#️-cloud-platforms)
-  - [🔄 CI/CD](#-cicd)
-  - [📊 Monitoring & Logging](#-monitoring--logging)
-- [🤖 Automation & Workflows](#-automation--workflows)
-- [📈 Data Visualization & Analytics](#-data-visualization--analytics)
-- [🖥️ Content Management](#️-content-management)
-- [🧠 AI & Machine Learning](#-ai--machine-learning)
-- [📝 Version Control](#-version-control)
-- [🧪 Testing](#-testing)
-- [📱 Mobile Development](#-mobile-development)
-- [🔗 Web3 & Blockchain](#web3--blockchain)
-- [🏗️ System Design](#️-system-design)
-- [🎯 Algorithms & Data Structures](#-algorithms--data-structures)
-- [🎓 Computer Science Fundamentals](#-computer-science-fundamentals)
-- [💼 Career & Interview Prep](#-career--interview-prep)
-- [🛠️ Development Tools & IDEs](#️-development-tools--ides)
-- [📖 Documentation & Communication](#-documentation--communication)
-- [🆓 Free Development Services](#-free-development-services)
-- [🎯 Learning Paths](#-learning-paths)
+### 🎨 **Frontend Development**
+- **Fundamentals**
+  - [<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" /> HTML & CSS](#html--css)
+  - [<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" /> JavaScript](#javascript)
+- **Frameworks & Libraries**
+  - [<img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white" /> <img src="https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white" /> Frontend Frameworks](#frontend-frameworks)
+- **Design & UX**
+  - [<img src="https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white" /> <img src="https://img.shields.io/badge/Adobe%20XD-FF61F6?style=flat&logo=adobe%20xd&logoColor=white" /> UI/UX Design](#uiux-design)
 
-## 🎨 Frontend Development
+### ⚙️ **Backend Development**
+- **Programming Languages**
+  - [<img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" /> Node.js](#nodejs)
+  - [<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" /> Python](#python)
+  - [<img src="https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white" /> Java](#java)
+  - [<img src="https://img.shields.io/badge/Ruby-CC342D?style=flat&logo=ruby&logoColor=white" /> Ruby](#ruby)
+  - [<img src="https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white" /> Rust](#rust)
+  - [<img src="https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white" /> Go](#go)
 
-### 📝 HTML & CSS
+### 🗄️ **Database Technologies**
+- **Relational Databases**
+  - [<img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white" /> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" /> <img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=flat&logo=microsoft%20sql%20server&logoColor=white" /> SQL Databases](#sql-databases)
+- **NoSQL & Document Stores**
+  - [<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white" /> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white" /> <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black" /> NoSQL Databases](#nosql-databases)
+- **Stream Processing**
+  - [<img src="https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat&logo=apache%20kafka&logoColor=white" /> <img src="https://img.shields.io/badge/Apache%20Flink-E6526F?style=flat&logo=apache%20flink&logoColor=white" /> Stream Processing & Real-time](#stream-processing--real-time-databases)
+
+### 🔌 **APIs & Integration**
+- [<img src="https://img.shields.io/badge/REST-02569B?style=flat&logo=rest&logoColor=white" /> <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat&logo=graphql&logoColor=white" /> APIs & Integration](#apis--integration)
+
+### 🛡️ **Security & Performance**
+- [<img src="https://img.shields.io/badge/OWASP-000000?style=flat&logo=owasp&logoColor=white" /> Security](#security)
+- [<img src="https://img.shields.io/badge/Lighthouse-F44B21?style=flat&logo=lighthouse&logoColor=white" /> Performance & Optimization](#performance--optimization)
+
+### ☁️ **DevOps & Cloud Infrastructure**
+- **Containerization & Orchestration**
+  - [<img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" /> Docker & Containerization](#docker--containerization)
+  - [<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white" /> Kubernetes](#kubernetes)
+- **Cloud Platforms**
+  - [<img src="https://img.shields.io/badge/AWS-FF9900?style=flat&logo=amazon-aws&logoColor=white" /> <img src="https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoft-azure&logoColor=white" /> <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=flat&logo=google-cloud&logoColor=white" /> Cloud Platforms](#cloud-platforms)
+- **Automation & Deployment**
+  - [<img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=github%20actions&logoColor=white" /> <img src="https://img.shields.io/badge/GitLab%20CI-FC6D26?style=flat&logo=gitlab&logoColor=white" /> CI/CD](#cicd)
+  - [<img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white" /> <img src="https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white" /> Monitoring & Logging](#monitoring--logging)
+
+### 🤖 **Automation & Workflows**
+- [<img src="https://img.shields.io/badge/n8n-EA4B71?style=flat&logo=n8n&logoColor=white" /> <img src="https://img.shields.io/badge/Ansible-EE0000?style=flat&logo=ansible&logoColor=white" /> <img src="https://img.shields.io/badge/Terraform-623CE4?style=flat&logo=terraform&logoColor=white" /> Automation & Workflows](#automation--workflows)
+
+### 📈 **Data & Analytics**
+- [<img src="https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white" /> <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=power%20bi&logoColor=black" /> Data Visualization & Analytics](#data-visualization--analytics)
+
+### 🧠 **AI & Machine Learning**
+- [<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white" /> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white" /> <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white" /> AI & Machine Learning](#ai--machine-learning)
+
+### 🖥️ **Content & Development Tools**
+- [<img src="https://img.shields.io/badge/Sanity-F03E2F?style=flat&logo=sanity&logoColor=white" /> <img src="https://img.shields.io/badge/Strapi-2F2E8B?style=flat&logo=strapi&logoColor=white" /> Content Management](#content-management)
+- [<img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=visual%20studio%20code&logoColor=white" /> <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" /> Development Tools & IDEs](#development-tools--ides)
+
+### 📱 **Mobile & Emerging Tech**
+- [<img src="https://img.shields.io/badge/React%20Native-61DAFB?style=flat&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white" /> Mobile Development](#mobile-development)
+- [<img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=flat&logo=ethereum&logoColor=white" /> <img src="https://img.shields.io/badge/Web3.js-F16822?style=flat&logo=web3.js&logoColor=white" /> Web3 & Blockchain](#web3--blockchain)
+
+### 🎓 **Computer Science & Career**
+- **Fundamentals**
+  - [<img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" /> Version Control](#version-control)
+  - [<img src="https://img.shields.io/badge/Jest-C21325?style=flat&logo=jest&logoColor=white" /> <img src="https://img.shields.io/badge/Cypress-17202C?style=flat&logo=cypress&logoColor=white" /> Testing](#testing)
+  - [<img src="https://img.shields.io/badge/Algorithms-FF6B6B?style=flat&logo=leetcode&logoColor=white" /> Algorithms & Data Structures](#algorithms--data-structures)
+- **Architecture & Design**
+  - [<img src="https://img.shields.io/badge/System%20Design-4A90E2?style=flat&logo=architecture&logoColor=white" /> System Design](#system-design)
+  - [<img src="https://img.shields.io/badge/CS%20Fundamentals-6B73FF?style=flat&logo=computer&logoColor=white" /> Computer Science Fundamentals](#computer-science-fundamentals)
+- **Visual Learning & Resources**
+  - [<img src="https://img.shields.io/badge/Infographics-FF9500?style=flat&logo=chart.js&logoColor=white" /> Infographics & Visual Learning](#infographics--visual-learning)
+  - [<img src="https://img.shields.io/badge/Documentation-4B8BBE?style=flat&logo=read%20the%20docs&logoColor=white" /> Documentation & Communication](#documentation--communication)
+- **Career Development**
+  - [<img src="https://img.shields.io/badge/Interview%20Prep-00C851?style=flat&logo=target&logoColor=white" /> Career & Interview Prep](#career--interview-prep)
+  - [<img src="https://img.shields.io/badge/Free%20Services-FF6B35?style=flat&logo=freecodecampfire&logoColor=white" /> Free Development Services](#free-development-services)
+
+### 🎯 **Learning Paths & Roadmaps**
+- [<img src="https://img.shields.io/badge/Learning%20Path-9B59B6?style=flat&logo=roadmap&logoColor=white" /> Structured Learning Paths](#learning-paths)
+
+---
+
+## <img src="https://img.shields.io/badge/Frontend-E34F26?style=for-the-badge&logo=html5&logoColor=white" /> Frontend Development
+
+### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="20" height="20" /> HTML & CSS
 | Resource | Type | Description |
 |----------|------|-------------|
 | [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML) | 📚 Documentation | Complete HTML reference and tutorials |
@@ -57,7 +95,7 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [Flexbox Froggy](https://flexboxfroggy.com/) | 🎮 Interactive Game | Learn CSS Flexbox through games |
 | [CSS Grid Garden](https://cssgridgarden.com/) | 🎮 Interactive Game | Master CSS Grid layout |
 
-### ⚡ JavaScript
+### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="20" height="20" /> JavaScript
 | Resource | Type | Description |
 |----------|------|-------------|
 | [JavaScript.info](https://javascript.info/) | 📖 Tutorial | Modern JavaScript tutorial from basics to advanced |
@@ -66,7 +104,7 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS) | 📚 Book Series | Deep dive into JavaScript concepts |
 | [30 Days of JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript) | 🏆 Challenge | 30-day JavaScript programming challenge |
 
-### ⚛️ Frontend Frameworks
+### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="20" height="20" /> Frontend Frameworks
 | Resource | Type | Description |
 |----------|------|-------------|
 | [React Official Tutorial](https://reactjs.org/tutorial/tutorial.html) | 📖 Tutorial | Official React.js tutorial |
@@ -75,7 +113,7 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [Svelte Tutorial](https://svelte.dev/tutorial/basics) | 🎮 Interactive Tutorial | Learn Svelte with hands-on examples |
 | [Next.js Learn](https://nextjs.org/learn) | 🎓 Course | Complete Next.js course by Vercel |
 
-### 🎨 UI/UX Design
+### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg" width="20" height="20" /> UI/UX Design
 | Resource | Type | Description |
 |----------|------|-------------|
 | [Google Material Design](https://material.io/design) | 📋 Guidelines | Comprehensive design system by Google |
@@ -85,9 +123,9 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [The Design of Everyday Things](https://www.basicbooks.com/titles/don-norman/the-design-of-everyday-things/9780465050659/) | 📚 Book | Essential UX design principles |
 | [Can't Unsee](https://cantunsee.space/) | 🎮 Game | Design eye training game |
 
-## ⚙️ Backend Development
+## <img src="https://img.shields.io/badge/Backend-339933?style=for-the-badge&logo=node.js&logoColor=white" /> Backend Development
 
-### 🟢 Node.js
+### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="20" height="20" /> Node.js
 | Resource | Type | Description |
 |----------|------|-------------|
 | [Node.js Official Guides](https://nodejs.org/en/docs/guides/) | 📚 Documentation | Official Node.js learning resources |
@@ -95,7 +133,7 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [Express.js Guide](https://expressjs.com/en/guide/routing.html) | 📚 Documentation | Complete Express.js framework guide |
 | [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices) | 📋 Guide | Comprehensive Node.js best practices |
 
-### 🐍 Python
+### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="20" height="20" /> Python
 | Resource | Type | Description |
 |----------|------|-------------|
 | [Python.org Tutorial](https://docs.python.org/3/tutorial/) | 📖 Tutorial | Official Python tutorial |
@@ -104,14 +142,14 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [FastAPI Tutorial](https://fastapi.tiangolo.com/tutorial/) | 📖 Tutorial | Modern Python API development |
 | [Mega Tutorial](https://github.com/getvmio/free-python-resources) | 📖 Knowledge Repo | Modern Python development |
 
-### ☕ Java
+### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="20" height="20" /> Java
 | Resource | Type | Description |
 |----------|------|-------------|
 | [Oracle Java Tutorials](https://docs.oracle.com/javase/tutorial/) | 📖 Tutorial | Official Java programming tutorials |
 | [Spring Boot Guides](https://spring.io/guides) | 📖 Tutorials | Spring Boot framework tutorials |
 | [Java Code Geeks](https://www.javacodegeeks.com/) | 📰 Articles | Java development articles and tutorials |
 
-### 💎 Ruby
+### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg" width="20" height="20" /> Ruby
 | Resource | Type | Description |
 |----------|------|-------------|
 | [Ruby Documentation](https://ruby-doc.org/) | 📚 Documentation | Official Ruby language documentation |
@@ -119,7 +157,7 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [The Odin Project - Ruby](https://www.theodinproject.com/paths/full-stack-ruby-on-rails) | 🎓 Course | Full-stack Ruby on Rails curriculum |
 | [Ruby Koans](http://rubykoans.com/) | 🧘 Interactive | Learn Ruby through test-driven development |
 
-### 🦀 Rust
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" width="20" height="20" /> Rust
 | Resource | Type | Description |
 |----------|------|-------------|
 | [The Rust Programming Language](https://doc.rust-lang.org/book/) | 📚 Book | Official Rust book (free online) |
@@ -127,7 +165,7 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [Rustlings](https://github.com/rust-lang/rustlings) | 🏆 Exercises | Small exercises to get you used to Rust |
 | [Actix Web Guide](https://actix.rs/docs/) | 📖 Tutorial | Web framework for Rust |
 
-### 🐹 Go
+### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" width="20" height="20" /> Go
 | Resource | Type | Description |
 |----------|------|-------------|
 | [A Tour of Go](https://tour.golang.org/) | 🎮 Interactive Tutorial | Official interactive Go tutorial |
@@ -135,9 +173,9 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [Effective Go](https://golang.org/doc/effective_go.html) | 📋 Guide | Tips for writing clear Go code |
 | [Go Web Examples](https://gowebexamples.com/) | 📖 Examples | Web development examples in Go |
 
-## 🗄️ Databases
+## <img src="https://img.shields.io/badge/Database-336791?style=for-the-badge&logo=postgresql&logoColor=white" /> Databases
 
-### 🔍 SQL Databases
+### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="20" height="20" /> SQL Databases
 | Resource | Type | Description |
 |----------|------|-------------|
 | [W3Schools SQL Tutorial](https://www.w3schools.com/sql/) | 📖 Tutorial | Complete SQL tutorial with examples |
@@ -150,14 +188,14 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [SQLServerTutorial.net](https://www.sqlservertutorial.net/) | 📖 Tutorial | SQL Server and T-SQL tutorials |
 | [TSQL Code Snippets](https://github.com/Microsoft/sql-server-samples) | 💻 Examples | Microsoft SQL Server code samples |
 
-### 📊 NoSQL Databases
+### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="20" height="20" /> NoSQL Databases
 | Resource | Type | Description |
 |----------|------|-------------|
 | [MongoDB University](https://university.mongodb.com/) | 🎓 Courses | Free MongoDB courses and certification |
 | [Redis Tutorial](https://redis.io/docs/manual/tutorial/) | 📖 Tutorial | Official Redis tutorial |
 | [Firebase Documentation](https://firebase.google.com/docs) | 📚 Documentation | Complete Firebase/Firestore guide |
 
-### 🌊 Stream Processing & Real-time Databases
+### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apache/apache-original.svg" width="20" height="20" /> Stream Processing & Real-time Databases
 | Resource | Type | Description |
 |----------|------|-------------|
 | [Apache Kafka Documentation](https://kafka.apache.org/documentation/) | 📚 Documentation | Official Apache Kafka documentation |
@@ -186,7 +224,7 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [Kafka Performance Testing](https://kafka.apache.org/documentation/#performance) | 📖 Guide | Performance testing and tuning |
 | [Event Sourcing with Kafka](https://www.confluent.io/blog/event-sourcing-cqrs-stream-processing-apache-kafka-whats-connection/) | 📰 Article | Event-driven architecture patterns |
 
-## 🔌 APIs & Integration
+## <img src="https://img.shields.io/badge/APIs-02569B?style=for-the-badge&logo=rest&logoColor=white" /> APIs & Integration
 
 | Resource | Type | Description |
 |----------|------|-------------|
@@ -198,7 +236,7 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [OpenAPI Specification](https://swagger.io/specification/) | 📋 Specification | API documentation standard |
 | [webhooks.fyi](https://webhooks.fyi/) | 📖 Guide | Complete guide to webhooks |
 
-## 🛡️ Security
+## <img src="https://img.shields.io/badge/Security-000000?style=for-the-badge&logo=owasp&logoColor=white" /> Security
 
 | Resource | Type | Description |
 |----------|------|-------------|
@@ -209,7 +247,7 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [SANS Reading Room](https://www.sans.org/white-papers/) | 📰 Articles | Security research papers and guides |
 | [Mozilla Web Security Guidelines](https://infosec.mozilla.org/guidelines/web_security) | 📋 Guidelines | Web security best practices |
 
-## ⚡ Performance & Optimization
+## <img src="https://img.shields.io/badge/Performance-F44B21?style=for-the-badge&logo=lighthouse&logoColor=white" /> Performance & Optimization
 
 | Resource | Type | Description |
 |----------|------|-------------|
@@ -220,15 +258,15 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [WebPageTest](https://www.webpagetest.org/) | 🛠️ Tool | Website performance testing |
 | [Critical Path CSS Generator](https://www.sitelocity.com/critical-path-css-generator) | 🛠️ Tool | Optimize CSS delivery |
 
-## ☁️ DevOps & Cloud
+## <img src="https://img.shields.io/badge/DevOps-2496ED?style=for-the-badge&logo=docker&logoColor=white" /> DevOps & Cloud
 
-### 🐳 Docker & Containerization
+### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="20" height="20" /> Docker & Containerization
 | Resource | Type | Description |
 |----------|------|-------------|
 | [Docker Get Started](https://docs.docker.com/get-started/) | 📖 Tutorial | Official Docker tutorial |
 | [Play with Docker](https://labs.play-with-docker.com/) | 🧪 Interactive Lab | Hands-on Docker learning environment |
 
-### ☸️ Kubernetes
+### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg" width="20" height="20" /> Kubernetes
 | Resource | Type | Description |
 |----------|------|-------------|
 | [Kubernetes Basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/) | 📖 Tutorial | Official Kubernetes tutorial |
@@ -239,7 +277,7 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [Kubernetes Academy](https://kube.academy/) | 🎓 Course | Free Kubernetes courses by VMware |
 | [Play with Kubernetes](https://labs.play-with-k8s.com/) | 🧪 Interactive Lab | Hands-on Kubernetes playground |
 
-### 🌩️ Cloud Platforms
+### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="20" height="20" /> Cloud Platforms
 | Resource | Type | Description |
 |----------|------|-------------|
 | [AWS Free Tier](https://aws.amazon.com/free/) | ☁️ Platform | Free AWS services and tutorials |
@@ -254,14 +292,14 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [Azure Fundamentals](https://docs.microsoft.com/en-us/learn/paths/azure-fundamentals/) | 🎓 Course | Complete Azure fundamentals learning path |
 | [Heroku Dev Center](https://devcenter.heroku.com/) | 📚 Documentation | Heroku deployment guides |
 
-### 🔄 CI/CD
+### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" width="20" height="20" /> CI/CD
 | Resource | Type | Description |
 |----------|------|-------------|
 | [GitHub Actions Documentation](https://docs.github.com/en/actions) | 📚 Documentation | Learn GitHub Actions for CI/CD |
 | [GitLab CI/CD Tutorial](https://docs.gitlab.com/ee/ci/quick_start/) | 📖 Tutorial | GitLab CI/CD pipeline tutorial |
 | [Jenkins User Documentation](https://www.jenkins.io/doc/) | 📚 Documentation | Complete Jenkins automation guide |
 
-### 📊 Monitoring & Logging
+### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/prometheus/prometheus-original.svg" width="20" height="20" /> Monitoring & Logging
 | Resource | Type | Description |
 |----------|------|-------------|
 | [Prometheus Documentation](https://prometheus.io/docs/) | 📚 Documentation | Open-source monitoring system |
@@ -269,7 +307,7 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [ELK Stack Tutorial](https://www.elastic.co/guide/en/elastic-stack-get-started/current/get-started-elastic-stack.html) | 📖 Tutorial | Elasticsearch, Logstash, and Kibana |
 | [Jaeger Documentation](https://www.jaegertracing.io/docs/) | 📚 Documentation | Distributed tracing system |
 
-## 🤖 Automation & Workflows
+## <img src="https://img.shields.io/badge/Automation-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" /> Automation & Workflows
 
 | Resource | Type | Description |
 |----------|------|-------------|
@@ -284,7 +322,7 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [Terraform Tutorials](https://learn.hashicorp.com/terraform) | 📖 Tutorials | Infrastructure as Code with Terraform |
 | [Puppet Learning VM](https://puppet.com/try-puppet/puppet-learning-vm/) | 🧪 Interactive | Learn Puppet configuration management |
 
-## 📈 Data Visualization & Analytics
+## <img src="https://img.shields.io/badge/Data%20Analytics-E97627?style=for-the-badge&logo=tableau&logoColor=white" /> Data Visualization & Analytics
 
 | Resource | Type | Description |
 |----------|------|-------------|
@@ -299,20 +337,7 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [Apache Superset](https://superset.apache.org/) | 🛠️ Tool | Modern data exploration platform |
 | [Grafana Fundamentals](https://grafana.com/tutorials/grafana-fundamentals/) | 🎓 Course | Data visualization and monitoring |
 
-## 🖥️ Content Management
-
-| Resource | Type | Description |
-|----------|------|-------------|
-| [Sanity Studio Documentation](https://www.sanity.io/docs) | 📚 Documentation | Complete Sanity CMS documentation |
-| [Sanity School](https://www.sanity.io/school) | 🎓 Course | Free Sanity CMS courses and tutorials |
-| [Sanity Templates](https://www.sanity.io/templates) | 💻 Templates | Ready-to-use Sanity project templates |
-| [Sanity Community](https://www.sanity.io/community) | 👥 Community | Community forum and resources |
-| [Contentful University](https://www.contentful.com/developers/docs/) | 📚 Documentation | Headless CMS documentation |
-| [Strapi Documentation](https://docs.strapi.io/) | 📚 Documentation | Open-source headless CMS |
-| [Ghost Publishing Platform](https://ghost.org/docs/) | 📚 Documentation | Modern publishing platform |
-| [Forestry CMS](https://forestry.io/docs/) | 📚 Documentation | Git-based CMS documentation |
-
-## 🧠 AI & Machine Learning
+## <img src="https://img.shields.io/badge/AI%2FML-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" /> AI & Machine Learning
 
 ### 🎓 Machine Learning Fundamentals
 | Resource | Type | Description |
@@ -413,7 +438,95 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [Papers with Code](https://paperswithcode.com/) | 📰 Repository | Latest ML research with code |
 | [Model Zoo](https://modelzoo.co/) | 🏪 Repository | Pre-trained models repository |
 
-## 📝 Version Control
+## <img src="https://img.shields.io/badge/Infographics-FF9500?style=for-the-badge&logo=chart.js&logoColor=white" /> Infographics & Visual Learning
+
+### 🗺️ Development Roadmaps
+| Resource | Type | Description |
+|----------|------|-------------|
+| [Developer Roadmaps](https://roadmap.sh/) | 🗺️ Interactive Roadmaps | Complete roadmaps for Frontend, Backend, DevOps, and more |
+| [Web Developer Roadmap 2024](https://github.com/kamranahmedse/developer-roadmap) | 🗺️ GitHub Repository | Step-by-step guides and paths for different roles |
+| [Full Stack Developer Roadmap](https://roadmap.sh/full-stack) | 🗺️ Interactive Guide | Complete full-stack development path |
+| [React Developer Roadmap](https://roadmap.sh/react) | 🗺️ Interactive Guide | React ecosystem learning path |
+| [Node.js Developer Roadmap](https://roadmap.sh/nodejs) | 🗺️ Interactive Guide | Backend development with Node.js |
+| [DevOps Roadmap](https://roadmap.sh/devops) | 🗺️ Interactive Guide | DevOps engineer learning path |
+| [AI/ML Engineer Roadmap](https://roadmap.sh/ai-data-scientist) | 🗺️ Interactive Guide | AI and Machine Learning career path |
+
+### 📈 Technology Stack Visualizations
+| Resource | Type | Description |
+|----------|------|-------------|
+| [Stack Overflow Developer Survey](https://insights.stackoverflow.com/survey) | 📊 Annual Report | Most popular technologies and trends |
+| [GitHub State of the Octoverse](https://octoverse.github.com/) | 📊 Annual Report | Programming language trends and statistics |
+| [JavaScript Rising Stars](https://risingstars.js.org/) | 📊 Annual Report | JavaScript ecosystem trends |
+| [State of JS Survey](https://stateofjs.com/) | 📊 Annual Report | JavaScript framework and tool popularity |
+| [State of CSS Survey](https://stateofcss.com/) | 📊 Annual Report | CSS features and framework usage |
+| [NPM Trends](https://npmtrends.com/) | 📊 Tool | Compare package download statistics |
+
+### 🎨 Cheat Sheets & Quick References
+| Resource | Type | Description |
+|----------|------|-------------|
+| [OverAPI.com](https://overapi.com/) | 📋 Cheat Sheets | Collecting all cheat sheets for developers |
+| [DevHints.io](https://devhints.io/) | 📋 Cheat Sheets | TL;DR for developer documentation |
+| [Awesome Cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets) | 📋 Repository | Useful cheatsheets for popular technologies |
+| [HTML5 Cheat Sheet](https://websitesetup.org/html5-cheat-sheet/) | 📋 Visual Guide | HTML5 tags and attributes reference |
+| [CSS3 Cheat Sheet](https://websitesetup.org/css3-cheat-sheet/) | 📋 Visual Guide | CSS3 properties and selectors |
+| [JavaScript Cheat Sheet](https://websitesetup.org/javascript-cheat-sheet/) | 📋 Visual Guide | JavaScript syntax and methods |
+| [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf) | 📋 PDF | Git commands visual reference |
+
+### 🏗️ Architecture Diagrams & Patterns
+| Resource | Type | Description |
+|----------|------|-------------|
+| [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/) | 🎨 Icons | Official AWS architecture icons for diagrams |
+| [Azure Architecture Icons](https://docs.microsoft.com/en-us/azure/architecture/icons/) | 🎨 Icons | Microsoft Azure architecture symbols |
+| [Google Cloud Architecture Diagrams](https://cloud.google.com/docs/overview/cloud-platform-services) | 🗺️ Diagrams | GCP service architecture visualizations |
+| [System Design Interview Guide](https://github.com/donnemartin/system-design-primer#system-design-interview-questions-with-solutions) | 📊 Diagrams | Visual system design examples |
+| [Microservices Patterns](https://microservices.io/patterns/index.html) | 🗺️ Pattern Library | Visual microservices architecture patterns |
+| [Software Architecture Patterns](https://github.com/DovAmir/awesome-design-patterns) | 📊 Visual Guides | Common software design patterns |
+
+### 🔄 Process & Workflow Visualizations
+| Resource | Type | Description |
+|----------|------|-------------|
+| [CI/CD Pipeline Visualization](https://about.gitlab.com/topics/ci-cd/) | 🔄 Diagrams | DevOps pipeline visual explanations |
+| [Agile vs Waterfall](https://www.visual-paradigm.com/scrum/agile-vs-waterfall/) | 📊 Comparison | Development methodology comparisons |
+| [Git Workflow Visualizations](https://www.atlassian.com/git/tutorials/comparing-workflows) | 🔄 Diagrams | Different Git workflow patterns |
+| [Docker Container Visualization](https://www.docker.com/resources/what-container) | 🐳 Diagrams | Container vs VM visual explanations |
+| [Kubernetes Architecture](https://kubernetes.io/docs/concepts/overview/components/) | ☸️ Diagrams | K8s cluster component visualizations |
+
+### 📱 Technology Comparison Charts
+| Resource | Type | Description |
+|----------|------|-------------|
+| [Frontend Framework Comparison](https://www.npmtrends.com/react-vs-vue-vs-angular) | 📊 Chart | React vs Vue vs Angular statistics |
+| [Database Comparison Guide](https://db-engines.com/en/ranking) | 📊 Rankings | Database popularity and feature comparison |
+| [Cloud Provider Comparison](https://comparecloud.in/) | 📊 Comparison | AWS vs Azure vs GCP feature comparison |
+| [Programming Language Performance](https://benchmarksgame-team.pages.debian.net/benchmarksgame/) | 📊 Benchmarks | Language performance comparisons |
+| [Web Framework Benchmarks](https://www.techempower.com/benchmarks/) | 📊 Performance | Web framework speed comparisons |
+
+### 🎓 Learning Progress Trackers
+| Resource | Type | Description |
+|----------|------|-------------|
+| [100 Days of Code](https://www.100daysofcode.com/) | 📅 Challenge | Coding challenge with progress tracking |
+| [Codecademy Skill Paths](https://www.codecademy.com/catalog/subject/web-development) | 🎯 Visual Paths | Interactive learning progress visualization |
+| [freeCodeCamp Curriculum](https://www.freecodecamp.org/learn) | 🗺️ Progress Map | Visual curriculum with completion tracking |
+| [The Odin Project](https://www.theodinproject.com/paths) | 🗺️ Learning Path | Visual full-stack curriculum tracker |
+
+### 🔧 Tool & Service Ecosystem Maps
+| Resource | Type | Description |
+|----------|------|-------------|
+| [JavaScript Ecosystem](https://2022.stateofjs.com/en-US/libraries/) | 🗺️ Ecosystem Map | JS libraries and frameworks landscape |
+| [DevOps Toolchain](https://xebialabs.com/periodic-table-of-devops-tools/) | 🗺️ Periodic Table | DevOps tools organized by category |
+| [Cloud Native Landscape](https://landscape.cncf.io/) | 🗺️ Interactive Map | CNCF project ecosystem visualization |
+| [API Ecosystem](https://nordicapis.com/api-economy-ecosystem-map/) | 🗺️ Ecosystem Map | API tools and services landscape |
+
+### 📚 Visual Learning Aids
+| Resource | Type | Description |
+|----------|------|-------------|
+| [Visualgo](https://visualgo.net/) | 🎮 Interactive | Algorithm and data structure visualizations |
+| [CSS Grid Garden](https://cssgridgarden.com/) | 🎮 Interactive | Visual CSS Grid learning game |
+| [Flexbox Froggy](https://flexboxfroggy.com/) | 🎮 Interactive | Visual CSS Flexbox learning game |
+| [Regex101](https://regex101.com/) | 🛠️ Visual Tool | Regular expression visualization and testing |
+| [JSON Crack](https://jsoncrack.com/) | 📊 Visualizer | JSON data structure visualization |
+| [Git Visualizer](https://git-school.github.io/visualizing-git/) | 🔄 Interactive | Git commands visualization |
+
+## <img src="https://img.shields.io/badge/Version%20Control-F05032?style=for-the-badge&logo=git&logoColor=white" /> Version Control
 
 | Resource | Type | Description |
 |----------|------|-------------|
@@ -422,7 +535,7 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [Atlassian Git Tutorials](https://www.atlassian.com/git/tutorials) | 📖 Tutorials | Comprehensive Git tutorials |
 | [Learn Git Branching](https://learngitbranching.js.org/) | 🎮 Interactive Tutorial | Visual Git branching tutorial |
 
-## 🧪 Testing
+## <img src="https://img.shields.io/badge/Testing-C21325?style=for-the-badge&logo=jest&logoColor=white" /> Testing
 
 | Resource | Type | Description |
 |----------|------|-------------|
@@ -431,7 +544,7 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [Cypress Documentation](https://docs.cypress.io/) | 📚 Documentation | End-to-end testing framework |
 | [Postman Learning Center](https://learning.postman.com/) | 🎓 Courses | API testing with Postman |
 
-## 📱 Mobile Development
+## <img src="https://img.shields.io/badge/Mobile-61DAFB?style=for-the-badge&logo=react&logoColor=black" /> Mobile Development
 
 | Resource | Type | Description |
 |----------|------|-------------|
@@ -439,7 +552,7 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [Flutter Documentation](https://docs.flutter.dev/) | 📚 Documentation | Google's UI toolkit for mobile |
 | [Ionic Framework](https://ionicframework.com/docs) | 📚 Documentation | Hybrid mobile app development |
 
-## 🔗 Web3 & Blockchain
+## <img src="https://img.shields.io/badge/Web3-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white" /> Web3 & Blockchain
 
 | Resource | Type | Description |
 |----------|------|-------------|
@@ -448,7 +561,7 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [Web3.js Documentation](https://web3js.readthedocs.io/) | 📚 Documentation | Ethereum JavaScript API |
 | [Hardhat Tutorial](https://hardhat.org/tutorial/) | 📖 Tutorial | Ethereum development environment |
 
-## 🏗️ System Design
+## <img src="https://img.shields.io/badge/System%20Design-4A90E2?style=for-the-badge&logo=architecture&logoColor=white" /> System Design
 
 | Resource | Type | Description |
 |----------|------|-------------|
@@ -456,7 +569,7 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [High Scalability](http://highscalability.com/) | 📰 Articles | Real-world architecture case studies |
 | [Microservices.io](https://microservices.io/) | 📋 Patterns | Microservices architecture patterns |
 
-## 🎯 Algorithms & Data Structures
+## <img src="https://img.shields.io/badge/Algorithms-FF6B6B?style=for-the-badge&logo=leetcode&logoColor=white" /> Algorithms & Data Structures
 
 | Resource | Type | Description |
 |----------|------|-------------|
@@ -467,7 +580,7 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [Khan Academy - Algorithms](https://www.khanacademy.org/computing/computer-science/algorithms) | 🎓 Course | Introduction to algorithms |
 | [MIT OpenCourseWare - Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/) | 🎓 Course | MIT's Introduction to Algorithms |
 
-## 🎓 Computer Science Fundamentals
+## <img src="https://img.shields.io/badge/CS%20Fundamentals-6B73FF?style=for-the-badge&logo=computer&logoColor=white" /> Computer Science Fundamentals
 
 | Resource | Type | Description |
 |----------|------|-------------|
@@ -478,7 +591,7 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [Stanford CS Courses](https://online.stanford.edu/courses/cs106a-programming-methodology) | 🎓 Courses | Stanford's CS curriculum online |
 | [Operating Systems from Scratch](https://pages.cs.wisc.edu/~remzi/OSTEP/) | 📚 Book | Free operating systems textbook |
 
-## 🛠️ Development Tools & IDEs
+## <img src="https://img.shields.io/badge/Dev%20Tools-007ACC?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" /> Development Tools & IDEs
 
 | Resource | Type | Description |
 |----------|------|-------------|
@@ -495,7 +608,7 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [Vim Adventures](https://vim-adventures.com/) | 🎮 Game | Learn Vim editor through gaming |
 | [Emacs Tutorial](https://www.gnu.org/software/emacs/tour/) | 📖 Tutorial | Learn the Emacs editor |
 
-## 📖 Documentation & Communication
+## <img src="https://img.shields.io/badge/Documentation-4B8BBE?style=for-the-badge&logo=read%20the%20docs&logoColor=white" /> Documentation & Communication
 
 | Resource | Type | Description |
 |----------|------|-------------|
@@ -505,7 +618,7 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [Technical Writing Courses](https://developers.google.com/tech-writing) | 🎓 Course | Google's technical writing courses |
 | [Hemingway Editor](http://www.hemingwayapp.com/) | 🛠️ Tool | Make your writing clear and bold |
 
-## 🆓 Free Development Services
+## <img src="https://img.shields.io/badge/Free%20Services-FF6B35?style=for-the-badge&logo=freecodecampfire&logoColor=white" /> Free Development Services
 
 | Resource | Type | Description |
 |----------|------|-------------|
@@ -520,7 +633,7 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [SendGrid](https://sendgrid.com/) | 📧 Email | Free email delivery service |
 | [Twilio](https://www.twilio.com/) | 📱 Communication | Free trial for SMS/voice services |
 
-## 🎯 Learning Paths
+## <img src="https://img.shields.io/badge/Learning%20Paths-9B59B6?style=for-the-badge&logo=roadmap&logoColor=white" /> Learning Paths
 
 ### 🌱 Beginner Path (3-6 months)
 1. **📝 HTML/CSS basics** → **⚡ JavaScript fundamentals** → **🔨 Simple projects**

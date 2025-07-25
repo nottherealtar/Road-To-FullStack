@@ -605,6 +605,9 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook) | 📋 Guide | Comprehensive interview preparation guide |
 | [System Design Interview](https://github.com/checkcheckzz/system-design-interview) | 📋 Guide | System design interview questions and answers |
 
+---
+## <img src="https://img.shields.io/badge/Learning%20Paths-9B59B6?style=for-the-badge&logo=roadmap&logoColor=white" /> Learning Paths
+
 ### 🌱 Beginner Path (3-6 months)
 1. **📝 HTML/CSS basics** → **⚡ JavaScript fundamentals** → **🔨 Simple projects**
 2. **📝 Version control with Git** → **🟢 Basic backend with Node.js**
@@ -621,7 +624,6 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 3. **🛡️ Security best practices** → **📱 Mobile/🔗 Web3 specialization**
 
 ## 🤝 Contributing
-
 Feel free to contribute by adding more free resources! Please ensure all resources are:
 - ✅ Completely free to access
 - ✅ High quality and up-to-date
@@ -629,30 +631,6 @@ Feel free to contribute by adding more free resources! Please ensure all resourc
 - ✅ Relevant to full-stack development
 
 ---
-
-## <img src="https://img.shields.io/badge/Learning%20Paths-9B59B6?style=for-the-badge&logo=roadmap&logoColor=white" /> Learning Paths
-
-### 🌱 Beginner Path (3-6 months)to full-stack development
-1. **📝 HTML/CSS basics** → **⚡ JavaScript fundamentals** → **🔨 Simple projects**
-2. **📝 Version control with Git** → **🟢 Basic backend with Node.js**
-3. **🔍 Database basics (SQL)** → **🚀 Deploy simple applications**
-
-### 🌿 Intermediate Path (6-12 months)
-1. **⚛️ Frontend framework (React/Vue)** → **🐍 Backend framework (Express/Django)**
-2. **🗄️ Database design** → **🔌 API development** → **🧪 Testing**
-3. **🐳 Basic DevOps (Docker, basic CI/CD)**⭐ **Star this repository** if you find it helpful, and share it with fellow developers on their journey to becoming full-stack developers!
-
-### 🌳 Advanced Path (12+ months)
-1. **🏗️ System design** → **🔧 Microservices** → **☁️ Cloud platforms**
-2. **🧪 Advanced testing** → **⚡ Performance optimization**1
-3. **🛡️ Security best practices** → **📱 Mobile/🔗 Web3 specialization**
-
-## 🤝 Contributing
-Feel free to contribute by adding more free resources! Please ensure all resources are:
-- ✅ Relevant to full-stack development
-- ✅ Publicly available
-- ✅ High quality and up-to-date
-- ✅ Completely free to access
 
 ⭐ **Star this repository** if you find it helpful, and share it with fellow developers on their journey to becoming full-stack developers!
 

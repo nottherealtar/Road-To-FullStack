@@ -1,26 +1,26 @@
 ```
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                                                                              ║
-║                                                                              ║
-║    ██████╗  ██████╗  █████╗ ██████╗     ████████╗ ██████╗                    ║
-║    ██╔══██╗██╔═══██╗██╔══██╗██╔══██╗    ╚══██╔══╝██╔═══██╗                   ║
-║    ██████╔╝██║   ██║███████║██║  ██║       ██║   ██║   ██║                   ║
-║    ██╔══██╗██║   ██║██╔══██║██║  ██║       ██║   ██║   ██║                   ║
-║    ██║  ██║╚██████╔╝██║  ██║██████╔╝       ██║   ╚██████╔╝                   ║
-║    ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═════╝        ╚═╝    ╚═════╝                    ║
-║                                                                              ║
-║    ███████╗██╗   ██╗██╗     ██╗     ███████╗████████╗ █████╗  ██████╗██╗  ██╗║
-║    ██╔════╝██║   ██║██║     ██║     ██╔════╝╚══██╔══╝██╔══██╗██╔════╝██║ ██╔╝║
-║    █████╗  ██║   ██║██║     ██║     ███████╗   ██║   ███████║██║     █████╔╝ ║
-║    ██╔══╝  ██║   ██║██║     ██║     ╚════██║   ██║   ██╔══██║██║     ██╔═██╗ ║
-║    ██║     ╚██████╔╝███████╗███████╗███████║   ██║   ██║  ██║╚██████╗██║  ██╗║
-║    ╚═╝      ╚═════╝ ╚══════╝╚══════╝╚══════╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝║
-║                                                                              ║
-║       🛣️  Frontend → Backend → DevOps → FullStack Developer → 🚀            ║
-║                                                                              ║
-║       "Your journey to mastering the complete development stack"             ║
-║                                                                              ║
-╚══════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                   ║
+║                                                                                   ║
+║    ██████╗  ██████╗  █████╗ ██████╗     ████████╗ ██████╗                         ║
+║    ██╔══██╗██╔═══██╗██╔══██╗██╔══██╗    ╚══██╔══╝██╔═══██╗                        ║
+║    ██████╔╝██║   ██║███████║██║  ██║       ██║   ██║   ██║                        ║
+║    ██╔══██╗██║   ██║██╔══██║██║  ██║       ██║   ██║   ██║                        ║
+║    ██║  ██║╚██████╔╝██║  ██║██████╔╝       ██║   ╚██████╔╝                        ║
+║    ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═════╝        ╚═╝    ╚═════╝                         ║
+║                                                                                   ║
+║    ███████╗██╗   ██╗██╗     ██╗     ███████╗████████╗ █████╗  ██████╗██╗  ██╗     ║
+║    ██╔════╝██║   ██║██║     ██║     ██╔════╝╚══██╔══╝██╔══██╗██╔════╝██║ ██╔╝     ║
+║    █████╗  ██║   ██║██║     ██║     ███████╗   ██║   ███████║██║     █████╔╝      ║
+║    ██╔══╝  ██║   ██║██║     ██║     ╚════██║   ██║   ██╔══██║██║     ██╔═██╗      ║
+║    ██║     ╚██████╔╝███████╗███████╗███████║   ██║   ██║  ██║╚██████╗██║  ██╗     ║
+║    ╚═╝      ╚═════╝ ╚══════╝╚══════╝╚══════╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝     ║
+║                                                                                   ║
+║       🛣️  Frontend → Backend → DevOps → FullStack Developer → 🚀                 ║
+║                                                                                   ║
+║       "Your journey to mastering the complete development stack"                  ║
+║                                                                                   ║
+╚═══════════════════════════════════════════════════════════════════════════════════╝
 ```
 
 A comprehensive collection of **FREE** resources to become a Full-Stack Developer with DevOps skills. This roadmap includes courses, tutorials, documentation, and hands-on projects that are publicly available for anyone to learn and grow.
@@ -29,81 +29,83 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 
 ### 🎨 **Frontend Development**
 - **Fundamentals**
-  - [<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" /> HTML & CSS](#html--css)
-  - [<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" /> JavaScript](#javascript)
+  - [<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" /> HTML & CSS](#-html--css)
+  - [<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" /> JavaScript](#-javascript)
 - **Frameworks & Libraries**
-  - [<img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white" /> <img src="https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white" /> Frontend Frameworks](#frontend-frameworks)
+  - [<img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white" /> <img src="https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white" /> Frontend Frameworks](#-frontend-frameworks)
 - **Design & UX**
-  - [<img src="https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white" /> <img src="https://img.shields.io/badge/Adobe%20XD-FF61F6?style=flat&logo=adobe%20xd&logoColor=white" /> UI/UX Design](#uiux-design)
+  - [<img src="https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white" /> <img src="https://img.shields.io/badge/Adobe%20XD-FF61F6?style=flat&logo=adobe%20xd&logoColor=white" /> UI/UX Design](#-uiux-design)
 
 ### ⚙️ **Backend Development**
 - **Programming Languages**
-  - [<img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" /> Node.js](#nodejs)
-  - [<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" /> Python](#python)
-  - [<img src="https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white" /> Java](#java)
-  - [<img src="https://img.shields.io/badge/Ruby-CC342D?style=flat&logo=ruby&logoColor=white" /> Ruby](#ruby)
-  - [<img src="https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white" /> Rust](#rust)
-  - [<img src="https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white" /> Go](#go)
+  - [<img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" /> Node.js](#-nodejs)
+  - [<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" /> Python](#-python)
+  - [<img src="https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white" /> Java](#-java)
+  - [<img src="https://img.shields.io/badge/Ruby-CC342D?style=flat&logo=ruby&logoColor=white" /> Ruby](#-ruby)
+  - [<img src="https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white" /> Rust](#-rust)
+  - [<img src="https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white" /> Go](#-go)
 
 ### 🗄️ **Database Technologies**
 - **Relational Databases**
-  - [<img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white" /> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" /> <img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=flat&logo=microsoft%20sql%20server&logoColor=white" /> SQL Databases](#sql-databases)
+  - [<img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white" /> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" /> <img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=flat&logo=microsoft%20sql%20server&logoColor=white" /> SQL Databases](#-sql-databases)
 - **NoSQL & Document Stores**
-  - [<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white" /> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white" /> <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black" /> NoSQL Databases](#nosql-databases)
+  - [<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white" /> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white" /> <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black" /> NoSQL Databases](#-nosql-databases)
 - **Stream Processing**
-  - [<img src="https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat&logo=apache%20kafka&logoColor=white" /> <img src="https://img.shields.io/badge/Apache%20Flink-E6526F?style=flat&logo=apache%20flink&logoColor=white" /> Stream Processing & Real-time](#stream-processing--real-time-databases)
+  - [<img src="https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat&logo=apache%20kafka&logoColor=white" /> <img src="https://img.shields.io/badge/Apache%20Flink-E6526F?style=flat&logo=apache%20flink&logoColor=white" /> Stream Processing & Real-time](#-stream-processing--real-time-databases)
 
 ### 🔌 **APIs & Integration**
-- [<img src="https://img.shields.io/badge/REST-02569B?style=flat&logo=rest&logoColor=white" /> <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat&logo=graphql&logoColor=white" /> APIs & Integration](#apis--integration)
+- [<img src="https://img.shields.io/badge/REST-02569B?style=flat&logo=rest&logoColor=white" /> <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat&logo=graphql&logoColor=white" /> APIs & Integration](#-apis--integration)
 
 ### 🛡️ **Security & Performance**
-- [<img src="https://img.shields.io/badge/OWASP-000000?style=flat&logo=owasp&logoColor=white" /> Security](#security)
-- [<img src="https://img.shields.io/badge/Lighthouse-F44B21?style=flat&logo=lighthouse&logoColor=white" /> Performance & Optimization](#performance--optimization)
+- [<img src="https://img.shields.io/badge/OWASP-000000?style=flat&logo=owasp&logoColor=white" /> Security](#-security)
+- [<img src="https://img.shields.io/badge/Lighthouse-F44B21?style=flat&logo=lighthouse&logoColor=white" /> Performance & Optimization](#-performance--optimization)
 
 ### ☁️ **DevOps & Cloud Infrastructure**
 - **Containerization & Orchestration**
-  - [<img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" /> Docker & Containerization](#docker--containerization)
-  - [<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white" /> Kubernetes](#kubernetes)
+  - [<img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" /> Docker & Containerization](#-docker--containerization)
+  - [<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white" /> Kubernetes](#-kubernetes)
 - **Cloud Platforms**
-  - [<img src="https://img.shields.io/badge/AWS-FF9900?style=flat&logo=amazon-aws&logoColor=white" /> <img src="https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoft-azure&logoColor=white" /> <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=flat&logo=google-cloud&logoColor=white" /> Cloud Platforms](#cloud-platforms)
+  - [<img src="https://img.shields.io/badge/AWS-FF9900?style=flat&logo=amazon-aws&logoColor=white" /> <img src="https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoft-azure&logoColor=white" /> <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=flat&logo=google-cloud&logoColor=white" /> Cloud Platforms](#-cloud-platforms)
 - **Automation & Deployment**
-  - [<img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=github%20actions&logoColor=white" /> <img src="https://img.shields.io/badge/GitLab%20CI-FC6D26?style=flat&logo=gitlab&logoColor=white" /> CI/CD](#cicd)
-  - [<img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white" /> <img src="https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white" /> Monitoring & Logging](#monitoring--logging)
+  - [<img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=github%20actions&logoColor=white" /> <img src="https://img.shields.io/badge/GitLab%20CI-FC6D26?style=flat&logo=gitlab&logoColor=white" /> CI/CD](#-cicd)
+  - [<img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white" /> <img src="https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white" /> Monitoring & Logging](#-monitoring--logging)
 
 ### 🤖 **Automation & Workflows**
-- [<img src="https://img.shields.io/badge/n8n-EA4B71?style=flat&logo=n8n&logoColor=white" /> <img src="https://img.shields.io/badge/Ansible-EE0000?style=flat&logo=ansible&logoColor=white" /> <img src="https://img.shields.io/badge/Terraform-623CE4?style=flat&logo=terraform&logoColor=white" /> Automation & Workflows](#automation--workflows)
+- [<img src="https://img.shields.io/badge/n8n-EA4B71?style=flat&logo=n8n&logoColor=white" /> <img src="https://img.shields.io/badge/Ansible-EE0000?style=flat&logo=ansible&logoColor=white" /> <img src="https://img.shields.io/badge/Terraform-623CE4?style=flat&logo=terraform&logoColor=white" /> Automation & Workflows](#-automation--workflows)
 
 ### 📈 **Data & Analytics**
-- [<img src="https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white" /> <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=power%20bi&logoColor=black" /> Data Visualization & Analytics](#data-visualization--analytics)
+- [<img src="https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white" /> <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=power%20bi&logoColor=black" /> Data Visualization & Analytics](#-data-visualization--analytics)
 
 ### 🧠 **AI & Machine Learning**
-- [<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white" /> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white" /> <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white" /> AI & Machine Learning](#ai--machine-learning)
+- [<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white" /> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white" /> <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white" /> AI & Machine Learning](#-ai--machine-learning)
 
 ### 🖥️ **Content & Development Tools**
-- [<img src="https://img.shields.io/badge/Sanity-F03E2F?style=flat&logo=sanity&logoColor=white" /> <img src="https://img.shields.io/badge/Strapi-2F2E8B?style=flat&logo=strapi&logoColor=white" /> Content Management](#content-management)
-- [<img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=visual%20studio%20code&logoColor=white" /> <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" /> Development Tools & IDEs](#development-tools--ides)
+- [<img src="https://img.shields.io/badge/Sanity-F03E2F?style=flat&logo=sanity&logoColor=white" /> <img src="https://img.shields.io/badge/Strapi-2F2E8B?style=flat&logo=strapi&logoColor=white" /> Content Management](#-content-management)
+- [<img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=visual%20studio%20code&logoColor=white" /> <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" /> Development Tools & IDEs](#-development-tools--ides)
+
+### 📊 **Visual Learning & Resources**
+- [<img src="https://img.shields.io/badge/Infographics-FF9500?style=flat&logo=chart.js&logoColor=white" /> Infographics & Visual Learning](#-infographics--visual-learning)
 
 ### 📱 **Mobile & Emerging Tech**
-- [<img src="https://img.shields.io/badge/React%20Native-61DAFB?style=flat&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white" /> Mobile Development](#mobile-development)
-- [<img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=flat&logo=ethereum&logoColor=white" /> <img src="https://img.shields.io/badge/Web3.js-F16822?style=flat&logo=web3.js&logoColor=white" /> Web3 & Blockchain](#web3--blockchain)
+- [<img src="https://img.shields.io/badge/React%20Native-61DAFB?style=flat&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white" /> Mobile Development](#-mobile-development)
+- [<img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=flat&logo=ethereum&logoColor=white" /> <img src="https://img.shields.io/badge/Web3.js-F16822?style=flat&logo=web3.js&logoColor=white" /> Web3 & Blockchain](#-web3--blockchain)
 
 ### 🎓 **Computer Science & Career**
 - **Fundamentals**
-  - [<img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" /> Version Control](#version-control)
-  - [<img src="https://img.shields.io/badge/Jest-C21325?style=flat&logo=jest&logoColor=white" /> <img src="https://img.shields.io/badge/Cypress-17202C?style=flat&logo=cypress&logoColor=white" /> Testing](#testing)
-  - [<img src="https://img.shields.io/badge/Algorithms-FF6B6B?style=flat&logo=leetcode&logoColor=white" /> Algorithms & Data Structures](#algorithms--data-structures)
+  - [<img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" /> Version Control](#-version-control)
+  - [<img src="https://img.shields.io/badge/Jest-C21325?style=flat&logo=jest&logoColor=white" /> <img src="https://img.shields.io/badge/Cypress-17202C?style=flat&logo=cypress&logoColor=white" /> Testing](#-testing)
+  - [<img src="https://img.shields.io/badge/Algorithms-FF6B6B?style=flat&logo=leetcode&logoColor=white" /> Algorithms & Data Structures](#-algorithms--data-structures)
 - **Architecture & Design**
-  - [<img src="https://img.shields.io/badge/System%20Design-4A90E2?style=flat&logo=architecture&logoColor=white" /> System Design](#system-design)
-  - [<img src="https://img.shields.io/badge/CS%20Fundamentals-6B73FF?style=flat&logo=computer&logoColor=white" /> Computer Science Fundamentals](#computer-science-fundamentals)
-- **Visual Learning & Resources**
-  - [<img src="https://img.shields.io/badge/Infographics-FF9500?style=flat&logo=chart.js&logoColor=white" /> Infographics & Visual Learning](#infographics--visual-learning)
-  - [<img src="https://img.shields.io/badge/Documentation-4B8BBE?style=flat&logo=read%20the%20docs&logoColor=white" /> Documentation & Communication](#documentation--communication)
+  - [<img src="https://img.shields.io/badge/System%20Design-4A90E2?style=flat&logo=architecture&logoColor=white" /> System Design](#-system-design)
+  - [<img src="https://img.shields.io/badge/CS%20Fundamentals-6B73FF?style=flat&logo=computer&logoColor=white" /> Computer Science Fundamentals](#-computer-science-fundamentals)
+- **Documentation & Communication**
+  - [<img src="https://img.shields.io/badge/Documentation-4B8BBE?style=flat&logo=read%20the%20docs&logoColor=white" /> Documentation & Communication](#-documentation--communication)
 - **Career Development**
-  - [<img src="https://img.shields.io/badge/Interview%20Prep-00C851?style=flat&logo=target&logoColor=white" /> Career & Interview Prep](#career--interview-prep)
-  - [<img src="https://img.shields.io/badge/Free%20Services-FF6B35?style=flat&logo=freecodecampfire&logoColor=white" /> Free Development Services](#free-development-services)
+  - [<img src="https://img.shields.io/badge/Interview%20Prep-00C851?style=flat&logo=target&logoColor=white" /> Career & Interview Prep](#-career--interview-prep)
+  - [<img src="https://img.shields.io/badge/Free%20Services-FF6B35?style=flat&logo=freecodecampfire&logoColor=white" /> Free Development Services](#-free-development-services)
 
 ### 🎯 **Learning Paths & Roadmaps**
-- [<img src="https://img.shields.io/badge/Learning%20Path-9B59B6?style=flat&logo=roadmap&logoColor=white" /> Structured Learning Paths](#learning-paths)
+- [<img src="https://img.shields.io/badge/Learning%20Path-9B59B6?style=flat&logo=roadmap&logoColor=white" /> Structured Learning Paths](#-learning-paths)
 
 ---
 
@@ -300,7 +302,7 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [Kubernetes Academy](https://kube.academy/) | 🎓 Course | Free Kubernetes courses by VMware |
 | [Play with Kubernetes](https://labs.play-with-k8s.com/) | 🧪 Interactive Lab | Hands-on Kubernetes playground |
 
-### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="20" height="20" /> Cloud Platforms
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="20" height="20" /> Cloud Platforms
 | Resource | Type | Description |
 |----------|------|-------------|
 | [AWS Free Tier](https://aws.amazon.com/free/) | ☁️ Platform | Free AWS services and tutorials |
@@ -611,39 +613,18 @@ erence |
 ## <img src="https://img.shields.io/badge/Documentation-4B8BBE?style=for-the-badge&logo=read%20the%20docs&logoColor=white" /> Documentation & Communication
 
 | Resource | Type | Description |
-
-## <img src="https://img.shields.io/badge/Dev%20Tools-007ACC?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" /> Development Tools & IDEs
-
-| Resource | Type | Description |
-|----------|------|-------------|| [Technical Writing Courses](https://developers.google.com/tech-writing) | 🎓 Course | Google's technical writing courses |
-| [Visual Studio Code](https://code.visualstudio.com/) | 🛠️ IDE | Free, powerful code editor |
-| [VS Code Tips and Tricks](https://code.visualstudio.com/docs/getstarted/tips-and-tricks) | 📖 Guide | Official VS Code productivity tips |
-| [VS Code Extension Development](https://code.visualstudio.com/api) | 📚 Documentation | Build your own VS Code extensions |io/badge/Free%20Services-FF6B35?style=for-the-badge&logo=freecodecampfire&logoColor=white" /> Free Development Services
-| [VS Code Marketplace](https://marketplace.visualstudio.com/vscode) | 🔌 Extensions | Thousands of free extensions |
-| [GitHub Codespaces](https://github.com/features/codespaces) | ☁️ IDE | Cloud development environment |
-| [Replit](https://replit.com/) | ☁️ IDE | Online coding environment |
-| [CodePen](https://codepen.io/) | ☁️ IDE | Online front-end development environment |
-| [JSFiddle](https://jsfiddle.net/) | ☁️ IDE | Online JavaScript playground |oyment |
-| [RegExr](https://regexr.com/) | 🛠️ Tool | Learn and test regular expressions |rless functions |
-| [JSON Formatter](https://jsonformatter.curiousconcept.com/) | 🛠️ Tool | Format and validate JSON |
-| [Vim Adventures](https://vim-adventures.com/) | 🎮 Game | Learn Vim editor through gaming |
-| [Emacs Tutorial](https://www.gnu.org/software/emacs/tour/) | 📖 Tutorial | Learn the Emacs editor |ess database |
-ngoDB hosting |
-## <img src="https://img.shields.io/badge/Documentation-4B8BBE?style=for-the-badge&logo=read%20the%20docs&logoColor=white" /> Documentation & Communication
-| [SendGrid](https://sendgrid.com/) | 📧 Email | Free email delivery service |
-| Resource | Type | Description |
 |----------|------|-------------|
-| [GitBook](https://www.gitbook.com/) | 📝 Platform | Free documentation platform |io/badge/Learning%20Paths-9B59B6?style=for-the-badge&logo=roadmap&logoColor=white" /> Learning Paths
+| [GitBook](https://www.gitbook.com/) | 📝 Platform | Free documentation platform |
 | [Notion](https://www.notion.so/) | 📝 Platform | All-in-one workspace (free tier) |
 | [Markdown Guide](https://www.markdownguide.org/) | 📖 Guide | Complete Markdown reference |
-| [Technical Writing Courses](https://developers.google.com/tech-writing) | 🎓 Course | Google's technical writing courses |mple projects**
-| [Hemingway Editor](http://www.hemingwayapp.com/) | 🛠️ Tool | Make your writing clear and bold |2. **📝 Version control with Git** → **🟢 Basic backend with Node.js**
- Deploy simple applications**
+| [Technical Writing Courses](https://developers.google.com/tech-writing) | 🎓 Course | Google's technical writing courses |
+| [Hemingway Editor](http://www.hemingwayapp.com/) | 🛠️ Tool | Make your writing clear and bold |
+
 ## <img src="https://img.shields.io/badge/Free%20Services-FF6B35?style=for-the-badge&logo=freecodecampfire&logoColor=white" /> Free Development Services
 
-| Resource | Type | Description |*🐍 Backend framework (Express/Django)**
-|----------|------|-------------|2. **🗄️ Database design** → **🔌 API development** → **🧪 Testing**
-| [GitHub](https://github.com/) | 🔧 Platform | Free Git repository hosting |ic CI/CD)**
+| Resource | Type | Description |
+|----------|------|-------------|
+| [GitHub](https://github.com/) | 🔧 Platform | Free Git repository hosting |
 | [Netlify](https://www.netlify.com/) | 🚀 Hosting | Free static site hosting and deployment |
 | [Vercel](https://vercel.com/) | 🚀 Hosting | Free frontend hosting and serverless functions |
 | [Railway](https://railway.app/) | 🚀 Hosting | Free full-stack application hosting |

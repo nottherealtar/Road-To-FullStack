@@ -543,130 +543,118 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 |----------|------|-------------|
 | [Jest Documentation](https://jestjs.io/docs/getting-started) | 📚 Documentation | JavaScript testing framework |
 | [Testing Library](https://testing-library.com/docs/) | 📚 Documentation | Simple and complete testing utilities |
-| [Visualgo](https://visualgo.net/) | 🎮 Interactive | Algorithm and data structure visualizations |k |
-| [CSS Grid Garden](https://cssgridgarden.com/) | 🎮 Interactive | Visual CSS Grid learning game || [Postman Learning Center](https://learning.postman.com/) | 🎓 Courses | API testing with Postman |
-| [Flexbox Froggy](https://flexboxfroggy.com/) | 🎮 Interactive | Visual CSS Flexbox learning game |
-| [Regex101](https://regex101.com/) | 🛠️ Visual Tool | Regular expression visualization and testing |## <img src="https://img.shields.io/badge/Mobile-61DAFB?style=for-the-badge&logo=react&logoColor=black" /> Mobile Development
-| [JSON Crack](https://jsoncrack.com/) | 📊 Visualizer | JSON data structure visualization |
-| [Git Visualizer](https://git-school.github.io/visualizing-git/) | 🔄 Interactive | Git commands visualization |
-
-## <img src="https://img.shields.io/badge/Version%20Control-F05032?style=for-the-badge&logo=git&logoColor=white" /> Version Controlact Native |
-|
-| Resource | Type | Description || [Ionic Framework](https://ionicframework.com/docs) | 📚 Documentation | Hybrid mobile app development |
-|----------|------|-------------|
-| [Pro Git Book](https://git-scm.com/book) | 📚 Book | Complete Git version control book |## <img src="https://img.shields.io/badge/Web3-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white" /> Web3 & Blockchain
-| [GitHub Skills](https://skills.github.com/) | 🎮 Interactive Courses | GitHub-specific skills and workflows |
-| [Atlassian Git Tutorials](https://www.atlassian.com/git/tutorials) | 📖 Tutorials | Comprehensive Git tutorials |
-| [Learn Git Branching](https://learngitbranching.js.org/) | 🎮 Interactive Tutorial | Visual Git branching tutorial |
-ment |
-## <img src="https://img.shields.io/badge/Testing-C21325?style=for-the-badge&logo=jest&logoColor=white" /> Testingprogramming |
- |
-| Resource | Type | Description || [Hardhat Tutorial](https://hardhat.org/tutorial/) | 📖 Tutorial | Ethereum development environment |
-|----------|------|-------------|
-| [Jest Documentation](https://jestjs.io/docs/getting-started) | 📚 Documentation | JavaScript testing framework |## <img src="https://img.shields.io/badge/System%20Design-4A90E2?style=for-the-badge&logo=architecture&logoColor=white" /> System Design
-| [Testing Library](https://testing-library.com/docs/) | 📚 Documentation | Simple and complete testing utilities |
 | [Cypress Documentation](https://docs.cypress.io/) | 📚 Documentation | End-to-end testing framework |
 | [Postman Learning Center](https://learning.postman.com/) | 🎓 Courses | API testing with Postman |
-design large-scale systems |
-## <img src="https://img.shields.io/badge/Mobile-61DAFB?style=for-the-badge&logo=react&logoColor=black" /> Mobile Developments |
-| [Microservices.io](https://microservices.io/) | 📋 Patterns | Microservices architecture patterns |
+
+## <img src="https://img.shields.io/badge/Mobile-61DAFB?style=for-the-badge&logo=react&logoColor=black" /> Mobile Development
+
 | Resource | Type | Description |
-|----------|------|-------------|## <img src="https://img.shields.io/badge/Algorithms-FF6B6B?style=for-the-badge&logo=leetcode&logoColor=white" /> Algorithms & Data Structures
+|----------|------|-------------|
 | [React Native Tutorial](https://reactnative.dev/docs/tutorial) | 📖 Tutorial | Build mobile apps with React Native |
 | [Flutter Documentation](https://docs.flutter.dev/) | 📚 Documentation | Google's UI toolkit for mobile |
 | [Ionic Framework](https://ionicframework.com/docs) | 📚 Documentation | Hybrid mobile app development |
-in action |
+
 ## <img src="https://img.shields.io/badge/Web3-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white" /> Web3 & Blockchain
-erence |
+
 | Resource | Type | Description |
 |----------|------|-------------|
-| [Ethereum Documentation](https://ethereum.org/en/developers/docs/) | 📚 Documentation | Ethereum blockchain development || [MIT OpenCourseWare - Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/) | 🎓 Course | MIT's Introduction to Algorithms |
+| [Ethereum Documentation](https://ethereum.org/en/developers/docs/) | 📚 Documentation | Ethereum blockchain development |
 | [Solidity by Example](https://solidity-by-example.org/) | 📖 Examples | Learn Solidity smart contract programming |
-| [Web3.js Documentation](https://web3js.readthedocs.io/) | 📚 Documentation | Ethereum JavaScript API |## <img src="https://img.shields.io/badge/CS%20Fundamentals-6B73FF?style=for-the-badge&logo=computer&logoColor=white" /> Computer Science Fundamentals
+| [Web3.js Documentation](https://web3js.readthedocs.io/) | 📚 Documentation | Ethereum JavaScript API |
 | [Hardhat Tutorial](https://hardhat.org/tutorial/) | 📖 Tutorial | Ethereum development environment |
-| Resource | Type | Description |
-|----------|------|-------------|
-| [CS50x - Harvard](https://cs50.harvard.edu/x/) | 🎓 Course | Introduction to Computer Science |
-| [Coursera - Computer Science](https://www.coursera.org/browse/computer-science) | 🎓 Courses | Free computer science courses (audit mode) |
-| [edX - Computer Science](https://www.edx.org/learn/computer-science) | 🎓 Courses | Free CS courses from top universities |
-| [MIT OpenCourseWare](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/) | 🎓 Courses | Free MIT computer science courses |
-| [Stanford CS Courses](https://online.stanford.edu/courses/cs106a-programming-methodology) | 🎓 Courses | Stanford's CS curriculum online |
-| [Operating Systems from Scratch](https://pages.cs.wisc.edu/~remzi/OSTEP/) | 📚 Book | Free operating systems textbook |
 
-## <img src="https://img.shields.io/badge/Dev%20Tools-007ACC?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" /> Development Tools & IDEs
+## <img src="https://img.shields.io/badge/System%20Design-4A90E2?style=for-the-badge&logo=architecture&logoColor=white" /> System Design
 
 | Resource | Type | Description |
 |----------|------|-------------|
-| [Visual Studio Code](https://code.visualstudio.com/) | 🛠️ IDE | Free, powerful code editor |
-| [VS Code Tips and Tricks](https://code.visualstudio.com/docs/getstarted/tips-and-tricks) | 📖 Guide | Official VS Code productivity tips |
-| [VS Code Extension Development](https://code.visualstudio.com/api) | 📚 Documentation | Build your own VS Code extensions |
-| [VS Code Marketplace](https://marketplace.visualstudio.com/vscode) | 🔌 Extensions | Thousands of free extensions |
-| [GitHub Codespaces](https://github.com/features/codespaces) | ☁️ IDE | Cloud development environment |
-| [Replit](https://replit.com/) | ☁️ IDE | Online coding environment |
-| [CodePen](https://codepen.io/) | ☁️ IDE | Online front-end development environment |
-| [JSFiddle](https://jsfiddle.net/) | ☁️ IDE | Online JavaScript playground |
-| [RegExr](https://regexr.com/) | 🛠️ Tool | Learn and test regular expressions |
-| [JSON Formatter](https://jsonformatter.curiousconcept.com/) | 🛠️ Tool | Format and validate JSON |
-| [Vim Adventures](https://vim-adventures.com/) | 🎮 Game | Learn Vim editor through gaming |
-| [Emacs Tutorial](https://www.gnu.org/software/emacs/tour/) | 📖 Tutorial | Learn the Emacs editor |
+| [System Design Primer](https://github.com/donnemartin/system-design-primer) | 📋 Guide | Learn how to design large-scale systems |
+| [High Scalability](http://highscalability.com/) | 📰 Articles | Real-world architecture case studies |
+| [Microservices.io](https://microservices.io/) | 📋 Patterns | Microservices architecture patterns |
 
-## <img src="https://img.shields.io/badge/Documentation-4B8BBE?style=for-the-badge&logo=read%20the%20docs&logoColor=white" /> Documentation & Communication
+## <img src="https://img.shields.io/badge/Algorithms-FF6B6B?style=for-the-badge&logo=leetcode&logoColor=white" /> Algorithms & Data Structures
 
 | Resource | Type | Description |
 |----------|------|-------------|
-| [GitBook](https://www.gitbook.com/) | 📝 Platform | Free documentation platform |
-| [Notion](https://www.notion.so/) | 📝 Platform | All-in-one workspace (free tier) |
-| [Markdown Guide](https://www.markdownguide.org/) | 📖 Guide | Complete Markdown reference |
-| [Technical Writing Courses](https://developers.google.com/tech-writing) | 🎓 Course | Google's technical writing courses |
-| [Hemingway Editor](http://www.hemingwayapp.com/) | 🛠️ Tool | Make your writing clear and bold |
+| [Algorithm Visualizer](https://algorithm-visualizer.org/) | 🎮 Interactive | Visualize algorithms in action |
+| [VisuAlgo](https://visualgo.net/) | 🎮 Interactive | Algorithm and data structure visualizations |
+| [Big-O Cheat Sheet](https://www.bigocheatsheet.com/) | 📋 Reference | Time and space complexity reference |
+| [GeeksforGeeks](https://www.geeksforgeeks.org/) | 📖 Articles | Comprehensive algorithm tutorials |
+| [Khan Academy - Algorithms](https://www.khanacademy.org/computing/computer-science/algorithms) | 🎓 Course | Introduction to algorithms |
+| [MIT OpenCourseWare - Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/) | 🎓 Course | MIT's Introduction to Algorithms |
 
-## <img src="https://img.shields.io/badge/Free%20Services-FF6B35?style=for-the-badge&logo=freecodecampfire&logoColor=white" /> Free Development Services
+## <img src="https://img.shields.io/badge/CMS-F03E2F?style=for-the-badge&logo=sanity&logoColor=white" /> Content Management
 
 | Resource | Type | Description |
 |----------|------|-------------|
-| [GitHub](https://github.com/) | 🔧 Platform | Free Git repository hosting |
-| [Netlify](https://www.netlify.com/) | 🚀 Hosting | Free static site hosting and deployment |
-| [Vercel](https://vercel.com/) | 🚀 Hosting | Free frontend hosting and serverless functions |
-| [Railway](https://railway.app/) | 🚀 Hosting | Free full-stack application hosting |
-| [Supabase](https://supabase.com/) | 💾 Backend | Free Firebase alternative |2. **🧪 Advanced testing** → **⚡ Performance optimization**
-| [PlanetScale](https://planetscale.com/) | 💾 Database | Free MySQL-compatible serverless database |best practices** → **📱 Mobile/🔗 Web3 specialization**
-| [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) | 💾 Database | Free MongoDB hosting |
-| [Cloudinary](https://cloudinary.com/) | 🖼️ Media | Free image and video management |
-| [SendGrid](https://sendgrid.com/) | 📧 Email | Free email delivery service |
-| [Twilio](https://www.twilio.com/) | 📱 Communication | Free trial for SMS/voice services |ng more free resources! Please ensure all resources are:
- access
-## <img src="https://img.shields.io/badge/Learning%20Paths-9B59B6?style=for-the-badge&logo=roadmap&logoColor=white" /> Learning Paths
+| [Sanity Studio Documentation](https://www.sanity.io/docs) | 📚 Documentation | Complete Sanity CMS documentation |
+| [Sanity School](https://www.sanity.io/school) | 🎓 Course | Free Sanity CMS courses and tutorials |
+| [Sanity Templates](https://www.sanity.io/templates) | 💻 Templates | Ready-to-use Sanity project templates |
+| [Sanity Community](https://www.sanity.io/community) | 👥 Community | Community forum and resources |
+| [Contentful University](https://www.contentful.com/developers/docs/) | 📚 Documentation | Headless CMS documentation |
+| [Strapi Documentation](https://docs.strapi.io/) | 📚 Documentation | Open-source headless CMS |
+| [Ghost Publishing Platform](https://ghost.org/docs/) | 📚 Documentation | Modern publishing platform |
+| [Forestry CMS](https://forestry.io/docs/) | 📚 Documentation | Git-based CMS documentation |
+
+## <img src="https://img.shields.io/badge/Interview%20Prep-00C851?style=for-the-badge&logo=target&logoColor=white" /> Career & Interview Prep
+
+| Resource | Type | Description |
+|----------|------|-------------|
+| [LeetCode](https://leetcode.com/) | 💻 Practice Platform | Algorithm and data structure problems |
+| [HackerRank](https://www.hackerrank.com/) | 💻 Practice Platform | Programming challenges and contests |
+| [Codewars](https://www.codewars.com/) | 💻 Practice Platform | Code challenges and kata |
+| [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook) | 📋 Guide | Comprehensive interview preparation guide |
+| [System Design Interview](https://github.com/checkcheckzz/system-design-interview) | 📋 Guide | System design interview questions and answers |
+
+### 🌱 Beginner Path (3-6 months)
+1. **📝 HTML/CSS basics** → **⚡ JavaScript fundamentals** → **🔨 Simple projects**
+2. **📝 Version control with Git** → **🟢 Basic backend with Node.js**
+3. **🔍 Database basics (SQL)** → **🚀 Deploy simple applications**
+
+### 🌿 Intermediate Path (6-12 months)
+1. **⚛️ Frontend framework (React/Vue)** → **🐍 Backend framework (Express/Django)**
+2. **🗄️ Database design** → **🔌 API development** → **🧪 Testing**
+3. **🐳 Basic DevOps (Docker, basic CI/CD)**
+
+### 🌳 Advanced Path (12+ months)
+1. **🏗️ System design** → **🔧 Microservices** → **☁️ Cloud platforms**
+2. **🧪 Advanced testing** → **⚡ Performance optimization**
+3. **🛡️ Security best practices** → **📱 Mobile/🔗 Web3 specialization**
+
+## 🤝 Contributing
+
+Feel free to contribute by adding more free resources! Please ensure all resources are:
+- ✅ Completely free to access
+- ✅ High quality and up-to-date
 - ✅ Publicly available
+- ✅ Relevant to full-stack development
+
+---
+
+## <img src="https://img.shields.io/badge/Learning%20Paths-9B59B6?style=for-the-badge&logo=roadmap&logoColor=white" /> Learning Paths
+
 ### 🌱 Beginner Path (3-6 months)to full-stack development
 1. **📝 HTML/CSS basics** → **⚡ JavaScript fundamentals** → **🔨 Simple projects**
 2. **📝 Version control with Git** → **🟢 Basic backend with Node.js**
 3. **🔍 Database basics (SQL)** → **🚀 Deploy simple applications**
-s compilation is open source and available under the [MIT License](LICENSE).
+
 ### 🌿 Intermediate Path (6-12 months)
 1. **⚛️ Frontend framework (React/Vue)** → **🐍 Backend framework (Express/Django)**
 2. **🗄️ Database design** → **🔌 API development** → **🧪 Testing**
 3. **🐳 Basic DevOps (Docker, basic CI/CD)**⭐ **Star this repository** if you find it helpful, and share it with fellow developers on their journey to becoming full-stack developers!
 
+### 🌳 Advanced Path (12+ months)
+1. **🏗️ System design** → **🔧 Microservices** → **☁️ Cloud platforms**
+2. **🧪 Advanced testing** → **⚡ Performance optimization**1
+3. **🛡️ Security best practices** → **📱 Mobile/🔗 Web3 specialization**
 
+## 🤝 Contributing
+Feel free to contribute by adding more free resources! Please ensure all resources are:
+- ✅ Relevant to full-stack development
+- ✅ Publicly available
+- ✅ High quality and up-to-date
+- ✅ Completely free to access
 
+⭐ **Star this repository** if you find it helpful, and share it with fellow developers on their journey to becoming full-stack developers!
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-⭐ **Star this repository** if you find it helpful, and share it with fellow developers on their journey to becoming full-stack developers!---This compilation is open source and available under the [MIT License](LICENSE).## 📄 License- ✅ Relevant to full-stack development- ✅ Publicly available- ✅ High quality and up-to-date- ✅ Completely free to accessFeel free to contribute by adding more free resources! Please ensure all resources are:## 🤝 Contributing3. **🛡️ Security best practices** → **📱 Mobile/🔗 Web3 specialization**2. **🧪 Advanced testing** → **⚡ Performance optimization**1. **🏗️ System design** → **🔧 Microservices** → **☁️ Cloud platforms**### 🌳 Advanced Path (12+ months)
-
+## 📄 License
+This compilation is open source and available under the [MIT License](LICENSE).

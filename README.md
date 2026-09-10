@@ -33,7 +33,7 @@
 
 A curated collection of **100% FREE** courses, docs, tutorials, and projects to go from zero → full-stack developer (with DevOps skills). Built for self-taught learners, career switchers, and anyone who wants a clear path without paywalls.
 
-> **Last refreshed:** September 10, 2026 (recurring maintenance) — links re-verified; auth, tooling, and practice resources expanded. Nothing previously listed was removed.
+> **Last refreshed:** September 10, 2026 (afternoon maintenance) — links re-checked; product essentials, SEO, search, desktop, and DevOps tooling expanded. Nothing previously listed was removed.
 
 ### Why this repo?
 | | |
@@ -185,6 +185,11 @@ flowchart LR
 - [<img src="https://img.shields.io/badge/Patterns-222222?style=flat" /> Design Patterns](#design-patterns)
 - [<img src="https://img.shields.io/badge/Community-5865F2?style=flat&logo=discord&logoColor=white" /> Communities & Open Source](#communities--open-source)
 
+### 🛒 **Product Essentials**
+- [<img src="https://img.shields.io/badge/Payments-635BFF?style=flat&logo=stripe&logoColor=white" /> Payments, Email & Files](#payments-email--files)
+- [<img src="https://img.shields.io/badge/SEO-0F9D58?style=flat&logo=google&logoColor=white" /> SEO & Discoverability](#seo--discoverability)
+- [<img src="https://img.shields.io/badge/i18n-1D4ED8?style=flat" /> i18n & Feature Flags](#i18n--feature-flags)
+
 ### 🎯 **Learning Paths & Roadmaps**
 - [<img src="https://img.shields.io/badge/Learning%20Path-9B59B6?style=flat&logo=roadmap&logoColor=white" /> Structured Learning Paths](#learning-paths)
 
@@ -259,6 +264,10 @@ flowchart LR
 | [Motion](https://motion.dev/docs) | 📚 Documentation | Modern animation library for the web |
 | [Remix Docs](https://remix.run/docs/en/main) | 📚 Documentation | Full-stack web framework focused on web standards |
 | [Bulletproof React](https://github.com/alan2207/bulletproof-react) | 📋 Guide | Opinionated React architecture best practices |
+| [Alpine.js](https://alpinejs.dev/start-here) | 📖 Tutorial | Lightweight JavaScript framework for HTML-first UIs |
+| [Lit](https://lit.dev/docs/) | 📚 Documentation | Simple, fast web components |
+| [useHooks](https://usehooks.com/) | 💻 Collection | High-quality React hooks recipes |
+| [useHooks-ts](https://usehooks-ts.com/) | 💻 Collection | TypeScript-ready React hooks |
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg" width="20" height="20" /> UI/UX Design
 | Resource | Type | Description |
@@ -386,6 +395,10 @@ flowchart LR
 | [Building Real-time Applications](https://www.youtube.com/playlist?list=PLa7VYi0yPIH2eX8qfmPL7R9LgQwgaHUNh) | 🎥 Video Series | YouTube series on stream processing |
 | [Kafka Performance Testing](https://kafka.apache.org/documentation/#performance) | 📖 Guide | Performance testing and tuning |
 | [Event Sourcing with Kafka](https://www.confluent.io/blog/event-sourcing-cqrs-stream-processing-apache-kafka-whats-connection/) | 📰 Article | Event-driven architecture patterns |
+| [RabbitMQ Tutorials](https://www.rabbitmq.com/tutorials) | 📖 Tutorials | Hands-on messaging tutorials |
+| [Elasticsearch Getting Started](https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html) | 📚 Documentation | Search and analytics engine basics |
+| [Meilisearch Docs](https://www.meilisearch.com/docs/learn/getting_started/installation) | 📚 Documentation | Fast, easy open-source search |
+| [Typesense Guide](https://typesense.org/docs/guide/) | 📚 Documentation | Typo-tolerant open-source search engine |
 
 ## <img src="https://img.shields.io/badge/APIs-02569B?style=for-the-badge&logo=rest&logoColor=white" /> APIs & Integration
 
@@ -410,6 +423,7 @@ flowchart LR
 | [httpbin](https://httpbin.org/) | 🛠️ Tool | HTTP request & response testing service |
 | [ReqRes](https://reqres.in/) | 🛠️ Tool | Hosted REST-API ready to respond to your AJAX requests |
 | [webhook.site](https://webhook.site/) | 🛠️ Tool | Inspect and debug webhooks live |
+| [MDN CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS) | 📚 Documentation | Cross-Origin Resource Sharing explained |
 
 ## <img src="https://img.shields.io/badge/Security-000000?style=for-the-badge&logo=owasp&logoColor=white" /> Security
 
@@ -438,6 +452,9 @@ flowchart LR
 | [OWASP Node.js Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Nodejs_Security_Cheat_Sheet.html) | 📋 Cheat Sheet | Secure Node.js application practices |
 | [MDN Web Security](https://developer.mozilla.org/en-US/docs/Web/Security) | 📚 Documentation | Browser security topics for web developers |
 | [web.dev Security Headers](https://web.dev/articles/security-headers) | 📖 Article | Important HTTP security headers explained |
+| [Clerk Docs](https://clerk.com/docs) | 📚 Documentation | Auth/user management platform with generous free tier docs |
+| [Supabase Auth](https://supabase.com/docs/guides/auth) | 📚 Documentation | Open-source auth with social providers and RLS |
+| [Lucia](https://lucia-auth.com/) | 📚 Documentation | Learning resource for implementing sessions/auth |
 
 ## <img src="https://img.shields.io/badge/Performance-F44B21?style=for-the-badge&logo=lighthouse&logoColor=white" /> Performance & Optimization
 
@@ -459,6 +476,9 @@ flowchart LR
 |----------|------|-------------|
 | [Docker Get Started](https://docs.docker.com/get-started/) | 📖 Tutorial | Official Docker tutorial |
 | [Play with Docker](https://labs.play-with-docker.com/) | 🧪 Interactive Lab | Hands-on Docker learning environment |
+| [Docker Compose](https://docs.docker.com/compose/) | 📚 Documentation | Multi-container apps with Compose |
+| [Docker 101 Tutorial](https://www.docker.com/101-tutorial/) | 🎓 Tutorial | Official beginner-friendly Docker tutorial |
+| [What is a container?](https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-a-container/) | 📖 Guide | Core container concepts from Docker docs |
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg" width="20" height="20" /> Kubernetes
 | Resource | Type | Description |
@@ -470,6 +490,7 @@ flowchart LR
 | [CNCF Kubernetes Training](https://www.cncf.io/certification/training/) | 🎓 Training | Cloud Native Computing Foundation training resources |
 | [Kubernetes Academy](https://kube.academy/) | 🎓 Course | Free Kubernetes courses by VMware |
 | [Play with Kubernetes](https://labs.play-with-k8s.com/) | 🧪 Interactive Lab | Hands-on Kubernetes playground |
+| [Hello Minikube](https://kubernetes.io/docs/tutorials/hello-minikube/) | 📖 Tutorial | Run a first cluster locally with Minikube |
 
 ### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="20" height="20" /> Cloud Platforms
 | Resource | Type | Description |
@@ -485,6 +506,9 @@ flowchart LR
 | [Azure Free Account](https://azure.microsoft.com/en-us/free/) | ☁️ Platform | Free Azure services and credits |
 | [Azure Fundamentals](https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts/) | 🎓 Course | Complete Azure fundamentals learning path |
 | [Heroku Dev Center](https://devcenter.heroku.com/) | 📚 Documentation | Heroku deployment guides |
+| [AWS CLI Getting Started](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html) | 📖 Tutorial | Work with AWS from the terminal |
+| [Azure CLI Get Started](https://learn.microsoft.com/en-us/cli/azure/get-started-with-azure-cli) | 📖 Tutorial | Manage Azure resources from the CLI |
+| [Google Cloud SDK](https://cloud.google.com/sdk/docs/install-sdk) | 📚 Documentation | Install and use gcloud |
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" width="20" height="20" /> CI/CD
 | Resource | Type | Description |
@@ -498,10 +522,15 @@ flowchart LR
 |----------|------|-------------|
 | [Prometheus Documentation](https://prometheus.io/docs/) | 📚 Documentation | Open-source monitoring system |
 | [Grafana Tutorials](https://grafana.com/tutorials/) | 📖 Tutorials | Data visualization and monitoring |
+| [Grafana Getting Started](https://grafana.com/docs/grafana/latest/getting-started/) | 📚 Documentation | Official Grafana getting-started docs |
 | [ELK Stack Tutorial](https://www.elastic.co/guide/en/elastic-stack-get-started/current/get-started-elastic-stack.html) | 📖 Tutorial | Elasticsearch, Logstash, and Kibana |
 | [Jaeger Documentation](https://www.jaegertracing.io/docs/) | 📚 Documentation | Distributed tracing system |
 | [OpenTelemetry Docs](https://opentelemetry.io/docs/) | 📚 Documentation | Vendor-neutral observability framework |
 | [The Twelve-Factor App](https://12factor.net/) | 📋 Guide | Methodology for building SaaS apps |
+| [Sentry JS Docs](https://docs.sentry.io/platforms/javascript/) | 📚 Documentation | Error monitoring for JavaScript apps |
+| [Pino](https://github.com/pinojs/pino) | 📚 Documentation | Extremely fast Node.js logger |
+| [Caddy Getting Started](https://caddyserver.com/docs/getting-started) | 📚 Documentation | Automatic HTTPS web server |
+| [Traefik Quick Start](https://doc.traefik.io/traefik/getting-started/quick-start/) | 📚 Documentation | Cloud-native application proxy |
 
 ## <img src="https://img.shields.io/badge/Automation-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" /> Automation & Workflows
 
@@ -736,6 +765,9 @@ flowchart LR
 | [Postman Learning Center](https://learning.postman.com/) | 🎓 Courses | API testing with Postman |
 | [Playwright Docs](https://playwright.dev/docs/intro) | 📚 Documentation | Reliable end-to-end testing for modern web apps |
 | [Vitest Guide](https://vitest.dev/guide/) | 📚 Documentation | Fast Vite-native unit testing framework |
+| [Mock Service Worker](https://mswjs.io/docs) | 📚 Documentation | API mocking by intercepting requests |
+| [React Hook Form](https://react-hook-form.com/get-started) | 📚 Documentation | Performant, flexible React forms |
+| [TanStack Form](https://tanstack.com/form/latest) | 📚 Documentation | Headless, framework-agnostic form state |
 
 ## <img src="https://img.shields.io/badge/Mobile-61DAFB?style=for-the-badge&logo=react&logoColor=black" /> Mobile Development
 
@@ -744,6 +776,9 @@ flowchart LR
 | [React Native Tutorial](https://reactnative.dev/docs/tutorial) | 📖 Tutorial | Build mobile apps with React Native |
 | [Flutter Documentation](https://docs.flutter.dev/) | 📚 Documentation | Google's UI toolkit for mobile |
 | [Ionic Framework](https://ionicframework.com/docs) | 📚 Documentation | Hybrid mobile app development |
+| [Capacitor Docs](https://capacitorjs.com/docs) | 📚 Documentation | Native runtime for web apps on iOS/Android |
+| [Tauri](https://tauri.app/start/) | 📚 Documentation | Build tiny, secure desktop apps with web frontends |
+| [Electron Docs](https://www.electronjs.org/docs/latest/) | 📚 Documentation | Cross-platform desktop apps with Chromium + Node |
 
 ## <img src="https://img.shields.io/badge/Web3-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white" /> Web3 & Blockchain
 
@@ -835,6 +870,8 @@ flowchart LR
 | [OSSU Computer Science](https://github.com/ossu/computer-science) | 🗺️ Curriculum | Free self-taught CS degree path |
 | [Teach Yourself CS](https://teachyourselfcs.com/) | 📋 Guide | Curated CS fundamentals reading list |
 | [Nand2Tetris](https://www.nand2tetris.org/) | 🎓 Course | Build a computer from first principles |
+| [Command line for beginners](https://ubuntu.com/tutorials/command-line-for-beginners) | 📖 Tutorial | Practical Linux shell introduction |
+| [SS64 Command References](https://ss64.com/) | 📋 Reference | Command-line references across platforms |
 
 ## <img src="https://img.shields.io/badge/Documentation-4B8BBE?style=for-the-badge&logo=read%20the%20docs&logoColor=white" /> Documentation & Communication
 
@@ -857,6 +894,8 @@ flowchart LR
 | [Fly.io Docs](https://fly.io/docs/) | ☁️ Platform | Run containers close to your users |
 | [Cloudflare Workers Docs](https://developers.cloudflare.com/workers/) | ☁️ Platform | Serverless compute on Cloudflare's edge |
 | [GitHub Student Developer Pack](https://education.github.com/pack) | 🎁 Bundle | Free developer tools and credits for students |
+| [date-fns](https://date-fns.org/) | 📚 Documentation | Modern JavaScript date utility library |
+| [Day.js](https://day.js.org/docs/en/installation/installation) | 📚 Documentation | Tiny date library with a Moment-like API |
 
 
 <a id="hands-on-projects"></a>
@@ -933,6 +972,40 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [The Net Ninja](https://www.youtube.com/@NetNinja) | 🎥 YouTube | Long-form free framework courses |
 | [TkDodo's Blog](https://tkdodo.eu/blog/) | 📰 Articles | Excellent React Query / TanStack insights |
 | [Kent C. Dodds Blog](https://kentcdodds.com/blog) | 📰 Articles | Testing and React best practices |
+| [Awesome Lists](https://github.com/sindresorhus/awesome) | 📋 Repository | Curated lists of awesome resources across topics |
+
+
+<a id="payments-email--files"></a>
+## <img src="https://img.shields.io/badge/Payments-635BFF?style=for-the-badge&logo=stripe&logoColor=white" /> Payments, Email & Files
+
+| Resource | Type | Description |
+|----------|------|-------------|
+| [Stripe Get Started](https://docs.stripe.com/get-started) | 📚 Documentation | Accept payments and build billing flows |
+| [Stripe Development Docs](https://stripe.com/docs/development) | 📚 Documentation | APIs, testing, and integration guides |
+| [Resend Docs](https://resend.com/docs/introduction) | 📚 Documentation | Modern transactional email for developers |
+| [UploadThing Docs](https://docs.uploadthing.com/) | 📚 Documentation | Type-safe file uploads for fullstack apps |
+
+<a id="seo--discoverability"></a>
+## <img src="https://img.shields.io/badge/SEO-0F9D58?style=for-the-badge&logo=google&logoColor=white" /> SEO & Discoverability
+
+| Resource | Type | Description |
+|----------|------|-------------|
+| [Google SEO Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide) | 📋 Guide | Official SEO fundamentals for site owners |
+| [Next.js Learn SEO](https://nextjs.org/learn/seo/introduction-to-seo) | 🎓 Course | Practical SEO concepts in a Next.js learning path |
+| [Open Graph Protocol](https://ogp.me/) | 📋 Specification | Social preview metadata standard |
+| [Intro to Structured Data](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data) | 📖 Guide | Help search engines understand your pages |
+| [Schema.org](https://schema.org/) | 📚 Documentation | Vocabulary for structured data on the web |
+| [MDN SEO Glossary](https://developer.mozilla.org/en-US/docs/Glossary/SEO) | 📋 Reference | Quick SEO definition and related concepts |
+
+<a id="i18n--feature-flags"></a>
+## <img src="https://img.shields.io/badge/i18n-1D4ED8?style=for-the-badge" /> i18n & Feature Flags
+
+| Resource | Type | Description |
+|----------|------|-------------|
+| [i18next](https://www.i18next.com/) | 📚 Documentation | Internationalization framework for JavaScript |
+| [next-intl](https://next-intl.dev/docs/getting-started) | 📚 Documentation | Internationalization for Next.js apps |
+| [Unleash Docs](https://docs.getunleash.io/) | 📚 Documentation | Open-source feature flag platform |
+| [Flagsmith Docs](https://docs.flagsmith.com/) | 📚 Documentation | Feature flags and remote config |
 
 <a id="learning-paths"></a>
 ## <img src="https://img.shields.io/badge/Learning%20Paths-9B59B6?style=for-the-badge&logo=roadmap&logoColor=white" /> Learning Paths

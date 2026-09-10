@@ -33,7 +33,7 @@
 
 A curated collection of **100% FREE** courses, docs, tutorials, and projects to go from zero → full-stack developer (with DevOps skills). Built for self-taught learners, career switchers, and anyone who wants a clear path without paywalls.
 
-> **Last refreshed:** September 10, 2026 (afternoon maintenance) — links re-checked; product essentials, SEO, search, desktop, and DevOps tooling expanded. Nothing previously listed was removed.
+> **Last refreshed:** September 10, 2026 (evening maintenance) — link audit + edge/WASM, SQLite, jobs, GitOps, load testing, and observability additions. Nothing previously listed was removed.
 
 ### Why this repo?
 | | |
@@ -185,6 +185,9 @@ flowchart LR
 - [<img src="https://img.shields.io/badge/Patterns-222222?style=flat" /> Design Patterns](#design-patterns)
 - [<img src="https://img.shields.io/badge/Community-5865F2?style=flat&logo=discord&logoColor=white" /> Communities & Open Source](#communities--open-source)
 
+### ⏱️ **Jobs & Reliability**
+- [<img src="https://img.shields.io/badge/Jobs-111827?style=flat&logo=redis&logoColor=white" /> Background Jobs & Queues](#background-jobs--queues)
+
 ### 🛒 **Product Essentials**
 - [<img src="https://img.shields.io/badge/Payments-635BFF?style=flat&logo=stripe&logoColor=white" /> Payments, Email & Files](#payments-email--files)
 - [<img src="https://img.shields.io/badge/SEO-0F9D58?style=flat&logo=google&logoColor=white" /> SEO & Discoverability](#seo--discoverability)
@@ -268,6 +271,8 @@ flowchart LR
 | [Lit](https://lit.dev/docs/) | 📚 Documentation | Simple, fast web components |
 | [useHooks](https://usehooks.com/) | 💻 Collection | High-quality React hooks recipes |
 | [useHooks-ts](https://usehooks-ts.com/) | 💻 Collection | TypeScript-ready React hooks |
+| [MDN WebAssembly](https://developer.mozilla.org/en-US/docs/WebAssembly) | 📚 Documentation | Run high-performance Wasm modules in the browser |
+| [WebAssembly Developer Guide](https://webassembly.org/getting-started/developers-guide/) | 📖 Guide | Official Wasm getting-started path |
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg" width="20" height="20" /> UI/UX Design
 | Resource | Type | Description |
@@ -297,6 +302,8 @@ flowchart LR
 | [The Odin Project - NodeJS](https://www.theodinproject.com/paths/full-stack-javascript) | 🎓 Course | Full-stack JavaScript path including Node |
 | [Bun Docs](https://bun.sh/docs) | 📚 Documentation | Fast all-in-one JavaScript runtime and toolkit |
 | [Deno Docs](https://docs.deno.com/) | 📚 Documentation | Modern secure TypeScript-first runtime |
+| [Deno Deploy](https://docs.deno.com/deploy/manual/) | ☁️ Platform | Globally distributed TypeScript serverless |
+| [pnpm Installation](https://pnpm.io/installation) | 📚 Documentation | Fast, disk-efficient package manager |
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="20" height="20" /> Python
 | Resource | Type | Description |
@@ -346,6 +353,9 @@ flowchart LR
 | [W3Schools SQL Tutorial](https://www.w3schools.com/sql/) | 📖 Tutorial | Complete SQL tutorial with examples |
 | [PostgreSQL Tutorial](https://www.postgresqltutorial.com/) | 📖 Tutorial | Comprehensive PostgreSQL guide |
 | [Official PostgreSQL Tutorial](https://www.postgresql.org/docs/current/tutorial.html) | 📖 Tutorial | Official Postgres getting-started tutorial |
+| [PostgreSQL EXPLAIN](https://www.postgresql.org/docs/current/using-explain.html) | 📖 Guide | Understand and tune query plans |
+| [SQLite Docs](https://sqlite.org/docs.html) | 📚 Documentation | Lightweight embedded SQL database |
+| [Turso Docs](https://docs.turso.tech/introduction) | 📚 Documentation | Edge-hosted SQLite (libSQL) platform |
 | [Neon PostgreSQL Tutorial](https://neon.com/postgresql/tutorial) | 📖 Tutorial | Practical Postgres guide from Neon |
 | [MySQL Tutorial](https://dev.mysql.com/doc/mysql-tutorial-excerpt/8.0/en/) | 📖 Tutorial | Official MySQL tutorial |
 | [SQLBolt](https://sqlbolt.com/) | 🎮 Interactive Lessons | Learn SQL with interactive exercises |
@@ -361,6 +371,7 @@ flowchart LR
 | [MongoDB Learn](https://learn.mongodb.com/) | 🎓 Courses | Free MongoDB courses and certification |
 | [Redis Get Started](https://redis.io/docs/latest/get-started/) | 📖 Tutorial | Official Redis getting started guide |
 | [Redis University](https://redis.io/university/) | 🎓 Courses | Free Redis courses and certifications |
+| [Redis Streams](https://redis.io/docs/latest/develop/data-types/streams/) | 📚 Documentation | Stream processing data type in Redis |
 | [Firebase Documentation](https://firebase.google.com/docs) | 📚 Documentation | Complete Firebase/Firestore guide |
 | [Supabase Docs](https://supabase.com/docs) | 📚 Documentation | Open-source Firebase alternative with Postgres |
 | [Prisma Docs](https://www.prisma.io/docs) | 📚 Documentation | Next-generation Node.js / TypeScript ORM |
@@ -491,6 +502,11 @@ flowchart LR
 | [Kubernetes Academy](https://kube.academy/) | 🎓 Course | Free Kubernetes courses by VMware |
 | [Play with Kubernetes](https://labs.play-with-k8s.com/) | 🧪 Interactive Lab | Hands-on Kubernetes playground |
 | [Hello Minikube](https://kubernetes.io/docs/tutorials/hello-minikube/) | 📖 Tutorial | Run a first cluster locally with Minikube |
+| [Helm Docs](https://helm.sh/docs/) | 📚 Documentation | Kubernetes package manager |
+| [Kustomize](https://kubectl.docs.kubernetes.io/references/kustomize/) | 📚 Documentation | Kubernetes native configuration management |
+| [Argo CD](https://argo-cd.readthedocs.io/en/stable/) | 📚 Documentation | Declarative GitOps continuous delivery |
+| [Flux](https://fluxcd.io/flux/get-started/) | 📚 Documentation | GitOps toolkit for Kubernetes |
+| [Podman Docs](https://docs.podman.io/) | 📚 Documentation | Daemonless container engine |
 
 ### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="20" height="20" /> Cloud Platforms
 | Resource | Type | Description |
@@ -523,6 +539,9 @@ flowchart LR
 | [Prometheus Documentation](https://prometheus.io/docs/) | 📚 Documentation | Open-source monitoring system |
 | [Grafana Tutorials](https://grafana.com/tutorials/) | 📖 Tutorials | Data visualization and monitoring |
 | [Grafana Getting Started](https://grafana.com/docs/grafana/latest/getting-started/) | 📚 Documentation | Official Grafana getting-started docs |
+| [Grafana Loki](https://grafana.com/docs/loki/latest/) | 📚 Documentation | Log aggregation inspired by Prometheus |
+| [Grafana Tempo](https://grafana.com/docs/tempo/latest/) | 📚 Documentation | Distributed tracing backend |
+| [k6 Docs](https://k6.io/docs/) | 📚 Documentation | Modern load testing for APIs and websites |
 | [ELK Stack Tutorial](https://www.elastic.co/guide/en/elastic-stack-get-started/current/get-started-elastic-stack.html) | 📖 Tutorial | Elasticsearch, Logstash, and Kibana |
 | [Jaeger Documentation](https://www.jaegertracing.io/docs/) | 📚 Documentation | Distributed tracing system |
 | [OpenTelemetry Docs](https://opentelemetry.io/docs/) | 📚 Documentation | Vendor-neutral observability framework |
@@ -530,6 +549,11 @@ flowchart LR
 | [Sentry JS Docs](https://docs.sentry.io/platforms/javascript/) | 📚 Documentation | Error monitoring for JavaScript apps |
 | [Pino](https://github.com/pinojs/pino) | 📚 Documentation | Extremely fast Node.js logger |
 | [Caddy Getting Started](https://caddyserver.com/docs/getting-started) | 📚 Documentation | Automatic HTTPS web server |
+| [Nginx Docs](https://nginx.org/en/docs/) | 📚 Documentation | High-performance reverse proxy and web server |
+| [Let's Encrypt Getting Started](https://letsencrypt.org/getting-started/) | 📖 Guide | Free TLS certificates for your sites |
+| [Certbot](https://certbot.eff.org/) | 🛠️ Tool | Automate Let's Encrypt certificate issuance |
+| [MDN DNS](https://developer.mozilla.org/en-US/docs/Glossary/DNS) | 📋 Reference | Domain Name System basics |
+| [MDN TLS](https://developer.mozilla.org/en-US/docs/Glossary/TLS) | 📋 Reference | Transport Layer Security basics |
 | [Traefik Quick Start](https://doc.traefik.io/traefik/getting-started/quick-start/) | 📚 Documentation | Cloud-native application proxy |
 
 ## <img src="https://img.shields.io/badge/Automation-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" /> Automation & Workflows
@@ -560,7 +584,7 @@ flowchart LR
 | [Chart.js Documentation](https://www.chartjs.org/docs/latest/) | 📚 Documentation | Simple yet flexible JavaScript charting |
 | [Plotly Dash Tutorial](https://dash.plotly.com/tutorial) | 📖 Tutorial | Build analytical web applications |
 | [Apache Superset](https://superset.apache.org/) | 🛠️ Tool | Modern data exploration platform |
-| [Grafana Fundamentals](https://grafana.com/tutorials/grafana-fundamentals/) | 🎓 Course | Data visualization and monitoring |
+| [Grafana Fundamentals](https://grafana.com/docs/grafana/latest/getting-started/) | 🎓 Course | Official Grafana getting-started path (tutorials hub may block some networks) |
 
 ## <img src="https://img.shields.io/badge/AI%2FML-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" /> AI & Machine Learning
 
@@ -734,7 +758,7 @@ flowchart LR
 | Resource | Type | Description |
 |----------|------|-------------|
 | [Frontend Framework Comparison](https://www.npmtrends.com/react-vs-vue-vs-angular) | 📊 Chart | React vs Vue vs Angular statistics |
-| [DB-Engines Ranking](https://db-engines.com/en/ranking) | 📊 Rankings | Database popularity ranking (may be blocked in some networks) |
+| [DB-Engines Ranking](https://db-engines.com/en/ranking) | 📊 Rankings | Database popularity ranking (SSL/network sensitive; see DBDB.io below) |
 | [DBDB.io](https://dbdb.io/) | 📊 Catalog | Encyclopedia of database management systems |
 | [Cloud Provider Comparison](https://comparecloud.in/) | 📊 Comparison | AWS vs Azure vs GCP feature comparison |
 | [Programming Language Performance](https://benchmarksgame-team.pages.debian.net/benchmarksgame/) | 📊 Benchmarks | Language performance comparisons |
@@ -893,9 +917,16 @@ flowchart LR
 | [Railway Docs](https://docs.railway.com) | ☁️ Platform | Deploy apps, databases, and workers quickly |
 | [Fly.io Docs](https://fly.io/docs/) | ☁️ Platform | Run containers close to your users |
 | [Cloudflare Workers Docs](https://developers.cloudflare.com/workers/) | ☁️ Platform | Serverless compute on Cloudflare's edge |
+| [Cloudflare Durable Objects](https://developers.cloudflare.com/durable-objects/) | 📚 Documentation | Strongly consistent stateful edge compute |
+| [Fly Machines](https://fly.io/docs/machines/overview/) | 📚 Documentation | Fast-booting VMs for fullstack workloads |
+| [Coolify Docs](https://coolify.io/docs) | 📚 Documentation | Self-host PaaS alternative (open source) |
 | [GitHub Student Developer Pack](https://education.github.com/pack) | 🎁 Bundle | Free developer tools and credits for students |
 | [date-fns](https://date-fns.org/) | 📚 Documentation | Modern JavaScript date utility library |
 | [Day.js](https://day.js.org/docs/en/installation/installation) | 📚 Documentation | Tiny date library with a Moment-like API |
+| [PostHog Docs](https://posthog.com/docs) | 📚 Documentation | Open-source product analytics |
+| [Plausible Docs](https://plausible.io/docs) | 📚 Documentation | Privacy-friendly web analytics |
+| [Umami Docs](https://umami.is/docs) | 📚 Documentation | Simple, self-hosted web analytics |
+| [Homebrew](https://brew.sh/) | 🛠️ Tool | Package manager for macOS (and Linux) |
 
 
 <a id="hands-on-projects"></a>
@@ -974,6 +1005,18 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [Kent C. Dodds Blog](https://kentcdodds.com/blog) | 📰 Articles | Testing and React best practices |
 | [Awesome Lists](https://github.com/sindresorhus/awesome) | 📋 Repository | Curated lists of awesome resources across topics |
 
+
+
+<a id="background-jobs--queues"></a>
+## <img src="https://img.shields.io/badge/Jobs-111827?style=for-the-badge&logo=redis&logoColor=white" /> Background Jobs & Queues
+
+| Resource | Type | Description |
+|----------|------|-------------|
+| [BullMQ Docs](https://docs.bullmq.io/) | 📚 Documentation | Redis-based Node.js job queues |
+| [Inngest Docs](https://www.inngest.com/docs) | 📚 Documentation | Event-driven background jobs and workflows |
+| [Trigger.dev Docs](https://trigger.dev/docs) | 📚 Documentation | Background jobs for TypeScript apps |
+| [Azure Circuit Breaker Pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/circuit-breaker) | 📋 Pattern | Stop cascading failures in distributed systems |
+| [Azure Rate Limiting Pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/rate-limiting-pattern) | 📋 Pattern | Protect services from overload |
 
 <a id="payments-email--files"></a>
 ## <img src="https://img.shields.io/badge/Payments-635BFF?style=for-the-badge&logo=stripe&logoColor=white" /> Payments, Email & Files

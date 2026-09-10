@@ -23,10 +23,79 @@
 ╚═══════════════════════════════════════════════════════════════════════════════════╝
 ```
 
-A comprehensive collection of **FREE** resources to become a Full-Stack Developer with DevOps skills. This roadmap includes courses, tutorials, documentation, and hands-on projects that are publicly available for anyone to learn and grow.
+<p align="center">
+  <img alt="GitHub stars" src="https://img.shields.io/github/stars/nottherealtar/Road-To-FullStack?style=for-the-badge&logo=github" />
+  <img alt="GitHub forks" src="https://img.shields.io/github/forks/nottherealtar/Road-To-FullStack?style=for-the-badge" />
+  <img alt="License" src="https://img.shields.io/github/license/nottherealtar/Road-To-FullStack?style=for-the-badge" />
+  <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen?style=for-the-badge" />
+  <img alt="Free resources" src="https://img.shields.io/badge/resources-100%25%20free-blue?style=for-the-badge" />
+</p>
+
+A curated collection of **100% FREE** courses, docs, tutorials, and projects to go from zero → full-stack developer (with DevOps skills). Built for self-taught learners, career switchers, and anyone who wants a clear path without paywalls.
 
 > **Last refreshed:** September 2026 — links verified, outdated destinations updated, and new learning resources added. Nothing previously listed was removed.
 
+### Why this repo?
+| | |
+|---|---|
+| 🎯 **One roadmap** | Frontend → Backend → Databases → DevOps → Career |
+| 🆓 **Always free** | Every linked resource can be used at no cost |
+| 🧭 **Opinionated paths** | Beginner → Advanced tracks so you are never stuck choosing |
+| 🛠️ **Build, don't only watch** | Projects, labs, and interactive courses included |
+
+### 🚀 How to use this roadmap
+1. Pick a **[Learning Path](#learning-paths)** that matches your level
+2. Start with **[Start Here](#start-here)** if you want the highest-signal resources first
+3. Dive into any topic from the **Table of Contents** below
+4. Build portfolio projects from **[Hands-on Projects](#hands-on-projects)** as you go
+5. When stuck, use **[Communities & Open Source](#communities--open-source)** for help and real PRs
+
+### Legend
+| Icon | Meaning |
+|------|---------|
+| 📚 | Documentation / reference |
+| 📖 | Tutorial / article series |
+| 🎓 | Course / curriculum |
+| 🎮 | Interactive / playground |
+| 💻 | Practice / code / templates |
+| 🗺️ | Roadmap / structured path |
+| 🛠️ | Tool |
+| 🎥 | Video |
+
+<a id="start-here"></a>
+## ⭐ Start Here — Highest-Signal Picks
+
+If you only open a handful of links, open these:
+
+| Focus | Resource | Why it matters |
+|-------|----------|----------------|
+| 🧭 Full curriculum | [Full Stack Open](https://fullstackopen.com/en/) | University of Helsinki's free modern fullstack course (React, Node, TypeScript, GraphQL, CI) |
+| 🛤️ Structured path | [The Odin Project](https://www.theodinproject.com/) | Project-heavy free curriculum from foundations to fullstack |
+| 🗺️ Visual roadmaps | [roadmap.sh](https://roadmap.sh/) | Interactive role roadmaps (Frontend, Backend, DevOps, AI) |
+| 📘 Language depth | [JavaScript.info](https://javascript.info/) | Best free modern JS tutorial, beginner → advanced |
+| 📘 Types | [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html) | Official TS source of truth |
+| ⚛️ UI framework | [React Docs](https://react.dev/learn) | Official React learning guide |
+| 🟢 Backend | [Node.js Learn](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs) | Official Node learning path |
+| 🗄️ SQL | [SQLBolt](https://sqlbolt.com/) | Fast interactive SQL practice |
+| 🐳 Containers | [Docker Get Started](https://docs.docker.com/get-started/) | Official Docker hands-on |
+| 🎓 CS foundation | [CS50x](https://cs50.harvard.edu/x/) | Harvard's free intro CS course |
+
+```mermaid
+flowchart LR
+  A[HTML/CSS] --> B[JavaScript]
+  B --> C[TypeScript]
+  C --> D[React / Next.js]
+  B --> E[Node.js APIs]
+  E --> F[SQL / Postgres]
+  D --> G[Full-Stack Apps]
+  E --> G
+  F --> G
+  G --> H[Docker + CI/CD]
+  H --> I[Cloud Deploy]
+  I --> J[System Design + Career]
+```
+
+<a id="table-of-contents"></a>
 ## 📚 Table of Contents
 
 ### 🎨 **Frontend Development**
@@ -108,8 +177,15 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
   - [<img src="https://img.shields.io/badge/Interview%20Prep-00C851?style=flat&logo=target&logoColor=white" /> Career & Interview Prep](#-career--interview-prep)
   - [<img src="https://img.shields.io/badge/Free%20Services-FF6B35?style=flat&logo=freecodecampfire&logoColor=white" /> Free Development Services](#-free-development-services)
 
+### 🧩 **Practice, A11y & Community**
+- [<img src="https://img.shields.io/badge/Projects-FF5722?style=flat&logo=github&logoColor=white" /> Hands-on Projects](#hands-on-projects)
+- [<img src="https://img.shields.io/badge/a11y-005A9C?style=flat" /> Accessibility](#accessibility)
+- [<img src="https://img.shields.io/badge/HTTP-8A2BE2?style=flat" /> Browser & Networking](#browser--networking)
+- [<img src="https://img.shields.io/badge/Patterns-222222?style=flat" /> Design Patterns](#design-patterns)
+- [<img src="https://img.shields.io/badge/Community-5865F2?style=flat&logo=discord&logoColor=white" /> Communities & Open Source](#communities--open-source)
+
 ### 🎯 **Learning Paths & Roadmaps**
-- [<img src="https://img.shields.io/badge/Learning%20Path-9B59B6?style=flat&logo=roadmap&logoColor=white" /> Structured Learning Paths](#-learning-paths)
+- [<img src="https://img.shields.io/badge/Learning%20Path-9B59B6?style=flat&logo=roadmap&logoColor=white" /> Structured Learning Paths](#learning-paths)
 
 ---
 
@@ -125,6 +201,10 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [CSS Grid Garden](https://cssgridgarden.com/) | 🎮 Interactive Game | Master CSS Grid layout |
 | [web.dev Learn HTML](https://web.dev/learn/html) | 📖 Course | Modern HTML course by Google |
 | [MDN Learn Web Development](https://developer.mozilla.org/en-US/docs/Learn_web_development) | 🎓 Curriculum | Structured front-end learning path from MDN |
+| [web.dev Learn CSS](https://web.dev/learn/css) | 🎓 Course | Modern CSS course by Google |
+| [Josh Comeau — Interactive Flexbox](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/) | 🎮 Interactive | Exceptional visual Flexbox deep dive |
+| [Frontend Mentor](https://www.frontendmentor.io/) | 💻 Practice | Real UI challenges to build your portfolio |
+| [Can I Use](https://www.caniuse.com/) | 🛠️ Tool | Browser support tables for web features |
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="20" height="20" /> JavaScript
 | Resource | Type | Description |
@@ -134,6 +214,9 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [Eloquent JavaScript](https://eloquentjavascript.net/) | 📚 Book | Free online book about JavaScript programming |
 | [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS) | 📚 Book Series | Deep dive into JavaScript concepts |
 | [30 Days of JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript) | 🏆 Challenge | 30-day JavaScript programming challenge |
+| [JavaScript30](https://javascript30.com/) | 🎓 Course | 30 free vanilla JS build projects by Wes Bos |
+| [web.dev Learn JavaScript](https://web.dev/learn/javascript) | 🎓 Course | Modern JavaScript course by Google |
+| [Patterns.dev](https://www.patterns.dev/) | 📚 Guide | Modern web app design and rendering patterns |
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="20" height="20" /> TypeScript
 | Resource | Type | Description |
@@ -159,6 +242,8 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [shadcn/ui Docs](https://ui.shadcn.com/docs) | 📚 Documentation | Accessible component patterns built with Radix and Tailwind |
 | [TanStack Query](https://tanstack.com/query/latest/docs/framework/react/overview) | 📚 Documentation | Powerful async state management for React |
 | [htmx Docs](https://htmx.org/docs/) | 📚 Documentation | High-power HTML attributes for modern UIs |
+| [Full Stack Open](https://fullstackopen.com/en/) | 🎓 Course | Deep React/Node/GraphQL fullstack curriculum |
+| [30 Days of React](https://github.com/Asabeneh/30-Days-Of-React) | 🏆 Challenge | Hands-on React practice over 30 days |
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg" width="20" height="20" /> UI/UX Design
 | Resource | Type | Description |
@@ -315,6 +400,8 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [Chrome Lighthouse](https://developer.chrome.com/docs/lighthouse/overview) | 🛠️ Tool | Automated website quality audits |
 | [WebPageTest](https://www.webpagetest.org/) | 🛠️ Tool | Website performance testing |
 | [Critical Path CSS Generator](https://www.sitelocity.com/critical-path-css-generator) | 🛠️ Tool | Optimize CSS delivery |
+| [Web Vitals](https://web.dev/articles/vitals) | 📋 Guide | Core Web Vitals metrics every fullstack should know |
+| [Chrome Performance DevTools](https://developer.chrome.com/docs/devtools/performance) | 📖 Tutorial | Profile runtime performance in the browser |
 
 ## <img src="https://img.shields.io/badge/DevOps-2496ED?style=for-the-badge&logo=docker&logoColor=white" /> DevOps & Cloud
 
@@ -585,6 +672,9 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [GitHub Skills](https://skills.github.com/) | 🎮 Interactive Courses | GitHub-specific skills and workflows |
 | [Atlassian Git Tutorials](https://www.atlassian.com/git/tutorials) | 📖 Tutorials | Comprehensive Git tutorials |
 | [Learn Git Branching](https://learngitbranching.js.org/) | 🎮 Interactive Tutorial | Visual Git branching tutorial |
+| [Conventional Commits](https://www.conventionalcommits.org/) | 📋 Spec | Standard for clear, automated-friendly commit messages |
+| [Semantic Versioning](https://semver.org/) | 📋 Spec | How to version releases properly |
+| [Keep a Changelog](https://keepachangelog.com/) | 📋 Guide | Write changelogs humans and tools can trust |
 
 ## <img src="https://img.shields.io/badge/Testing-C21325?style=for-the-badge&logo=jest&logoColor=white" /> Testing
 
@@ -621,6 +711,9 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [System Design Primer](https://github.com/donnemartin/system-design-primer) | 📋 Guide | Learn how to design large-scale systems |
 | [High Scalability](http://highscalability.com/) | 📰 Articles | Real-world architecture case studies |
 | [Microservices.io](https://microservices.io/) | 📋 Patterns | Microservices architecture patterns |
+| [ByteByteGo Blog](https://blog.bytebytego.com/) | 📰 Articles | Visual system design explainers |
+| [Refactoring Guru — Design Patterns](https://refactoring.guru/design-patterns) | 📚 Guide | Clear catalog of design patterns with examples |
+| [Martin Fowler](https://martinfowler.com/) | 📰 Articles | Classic software architecture and refactoring essays |
 
 ## <img src="https://img.shields.io/badge/Algorithms-FF6B6B?style=for-the-badge&logo=leetcode&logoColor=white" /> Algorithms & Data Structures
 
@@ -632,6 +725,9 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [GeeksforGeeks](https://www.geeksforgeeks.org/) | 📖 Articles | Comprehensive algorithm tutorials |
 | [Khan Academy - Algorithms](https://www.khanacademy.org/computing/computer-science/algorithms) | 🎓 Course | Introduction to algorithms |
 | [MIT OpenCourseWare - Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/) | 🎓 Course | MIT's Introduction to Algorithms |
+| [NeetCode](https://neetcode.io/) | 💻 Practice | Curated coding interview roadmap and explanations |
+| [Exercism](https://exercism.org/) | 💻 Practice | Mentored coding practice across dozens of languages |
+| [Advent of Code](https://adventofcode.com/) | 🏆 Challenge | Seasonal algorithmic puzzles loved by developers |
 
 ## <img src="https://img.shields.io/badge/CMS-F03E2F?style=for-the-badge&logo=sanity&logoColor=white" /> Content Management
 
@@ -658,6 +754,8 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [Interviewing.io](https://interviewing.io/) | 🎤 Practice | Anonymous technical interview practice |
 | [levels.fyi](https://www.levels.fyi/) | 📊 Reference | Compensation and leveling data across companies |
 | [Pramp](https://www.pramp.com/) | 🎤 Practice | Peer-to-peer interview practice |
+| [Front End Interview Handbook](https://github.com/yangshun/front-end-interview-handbook) | 📋 Guide | HTML/CSS/JS frontend interview questions and answers |
+| [Excalidraw](https://excalidraw.com/) | 🛠️ Tool | Sketch system-design diagrams during interviews |
 
 ---
 
@@ -705,6 +803,78 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 | [Cloudflare Workers Docs](https://developers.cloudflare.com/workers/) | ☁️ Platform | Serverless compute on Cloudflare's edge |
 | [GitHub Student Developer Pack](https://education.github.com/pack) | 🎁 Bundle | Free developer tools and credits for students |
 
+
+<a id="hands-on-projects"></a>
+## <img src="https://img.shields.io/badge/Projects-FF5722?style=for-the-badge&logo=github&logoColor=white" /> Hands-on Projects
+
+Build these (or variations) into a portfolio. Prefer shipping and deploying over endless tutorials.
+
+| Project | Stack focus | Goal |
+|---------|-------------|------|
+| Personal portfolio site | HTML/CSS/JS or Astro | Ship your first public site + custom domain |
+| CRUD notes / todo API | Node + Postgres / Prisma | Auth, validation, REST or tRPC |
+| Fullstack blog / CMS | Next.js + Sanity/Markdown | Content modeling + SSG/SSR |
+| Realtime chat | WebSockets / Supabase | Presence, rooms, optimistic UI |
+| Expense tracker | React + charts + API | Forms, aggregation, dashboards |
+| DevOps starter | Docker + GitHub Actions | CI tests + containerized deploy |
+
+| Resource | Type | Description |
+|----------|------|-------------|
+| [Project-Based Learning](https://github.com/practical-tutorials/project-based-learning) | 📋 Repository | Massive list of project-based tutorials by language |
+| [Frontend Mentor](https://www.frontendmentor.io/) | 💻 Practice | Production-like UI challenges with designs |
+| [JavaScript30](https://javascript30.com/) | 🎓 Course | 30 mini-projects in vanilla JavaScript |
+| [The Odin Project](https://www.theodinproject.com/) | 🎓 Curriculum | Curriculum built around real portfolio projects |
+| [Full Stack Open](https://fullstackopen.com/en/) | 🎓 Course | Course exercises that produce real fullstack apps |
+
+<a id="accessibility"></a>
+## <img src="https://img.shields.io/badge/a11y-005A9C?style=for-the-badge&logo=accessibility&logoColor=white" /> Accessibility
+
+| Resource | Type | Description |
+|----------|------|-------------|
+| [web.dev Learn Accessibility](https://web.dev/learn/accessibility) | 🎓 Course | Practical accessibility course by Google |
+| [The A11Y Project](https://www.a11yproject.com/) | 📋 Guide | Community-driven accessibility checklist and patterns |
+| [WAI Accessibility Intro](https://www.w3.org/WAI/fundamentals/accessibility-intro/) | 📚 Documentation | W3C introduction to web accessibility |
+| [ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/) | 📋 Patterns | Correct keyboard/semantics patterns for widgets |
+| [MDN Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility) | 📖 Tutorial | MDN accessibility learning modules |
+
+<a id="browser--networking"></a>
+## <img src="https://img.shields.io/badge/HTTP-8A2BE2?style=for-the-badge&logo=firefox&logoColor=white" /> Browser & Networking
+
+| Resource | Type | Description |
+|----------|------|-------------|
+| [MDN HTTP Overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview) | 📚 Documentation | How HTTP actually works for web developers |
+| [MDN Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) | 📖 Tutorial | Modern browser networking with fetch |
+| [web.dev Learn PWA](https://web.dev/learn/pwa) | 🎓 Course | Progressive Web Apps fundamentals |
+| [Can I Use](https://www.caniuse.com/) | 🛠️ Tool | Feature support across browsers |
+| [Chrome DevTools](https://developer.chrome.com/docs/devtools) | 📚 Documentation | Network, performance, and debugging panels |
+
+<a id="design-patterns"></a>
+## <img src="https://img.shields.io/badge/Patterns-222222?style=for-the-badge&logo=pattern&logoColor=white" /> Design Patterns
+
+| Resource | Type | Description |
+|----------|------|-------------|
+| [Patterns.dev](https://www.patterns.dev/) | 📚 Guide | Rendering, performance, and design patterns for the web |
+| [Refactoring Guru](https://refactoring.guru/design-patterns) | 📚 Guide | Visual design-pattern encyclopedia |
+| [Martin Fowler](https://martinfowler.com/) | 📰 Articles | Architecture, refactoring, and enterprise patterns |
+
+<a id="communities--open-source"></a>
+## <img src="https://img.shields.io/badge/Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" /> Communities & Open Source
+
+| Resource | Type | Description |
+|----------|------|-------------|
+| [DEV Community](https://dev.to/) | 👥 Community | Friendly developer blogging and discussion |
+| [daily.dev](https://app.daily.dev/) | 📰 Feed | Developer news feed to stay current |
+| [Good First Issue](https://goodfirstissue.dev/) | 💻 Practice | Find beginner-friendly open-source issues |
+| [Up For Grabs](https://up-for-grabs.net/) | 💻 Practice | Curated tasks for new contributors |
+| [First Timers Only](https://www.firsttimersonly.com/) | 📋 Guide | How to make your first open-source contribution |
+| [Fireship](https://www.youtube.com/@Fireship) | 🎥 YouTube | High-signal web/dev explainers |
+| [Traversy Media](https://www.youtube.com/@TraversyMedia) | 🎥 YouTube | Practical fullstack crash courses |
+| [Web Dev Simplified](https://www.youtube.com/@WebDevSimplified) | 🎥 YouTube | Clear frontend and JS concept videos |
+| [The Net Ninja](https://www.youtube.com/@NetNinja) | 🎥 YouTube | Long-form free framework courses |
+| [TkDodo's Blog](https://tkdodo.eu/blog/) | 📰 Articles | Excellent React Query / TanStack insights |
+| [Kent C. Dodds Blog](https://kentcdodds.com/blog) | 📰 Articles | Testing and React best practices |
+
+<a id="learning-paths"></a>
 ## <img src="https://img.shields.io/badge/Learning%20Paths-9B59B6?style=for-the-badge&logo=roadmap&logoColor=white" /> Learning Paths
 
 ### 🌱 Beginner Path (3-6 months)
@@ -733,16 +903,36 @@ A comprehensive collection of **FREE** resources to become a Full-Stack Develope
 2. **📐 Infrastructure as Code (Terraform)** → **📊 Observability (Prometheus/OpenTelemetry)**
 3. **☁️ Pick a cloud (AWS/GCP/Azure)** → **🛡️ Security + cost-aware architecture**
 
+### ✅ First Week Checklist (absolute beginners)
+- [ ] Complete [MDN Learn HTML/CSS basics](https://developer.mozilla.org/en-US/docs/Learn_web_development) intro modules
+- [ ] Finish 3 games: [Flexbox Froggy](https://flexboxfroggy.com/), [Grid Garden](https://cssgridgarden.com/), and a [Frontend Mentor](https://www.frontendmentor.io/) newbie challenge
+- [ ] Read the first chapters of [JavaScript.info](https://javascript.info/)
+- [ ] Create a GitHub account and finish [GitHub Skills](https://skills.github.com/)
+- [ ] Deploy a static page to [Vercel](https://vercel.com/docs) or [Netlify](https://docs.netlify.com/)
+
 ## 🤝 Contributing
 Feel free to contribute by adding more free resources! Please ensure all resources are:
-- ✅ Completely free to access
-- ✅ High quality and up-to-date
-- ✅ Publicly available
+- ✅ Completely free to access (free tier / audit / public docs OK)
+- ✅ High quality and reasonably up-to-date
+- ✅ Publicly available without mandatory signup walls when possible
 - ✅ Relevant to full-stack development
+- ✅ Linked with a short description and type label matching the tables above
+
+**PR tip:** Prefer fixing broken links or adding a *high-signal* resource over adding many low-quality ones.
 
 ---
 
-⭐ **Star this repository** if you find it helpful, and share it with fellow developers on their journey to becoming full-stack developers!
+<p align="center">
+  <a href="#start-here">⭐ Start Here</a> ·
+  <a href="#table-of-contents">📚 Contents</a> ·
+  <a href="#learning-paths">🎯 Paths</a> ·
+  <a href="#hands-on-projects">🛠️ Projects</a>
+</p>
+
+<p align="center">
+  <strong>If this roadmap helped you, star the repo and share it with another learner.</strong><br/>
+  Built with ❤️ for the next generation of fullstack developers.
+</p>
 
 ## 📄 License
 This compilation is open source and available under the [MIT License](LICENSE).

@@ -33,7 +33,7 @@
 
 A curated collection of **100% FREE** courses, docs, tutorials, and projects to go from zero → full-stack developer (with DevOps skills). Built for self-taught learners, career switchers, and anyone who wants a clear path without paywalls.
 
-> **Last refreshed:** September 2026 — links verified, outdated destinations updated, and new learning resources added. Nothing previously listed was removed.
+> **Last refreshed:** September 10, 2026 (recurring maintenance) — links re-verified; auth, tooling, and practice resources expanded. Nothing previously listed was removed.
 
 ### Why this repo?
 | | |
@@ -130,6 +130,7 @@ flowchart LR
 
 ### 🛡️ **Security & Performance**
 - [<img src="https://img.shields.io/badge/OWASP-000000?style=flat&logo=owasp&logoColor=white" /> Security](#-security)
+- [<img src="https://img.shields.io/badge/Auth-4B5563?style=flat&logo=auth0&logoColor=white" /> Auth & Identity](#auth--identity)
 - [<img src="https://img.shields.io/badge/Lighthouse-F44B21?style=flat&logo=lighthouse&logoColor=white" /> Performance & Optimization](#-performance--optimization)
 
 ### ☁️ **DevOps & Cloud Infrastructure**
@@ -205,6 +206,10 @@ flowchart LR
 | [Josh Comeau — Interactive Flexbox](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/) | 🎮 Interactive | Exceptional visual Flexbox deep dive |
 | [Frontend Mentor](https://www.frontendmentor.io/) | 💻 Practice | Real UI challenges to build your portfolio |
 | [Can I Use](https://www.caniuse.com/) | 🛠️ Tool | Browser support tables for web features |
+| [CSS Tricks — Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) | 📋 Guide | The classic Flexbox reference |
+| [CSS Tricks — Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) | 📋 Guide | The classic CSS Grid reference |
+| [Every Layout](https://every-layout.dev/) | 📖 Guide | Compositional layout patterns that scale |
+| [web.dev Learn Design](https://web.dev/learn/design) | 🎓 Course | Responsive and intrinsic design course |
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="20" height="20" /> JavaScript
 | Resource | Type | Description |
@@ -217,6 +222,7 @@ flowchart LR
 | [JavaScript30](https://javascript30.com/) | 🎓 Course | 30 free vanilla JS build projects by Wes Bos |
 | [web.dev Learn JavaScript](https://web.dev/learn/javascript) | 🎓 Course | Modern JavaScript course by Google |
 | [Patterns.dev](https://www.patterns.dev/) | 📚 Guide | Modern web app design and rendering patterns |
+| [33 JS Concepts](https://github.com/leonardomso/33-js-concepts) | 📋 Guide | 33 concepts every JavaScript developer should know |
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="20" height="20" /> TypeScript
 | Resource | Type | Description |
@@ -241,9 +247,18 @@ flowchart LR
 | [Tailwind CSS Docs](https://tailwindcss.com/docs) | 📚 Documentation | Utility-first CSS framework |
 | [shadcn/ui Docs](https://ui.shadcn.com/docs) | 📚 Documentation | Accessible component patterns built with Radix and Tailwind |
 | [TanStack Query](https://tanstack.com/query/latest/docs/framework/react/overview) | 📚 Documentation | Powerful async state management for React |
+| [TanStack Table](https://tanstack.com/table/latest) | 📚 Documentation | Headless UI for building powerful tables |
 | [htmx Docs](https://htmx.org/docs/) | 📚 Documentation | High-power HTML attributes for modern UIs |
 | [Full Stack Open](https://fullstackopen.com/en/) | 🎓 Course | Deep React/Node/GraphQL fullstack curriculum |
 | [30 Days of React](https://github.com/Asabeneh/30-Days-Of-React) | 🏆 Challenge | Hands-on React practice over 30 days |
+| [React Router](https://reactrouter.com/home) | 📚 Documentation | Declarative routing for React apps |
+| [TanStack Router](https://tanstack.com/router/latest/docs/framework/react/overview) | 📚 Documentation | Type-safe routing for React |
+| [Zustand](https://zustand.docs.pmnd.rs/) | 📚 Documentation | Small, fast React state management |
+| [Radix Primitives](https://www.radix-ui.com/primitives/docs/overview/introduction) | 📚 Documentation | Unstyled accessible UI primitives |
+| [Storybook](https://storybook.js.org/docs) | 📚 Documentation | Build and test UI components in isolation |
+| [Motion](https://motion.dev/docs) | 📚 Documentation | Modern animation library for the web |
+| [Remix Docs](https://remix.run/docs/en/main) | 📚 Documentation | Full-stack web framework focused on web standards |
+| [Bulletproof React](https://github.com/alan2207/bulletproof-react) | 📋 Guide | Opinionated React architecture best practices |
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg" width="20" height="20" /> UI/UX Design
 | Resource | Type | Description |
@@ -254,6 +269,12 @@ flowchart LR
 | [Adobe XD Community](https://community.adobe.com/t5/adobe-xd/ct-p/ct-adobe-xd) | 👥 Community | Adobe XD community hub (product discontinued; useful for existing projects) |
 | [The Design of Everyday Things](https://www.basicbooks.com/titles/don-norman/the-design-of-everyday-things/9780465050659/) | 📚 Book | Essential UX design principles |
 | [Can't Unsee](https://cantunsee.space/) | 🎮 Game | Design eye training game |
+| [Heroicons](https://heroicons.com/) | 🎨 Icons | Beautiful hand-crafted SVG icons by the Tailwind team |
+| [Lucide](https://lucide.dev/guide/packages/lucide-react) | 🎨 Icons | Consistent open-source icon set |
+| [Phosphor Icons](https://phosphoricons.com/) | 🎨 Icons | Flexible icon family for interfaces |
+| [unDraw](https://undraw.co/) | 🎨 Illustrations | Free open-source illustrations for projects |
+| [Coolors](https://coolors.co/) | 🛠️ Tool | Fast color palette generator |
+| [Happy Hues](https://www.happyhues.co/) | 🎨 Inspiration | Curated color palette moods for UI |
 
 ## <img src="https://img.shields.io/badge/Backend-339933?style=for-the-badge&logo=node.js&logoColor=white" /> Backend Development
 
@@ -315,6 +336,8 @@ flowchart LR
 |----------|------|-------------|
 | [W3Schools SQL Tutorial](https://www.w3schools.com/sql/) | 📖 Tutorial | Complete SQL tutorial with examples |
 | [PostgreSQL Tutorial](https://www.postgresqltutorial.com/) | 📖 Tutorial | Comprehensive PostgreSQL guide |
+| [Official PostgreSQL Tutorial](https://www.postgresql.org/docs/current/tutorial.html) | 📖 Tutorial | Official Postgres getting-started tutorial |
+| [Neon PostgreSQL Tutorial](https://neon.com/postgresql/tutorial) | 📖 Tutorial | Practical Postgres guide from Neon |
 | [MySQL Tutorial](https://dev.mysql.com/doc/mysql-tutorial-excerpt/8.0/en/) | 📖 Tutorial | Official MySQL tutorial |
 | [SQLBolt](https://sqlbolt.com/) | 🎮 Interactive Lessons | Learn SQL with interactive exercises |
 | [TSQL Tutorial](https://www.tsql.info/) | 📖 Tutorial | Complete T-SQL (Transact-SQL) tutorial |
@@ -328,6 +351,7 @@ flowchart LR
 |----------|------|-------------|
 | [MongoDB Learn](https://learn.mongodb.com/) | 🎓 Courses | Free MongoDB courses and certification |
 | [Redis Get Started](https://redis.io/docs/latest/get-started/) | 📖 Tutorial | Official Redis getting started guide |
+| [Redis University](https://redis.io/university/) | 🎓 Courses | Free Redis courses and certifications |
 | [Firebase Documentation](https://firebase.google.com/docs) | 📚 Documentation | Complete Firebase/Firestore guide |
 | [Supabase Docs](https://supabase.com/docs) | 📚 Documentation | Open-source Firebase alternative with Postgres |
 | [Prisma Docs](https://www.prisma.io/docs) | 📚 Documentation | Next-generation Node.js / TypeScript ORM |
@@ -377,6 +401,15 @@ flowchart LR
 | [tRPC Docs](https://trpc.io/docs) | 📚 Documentation | End-to-end typesafe APIs for TypeScript |
 | [Zod Documentation](https://zod.dev/) | 📚 Documentation | TypeScript-first schema validation |
 | [Learn OpenAPI](https://learn.openapis.org/) | 📖 Guide | Official OpenAPI learning resources |
+| [Apollo Client Get Started](https://www.apollographql.com/docs/react/get-started) | 📖 Tutorial | GraphQL client setup for React |
+| [GraphQL Yoga](https://the-guild.dev/graphql/yoga-server/docs) | 📚 Documentation | Soft, batteries-included GraphQL server |
+| [Socket.IO Docs](https://socket.io/docs/v4/) | 📚 Documentation | Real-time bidirectional event-based communication |
+| [MDN WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API) | 📚 Documentation | Browser WebSocket API reference |
+| [JSONPlaceholder](https://jsonplaceholder.typicode.com/) | 🛠️ Tool | Free fake REST API for practice |
+| [DummyJSON](https://dummyjson.com/) | 🛠️ Tool | Fake REST/GraphQL-like data for prototyping |
+| [httpbin](https://httpbin.org/) | 🛠️ Tool | HTTP request & response testing service |
+| [ReqRes](https://reqres.in/) | 🛠️ Tool | Hosted REST-API ready to respond to your AJAX requests |
+| [webhook.site](https://webhook.site/) | 🛠️ Tool | Inspect and debug webhooks live |
 
 ## <img src="https://img.shields.io/badge/Security-000000?style=for-the-badge&logo=owasp&logoColor=white" /> Security
 
@@ -389,6 +422,22 @@ flowchart LR
 | [SANS Reading Room](https://www.sans.org/white-papers/) | 📰 Articles | Security research papers and guides |
 | [Mozilla Web Security Guidelines](https://infosec.mozilla.org/guidelines/web_security) | 📋 Guidelines | Web security best practices |
 | [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/) | 📋 Cheat Sheets | Practical secure-coding cheat sheets |
+
+
+<a id="auth--identity"></a>
+## <img src="https://img.shields.io/badge/Auth-4B5563?style=for-the-badge&logo=auth0&logoColor=white" /> Auth & Identity
+
+| Resource | Type | Description |
+|----------|------|-------------|
+| [Auth.js](https://authjs.dev/getting-started) | 📚 Documentation | Authentication for the Web (NextAuth successor) |
+| [Better Auth](https://www.better-auth.com/docs/introduction) | 📚 Documentation | Framework-agnostic TypeScript auth framework |
+| [OAuth 2.0](https://oauth.net/2/) | 📋 Specification | Core OAuth 2.0 resources and guides |
+| [JWT Introduction](https://jwt.io/introduction) | 📖 Guide | How JSON Web Tokens work |
+| [Passkeys](https://passkeys.dev/) | 📚 Documentation | Modern passwordless authentication |
+| [WebAuthn Guide](https://webauthn.guide/) | 📖 Guide | Practical introduction to WebAuthn |
+| [OWASP Node.js Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Nodejs_Security_Cheat_Sheet.html) | 📋 Cheat Sheet | Secure Node.js application practices |
+| [MDN Web Security](https://developer.mozilla.org/en-US/docs/Web/Security) | 📚 Documentation | Browser security topics for web developers |
+| [web.dev Security Headers](https://web.dev/articles/security-headers) | 📖 Article | Important HTTP security headers explained |
 
 ## <img src="https://img.shields.io/badge/Performance-F44B21?style=for-the-badge&logo=lighthouse&logoColor=white" /> Performance & Optimization
 
@@ -564,7 +613,7 @@ flowchart LR
 |----------|------|-------------|
 | [Gymnasium](https://gymnasium.farama.org/) | 📚 Documentation | RL environment toolkit (OpenAI Gym successor) |
 | [Stable Baselines3](https://stable-baselines3.readthedocs.io/) | 📚 Documentation | RL algorithms implementation |
-| [CS285 Berkeley Deep RL](http://rail.eecs.berkeley.edu/deeprlcourse/) | 🎓 Course | Deep Reinforcement Learning |
+| [CS285 Berkeley Deep RL](https://github.com/berkeleydeeprlcourse/homework) | 🎓 Course | Berkeley Deep RL course materials and homework |
 | [Spinning Up in Deep RL](https://spinningup.openai.com/) | 📚 Guide | OpenAI's deep RL educational resource |
 
 ### 🔧 MLOps & Production
@@ -625,7 +674,7 @@ flowchart LR
 | Resource | Type | Description |
 |----------|------|-------------|
 | [OverAPI.com](https://overapi.com/) | 📋 Cheat Sheets | Collecting all cheat sheets for developers |
-| [DevHints.io](https://devhints.io/) | 📋 Cheat Sheets | TL;DR for developer documentation |
+| [DevHints / rstacruz cheatsheets](https://github.com/rstacruz/cheatsheets) | 📋 Cheat Sheets | TL;DR developer cheatsheets (DevHints source) |
 | [QuickRef.ME](https://quickref.me/) | 📋 Cheat Sheets | Beautiful cheatsheets for popular technologies |
 | [Awesome Cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets) | 📋 Repository | Useful cheatsheets for popular technologies |
 | [HTML5 Cheat Sheet](https://websitesetup.org/html5-cheat-sheet/) | 📋 Visual Guide | HTML5 tags and attributes reference |
@@ -656,7 +705,8 @@ flowchart LR
 | Resource | Type | Description |
 |----------|------|-------------|
 | [Frontend Framework Comparison](https://www.npmtrends.com/react-vs-vue-vs-angular) | 📊 Chart | React vs Vue vs Angular statistics |
-| [Database Comparison Guide](https://db-engines.com/en/ranking) | 📊 Rankings | Database popularity and feature comparison |
+| [DB-Engines Ranking](https://db-engines.com/en/ranking) | 📊 Rankings | Database popularity ranking (may be blocked in some networks) |
+| [DBDB.io](https://dbdb.io/) | 📊 Catalog | Encyclopedia of database management systems |
 | [Cloud Provider Comparison](https://comparecloud.in/) | 📊 Comparison | AWS vs Azure vs GCP feature comparison |
 | [Programming Language Performance](https://benchmarksgame-team.pages.debian.net/benchmarksgame/) | 📊 Benchmarks | Language performance comparisons |
 | [Flexbox Froggy](https://flexboxfroggy.com/) | 🎮 Interactive | Visual CSS Flexbox learning game |
@@ -770,6 +820,11 @@ flowchart LR
 | [pnpm Docs](https://pnpm.io/) | 📚 Documentation | Fast, disk-efficient JavaScript package manager |
 | [npm Docs](https://docs.npmjs.com/) | 📚 Documentation | Official npm package manager documentation |
 | [Chrome DevTools](https://developer.chrome.com/docs/devtools) | 📚 Documentation | Debug and profile web apps in Chrome |
+| [ESLint Getting Started](https://eslint.org/docs/latest/use/getting-started) | 📚 Documentation | Find and fix problems in JavaScript code |
+| [Prettier Docs](https://prettier.io/docs/en/) | 📚 Documentation | Opinionated code formatter |
+| [Biome Getting Started](https://biomejs.dev/guides/getting-started/) | 📚 Documentation | Fast formatter and linter (Rust-based) |
+| [Turborepo Handbook](https://turbo.build/repo/docs/handbook) | 📚 Documentation | High-performance monorepo build system |
+| [Nx Intro](https://nx.dev/getting-started/intro) | 📚 Documentation | Smart monorepos and AI-assisted tooling |
 
 ## <img src="https://img.shields.io/badge/CS%20Fundamentals-6B73FF?style=for-the-badge&logo=computer&logoColor=white" /> Computer Science Fundamentals
 
@@ -836,6 +891,7 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [WAI Accessibility Intro](https://www.w3.org/WAI/fundamentals/accessibility-intro/) | 📚 Documentation | W3C introduction to web accessibility |
 | [ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/) | 📋 Patterns | Correct keyboard/semantics patterns for widgets |
 | [MDN Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility) | 📖 Tutorial | MDN accessibility learning modules |
+| [Accessibility Developer Guide](https://www.accessibility-developer-guide.com/) | 📖 Guide | Practical a11y patterns for everyday UI work |
 
 <a id="browser--networking"></a>
 ## <img src="https://img.shields.io/badge/HTTP-8A2BE2?style=for-the-badge&logo=firefox&logoColor=white" /> Browser & Networking
@@ -847,6 +903,10 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [web.dev Learn PWA](https://web.dev/learn/pwa) | 🎓 Course | Progressive Web Apps fundamentals |
 | [Can I Use](https://www.caniuse.com/) | 🛠️ Tool | Feature support across browsers |
 | [Chrome DevTools](https://developer.chrome.com/docs/devtools) | 📚 Documentation | Network, performance, and debugging panels |
+| [Three.js Manual](https://threejs.org/manual/) | 📖 Tutorial | 3D graphics on the web with Three.js |
+| [WebGPU Fundamentals](https://webgpufundamentals.org/) | 📖 Tutorial | Next-generation GPU graphics/compute on the web |
+| [MDN Forms](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms) | 📖 Tutorial | Accessible, robust web forms |
+| [web.dev Learn Forms](https://web.dev/learn/forms) | 🎓 Course | Modern form UX and validation |
 
 <a id="design-patterns"></a>
 ## <img src="https://img.shields.io/badge/Patterns-222222?style=for-the-badge&logo=pattern&logoColor=white" /> Design Patterns
@@ -902,6 +962,17 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 1. **🐳 Docker** → **☸️ Kubernetes fundamentals** → **📦 CI/CD (GitHub Actions)**
 2. **📐 Infrastructure as Code (Terraform)** → **📊 Observability (Prometheus/OpenTelemetry)**
 3. **☁️ Pick a cloud (AWS/GCP/Azure)** → **🛡️ Security + cost-aware architecture**
+
+### 🎓 freeCodeCamp Certifications (free)
+| Certification | Link |
+|---------------|------|
+| Responsive Web Design | [Start](https://www.freecodecamp.org/learn/responsive-web-design/) |
+| JavaScript Algorithms and Data Structures | [Start](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/) |
+| Front End Development Libraries | [Start](https://www.freecodecamp.org/learn/front-end-development-libraries/) |
+| Back End Development and APIs | [Start](https://www.freecodecamp.org/learn/back-end-development-and-apis/) |
+| Relational Database | [Start](https://www.freecodecamp.org/learn/relational-database/) |
+| Quality Assurance | [Start](https://www.freecodecamp.org/learn/quality-assurance/) |
+| Information Security | [Start](https://www.freecodecamp.org/learn/information-security/) |
 
 ### ✅ First Week Checklist (absolute beginners)
 - [ ] Complete [MDN Learn HTML/CSS basics](https://developer.mozilla.org/en-US/docs/Learn_web_development) intro modules

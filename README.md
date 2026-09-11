@@ -33,7 +33,7 @@
 
 A curated collection of **100% FREE** courses, docs, tutorials, and projects to go from zero → full-stack developer (with DevOps skills). Built for self-taught learners, career switchers, and anyone who wants a clear path without paywalls.
 
-> **Last refreshed:** September 11, 2026 (midday maintenance) — link repairs + accessibility tooling, CSS engines, ORMs, email/dev utilities, and web-platform status resources. Nothing previously listed was removed.
+> **Last refreshed:** September 11, 2026 (afternoon maintenance) — link audit + client state/data-sync, quality engineering, and local/cloud developer environment tooling. Nothing previously listed was removed.
 
 ### Why this repo?
 | | |
@@ -269,6 +269,18 @@ flowchart LR
 | [Tailwind CSS Docs](https://tailwindcss.com/docs) | 📚 Documentation | Utility-first CSS framework |
 | [shadcn/ui Docs](https://ui.shadcn.com/docs) | 📚 Documentation | Accessible component patterns built with Radix and Tailwind |
 | [TanStack Query](https://tanstack.com/query/latest/docs/framework/react/overview) | 📚 Documentation | Powerful async state management for React |
+| [Zustand](https://github.com/pmndrs/zustand) | 📚 Documentation | Small, fast React state management |
+| [Jotai](https://jotai.org/) | 📚 Documentation | Primitive and flexible React state management |
+| [Redux Toolkit](https://redux-toolkit.js.org/introduction/getting-started) | 📚 Documentation | Official, opinionated Redux toolset |
+| [MobX](https://mobx.js.org/README.html) | 📚 Documentation | Simple, scalable state management |
+| [XState](https://stately.ai/docs/xstate) | 📚 Documentation | State machines and statecharts for modern apps |
+| [Valtio](https://valtio.pmnd.rs/) | 📚 Documentation | Proxy-based mutable state for React and vanilla |
+| [Immer](https://immerjs.github.io/immer/) | 📚 Documentation | Work with immutable state as if it were mutable |
+| [Preact Signals](https://preactjs.com/guide/v10/signals/) | 📚 Documentation | Fine-grained reactive state with Signals |
+| [Nano Stores](https://github.com/nanostores/nanostores) | 📚 Documentation | Tiny state managers for React/Vue/Svelte/Solid |
+| [SWR](https://swr.vercel.app/) | 📚 Documentation | React Hooks for data fetching |
+| [urql](https://commerce.nearform.com/open-source/urql/docs/) | 📚 Documentation | Highly customizable GraphQL client |
+| [Relay](https://relay.dev/docs/) | 📚 Documentation | GraphQL client for React from Meta |
 | [TanStack Table](https://tanstack.com/table/latest) | 📚 Documentation | Headless UI for building powerful tables |
 | [htmx Docs](https://htmx.org/docs/) | 📚 Documentation | High-power HTML attributes for modern UIs |
 | [Full Stack Open](https://fullstackopen.com/en/) | 🎓 Course | Deep React/Node/GraphQL fullstack curriculum |
@@ -789,7 +801,7 @@ flowchart LR
 | [JavaScript Rising Stars](https://risingstars.js.org/) | 📊 Annual Report | JavaScript ecosystem trends |
 | [State of JS Survey](https://stateofjs.com/) | 📊 Annual Report | JavaScript framework and tool popularity |
 | [State of CSS Survey](https://stateofcss.com/) | 📊 Annual Report | CSS features and framework usage |
-| [NPM Trends](https://npmtrends.com/) | 📊 Tool | Compare package download statistics |
+| [Best of JS](https://bestofjs.org/) | 📊 Trends | Track popular open-source projects in the web ecosystem |
 
 ### 🎨 Cheat Sheets & Quick References
 | Resource | Type | Description |
@@ -1039,6 +1051,15 @@ flowchart LR
 | [direnv](https://direnv.net/) | 🛠️ Tool | Per-directory environment variables |
 | [Colima](https://colima.io/) | 🛠️ Tool | Container runtimes on macOS with minimal setup |
 | [OrbStack](https://orbstack.dev/) | 🛠️ Tool | Fast, light Docker Desktop alternative for Mac |
+| [Dev Containers](https://containers.dev/) | 📚 Documentation | Consistent, reproducible development environments |
+| [GitHub Codespaces](https://docs.github.com/en/codespaces) | 📚 Documentation | Cloud development environments on GitHub |
+| [Gitpod Docs](https://www.gitpod.io/docs) | 📚 Documentation | Automated cloud developer environments |
+| [Devbox](https://www.jetify.com/devbox/docs) | 📚 Documentation | Isolated, reproducible shell environments |
+| [SDKMAN!](https://sdkman.io/) | 🛠️ Tool | Manage multiple SDKs (Java, Kotlin, Gradle, etc.) |
+| [Tilt Docs](https://docs.tilt.dev/) | 📚 Documentation | Better Kubernetes inner-loop development |
+| [Skaffold Docs](https://skaffold.dev/docs/) | 📚 Documentation | Continuous development for Kubernetes applications |
+| [Telepresence](https://www.telepresence.io/docs/latest/) | 📚 Documentation | Code and test Kubernetes services locally |
+| [mirrord](https://mirrord.dev/docs/) | 📚 Documentation | Run local processes in the context of a cloud env |
 | [Hoppscotch](https://hoppscotch.io/) | 🛠️ Tool | Open-source API development ecosystem |
 | [Bruno](https://docs.usebruno.com/introduction) | 📚 Documentation | Git-friendly, offline-first API client |
 | [HTTPie](https://httpie.io/docs/cli) | 📚 Documentation | Human-friendly HTTP client for the terminal |

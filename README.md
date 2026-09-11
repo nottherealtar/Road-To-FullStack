@@ -33,7 +33,7 @@
 
 A curated collection of **100% FREE** courses, docs, tutorials, and projects to go from zero → full-stack developer (with DevOps skills). Built for self-taught learners, career switchers, and anyone who wants a clear path without paywalls.
 
-> **Last refreshed:** September 10, 2026 (evening maintenance) — link audit + edge/WASM, SQLite, jobs, GitOps, load testing, and observability additions. Nothing previously listed was removed.
+> **Last refreshed:** September 11, 2026 (overnight maintenance) — link audit + modern web APIs, architecture, authz, realtime, data tooling, and release engineering additions. Nothing previously listed was removed.
 
 ### Why this repo?
 | | |
@@ -116,6 +116,7 @@ flowchart LR
   - [<img src="https://img.shields.io/badge/Ruby-CC342D?style=flat&logo=ruby&logoColor=white" /> Ruby](#-ruby)
   - [<img src="https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white" /> Rust](#-rust)
   - [<img src="https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white" /> Go](#-go)
+  - [<img src="https://img.shields.io/badge/Elixir-4B275F?style=flat&logo=elixir&logoColor=white" /> Elixir](#-elixir--phoenix)
 
 ### 🗄️ **Database Technologies**
 - **Relational Databases**
@@ -184,6 +185,9 @@ flowchart LR
 - [<img src="https://img.shields.io/badge/HTTP-8A2BE2?style=flat" /> Browser & Networking](#browser--networking)
 - [<img src="https://img.shields.io/badge/Patterns-222222?style=flat" /> Design Patterns](#design-patterns)
 - [<img src="https://img.shields.io/badge/Community-5865F2?style=flat&logo=discord&logoColor=white" /> Communities & Open Source](#communities--open-source)
+
+### 📡 **Realtime & Media**
+- [<img src="https://img.shields.io/badge/Realtime-0EA5E9?style=flat&logo=webrtc&logoColor=white" /> Realtime & Media](#realtime--media)
 
 ### ⏱️ **Jobs & Reliability**
 - [<img src="https://img.shields.io/badge/Jobs-111827?style=flat&logo=redis&logoColor=white" /> Background Jobs & Queues](#background-jobs--queues)
@@ -345,6 +349,13 @@ flowchart LR
 | [Effective Go](https://golang.org/doc/effective_go.html) | 📋 Guide | Tips for writing clear Go code |
 | [Go Web Examples](https://gowebexamples.com/) | 📖 Examples | Web development examples in Go |
 
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" width="20" height="20" /> Elixir & Phoenix
+| Resource | Type | Description |
+|----------|------|-------------|
+| [Elixir Getting Started](https://elixir-lang.org/getting-started/introduction.html) | 📖 Tutorial | Official Elixir language introduction |
+| [Phoenix Overview](https://hexdocs.pm/phoenix/overview.html) | 📚 Documentation | Productive web framework for Elixir |
+| [Phoenix Framework](https://www.phoenixframework.org/) | 🌐 Website | Guides and ecosystem for Phoenix |
+
 ## <img src="https://img.shields.io/badge/Database-336791?style=for-the-badge&logo=postgresql&logoColor=white" /> Databases
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="20" height="20" /> SQL Databases
@@ -410,6 +421,10 @@ flowchart LR
 | [Elasticsearch Getting Started](https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html) | 📚 Documentation | Search and analytics engine basics |
 | [Meilisearch Docs](https://www.meilisearch.com/docs/learn/getting_started/installation) | 📚 Documentation | Fast, easy open-source search |
 | [Typesense Guide](https://typesense.org/docs/guide/) | 📚 Documentation | Typo-tolerant open-source search engine |
+| [DuckDB Docs](https://duckdb.org/docs/) | 📚 Documentation | In-process analytical SQL database |
+| [ClickHouse Docs](https://clickhouse.com/docs) | 📚 Documentation | Fast open-source OLAP database |
+| [dbt Docs](https://docs.getdbt.com/docs/introduction) | 📚 Documentation | Analytics engineering / SQL transformations |
+| [Metabase Docs](https://www.metabase.com/docs/latest/) | 📚 Documentation | Open-source business intelligence |
 
 ## <img src="https://img.shields.io/badge/APIs-02569B?style=for-the-badge&logo=rest&logoColor=white" /> APIs & Integration
 
@@ -435,6 +450,10 @@ flowchart LR
 | [ReqRes](https://reqres.in/) | 🛠️ Tool | Hosted REST-API ready to respond to your AJAX requests |
 | [webhook.site](https://webhook.site/) | 🛠️ Tool | Inspect and debug webhooks live |
 | [MDN CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS) | 📚 Documentation | Cross-Origin Resource Sharing explained |
+| [gRPC Introduction](https://grpc.io/docs/what-is-grpc/introduction/) | 📚 Documentation | High-performance RPC framework |
+| [Protocol Buffers](https://protobuf.dev/) | 📚 Documentation | Language-neutral data serialization |
+| [AsyncAPI Docs](https://www.asyncapi.com/docs) | 📚 Documentation | Spec for event-driven APIs |
+| [NATS Docs](https://docs.nats.io/) | 📚 Documentation | Lightweight cloud-native messaging |
 
 ## <img src="https://img.shields.io/badge/Security-000000?style=for-the-badge&logo=owasp&logoColor=white" /> Security
 
@@ -466,6 +485,8 @@ flowchart LR
 | [Clerk Docs](https://clerk.com/docs) | 📚 Documentation | Auth/user management platform with generous free tier docs |
 | [Supabase Auth](https://supabase.com/docs/guides/auth) | 📚 Documentation | Open-source auth with social providers and RLS |
 | [Lucia](https://lucia-auth.com/) | 📚 Documentation | Learning resource for implementing sessions/auth |
+| [Keycloak Docs](https://www.keycloak.org/documentation) | 📚 Documentation | Open-source identity and access management |
+| [Open Policy Agent](https://www.openpolicyagent.org/docs/latest/) | 📚 Documentation | Policy-as-code for authorization decisions |
 
 ## <img src="https://img.shields.io/badge/Performance-F44B21?style=for-the-badge&logo=lighthouse&logoColor=white" /> Performance & Optimization
 
@@ -778,6 +799,15 @@ flowchart LR
 | [Conventional Commits](https://www.conventionalcommits.org/) | 📋 Spec | Standard for clear, automated-friendly commit messages |
 | [Semantic Versioning](https://semver.org/) | 📋 Spec | How to version releases properly |
 | [Keep a Changelog](https://keepachangelog.com/) | 📋 Guide | Write changelogs humans and tools can trust |
+| [Conventional Commits](https://www.conventionalcommits.org/) | 📋 Spec | Structured commit messages for automation |
+| [Changesets](https://github.com/changesets/changesets) | 🛠️ Tool | Versioning and changelog workflow for monorepos |
+| [semantic-release](https://semantic-release.gitbook.io/semantic-release/) | 🛠️ Tool | Fully automated version management and package publishing |
+| [EditorConfig](https://editorconfig.org/) | 🛠️ Tool | Maintain consistent coding styles across editors |
+| [Dependabot docs](https://docs.github.com/en/code-security/dependabot) | 📚 Documentation | Automated dependency updates on GitHub |
+| [Renovate Docs](https://docs.renovatebot.com/) | 📚 Documentation | Automated dependency updates across platforms |
+| [OSV](https://osv.dev/) | 🛠️ Tool | Open source vulnerability database and API |
+| [Semgrep Docs](https://semgrep.dev/docs/) | 📚 Documentation | Static analysis for finding bugs and vulnerabilities |
+| [CodeQL Docs](https://codeql.github.com/docs/) | 📚 Documentation | Semantic code analysis engine from GitHub |
 
 ## <img src="https://img.shields.io/badge/Testing-C21325?style=for-the-badge&logo=jest&logoColor=white" /> Testing
 
@@ -803,6 +833,9 @@ flowchart LR
 | [Capacitor Docs](https://capacitorjs.com/docs) | 📚 Documentation | Native runtime for web apps on iOS/Android |
 | [Tauri](https://tauri.app/start/) | 📚 Documentation | Build tiny, secure desktop apps with web frontends |
 | [Electron Docs](https://www.electronjs.org/docs/latest/) | 📚 Documentation | Cross-platform desktop apps with Chromium + Node |
+| [SwiftUI Tutorials](https://developer.apple.com/tutorials/swiftui) | 🎓 Tutorials | Build native Apple apps with SwiftUI |
+| [Jetpack Compose Course](https://developer.android.com/courses/android-basics-compose/course) | 🎓 Course | Modern Android UI with Compose |
+| [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html) | 📚 Documentation | Share code across Android, iOS, and more |
 
 ## <img src="https://img.shields.io/badge/Web3-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white" /> Web3 & Blockchain
 
@@ -977,6 +1010,12 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [WebGPU Fundamentals](https://webgpufundamentals.org/) | 📖 Tutorial | Next-generation GPU graphics/compute on the web |
 | [MDN Forms](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms) | 📖 Tutorial | Accessible, robust web forms |
 | [web.dev Learn Forms](https://web.dev/learn/forms) | 🎓 Course | Modern form UX and validation |
+| [Workbox](https://developer.chrome.com/docs/workbox) | 📚 Documentation | Service worker libraries for offline-ready PWAs |
+| [IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API) | 📚 Documentation | Client-side structured storage |
+| [Dexie.js](https://dexie.org/docs/) | 📚 Documentation | Friendly wrapper around IndexedDB |
+| [File System Access / OPFS](https://developer.mozilla.org/en-US/docs/Web/API/File_System_API) | 📚 Documentation | Local and origin-private file access |
+| [Trusted Types](https://web.dev/articles/trusted-types) | 📖 Guide | DOM XSS mitigation with Trusted Types |
+| [Lighthouse CI](https://github.com/GoogleChrome/lighthouse-ci) | 🛠️ Tool | Automate Lighthouse checks in CI |
 
 <a id="design-patterns"></a>
 ## <img src="https://img.shields.io/badge/Patterns-222222?style=for-the-badge&logo=pattern&logoColor=white" /> Design Patterns
@@ -986,6 +1025,10 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [Patterns.dev](https://www.patterns.dev/) | 📚 Guide | Rendering, performance, and design patterns for the web |
 | [Refactoring Guru](https://refactoring.guru/design-patterns) | 📚 Guide | Visual design-pattern encyclopedia |
 | [Martin Fowler](https://martinfowler.com/) | 📰 Articles | Architecture, refactoring, and enterprise patterns |
+| [C4 Model](https://c4model.com/) | 📋 Guide | Hierarchical software architecture diagrams |
+| [Architecture Decision Records](https://adr.github.io/) | 📋 Guide | Capture important architecture decisions |
+| [Domain-Driven Design](https://martinfowler.com/bliki/DomainDrivenDesign.html) | 📰 Article | Fowler's overview of DDD |
+| [The Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) | 📰 Article | Uncle Bob's Clean Architecture essay |
 
 <a id="communities--open-source"></a>
 ## <img src="https://img.shields.io/badge/Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" /> Communities & Open Source
@@ -1004,8 +1047,22 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [TkDodo's Blog](https://tkdodo.eu/blog/) | 📰 Articles | Excellent React Query / TanStack insights |
 | [Kent C. Dodds Blog](https://kentcdodds.com/blog) | 📰 Articles | Testing and React best practices |
 | [Awesome Lists](https://github.com/sindresorhus/awesome) | 📋 Repository | Curated lists of awesome resources across topics |
+| [Slack API](https://api.slack.com/start) | 📚 Documentation | Build Slack apps and workflow integrations |
+| [Discord Developer Docs](https://discord.com/developers/docs/intro) | 📚 Documentation | Bots and apps for Discord |
+| [Notion API](https://developers.notion.com/docs/getting-started) | 📚 Documentation | Read and write Notion workspaces programmatically |
 
 
+
+
+<a id="realtime--media"></a>
+## <img src="https://img.shields.io/badge/Realtime-0EA5E9?style=for-the-badge&logo=webrtc&logoColor=white" /> Realtime & Media
+
+| Resource | Type | Description |
+|----------|------|-------------|
+| [WebRTC Overview](https://webrtc.org/getting-started/overview) | 📚 Documentation | Peer-to-peer audio, video, and data |
+| [LiveKit Docs](https://docs.livekit.io/home/) | 📚 Documentation | Open-source WebRTC application platform |
+| [Leaflet](https://leafletjs.com/reference.html) | 📚 Documentation | Lightweight open-source map library |
+| [Sharp](https://sharp.pixelplumbing.com/) | 📚 Documentation | High-performance Node.js image processing |
 
 <a id="background-jobs--queues"></a>
 ## <img src="https://img.shields.io/badge/Jobs-111827?style=for-the-badge&logo=redis&logoColor=white" /> Background Jobs & Queues
@@ -1015,6 +1072,7 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [BullMQ Docs](https://docs.bullmq.io/) | 📚 Documentation | Redis-based Node.js job queues |
 | [Inngest Docs](https://www.inngest.com/docs) | 📚 Documentation | Event-driven background jobs and workflows |
 | [Trigger.dev Docs](https://trigger.dev/docs) | 📚 Documentation | Background jobs for TypeScript apps |
+| [Temporal Docs](https://docs.temporal.io/) | 📚 Documentation | Durable workflow execution platform |
 | [Azure Circuit Breaker Pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/circuit-breaker) | 📋 Pattern | Stop cascading failures in distributed systems |
 | [Azure Rate Limiting Pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/rate-limiting-pattern) | 📋 Pattern | Protect services from overload |
 

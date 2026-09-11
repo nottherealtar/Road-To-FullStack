@@ -33,7 +33,7 @@
 
 A curated collection of **100% FREE** courses, docs, tutorials, and projects to go from zero → full-stack developer (with DevOps skills). Built for self-taught learners, career switchers, and anyone who wants a clear path without paywalls.
 
-> **Last refreshed:** September 11, 2026 (overnight maintenance) — link audit + modern web APIs, architecture, authz, realtime, data tooling, and release engineering additions. Nothing previously listed was removed.
+> **Last refreshed:** September 11, 2026 (morning maintenance) — link audit + modern frameworks, BaaS, API clients, and local DevOps tooling expansions. Nothing previously listed was removed.
 
 ### Why this repo?
 | | |
@@ -270,6 +270,11 @@ flowchart LR
 | [Storybook](https://storybook.js.org/docs) | 📚 Documentation | Build and test UI components in isolation |
 | [Motion](https://motion.dev/docs) | 📚 Documentation | Modern animation library for the web |
 | [Remix Docs](https://remix.run/docs/en/main) | 📚 Documentation | Full-stack web framework focused on web standards |
+| [Nuxt Docs](https://nuxt.com/docs/getting-started/introduction) | 📚 Documentation | The Intuitive Vue Framework |
+| [SvelteKit Docs](https://kit.svelte.dev/docs/introduction) | 📚 Documentation | Full-stack Svelte application framework |
+| [Qwik Getting Started](https://qwik.dev/docs/getting-started/) | 📚 Documentation | Resumable framework for instant-loading apps |
+| [TanStack Start](https://tanstack.com/start/latest) | 📚 Documentation | Full-stack framework powered by TanStack Router |
+| [RedwoodJS Docs](https://docs.redwoodjs.com/) | 📚 Documentation | Full-stack, Jamstack-oriented React framework |
 | [Bulletproof React](https://github.com/alan2207/bulletproof-react) | 📋 Guide | Opinionated React architecture best practices |
 | [Alpine.js](https://alpinejs.dev/start-here) | 📖 Tutorial | Lightweight JavaScript framework for HTML-first UIs |
 | [Lit](https://lit.dev/docs/) | 📚 Documentation | Simple, fast web components |
@@ -302,6 +307,11 @@ flowchart LR
 | [Node.js Learn](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs) | 📚 Documentation | Official Node.js learning guides |
 | [freeCodeCamp - Back End Development and APIs](https://www.freecodecamp.org/learn/back-end-development-and-apis/) | 🎓 Course | Backend development with Node.js and Express |
 | [Express.js Guide](https://expressjs.com/en/guide/routing.html) | 📚 Documentation | Complete Express.js framework guide |
+| [Fastify Getting Started](https://fastify.dev/docs/latest/Guides/Getting-Started/) | 📚 Documentation | Fast and low-overhead Node.js web framework |
+| [NestJS Docs](https://docs.nestjs.com/) | 📚 Documentation | Progressive Node.js framework for scalable server apps |
+| [Hono Docs](https://hono.dev/docs/) | 📚 Documentation | Ultrafast web framework for the Edges |
+| [Elysia](https://elysiajs.com/quick-start.html) | 📚 Documentation | Ergonomic TypeScript framework for Bun |
+| [Nitro Guide](https://nitro.build/guide) | 📚 Documentation | Next-generation server toolkit |
 | [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices) | 📋 Guide | Comprehensive Node.js best practices |
 | [The Odin Project - NodeJS](https://www.theodinproject.com/paths/full-stack-javascript) | 🎓 Course | Full-stack JavaScript path including Node |
 | [Bun Docs](https://bun.sh/docs) | 📚 Documentation | Fast all-in-one JavaScript runtime and toolkit |
@@ -439,6 +449,11 @@ flowchart LR
 | [webhooks.fyi](https://webhooks.fyi/) | 📖 Guide | Complete guide to webhooks |
 | [tRPC Docs](https://trpc.io/docs) | 📚 Documentation | End-to-end typesafe APIs for TypeScript |
 | [Zod Documentation](https://zod.dev/) | 📚 Documentation | TypeScript-first schema validation |
+| [Valibot](https://valibot.dev/guides/introduction/) | 📚 Documentation | Modular TypeScript schema library |
+| [ArkType](https://arktype.io/docs/intro) | 📚 Documentation | TypeScript's 1:1 validator |
+| [TypeBox](https://github.com/sinclairzx81/typebox) | 📚 Documentation | JSON Schema type builder for TypeScript |
+| [oRPC](https://orpc.unnoq.com/) | 📚 Documentation | End-to-end typesafe APIs with OpenAPI support |
+| [Effect Docs](https://effect.website/docs/getting-started/introduction/) | 📚 Documentation | TypeScript library for robust, typed programs |
 | [Learn OpenAPI](https://learn.openapis.org/) | 📖 Guide | Official OpenAPI learning resources |
 | [Apollo Client Get Started](https://www.apollographql.com/docs/react/get-started) | 📖 Tutorial | GraphQL client setup for React |
 | [GraphQL Yoga](https://the-guild.dev/graphql/yoga-server/docs) | 📚 Documentation | Soft, batteries-included GraphQL server |
@@ -822,6 +837,10 @@ flowchart LR
 | [Mock Service Worker](https://mswjs.io/docs) | 📚 Documentation | API mocking by intercepting requests |
 | [React Hook Form](https://react-hook-form.com/get-started) | 📚 Documentation | Performant, flexible React forms |
 | [TanStack Form](https://tanstack.com/form/latest) | 📚 Documentation | Headless, framework-agnostic form state |
+| [Conform](https://conform.guide/) | 📚 Documentation | Progressive enhancement-friendly form validation |
+| [Embla Carousel](https://www.embla-carousel.com/) | 📚 Documentation | Lightweight carousel library with great a11y defaults |
+| [Base UI](https://base-ui.com/react/overview/quick-start) | 📚 Documentation | Unstyled accessible React components |
+| [Ark UI](https://ark-ui.com/) | 📚 Documentation | Headless component library powered by Zag.js |
 
 ## <img src="https://img.shields.io/badge/Mobile-61DAFB?style=for-the-badge&logo=react&logoColor=black" /> Mobile Development
 
@@ -883,6 +902,15 @@ flowchart LR
 | [Strapi Documentation](https://docs.strapi.io/) | 📚 Documentation | Open-source headless CMS |
 | [Ghost Publishing Platform](https://ghost.org/docs/) | 📚 Documentation | Modern publishing platform |
 | [TinaCMS](https://tina.io/docs/) | 📚 Documentation | Git-based CMS (Forestry successor) |
+| [Payload CMS](https://payloadcms.com/docs) | 📚 Documentation | Code-first TypeScript headless CMS |
+| [Directus Docs](https://docs.directus.io/) | 📚 Documentation | Open-source data platform / headless CMS |
+| [Appwrite Docs](https://appwrite.io/docs) | 📚 Documentation | Open-source backend platform for web and mobile |
+| [PocketBase](https://pocketbase.io/docs/) | 📚 Documentation | Open-source backend in a single file |
+| [Convex Docs](https://www.convex.dev/docs) | 📚 Documentation | Reactive backend-as-a-service for TypeScript |
+| [Hasura Docs](https://hasura.io/docs/latest/index/) | 📚 Documentation | Instant GraphQL/REST APIs on Postgres |
+| [PostgREST](https://docs.postgrest.org/) | 📚 Documentation | Turn Postgres into a RESTful API |
+| [ElectricSQL](https://electric-sql.com/docs/intro) | 📚 Documentation | Sync layer for local-first Postgres apps |
+| [Liveblocks Docs](https://liveblocks.io/docs) | 📚 Documentation | APIs for collaborative products |
 
 ## <img src="https://img.shields.io/badge/Interview%20Prep-00C851?style=for-the-badge&logo=target&logoColor=white" /> Career & Interview Prep
 
@@ -898,6 +926,11 @@ flowchart LR
 | [Pramp](https://www.pramp.com/) | 🎤 Practice | Peer-to-peer interview practice |
 | [Front End Interview Handbook](https://github.com/yangshun/front-end-interview-handbook) | 📋 Guide | HTML/CSS/JS frontend interview questions and answers |
 | [Excalidraw](https://excalidraw.com/) | 🛠️ Tool | Sketch system-design diagrams during interviews |
+| [tldraw](https://tldraw.dev/) | 📚 Documentation | Infinite canvas SDK for React |
+| [TipTap](https://tiptap.dev/docs) | 📚 Documentation | Headless rich-text editor framework |
+| [Lexical](https://lexical.dev/docs/intro) | 📚 Documentation | Extensible text editor framework by Meta |
+| [diagrams.net](https://www.diagrams.net/) | 🛠️ Tool | Free diagramming (draw.io) |
+| [Penpot](https://penpot.app/) | 🛠️ Tool | Open-source design and prototyping platform |
 
 ---
 
@@ -960,6 +993,22 @@ flowchart LR
 | [Plausible Docs](https://plausible.io/docs) | 📚 Documentation | Privacy-friendly web analytics |
 | [Umami Docs](https://umami.is/docs) | 📚 Documentation | Simple, self-hosted web analytics |
 | [Homebrew](https://brew.sh/) | 🛠️ Tool | Package manager for macOS (and Linux) |
+| [mise](https://mise.jdx.dev/) | 🛠️ Tool | Polyglot runtime version manager (asdf-compatible) |
+| [Volta](https://volta.sh/) | 🛠️ Tool | Hassle-free JavaScript tool manager |
+| [fnm](https://github.com/Schniz/fnm) | 🛠️ Tool | Fast Node.js version manager |
+| [uv](https://docs.astral.sh/uv/) | 🛠️ Tool | Extremely fast Python package/project manager |
+| [Poetry](https://python-poetry.org/docs/) | 📚 Documentation | Python dependency management and packaging |
+| [Just](https://github.com/casey/just) | 🛠️ Tool | Handy command runner (Makefile alternative) |
+| [Task](https://taskfile.dev/) | 📚 Documentation | Task runner / build tool using YAML |
+| [direnv](https://direnv.net/) | 🛠️ Tool | Per-directory environment variables |
+| [Colima](https://colima.io/) | 🛠️ Tool | Container runtimes on macOS with minimal setup |
+| [OrbStack](https://orbstack.dev/) | 🛠️ Tool | Fast, light Docker Desktop alternative for Mac |
+| [Hoppscotch](https://hoppscotch.io/) | 🛠️ Tool | Open-source API development ecosystem |
+| [Bruno](https://docs.usebruno.com/introduction) | 📚 Documentation | Git-friendly, offline-first API client |
+| [HTTPie](https://httpie.io/docs/cli) | 📚 Documentation | Human-friendly HTTP client for the terminal |
+| [Testcontainers](https://www.testcontainers.org/) | 📚 Documentation | Throwaway Docker containers for integration tests |
+| [LocalStack Docs](https://docs.localstack.cloud/) | 📚 Documentation | Local AWS cloud stack for development |
+| [Pact Docs](https://docs.pact.io/) | 📚 Documentation | Contract testing for microservices |
 
 
 <a id="hands-on-projects"></a>

@@ -33,7 +33,7 @@
 
 A curated collection of **100% FREE** courses, docs, tutorials, and projects to go from zero → full-stack developer (with DevOps skills). Built for self-taught learners, career switchers, and anyone who wants a clear path without paywalls.
 
-> **Last refreshed:** September 11, 2026 (afternoon maintenance) — link audit + client state/data-sync, quality engineering, and local/cloud developer environment tooling. Nothing previously listed was removed.
+> **Last refreshed:** September 11, 2026 (evening maintenance) — link audit + bundlers, modern CSS/web platform APIs, vector search, and local/agentic AI tooling. Nothing previously listed was removed.
 
 ### Why this repo?
 | | |
@@ -225,6 +225,16 @@ flowchart LR
 | [PostCSS](https://postcss.org/) | 📚 Documentation | Transform CSS with JavaScript plugins |
 | [Lightning CSS](https://lightningcss.dev/) | 📚 Documentation | Extremely fast CSS parser, transformer, and minifier |
 | [Open Props](https://open-props.style/) | 📚 Documentation | Supercharged CSS variables |
+| [CSS Nesting](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting) | 📚 Documentation | Native nested style rules in CSS |
+| [Cascade layers (@layer)](https://developer.mozilla.org/en-US/docs/Web/CSS/@layer) | 📚 Documentation | Explicit cascade control for large stylesheets |
+| [:has() selector](https://developer.mozilla.org/en-US/docs/Web/CSS/:has) | 📚 Documentation | Parent/relational selectors in CSS |
+| [oklch()](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/oklch) | 📚 Documentation | Perceptually uniform CSS color functions |
+| [CSS Anchor Positioning](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_anchor_positioning) | 📚 Documentation | Position elements relative to anchor elements |
+| [View Transitions API](https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API) | 📚 Documentation | Animated transitions between DOM states/pages |
+| [Navigation API](https://developer.mozilla.org/en-US/docs/Web/API/Navigation_API) | 📚 Documentation | Modern API for app navigations |
+| [Speculation Rules API](https://developer.mozilla.org/en-US/docs/Web/API/Speculation_Rules_API) | 📚 Documentation | Declarative prefetch/prerender for faster navigations |
+| [103 Early Hints](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/103) | 📚 Documentation | Warm connections/caches before the final response |
+| [modulepreload](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes/rel/modulepreload) | 📚 Documentation | Preload module scripts and their dependencies |
 | [UnoCSS](https://unocss.dev/) | 📚 Documentation | Instant atomic CSS engine |
 | [Panda CSS](https://panda-css.com/docs/overview/getting-started) | 📚 Documentation | CSS-in-JS with build-time extraction |
 | [Vanilla Extract](https://vanilla-extract.style/) | 📚 Documentation | Zero-runtime stylesheets in TypeScript |
@@ -266,6 +276,13 @@ flowchart LR
 | [Next.js Learn](https://nextjs.org/learn) | 🎓 Course | Complete Next.js course by Vercel |
 | [Astro Docs](https://docs.astro.build/) | 📚 Documentation | Content-focused web framework with islands architecture |
 | [Vite Guide](https://vite.dev/guide/) | 📖 Guide | Next-generation frontend build tool |
+| [Rolldown](https://rolldown.rs/) | 📚 Documentation | Rust-based JavaScript bundler (Vite's future bundler) |
+| [Rspack](https://rspack.dev/guide/start/introduction) | 📚 Documentation | Fast Rust-based bundler compatible with the Webpack ecosystem |
+| [esbuild](https://esbuild.github.io/) | 📚 Documentation | Extremely fast JavaScript bundler and minifier |
+| [SWC](https://swc.rs/docs/getting-started) | 📚 Documentation | Super-fast TypeScript/JavaScript compiler |
+| [Webpack Concepts](https://webpack.js.org/concepts/) | 📚 Documentation | Module bundler concepts still widely used in production |
+| [Module Federation](https://module-federation.io/) | 📚 Documentation | Share code between independently deployed apps |
+| [Import maps (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/script/type/importmap) | 📚 Documentation | Control browser module resolution without a bundler |
 | [Tailwind CSS Docs](https://tailwindcss.com/docs) | 📚 Documentation | Utility-first CSS framework |
 | [shadcn/ui Docs](https://ui.shadcn.com/docs) | 📚 Documentation | Accessible component patterns built with Radix and Tailwind |
 | [TanStack Query](https://tanstack.com/query/latest/docs/framework/react/overview) | 📚 Documentation | Powerful async state management for React |
@@ -460,6 +477,15 @@ flowchart LR
 | [RabbitMQ Tutorials](https://www.rabbitmq.com/tutorials) | 📖 Tutorials | Hands-on messaging tutorials |
 | [Elasticsearch Getting Started](https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html) | 📚 Documentation | Search and analytics engine basics |
 | [Meilisearch Docs](https://www.meilisearch.com/docs/learn/getting_started/installation) | 📚 Documentation | Fast, easy open-source search |
+| [Typesense Docs](https://typesense.org/docs/) | 📚 Documentation | Typo-tolerant open-source search engine |
+| [OpenSearch Docs](https://opensearch.org/docs/latest/) | 📚 Documentation | Community-driven Elasticsearch fork |
+| [pgvector](https://github.com/pgvector/pgvector) | 📚 Documentation | Vector similarity search for Postgres |
+| [Qdrant Docs](https://qdrant.tech/documentation/) | 📚 Documentation | High-performance vector database |
+| [Weaviate Docs](https://weaviate.io/developers/weaviate) | 📚 Documentation | Open-source vector database |
+| [Chroma Docs](https://docs.trychroma.com/docs/overview/introduction) | 📚 Documentation | AI-native embedding database |
+| [Timescale Docs](https://docs.timescale.com/) | 📚 Documentation | Postgres for time-series and analytics |
+| [CockroachDB Docs](https://www.cockroachlabs.com/docs/) | 📚 Documentation | Distributed SQL database |
+| [Cloudflare D1](https://developers.cloudflare.com/d1/) | 📚 Documentation | Serverless SQL database on Cloudflare |
 | [Typesense Guide](https://typesense.org/docs/guide/) | 📚 Documentation | Typo-tolerant open-source search engine |
 | [DuckDB Docs](https://duckdb.org/docs/) | 📚 Documentation | In-process analytical SQL database |
 | [ClickHouse Docs](https://clickhouse.com/docs) | 📚 Documentation | Fast open-source OLAP database |
@@ -708,6 +734,19 @@ flowchart LR
 | [Hugging Face Transformers](https://huggingface.co/docs/transformers/index) | 📚 Documentation | State-of-the-art NLP models |
 | [OpenAI API Documentation](https://platform.openai.com/docs) | 📚 Documentation | GPT and other AI model APIs |
 | [LangChain Documentation](https://docs.langchain.com/oss/python/langchain/overview) | 📚 Documentation | Build applications with LLMs (LangChain) |
+| [LangGraph](https://langchain-ai.github.io/langgraph/) | 📚 Documentation | Build stateful, multi-actor AI agent workflows |
+| [LlamaIndex Docs](https://docs.llamaindex.ai/en/stable/) | 📚 Documentation | Framework for LLM-powered data agents and RAG |
+| [Haystack](https://docs.haystack.deepset.ai/docs/intro) | 📚 Documentation | LLM orchestration framework for production NLP |
+| [Ollama](https://ollama.com/) | 🛠️ Tool | Run open LLMs locally with a simple CLI/API |
+| [llama.cpp](https://github.com/ggerganov/llama.cpp) | 📚 Documentation | Efficient LLM inference in C/C++ |
+| [vLLM Docs](https://docs.vllm.ai/) | 📚 Documentation | High-throughput LLM serving engine |
+| [Langfuse Docs](https://langfuse.com/docs) | 📚 Documentation | Open-source LLM observability and analytics |
+| [OpenRouter Docs](https://openrouter.ai/docs) | 📚 Documentation | Unified API across many LLM providers |
+| [Gemini API Docs](https://ai.google.dev/gemini-api/docs) | 📚 Documentation | Google Gemini models for developers |
+| [Anthropic Docs](https://docs.anthropic.com/) | 📚 Documentation | Claude API documentation |
+| [Mistral Docs](https://docs.mistral.ai/) | 📚 Documentation | Mistral AI platform and model APIs |
+| [Mastra Docs](https://mastra.ai/en/docs) | 📚 Documentation | TypeScript framework for AI agents and workflows |
+| [CrewAI Docs](https://docs.crewai.com/) | 📚 Documentation | Framework for orchestrating role-playing AI agents |
 | [Gradio Documentation](https://gradio.app/docs/) | 📚 Documentation | Build ML web apps quickly |
 | [Streamlit Documentation](https://docs.streamlit.io/) | 📚 Documentation | Build data apps in Python |
 | [MLflow Documentation](https://mlflow.org/docs/latest/index.html) | 📚 Documentation | ML lifecycle management |
@@ -1138,6 +1177,12 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [Chrome DevTools](https://developer.chrome.com/docs/devtools) | 📚 Documentation | Network, performance, and debugging panels |
 | [Three.js Manual](https://threejs.org/manual/) | 📖 Tutorial | 3D graphics on the web with Three.js |
 | [WebGPU Fundamentals](https://webgpufundamentals.org/) | 📖 Tutorial | Next-generation GPU graphics/compute on the web |
+| [WebGPU API (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API) | 📚 Documentation | Modern GPU access for graphics and compute |
+| [WebTransport (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/WebTransport) | 📚 Documentation | Low-latency client-server messaging over HTTP/3 |
+| [Web Crypto API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API) | 📚 Documentation | Cryptography primitives in the browser |
+| [Push API](https://developer.mozilla.org/en-US/docs/Web/API/Push_API) | 📚 Documentation | Push notifications from a server to a web app |
+| [FedCM API](https://developer.mozilla.org/en-US/docs/Web/API/FedCM_API) | 📚 Documentation | Privacy-preserving federated identity on the web |
+| [Chrome FedCM guide](https://developer.chrome.com/docs/privacy-sandbox/fedcm/) | 📖 Guide | Practical Federated Credential Management overview |
 | [MDN Forms](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms) | 📖 Tutorial | Accessible, robust web forms |
 | [web.dev Learn Forms](https://web.dev/learn/forms) | 🎓 Course | Modern form UX and validation |
 | [Workbox](https://developer.chrome.com/docs/workbox) | 📚 Documentation | Service worker libraries for offline-ready PWAs |

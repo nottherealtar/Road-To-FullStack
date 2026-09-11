@@ -33,7 +33,7 @@
 
 A curated collection of **100% FREE** courses, docs, tutorials, and projects to go from zero → full-stack developer (with DevOps skills). Built for self-taught learners, career switchers, and anyone who wants a clear path without paywalls.
 
-> **Last refreshed:** September 11, 2026 (morning maintenance) — link audit + modern frameworks, BaaS, API clients, and local DevOps tooling expansions. Nothing previously listed was removed.
+> **Last refreshed:** September 11, 2026 (midday maintenance) — link repairs + accessibility tooling, CSS engines, ORMs, email/dev utilities, and web-platform status resources. Nothing previously listed was removed.
 
 ### Why this repo?
 | | |
@@ -221,6 +221,16 @@ flowchart LR
 | [CSS Tricks — Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) | 📋 Guide | The classic Flexbox reference |
 | [CSS Tricks — Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) | 📋 Guide | The classic CSS Grid reference |
 | [Every Layout](https://every-layout.dev/) | 📖 Guide | Compositional layout patterns that scale |
+| [Sass Guide](https://sass-lang.com/guide/) | 📖 Guide | CSS with variables, nesting, and mixins |
+| [PostCSS](https://postcss.org/) | 📚 Documentation | Transform CSS with JavaScript plugins |
+| [Lightning CSS](https://lightningcss.dev/) | 📚 Documentation | Extremely fast CSS parser, transformer, and minifier |
+| [Open Props](https://open-props.style/) | 📚 Documentation | Supercharged CSS variables |
+| [UnoCSS](https://unocss.dev/) | 📚 Documentation | Instant atomic CSS engine |
+| [Panda CSS](https://panda-css.com/docs/overview/getting-started) | 📚 Documentation | CSS-in-JS with build-time extraction |
+| [Vanilla Extract](https://vanilla-extract.style/) | 📚 Documentation | Zero-runtime stylesheets in TypeScript |
+| [StyleX](https://stylexjs.com/docs/learn/) | 📚 Documentation | Scalable styling system from Meta |
+| [CSS Modules](https://github.com/css-modules/css-modules) | 📚 Documentation | Locally scoped CSS by default |
+| [Radix Themes](https://www.radix-ui.com/themes/docs/overview/getting-started) | 📚 Documentation | Pre-styled accessible components built on Radix |
 | [web.dev Learn Design](https://web.dev/learn/design) | 🎓 Course | Responsive and intrinsic design course |
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="20" height="20" /> JavaScript
@@ -383,7 +393,7 @@ flowchart LR
 | [TSQL Tutorial](https://www.tsql.info/) | 📖 Tutorial | Complete T-SQL (Transact-SQL) tutorial |
 | [Microsoft SQL Server Learning](https://learn.microsoft.com/en-us/sql/sql-server/) | 📚 Documentation | Official SQL Server documentation |
 | [T-SQL Language Reference](https://learn.microsoft.com/en-us/sql/t-sql/language-reference) | 📚 Documentation | Official Transact-SQL language reference |
-| [SQLServerTutorial.net](https://www.sqlservertutorial.net/) | 📖 Tutorial | SQL Server and T-SQL tutorials |
+| [T-SQL Tutorial (Microsoft Learn)](https://learn.microsoft.com/en-us/sql/t-sql/tutorial-writing-transact-sql-statements) | 📖 Tutorial | Official Transact-SQL writing tutorial |
 | [TSQL Code Snippets](https://github.com/Microsoft/sql-server-samples) | 💻 Examples | Microsoft SQL Server code samples |
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="20" height="20" /> NoSQL Databases
@@ -397,6 +407,12 @@ flowchart LR
 | [Supabase Docs](https://supabase.com/docs) | 📚 Documentation | Open-source Firebase alternative with Postgres |
 | [Prisma Docs](https://www.prisma.io/docs) | 📚 Documentation | Next-generation Node.js / TypeScript ORM |
 | [Drizzle ORM Docs](https://orm.drizzle.team/docs/overview) | 📚 Documentation | Lightweight TypeScript ORM |
+| [Kysely](https://kysely.dev/) | 📚 Documentation | Type-safe SQL query builder for TypeScript |
+| [TypeORM](https://typeorm.io/) | 📚 Documentation | ORM for TypeScript and JavaScript |
+| [MikroORM](https://mikro-orm.io/docs) | 📚 Documentation | TypeScript ORM for Node.js based on Data Mapper |
+| [Sequelize](https://sequelize.org/docs/v6/getting-started/) | 📚 Documentation | Promise-based Node.js ORM |
+| [Knex.js](https://knexjs.org/guide/) | 📚 Documentation | SQL query builder for multiple dialects |
+| [SQLAlchemy](https://docs.sqlalchemy.org/) | 📚 Documentation | Python SQL toolkit and ORM |
 | [Neon Docs](https://neon.com/docs/introduction) | 📚 Documentation | Serverless Postgres platform |
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apache/apache-original.svg" width="20" height="20" /> Stream Processing & Real-time Databases
@@ -514,6 +530,18 @@ flowchart LR
 | [WebPageTest](https://www.webpagetest.org/) | 🛠️ Tool | Website performance testing |
 | [Critical Path CSS Generator](https://www.sitelocity.com/critical-path-css-generator) | 🛠️ Tool | Optimize CSS delivery |
 | [Web Vitals](https://web.dev/articles/vitals) | 📋 Guide | Core Web Vitals metrics every fullstack should know |
+| [Interaction to Next Paint (INP)](https://web.dev/articles/inp) | 📖 Guide | Responsiveness metric guidance |
+| [Baseline](https://developer.mozilla.org/en-US/docs/Glossary/Baseline/Compatibility) | 📋 Reference | What web features are ready to use broadly |
+| [Web Platform Status](https://webstatus.dev/) | 🛠️ Tool | Track web feature availability across browsers |
+| [Fontsource](https://fontsource.org/) | 🛠️ Tool | Self-host open-source fonts via npm |
+| [Modern Font Stacks](https://modernfontstacks.com/) | 📋 Reference | System font stacks for fast, polished typography |
+| [Squoosh](https://squoosh.app/) | 🛠️ Tool | Compress and convert images in the browser |
+| [imgproxy](https://imgproxy.net/) | 📚 Documentation | Fast, secure standalone image processing server |
+| [MinIO Docs](https://min.io/docs/minio/linux/index.html) | 📚 Documentation | High-performance S3-compatible object storage |
+| [Cloudflare R2](https://developers.cloudflare.com/r2/) | 📚 Documentation | Object storage without egress fees |
+| [NocoDB](https://nocodb.com/) | 🛠️ Tool | Open-source Airtable alternative on your database |
+| [Baserow](https://baserow.io/) | 🛠️ Tool | Open-source no-code database and application builder |
+| [Cal.com Docs](https://cal.com/docs) | 📚 Documentation | Open-source scheduling infrastructure |
 | [Chrome Performance DevTools](https://developer.chrome.com/docs/devtools/performance) | 📖 Tutorial | Profile runtime performance in the browser |
 
 ## <img src="https://img.shields.io/badge/DevOps-2496ED?style=for-the-badge&logo=docker&logoColor=white" /> DevOps & Cloud
@@ -551,7 +579,7 @@ flowchart LR
 | [AWS Training and Certification](https://aws.amazon.com/training/) | 🎓 Courses | Free AWS digital training courses |
 | [AWS Well-Architected](https://aws.amazon.com/architecture/well-architected/) | 📋 Framework | AWS architecture best practices |
 | [AWS Workshops](https://workshops.aws/) | 🧪 Workshops | Hands-on AWS learning workshops |
-| [Google Skills](https://www.skills.google/) | 🎓 Courses | Free Google Cloud and cloud skills courses |
+| [Google Cloud Training](https://cloud.google.com/learn/training) | 🎓 Courses | Free and paid Google Cloud learning resources |
 | [Google Cloud Architecture Center](https://cloud.google.com/architecture) | 📋 Guides | Cloud architecture patterns and guides |
 | [Azure Learning Paths](https://learn.microsoft.com/en-us/training/azure/) | 🎓 Courses | Microsoft Azure learning resources |
 | [Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/) | 📋 Guides | Azure architecture best practices |
@@ -578,6 +606,10 @@ flowchart LR
 | [Grafana Loki](https://grafana.com/docs/loki/latest/) | 📚 Documentation | Log aggregation inspired by Prometheus |
 | [Grafana Tempo](https://grafana.com/docs/tempo/latest/) | 📚 Documentation | Distributed tracing backend |
 | [k6 Docs](https://k6.io/docs/) | 📚 Documentation | Modern load testing for APIs and websites |
+| [SigNoz Docs](https://signoz.io/docs/) | 📚 Documentation | Open-source observability alternative to Datadog |
+| [Uptime Kuma](https://github.com/louislam/uptime-kuma) | 🛠️ Tool | Self-hosted uptime monitoring |
+| [Checkly Docs](https://www.checklyhq.com/docs/) | 📚 Documentation | API and browser synthetic monitoring |
+| [Better Stack Docs](https://betterstack.com/docs) | 📚 Documentation | Logging, uptime, and incident management |
 | [ELK Stack Tutorial](https://www.elastic.co/guide/en/elastic-stack-get-started/current/get-started-elastic-stack.html) | 📖 Tutorial | Elasticsearch, Logstash, and Kibana |
 | [Jaeger Documentation](https://www.jaegertracing.io/docs/) | 📚 Documentation | Distributed tracing system |
 | [OpenTelemetry Docs](https://opentelemetry.io/docs/) | 📚 Documentation | Vendor-neutral observability framework |
@@ -796,6 +828,10 @@ flowchart LR
 | [Frontend Framework Comparison](https://www.npmtrends.com/react-vs-vue-vs-angular) | 📊 Chart | React vs Vue vs Angular statistics |
 | [DB-Engines Ranking](https://db-engines.com/en/ranking) | 📊 Rankings | Database popularity ranking (SSL/network sensitive; see DBDB.io below) |
 | [DBDB.io](https://dbdb.io/) | 📊 Catalog | Encyclopedia of database management systems |
+| [DBeaver Docs](https://dbeaver.com/docs/) | 📚 Documentation | Universal database tool |
+| [pgAdmin Docs](https://www.pgadmin.org/docs/) | 📚 Documentation | PostgreSQL administration and development platform |
+| [Adminer](https://www.adminer.org/) | 🛠️ Tool | Lightweight single-file database management |
+| [Beekeeper Studio](https://www.beekeeperstudio.io/) | 🛠️ Tool | Modern, easy SQL editor and DB manager |
 | [Cloud Provider Comparison](https://comparecloud.in/) | 📊 Comparison | AWS vs Azure vs GCP feature comparison |
 | [Programming Language Performance](https://benchmarksgame-team.pages.debian.net/benchmarksgame/) | 📊 Benchmarks | Language performance comparisons |
 | [Flexbox Froggy](https://flexboxfroggy.com/) | 🎮 Interactive | Visual CSS Flexbox learning game |
@@ -1044,6 +1080,12 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/) | 📋 Patterns | Correct keyboard/semantics patterns for widgets |
 | [MDN Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility) | 📖 Tutorial | MDN accessibility learning modules |
 | [Accessibility Developer Guide](https://www.accessibility-developer-guide.com/) | 📖 Guide | Practical a11y patterns for everyday UI work |
+| [axe-core](https://github.com/dequelabs/axe-core) | 🛠️ Tool | Accessibility engine for automated testing |
+| [axe DevTools](https://www.deque.com/axe/devtools/) | 🛠️ Tool | Browser extension for accessibility audits |
+| [Pa11y](https://pa11y.org/) | 🛠️ Tool | Automated accessibility testing from the command line |
+| [WAVE](https://wave.webaim.org/) | 🛠️ Tool | Web accessibility evaluation tool |
+| [Inclusive Components](https://inclusive-components.design/) | 📖 Guide | Accessible component design patterns |
+| [React Aria](https://react-spectrum.adobe.com/react-aria/) | 📚 Documentation | Accessible UI primitives for React |
 
 <a id="browser--networking"></a>
 ## <img src="https://img.shields.io/badge/HTTP-8A2BE2?style=for-the-badge&logo=firefox&logoColor=white" /> Browser & Networking
@@ -1133,6 +1175,10 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [Stripe Get Started](https://docs.stripe.com/get-started) | 📚 Documentation | Accept payments and build billing flows |
 | [Stripe Development Docs](https://stripe.com/docs/development) | 📚 Documentation | APIs, testing, and integration guides |
 | [Resend Docs](https://resend.com/docs/introduction) | 📚 Documentation | Modern transactional email for developers |
+| [React Email](https://react.email/docs/introduction) | 📚 Documentation | Build and send emails using React components |
+| [MJML](https://mjml.io/) | 📚 Documentation | Responsive email markup language |
+| [Mailpit](https://github.com/axllent/mailpit) | 🛠️ Tool | Local email testing with a web UI |
+| [Can I Email](https://www.caniemail.com/) | 🛠️ Tool | Email client CSS/HTML support tables |
 | [UploadThing Docs](https://docs.uploadthing.com/) | 📚 Documentation | Type-safe file uploads for fullstack apps |
 
 <a id="seo--discoverability"></a>

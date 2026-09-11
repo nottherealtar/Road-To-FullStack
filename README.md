@@ -290,6 +290,8 @@ flowchart LR
 | [Zustand](https://zustand.docs.pmnd.rs/) | 📚 Documentation | Small, fast React state management |
 | [Radix Primitives](https://www.radix-ui.com/primitives/docs/overview/introduction) | 📚 Documentation | Unstyled accessible UI primitives |
 | [Storybook](https://storybook.js.org/docs) | 📚 Documentation | Build and test UI components in isolation |
+| [Ladle](https://ladle.dev/) | 📚 Documentation | Fast Storybook alternative powered by Vite |
+| [Histoire](https://histoire.dev/) | 📚 Documentation | Vite-native component workshop |
 | [Motion](https://motion.dev/docs) | 📚 Documentation | Modern animation library for the web |
 | [Remix Docs](https://remix.run/docs/en/main) | 📚 Documentation | Full-stack web framework focused on web standards |
 | [Nuxt Docs](https://nuxt.com/docs/getting-started/introduction) | 📚 Documentation | The Intuitive Vue Framework |
@@ -883,6 +885,11 @@ flowchart LR
 | [Playwright Docs](https://playwright.dev/docs/intro) | 📚 Documentation | Reliable end-to-end testing for modern web apps |
 | [Vitest Guide](https://vitest.dev/guide/) | 📚 Documentation | Fast Vite-native unit testing framework |
 | [Mock Service Worker](https://mswjs.io/docs) | 📚 Documentation | API mocking by intercepting requests |
+| [Faker](https://fakerjs.dev/guide/) | 📚 Documentation | Generate massive amounts of fake data |
+| [fast-check](https://fast-check.dev/) | 📚 Documentation | Property-based testing for JavaScript |
+| [Stryker Mutator](https://stryker-mutator.io/docs/) | 📚 Documentation | Mutation testing for JS/TS and more |
+| [c8](https://github.com/bcoe/c8) | 🛠️ Tool | Native V8 code coverage using Node.js |
+| [Codecov Docs](https://docs.codecov.com/) | 📚 Documentation | Coverage reporting and insights |
 | [React Hook Form](https://react-hook-form.com/get-started) | 📚 Documentation | Performant, flexible React forms |
 | [TanStack Form](https://tanstack.com/form/latest) | 📚 Documentation | Headless, framework-agnostic form state |
 | [Conform](https://conform.guide/) | 📚 Documentation | Progressive enhancement-friendly form validation |
@@ -959,6 +966,10 @@ flowchart LR
 | [PostgREST](https://docs.postgrest.org/) | 📚 Documentation | Turn Postgres into a RESTful API |
 | [ElectricSQL](https://electric-sql.com/docs/intro) | 📚 Documentation | Sync layer for local-first Postgres apps |
 | [Liveblocks Docs](https://liveblocks.io/docs) | 📚 Documentation | APIs for collaborative products |
+| [Yjs Docs](https://docs.yjs.dev/) | 📚 Documentation | CRDT framework for shared editing |
+| [Automerge](https://automerge.org/docs/hello/) | 📚 Documentation | Conflict-free replicated data types library |
+| [PartyKit Docs](https://docs.partykit.io/) | 📚 Documentation | Build realtime multiplayer apps on the edge |
+| [PowerSync Docs](https://docs.powersync.com/) | 📚 Documentation | Sync Postgres to on-device SQLite |
 
 ## <img src="https://img.shields.io/badge/Interview%20Prep-00C851?style=for-the-badge&logo=target&logoColor=white" /> Career & Interview Prep
 
@@ -996,6 +1007,13 @@ flowchart LR
 | [ESLint Getting Started](https://eslint.org/docs/latest/use/getting-started) | 📚 Documentation | Find and fix problems in JavaScript code |
 | [Prettier Docs](https://prettier.io/docs/en/) | 📚 Documentation | Opinionated code formatter |
 | [Biome Getting Started](https://biomejs.dev/guides/getting-started/) | 📚 Documentation | Fast formatter and linter (Rust-based) |
+| [Oxc](https://oxc.rs/) | 📚 Documentation | High-performance Rust-based JS/TS toolchain |
+| [dprint](https://dprint.dev/) | 📚 Documentation | Pluggable and configurable code formatting platform |
+| [Ruff](https://docs.astral.sh/ruff/) | 📚 Documentation | Extremely fast Python linter and formatter |
+| [ShellCheck](https://www.shellcheck.net/) | 🛠️ Tool | Static analysis for shell scripts |
+| [hadolint](https://github.com/hadolint/hadolint) | 🛠️ Tool | Dockerfile linter |
+| [actionlint](https://github.com/rhysd/actionlint) | 🛠️ Tool | Static checker for GitHub Actions workflows |
+| [Vale](https://vale.sh/) | 📚 Documentation | Syntax-aware prose linter for docs and blogs |
 | [Turborepo Handbook](https://turbo.build/repo/docs/handbook) | 📚 Documentation | High-performance monorepo build system |
 | [Nx Intro](https://nx.dev/getting-started/intro) | 📚 Documentation | Smart monorepos and AI-assisted tooling |
 

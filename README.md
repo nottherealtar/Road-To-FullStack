@@ -33,7 +33,7 @@
 
 A curated collection of **100% FREE** courses, docs, tutorials, and projects to go from zero → full-stack developer (with DevOps skills). Built for self-taught learners, career switchers, and anyone who wants a clear path without paywalls.
 
-> **Last refreshed:** September 11, 2026 (evening maintenance) — link audit + bundlers, modern CSS/web platform APIs, vector search, and local/agentic AI tooling. Nothing previously listed was removed.
+> **Last refreshed:** September 12, 2026 (overnight maintenance) — link repairs + Flutter/Dart, Wasm/WASI, IaC/secrets, Kubernetes ecosystem, and modern Node/JS platform resources. Nothing previously listed was removed.
 
 ### Why this repo?
 | | |
@@ -247,6 +247,8 @@ flowchart LR
 | Resource | Type | Description |
 |----------|------|-------------|
 | [JavaScript.info](https://javascript.info/) | 📖 Tutorial | Modern JavaScript tutorial from basics to advanced |
+| [Temporal (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal) | 📚 Documentation | Modern dates and times API for JavaScript |
+| [Explicit Resource Management](https://github.com/tc39/proposal-explicit-resource-management) | 📋 Proposal | `using` / `await using` for deterministic cleanup |
 | [freeCodeCamp - JavaScript Algorithms (v8)](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/) | 🎓 Course | Modern JavaScript fundamentals and algorithms |
 | [Eloquent JavaScript](https://eloquentjavascript.net/) | 📚 Book | Free online book about JavaScript programming |
 | [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS) | 📚 Book Series | Deep dive into JavaScript concepts |
@@ -323,6 +325,13 @@ flowchart LR
 | [useHooks-ts](https://usehooks-ts.com/) | 💻 Collection | TypeScript-ready React hooks |
 | [MDN WebAssembly](https://developer.mozilla.org/en-US/docs/WebAssembly) | 📚 Documentation | Run high-performance Wasm modules in the browser |
 | [WebAssembly Developer Guide](https://webassembly.org/getting-started/developers-guide/) | 📖 Guide | Official Wasm getting-started path |
+| [Bytecode Alliance](https://bytecodealliance.org/) | 🌐 Organization | Open-source Wasm runtime and standards community |
+| [Wasm Component Model](https://component-model.bytecodealliance.org/) | 📚 Documentation | Compose Wasm modules across languages |
+| [Wasmtime](https://wasmtime.dev/) | 📚 Documentation | Fast and secure WebAssembly runtime |
+| [Wasmer](https://wasmer.io/) | 📚 Documentation | Universal Wasm runtime for servers and browsers |
+| [WasmEdge](https://wasmedge.org/docs/) | 📚 Documentation | Cloud-native Wasm runtime for edge and servers |
+| [Spin](https://developer.fermyon.com/spin/v3/index) | 📚 Documentation | Developer tool for building Wasm microservices |
+| [Extism](https://extism.org/) | 📚 Documentation | Make any software programmable with Wasm plugins |
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg" width="20" height="20" /> UI/UX Design
 | Resource | Type | Description |
@@ -346,6 +355,12 @@ flowchart LR
 | Resource | Type | Description |
 |----------|------|-------------|
 | [Node.js Learn](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs) | 📚 Documentation | Official Node.js learning guides |
+| [Node.js Test Runner](https://nodejs.org/api/test.html) | 📚 Documentation | Built-in `node:test` module |
+| [Single Executable Apps](https://nodejs.org/api/single-executable-applications.html) | 📚 Documentation | Bundle Node apps into a single binary |
+| [Permission Model](https://nodejs.org/api/permissions.html) | 📚 Documentation | Restrict runtime access to FS/network/etc. |
+| [Undici](https://undici.nodejs.org/) | 📚 Documentation | Node's modern HTTP client and fetch implementation |
+| [Package exports](https://nodejs.org/api/packages.html) | 📚 Documentation | Dual ESM/CJS packages and export maps |
+| [create-t3-app](https://create.t3.gg/) | 🛠️ Tool | Scaffold a typesafe Next.js fullstack app |
 | [freeCodeCamp - Back End Development and APIs](https://www.freecodecamp.org/learn/back-end-development-and-apis/) | 🎓 Course | Backend development with Node.js and Express |
 | [Express.js Guide](https://expressjs.com/en/guide/routing.html) | 📚 Documentation | Complete Express.js framework guide |
 | [Fastify Getting Started](https://fastify.dev/docs/latest/Guides/Getting-Started/) | 📚 Documentation | Fast and low-overhead Node.js web framework |
@@ -388,6 +403,8 @@ flowchart LR
 | Resource | Type | Description |
 |----------|------|-------------|
 | [The Rust Programming Language](https://doc.rust-lang.org/book/) | 📚 Book | Official Rust book (free online) |
+| [Zig Learn](https://ziglang.org/learn/) | 📚 Documentation | Simple language for maintaining robust software |
+| [Gleam Book](https://gleam.run/book/) | 📚 Book | Type-safe language for the Erlang VM |
 | [Rust by Example](https://doc.rust-lang.org/rust-by-example/) | 📖 Examples | Learn Rust through annotated examples |
 | [Rustlings](https://github.com/rust-lang/rustlings) | 🏆 Exercises | Small exercises to get you used to Rust |
 | [Actix Web Guide](https://actix.rs/docs/) | 📖 Tutorial | Web framework for Rust |
@@ -517,7 +534,7 @@ flowchart LR
 | [MDN WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API) | 📚 Documentation | Browser WebSocket API reference |
 | [JSONPlaceholder](https://jsonplaceholder.typicode.com/) | 🛠️ Tool | Free fake REST API for practice |
 | [DummyJSON](https://dummyjson.com/) | 🛠️ Tool | Fake REST/GraphQL-like data for prototyping |
-| [httpbin](https://httpbin.org/) | 🛠️ Tool | HTTP request & response testing service |
+| [httpbingo](https://httpbingo.org/) | 🛠️ Tool | HTTP request & response testing service (httpbin-compatible) |
 | [ReqRes](https://reqres.in/) | 🛠️ Tool | Hosted REST-API ready to respond to your AJAX requests |
 | [webhook.site](https://webhook.site/) | 🛠️ Tool | Inspect and debug webhooks live |
 | [MDN CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS) | 📚 Documentation | Cross-Origin Resource Sharing explained |
@@ -603,7 +620,7 @@ flowchart LR
 | [Kubernetes the Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way) | 📖 Tutorial | Bootstrap Kubernetes the hard way on Google Cloud Platform |
 | [Killercoda Kubernetes](https://killercoda.com/course/kubernetes) | 🎮 Interactive | Hands-on Kubernetes scenarios (Katacoda successor) |
 | [CNCF Kubernetes Training](https://www.cncf.io/certification/training/) | 🎓 Training | Cloud Native Computing Foundation training resources |
-| [Kubernetes Academy](https://kube.academy/) | 🎓 Course | Free Kubernetes courses by VMware |
+| [Kubernetes Training](https://kubernetes.io/training/) | 🎓 Course | Official curated Kubernetes training resources |
 | [Play with Kubernetes](https://labs.play-with-k8s.com/) | 🧪 Interactive Lab | Hands-on Kubernetes playground |
 | [Hello Minikube](https://kubernetes.io/docs/tutorials/hello-minikube/) | 📖 Tutorial | Run a first cluster locally with Minikube |
 | [Helm Docs](https://helm.sh/docs/) | 📚 Documentation | Kubernetes package manager |
@@ -677,6 +694,21 @@ flowchart LR
 | [GitHub Actions Workflow Examples](https://github.com/actions/starter-workflows) | 💻 Templates | Pre-built GitHub Actions workflows |
 | [Ansible Getting Started](https://docs.ansible.com/ansible/latest/getting_started/index.html) | 📖 Tutorial | IT automation with Ansible |
 | [Terraform Tutorials](https://learn.hashicorp.com/terraform) | 📖 Tutorials | Infrastructure as Code with Terraform |
+| [Pulumi Docs](https://www.pulumi.com/docs/) | 📚 Documentation | Infrastructure as code using familiar languages |
+| [AWS CDK](https://docs.aws.amazon.com/cdk/v2/guide/home.html) | 📚 Documentation | Define cloud infrastructure in code |
+| [AWS SAM](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html) | 📚 Documentation | Build serverless applications on AWS |
+| [Serverless Framework](https://www.serverless.com/framework/docs) | 📚 Documentation | Develop and deploy serverless apps across clouds |
+| [SST Docs](https://sst.dev/docs) | 📚 Documentation | Build full-stack apps on your own infrastructure |
+| [Crossplane Docs](https://www.crossplane.io/docs) | 📚 Documentation | Control plane for cloud infrastructure via Kubernetes |
+| [CNCF Landscape](https://landscape.cncf.io/) | 🗺️ Map | Map of cloud-native projects and products |
+| [OpenTelemetry Demo](https://opentelemetry.io/docs/demo/) | 💻 Demo | End-to-end observability demo application |
+| [Kubernetes Gateway API](https://gateway-api.sigs.k8s.io/) | 📚 Documentation | Next-generation Kubernetes service networking |
+| [cert-manager](https://cert-manager.io/docs/) | 📚 Documentation | Automated TLS certificates for Kubernetes |
+| [External Secrets](https://external-secrets.io/) | 📚 Documentation | Sync secrets from external providers into Kubernetes |
+| [SOPS](https://github.com/getsops/sops) | 🛠️ Tool | Encrypt secrets in YAML/JSON/ENV files |
+| [Vault Docs](https://developer.hashicorp.com/vault/docs) | 📚 Documentation | Secrets management and encryption as a service |
+| [Infisical Docs](https://infisical.com/docs/documentation/getting-started/introduction) | 📚 Documentation | Open-source secrets management platform |
+| [Doppler Docs](https://docs.doppler.com/) | 📚 Documentation | Secrets management for developers and DevOps |
 | [Puppet Learning VM](https://puppet.com/try-puppet/puppet-learning-vm/) | 🧪 Interactive | Learn Puppet configuration management |
 
 ## <img src="https://img.shields.io/badge/Data%20Analytics-E97627?style=for-the-badge&logo=tableau&logoColor=white" /> Data Visualization & Analytics
@@ -942,6 +974,8 @@ flowchart LR
 |----------|------|-------------|
 | [React Native Tutorial](https://reactnative.dev/docs/tutorial) | 📖 Tutorial | Build mobile apps with React Native |
 | [Flutter Documentation](https://docs.flutter.dev/) | 📚 Documentation | Google's UI toolkit for mobile |
+| [Dart Overview](https://dart.dev/overview) | 📚 Documentation | Language powering Flutter and modern Dart apps |
+| [Flutter Get Started](https://docs.flutter.dev/get-started/install) | 📖 Tutorial | Install Flutter and create your first app |
 | [Ionic Framework](https://ionicframework.com/docs) | 📚 Documentation | Hybrid mobile app development |
 | [Capacitor Docs](https://capacitorjs.com/docs) | 📚 Documentation | Native runtime for web apps on iOS/Android |
 | [Tauri](https://tauri.app/start/) | 📚 Documentation | Build tiny, secure desktop apps with web frontends |

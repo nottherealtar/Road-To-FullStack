@@ -33,7 +33,7 @@
 
 A curated collection of **100% FREE** courses, docs, tutorials, and projects to go from zero → full-stack developer (with DevOps skills). Built for self-taught learners, career switchers, and anyone who wants a clear path without paywalls.
 
-> **Last refreshed:** September 12, 2026 (overnight maintenance) — link repairs + Flutter/Dart, Wasm/WASI, IaC/secrets, Kubernetes ecosystem, and modern Node/JS platform resources. Nothing previously listed was removed.
+> **Last refreshed:** September 12, 2026 (morning maintenance) — link audit + React 19/Next App Router, Svelte 5, docs platforms, passkeys, local-first sync, and Cloudflare AI services. Nothing previously listed was removed.
 
 ### Why this repo?
 | | |
@@ -272,11 +272,33 @@ flowchart LR
 | Resource | Type | Description |
 |----------|------|-------------|
 | [React Official Docs](https://react.dev/learn) | 📖 Tutorial | Official React learning guide (react.dev) |
+| [React 19 Blog](https://react.dev/blog/2024/12/05/react-19) | 📰 Article | What's new in React 19 |
+| [React Server Components](https://react.dev/reference/rsc/server-components) | 📚 Documentation | Components that render on the server |
+| [React Server Functions](https://react.dev/reference/rsc/server-functions) | 📚 Documentation | Call server-side functions from the client |
+| [React Compiler](https://react.dev/learn/react-compiler) | 📚 Documentation | Automatic memoization compiler for React |
 | [Vue.js Guide](https://vuejs.org/guide/) | 📚 Documentation | Complete Vue.js learning guide |
 | [Angular Tutorial](https://angular.dev/tutorials/learn-angular) | 📖 Tutorial | Official Angular framework tutorial |
 | [Svelte Tutorial](https://svelte.dev/tutorial) | 🎮 Interactive Tutorial | Learn Svelte with hands-on examples |
+| [Svelte 5 Overview](https://svelte.dev/docs/svelte/overview) | 📚 Documentation | Svelte 5 language and runes overview |
+| [Svelte $state](https://svelte.dev/docs/svelte/$state) | 📚 Documentation | Reactive state rune in Svelte 5 |
 | [Next.js Learn](https://nextjs.org/learn) | 🎓 Course | Complete Next.js course by Vercel |
+| [Next.js App Router](https://nextjs.org/docs/app) | 📚 Documentation | Modern Next.js routing, layouts, and rendering |
+| [Turbopack](https://nextjs.org/docs/app/api-reference/turbopack) | 📚 Documentation | Incremental bundler integrated with Next.js |
 | [Astro Docs](https://docs.astro.build/) | 📚 Documentation | Content-focused web framework with islands architecture |
+| [Astro Actions](https://docs.astro.build/en/guides/actions/) | 📚 Documentation | Type-safe backend functions from Astro frontends |
+| [Astro Content Collections](https://docs.astro.build/en/guides/content-collections/) | 📚 Documentation | Typed Markdown/MDX content pipelines |
+| [Starlight](https://starlight.astro.build/) | 📚 Documentation | Documentation website framework built on Astro |
+| [Fumadocs](https://fumadocs.dev/docs) | 📚 Documentation | Docs framework for Next.js |
+| [Nextra](https://nextra.site/) | 📚 Documentation | Next.js-based documentation/static site toolkit |
+| [Docusaurus](https://docusaurus.io/docs) | 📚 Documentation | Easy-to-maintain open-source documentation sites |
+| [VitePress](https://vitepress.dev/) | 📚 Documentation | Vite & Vue powered static site generator |
+| [MkDocs](https://www.mkdocs.org/) | 📚 Documentation | Project documentation with Markdown |
+| [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) | 📚 Documentation | Beautiful MkDocs theme |
+| [mdBook](https://rust-lang.github.io/mdBook/) | 📚 Documentation | Create books from Markdown (Rust tooling) |
+| [Mintlify](https://mintlify.com/docs) | 📚 Documentation | Beautiful documentation platform for developers |
+| [Scalar](https://scalar.com/) | 🛠️ Tool | Modern OpenAPI documentation and API client |
+| [Redocly Docs](https://redocly.com/docs) | 📚 Documentation | OpenAPI docs, linting, and API governance |
+| [Swagger UI](https://github.com/swagger-api/swagger-ui) | 🛠️ Tool | Interactive OpenAPI/Swagger documentation UI |
 | [Vite Guide](https://vite.dev/guide/) | 📖 Guide | Next-generation frontend build tool |
 | [Rolldown](https://rolldown.rs/) | 📚 Documentation | Rust-based JavaScript bundler (Vite's future bundler) |
 | [Rspack](https://rspack.dev/guide/start/introduction) | 📚 Documentation | Fast Rust-based bundler compatible with the Webpack ecosystem |
@@ -288,6 +310,8 @@ flowchart LR
 | [Tailwind CSS Docs](https://tailwindcss.com/docs) | 📚 Documentation | Utility-first CSS framework |
 | [shadcn/ui Docs](https://ui.shadcn.com/docs) | 📚 Documentation | Accessible component patterns built with Radix and Tailwind |
 | [TanStack Query](https://tanstack.com/query/latest/docs/framework/react/overview) | 📚 Documentation | Powerful async state management for React |
+| [TanStack Router](https://tanstack.com/router/latest) | 📚 Documentation | Type-safe routing for React and solid apps |
+| [TanStack Virtual](https://tanstack.com/virtual/latest) | 📚 Documentation | Headless UI for virtualizing large lists |
 | [Zustand](https://github.com/pmndrs/zustand) | 📚 Documentation | Small, fast React state management |
 | [Jotai](https://jotai.org/) | 📚 Documentation | Primitive and flexible React state management |
 | [Redux Toolkit](https://redux-toolkit.js.org/introduction/getting-started) | 📚 Documentation | Official, opinionated Redux toolset |
@@ -453,8 +477,13 @@ flowchart LR
 | [Redis Streams](https://redis.io/docs/latest/develop/data-types/streams/) | 📚 Documentation | Stream processing data type in Redis |
 | [Firebase Documentation](https://firebase.google.com/docs) | 📚 Documentation | Complete Firebase/Firestore guide |
 | [Supabase Docs](https://supabase.com/docs) | 📚 Documentation | Open-source Firebase alternative with Postgres |
+| [Supabase Edge Functions](https://supabase.com/docs/guides/functions) | 📚 Documentation | Deno-based serverless functions on Supabase |
+| [Supabase Realtime](https://supabase.com/docs/guides/realtime) | 📚 Documentation | Broadcast, presence, and postgres changes |
+| [Supabase Storage](https://supabase.com/docs/guides/storage) | 📚 Documentation | Object storage with access policies |
 | [Prisma Docs](https://www.prisma.io/docs) | 📚 Documentation | Next-generation Node.js / TypeScript ORM |
+| [Prisma Studio](https://www.prisma.io/docs/orm/tools/prisma-studio) | 🛠️ Tool | Visual editor for Prisma data |
 | [Drizzle ORM Docs](https://orm.drizzle.team/docs/overview) | 📚 Documentation | Lightweight TypeScript ORM |
+| [Drizzle Studio](https://orm.drizzle.team/drizzle-studio/overview) | 🛠️ Tool | Browse and edit Drizzle database data |
 | [Kysely](https://kysely.dev/) | 📚 Documentation | Type-safe SQL query builder for TypeScript |
 | [TypeORM](https://typeorm.io/) | 📚 Documentation | ORM for TypeScript and JavaScript |
 | [MikroORM](https://mikro-orm.io/docs) | 📚 Documentation | TypeScript ORM for Node.js based on Data Mapper |
@@ -571,6 +600,13 @@ flowchart LR
 | [MDN Web Security](https://developer.mozilla.org/en-US/docs/Web/Security) | 📚 Documentation | Browser security topics for web developers |
 | [web.dev Security Headers](https://web.dev/articles/security-headers) | 📖 Article | Important HTTP security headers explained |
 | [Clerk Docs](https://clerk.com/docs) | 📚 Documentation | Auth/user management platform with generous free tier docs |
+| [WorkOS Docs](https://workos.com/docs) | 📚 Documentation | Enterprise-ready auth and user management APIs |
+| [Kinde Docs](https://kinde.com/docs/) | 📚 Documentation | Modern authentication and user management |
+| [SuperTokens Docs](https://supertokens.com/docs/guides) | 📚 Documentation | Open-source user authentication |
+| [Ory Docs](https://www.ory.sh/docs/) | 📚 Documentation | Identity and access infrastructure (Kratos/Hydra/etc.) |
+| [SimpleWebAuthn](https://simplewebauthn.dev/) | 📚 Documentation | WebAuthn/passkeys helpers for Node and browsers |
+| [WebAuthn Guide](https://webauthn.guide/) | 📖 Guide | Practical introduction to WebAuthn |
+| [passkeys.dev](https://passkeys.dev/docs/) | 📚 Documentation | Implementation guidance for passkeys |
 | [Supabase Auth](https://supabase.com/docs/guides/auth) | 📚 Documentation | Open-source auth with social providers and RLS |
 | [Lucia](https://lucia-auth.com/) | 📚 Documentation | Learning resource for implementing sessions/auth |
 | [Keycloak Docs](https://www.keycloak.org/documentation) | 📚 Documentation | Open-source identity and access management |
@@ -1037,8 +1073,12 @@ flowchart LR
 | [Convex Docs](https://www.convex.dev/docs) | 📚 Documentation | Reactive backend-as-a-service for TypeScript |
 | [Hasura Docs](https://hasura.io/docs/latest/index/) | 📚 Documentation | Instant GraphQL/REST APIs on Postgres |
 | [PostgREST](https://docs.postgrest.org/) | 📚 Documentation | Turn Postgres into a RESTful API |
-| [ElectricSQL](https://electric-sql.com/docs/intro) | 📚 Documentation | Sync layer for local-first Postgres apps |
+| [ElectricSQL](https://github.com/electric-sql/electric) | 📚 Documentation | Sync layer for local-first Postgres apps |
 | [Liveblocks Docs](https://liveblocks.io/docs) | 📚 Documentation | APIs for collaborative products |
+| [TinyBase](https://tinybase.org/) | 📚 Documentation | Reactive local-first data store |
+| [RxDB](https://rxdb.info/) | 📚 Documentation | Offline-first JavaScript database |
+| [WatermelonDB](https://watermelondb.dev/docs) | 📚 Documentation | High-performance local database for React/RN |
+| [PouchDB](https://pouchdb.com/) | 📚 Documentation | Offline-first database inspired by CouchDB |
 | [Yjs Docs](https://docs.yjs.dev/) | 📚 Documentation | CRDT framework for shared editing |
 | [Automerge](https://automerge.org/docs/hello/) | 📚 Documentation | Conflict-free replicated data types library |
 | [PartyKit Docs](https://docs.partykit.io/) | 📚 Documentation | Build realtime multiplayer apps on the edge |
@@ -1122,6 +1162,11 @@ flowchart LR
 | [Railway Docs](https://docs.railway.com) | ☁️ Platform | Deploy apps, databases, and workers quickly |
 | [Fly.io Docs](https://fly.io/docs/) | ☁️ Platform | Run containers close to your users |
 | [Cloudflare Workers Docs](https://developers.cloudflare.com/workers/) | ☁️ Platform | Serverless compute on Cloudflare's edge |
+| [Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/) | 📚 Documentation | Run AI models on Cloudflare's global network |
+| [Cloudflare AI Gateway](https://developers.cloudflare.com/ai-gateway/) | 📚 Documentation | Control, cache, and observe AI traffic |
+| [Cloudflare Vectorize](https://developers.cloudflare.com/vectorize/) | 📚 Documentation | Vector database for AI applications |
+| [Cloudflare Queues](https://developers.cloudflare.com/queues/) | 📚 Documentation | Message queues for Workers |
+| [Cloudflare Workflows](https://developers.cloudflare.com/workflows/) | 📚 Documentation | Durable multi-step applications on Workers |
 | [Cloudflare Durable Objects](https://developers.cloudflare.com/durable-objects/) | 📚 Documentation | Strongly consistent stateful edge compute |
 | [Fly Machines](https://fly.io/docs/machines/overview/) | 📚 Documentation | Fast-booting VMs for fullstack workloads |
 | [Coolify Docs](https://coolify.io/docs) | 📚 Documentation | Self-host PaaS alternative (open source) |

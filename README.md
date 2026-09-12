@@ -33,7 +33,7 @@
 
 A curated collection of **100% FREE** courses, docs, tutorials, and projects to go from zero → full-stack developer (with DevOps skills). Built for self-taught learners, career switchers, and anyone who wants a clear path without paywalls.
 
-> **Last refreshed:** September 12, 2026 (evening maintenance) — full link audit; expanded scraping/browser automation, data pipelines, graph/geo DB, API gateways, security scanners, feature-flag standards, and media tooling. Nothing previously listed was removed.
+> **Last refreshed:** September 12, 2026 (late-evening maintenance) — full link audit; added PHP/Laravel, modern CSS/web-security APIs, SSGs, multi-model DBs, OpenTofu/Dagger, local browser AI, and git-hook tooling. Fixed table formatting after Traefik. Retargeted soft-failing npmtrends comparison. Nothing previously listed was removed.
 
 ### Why this repo?
 | | |
@@ -117,6 +117,7 @@ flowchart LR
   - [<img src="https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white" /> Rust](#-rust)
   - [<img src="https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white" /> Go](#-go)
   - [<img src="https://img.shields.io/badge/Elixir-4B275F?style=flat&logo=elixir&logoColor=white" /> Elixir](#-elixir--phoenix)
+  - [<img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white" /> PHP](#-php)
 
 ### 🗄️ **Database Technologies**
 - **Relational Databases**
@@ -232,6 +233,12 @@ flowchart LR
 | [:has() selector](https://developer.mozilla.org/en-US/docs/Web/CSS/:has) | 📚 Documentation | Parent/relational selectors in CSS |
 | [oklch()](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/oklch) | 📚 Documentation | Perceptually uniform CSS color functions |
 | [CSS Anchor Positioning](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_anchor_positioning) | 📚 Documentation | Position elements relative to anchor elements |
+| [CSS Container Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Container_queries) | 📚 Documentation | Style components based on their container size |
+| [Popover API](https://developer.mozilla.org/en-US/docs/Web/API/Popover_API) | 📚 Documentation | Native top-layer popovers without custom JS plumbing |
+| [Scroll-driven Animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scroll-driven_animations) | 📚 Documentation | Tie CSS animations to scroll progress |
+| [color-mix()](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/color-mix) | 📚 Documentation | Mix colors in a given color space in CSS |
+| [CSS Subgrid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Subgrid) | 📚 Documentation | Nested grids that inherit parent track sizing |
+| [Baseline (web platform)](https://web.dev/baseline) | 📋 Reference | Which web features are ready to use across browsers |
 | [View Transitions API](https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API) | 📚 Documentation | Animated transitions between DOM states/pages |
 | [Navigation API](https://developer.mozilla.org/en-US/docs/Web/API/Navigation_API) | 📚 Documentation | Modern API for app navigations |
 | [Speculation Rules API](https://developer.mozilla.org/en-US/docs/Web/API/Speculation_Rules_API) | 📚 Documentation | Declarative prefetch/prerender for faster navigations |
@@ -450,6 +457,16 @@ flowchart LR
 | [Phoenix Overview](https://hexdocs.pm/phoenix/overview.html) | 📚 Documentation | Productive web framework for Elixir |
 | [Phoenix Framework](https://www.phoenixframework.org/) | 🌐 Website | Guides and ecosystem for Phoenix |
 
+### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" width="20" height="20" /> PHP
+| Resource | Type | Description |
+|----------|------|-------------|
+| [PHP Manual](https://www.php.net/manual/en/) | 📚 Documentation | Official PHP language reference |
+| [PHP The Right Way](https://phptherightway.com/) | 📖 Guide | Modern PHP best practices |
+| [Laravel Docs](https://laravel.com/docs) | 📚 Documentation | Popular PHP web application framework |
+| [Laravel Bootcamp](https://bootcamp.laravel.com/) | 🎓 Course | Official hands-on Laravel tutorial |
+| [Symfony Docs](https://symfony.com/doc/current/index.html) | 📚 Documentation | Reusable PHP components and full-stack framework |
+| [Composer Docs](https://getcomposer.org/doc/) | 📚 Documentation | Dependency manager for PHP |
+
 ## <img src="https://img.shields.io/badge/Database-336791?style=for-the-badge&logo=postgresql&logoColor=white" /> Databases
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="20" height="20" /> SQL Databases
@@ -554,6 +571,11 @@ flowchart LR
 | [Dagster Docs](https://docs.dagster.io/) | 📚 Documentation | Data orchestration for analytics and ML |
 | [Prefect Docs](https://docs.prefect.io/) | 📚 Documentation | Modern workflow orchestration for data pipelines |
 | [Meltano Docs](https://docs.meltano.com/) | 📚 Documentation | Open-source DataOps / ELT framework |
+| [SurrealDB Docs](https://surrealdb.com/docs) | 📚 Documentation | Multi-model database (document, graph, relational) |
+| [Gel Docs](https://docs.geldata.com/) | 📚 Documentation | Next-gen graph-relational database (formerly EdgeDB) |
+| [Apache Cassandra Docs](https://cassandra.apache.org/doc/latest/) | 📚 Documentation | Highly scalable distributed NoSQL database |
+| [ScyllaDB Docs](https://docs.scylladb.com/) | 📚 Documentation | High-performance Cassandra-compatible NoSQL database |
+| [PlanetScale Docs](https://planetscale.com/docs) | 📚 Documentation | Serverless MySQL platform with branching workflows |
 
 ## <img src="https://img.shields.io/badge/APIs-02569B?style=for-the-badge&logo=rest&logoColor=white" /> APIs & Integration
 
@@ -607,6 +629,10 @@ flowchart LR
 | [SANS Reading Room](https://www.sans.org/white-papers/) | 📰 Articles | Security research papers and guides |
 | [Mozilla Web Security Guidelines](https://infosec.mozilla.org/guidelines/web_security) | 📋 Guidelines | Web security best practices |
 | [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/) | 📋 Cheat Sheets | Practical secure-coding cheat sheets |
+| [MDN Content Security Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP) | 📚 Documentation | Mitigate XSS and injection with CSP headers |
+| [MDN Subresource Integrity](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) | 📚 Documentation | Verify third-party scripts/styles are untampered |
+| [web.dev Secure Cookies](https://web.dev/articles/samesite-cookies-explained) | 📖 Article | SameSite cookies and cross-site request risks |
+| [Permissions Policy (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy) | 📚 Documentation | Control browser features available to a document |
 
 
 <a id="auth--identity"></a>
@@ -740,7 +766,6 @@ flowchart LR
 | [MDN DNS](https://developer.mozilla.org/en-US/docs/Glossary/DNS) | 📋 Reference | Domain Name System basics |
 | [MDN TLS](https://developer.mozilla.org/en-US/docs/Glossary/TLS) | 📋 Reference | Transport Layer Security basics |
 | [Traefik Quick Start](https://doc.traefik.io/traefik/getting-started/quick-start/) | 📚 Documentation | Cloud-native application proxy |
-
 | [Kong Gateway Docs](https://docs.konghq.com/gateway/latest/) | 📚 Documentation | API gateway and microservices connectivity |
 | [Envoy Proxy Docs](https://www.envoyproxy.io/docs/envoy/latest/) | 📚 Documentation | Cloud-native high-performance proxy |
 | [Linkerd Docs](https://linkerd.io/2/overview/) | 📚 Documentation | Ultralight service mesh for Kubernetes |
@@ -763,6 +788,10 @@ flowchart LR
 | [GitHub Actions Workflow Examples](https://github.com/actions/starter-workflows) | 💻 Templates | Pre-built GitHub Actions workflows |
 | [Ansible Getting Started](https://docs.ansible.com/ansible/latest/getting_started/index.html) | 📖 Tutorial | IT automation with Ansible |
 | [Terraform Tutorials](https://learn.hashicorp.com/terraform) | 📖 Tutorials | Infrastructure as Code with Terraform |
+| [OpenTofu Docs](https://opentofu.org/docs/) | 📚 Documentation | Open-source Terraform-compatible IaC tool |
+| [Dagger Docs](https://docs.dagger.io/) | 📚 Documentation | Programmable CI/CD pipelines as code |
+| [Earthly Docs](https://docs.earthly.dev/) | 📚 Documentation | Repeatable builds with Dockerfile-like syntax |
+| [Helmfile](https://helmfile.readthedocs.io/) | 📚 Documentation | Declarative spec for deploying Helm charts |
 | [Pulumi Docs](https://www.pulumi.com/docs/) | 📚 Documentation | Infrastructure as code using familiar languages |
 | [AWS CDK](https://docs.aws.amazon.com/cdk/v2/guide/home.html) | 📚 Documentation | Define cloud infrastructure in code |
 | [AWS SAM](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html) | 📚 Documentation | Build serverless applications on AWS |
@@ -848,6 +877,11 @@ flowchart LR
 | [Mistral Docs](https://docs.mistral.ai/) | 📚 Documentation | Mistral AI platform and model APIs |
 | [Mastra Docs](https://mastra.ai/en/docs) | 📚 Documentation | TypeScript framework for AI agents and workflows |
 | [CrewAI Docs](https://docs.crewai.com/) | 📚 Documentation | Framework for orchestrating role-playing AI agents |
+| [Pydantic AI](https://ai.pydantic.dev/) | 📚 Documentation | Type-safe agent framework built on Pydantic |
+| [Transformers.js](https://huggingface.co/docs/transformers.js) | 📚 Documentation | Run Hugging Face transformers in the browser |
+| [WebLLM](https://webllm.mlc.ai/) | 🛠️ Tool | High-performance in-browser LLM inference via WebGPU |
+| [WASI Preview](https://wasi.dev/) | 📚 Documentation | System interface for running Wasm outside the browser |
+| [Bytecode Alliance](https://bytecodealliance.org/) | 🌐 Website | Secure Wasm/WASI runtime ecosystem |
 | [Gradio Documentation](https://gradio.app/docs/) | 📚 Documentation | Build ML web apps quickly |
 | [Streamlit Documentation](https://docs.streamlit.io/) | 📚 Documentation | Build data apps in Python |
 | [MLflow Documentation](https://mlflow.org/docs/latest/index.html) | 📚 Documentation | ML lifecycle management |
@@ -1028,7 +1062,7 @@ flowchart LR
 ### 📱 Technology Comparison Charts
 | Resource | Type | Description |
 |----------|------|-------------|
-| [Frontend Framework Comparison](https://www.npmtrends.com/react-vs-vue-vs-angular) | 📊 Chart | React vs Vue vs Angular statistics |
+| [Frontend Framework Comparison](https://bestofjs.org/projects?tags=framework) | 📊 Chart | React vs Vue vs Angular trends (Best of JS; npmtrends often rate-limits bots) |
 | [DB-Engines Ranking](https://db-engines.com/en/ranking) | 📊 Rankings | Database popularity ranking (SSL/network sensitive; see DBDB.io below) |
 | [DBDB.io](https://dbdb.io/) | 📊 Catalog | Encyclopedia of database management systems |
 | [DBeaver Docs](https://dbeaver.com/docs/) | 📚 Documentation | Universal database tool |
@@ -1057,6 +1091,10 @@ flowchart LR
 | [Changesets](https://github.com/changesets/changesets) | 🛠️ Tool | Versioning and changelog workflow for monorepos |
 | [semantic-release](https://semantic-release.gitbook.io/semantic-release/) | 🛠️ Tool | Fully automated version management and package publishing |
 | [EditorConfig](https://editorconfig.org/) | 🛠️ Tool | Maintain consistent coding styles across editors |
+| [Lefthook](https://lefthook.dev/) | 🛠️ Tool | Fast polyglot git hooks manager |
+| [Husky](https://typicode.github.io/husky/) | 🛠️ Tool | Modern native Git hooks made easy |
+| [lint-staged](https://github.com/lint-staged/lint-staged) | 🛠️ Tool | Run linters on staged git files only |
+| [Commitlint](https://commitlint.js.org/) | 🛠️ Tool | Lint commit messages against Conventional Commits |
 | [Dependabot docs](https://docs.github.com/en/code-security/dependabot) | 📚 Documentation | Automated dependency updates on GitHub |
 | [Renovate Docs](https://docs.renovatebot.com/) | 📚 Documentation | Automated dependency updates across platforms |
 | [OSV](https://osv.dev/) | 🛠️ Tool | Open source vulnerability database and API |
@@ -1147,6 +1185,10 @@ flowchart LR
 | [Contentful University](https://www.contentful.com/developers/docs/) | 📚 Documentation | Headless CMS documentation |
 | [Strapi Documentation](https://docs.strapi.io/) | 📚 Documentation | Open-source headless CMS |
 | [Ghost Publishing Platform](https://ghost.org/docs/) | 📚 Documentation | Modern publishing platform |
+| [Hugo Docs](https://gohugo.io/documentation/) | 📚 Documentation | Extremely fast static site generator |
+| [Eleventy Docs](https://www.11ty.dev/docs/) | 📚 Documentation | Simpler static site generator (11ty) |
+| [Jekyll Docs](https://jekyllrb.com/docs/) | 📚 Documentation | Blog-aware static site generator |
+| [VitePress](https://vitepress.dev/) | 📚 Documentation | Vite & Vue powered static site generator |
 | [TinaCMS](https://tina.io/docs/) | 📚 Documentation | Git-based CMS (Forestry successor) |
 | [Payload CMS](https://payloadcms.com/docs) | 📚 Documentation | Code-first TypeScript headless CMS |
 | [Directus Docs](https://docs.directus.io/) | 📚 Documentation | Open-source data platform / headless CMS |
@@ -1172,6 +1214,7 @@ flowchart LR
 |----------|------|-------------|
 | [LeetCode](https://leetcode.com/) | 💻 Practice Platform | Algorithm and data structure problems |
 | [HackerRank](https://www.hackerrank.com/) | 💻 Practice Platform | Programming challenges and contests |
+| [freeCodeCamp Coding Interview Prep](https://www.freecodecamp.org/learn/coding-interview-prep/) | 💻 Practice | Free algorithm and interview practice challenges |
 | [Codewars](https://www.codewars.com/) | 💻 Practice Platform | Code challenges and kata |
 | [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook) | 📋 Guide | Comprehensive interview preparation guide |
 | [System Design Interview](https://github.com/checkcheckzz/system-design-interview) | 📋 Guide | System design interview questions and answers |

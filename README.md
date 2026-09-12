@@ -33,7 +33,7 @@
 
 A curated collection of **100% FREE** courses, docs, tutorials, and projects to go from zero → full-stack developer (with DevOps skills). Built for self-taught learners, career switchers, and anyone who wants a clear path without paywalls.
 
-> **Last refreshed:** September 12, 2026 (late-evening maintenance) — full link audit; added PHP/Laravel, modern CSS/web-security APIs, SSGs, multi-model DBs, OpenTofu/Dagger, local browser AI, and git-hook tooling. Fixed table formatting after Traefik. Retargeted soft-failing npmtrends comparison. Nothing previously listed was removed.
+> **Last refreshed:** September 12, 2026 (night maintenance) — full link audit; added C#/.NET, Hotwire/Inertia, supply-chain security (Cosign/Syft/Grype/Kyverno), local AI UIs (Open WebUI/Dify/Flowise), Connect RPC/CloudEvents, Expo Router/NativeWind, and low-code builders. Fixed Neo4j table break. Nothing previously listed was removed.
 
 ### Why this repo?
 | | |
@@ -118,6 +118,7 @@ flowchart LR
   - [<img src="https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white" /> Go](#-go)
   - [<img src="https://img.shields.io/badge/Elixir-4B275F?style=flat&logo=elixir&logoColor=white" /> Elixir](#-elixir--phoenix)
   - [<img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white" /> PHP](#-php)
+  - [<img src="https://img.shields.io/badge/.NET-512BD4?style=flat&logo=dotnet&logoColor=white" /> C# / .NET](#-c--net)
 
 ### 🗄️ **Database Technologies**
 - **Relational Databases**
@@ -335,6 +336,11 @@ flowchart LR
 | [Relay](https://relay.dev/docs/) | 📚 Documentation | GraphQL client for React from Meta |
 | [TanStack Table](https://tanstack.com/table/latest) | 📚 Documentation | Headless UI for building powerful tables |
 | [htmx Docs](https://htmx.org/docs/) | 📚 Documentation | High-power HTML attributes for modern UIs |
+| [Hotwire Handbook](https://hotwired.dev/) | 📚 Documentation | HTML-over-the-wire approach (Turbo + Stimulus) |
+| [Turbo Handbook](https://turbo.hotwired.dev/handbook/introduction) | 📚 Documentation | Drive pages with HTML instead of heavy SPA JS |
+| [Stimulus Handbook](https://stimulus.hotwired.dev/handbook/introduction) | 📚 Documentation | Modest JavaScript framework for the HTML you have |
+| [Inertia.js Docs](https://inertiajs.com/) | 📚 Documentation | Build SPAs using classic server-side routing |
+| [Laravel Livewire](https://livewire.laravel.com/docs) | 📚 Documentation | Dynamic interfaces powered by Laravel |
 | [Full Stack Open](https://fullstackopen.com/en/) | 🎓 Course | Deep React/Node/GraphQL fullstack curriculum |
 | [30 Days of React](https://github.com/Asabeneh/30-Days-Of-React) | 🏆 Challenge | Hands-on React practice over 30 days |
 | [React Router](https://reactrouter.com/home) | 📚 Documentation | Declarative routing for React apps |
@@ -467,6 +473,16 @@ flowchart LR
 | [Symfony Docs](https://symfony.com/doc/current/index.html) | 📚 Documentation | Reusable PHP components and full-stack framework |
 | [Composer Docs](https://getcomposer.org/doc/) | 📚 Documentation | Dependency manager for PHP |
 
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="20" height="20" /> C# / .NET
+| Resource | Type | Description |
+|----------|------|-------------|
+| [C# Documentation](https://learn.microsoft.com/en-us/dotnet/csharp/) | 📚 Documentation | Official C# language docs on Microsoft Learn |
+| [.NET Docs](https://learn.microsoft.com/en-us/dotnet/) | 📚 Documentation | Build apps with .NET across web, cloud, and desktop |
+| [ASP.NET Core Tutorials](https://learn.microsoft.com/en-us/aspnet/core/tutorials/) | 📖 Tutorials | Build web apps and APIs with ASP.NET Core |
+| [Minimal APIs overview](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis) | 📚 Documentation | Lightweight HTTP APIs in ASP.NET Core |
+| [Entity Framework Core](https://learn.microsoft.com/en-us/ef/core/) | 📚 Documentation | Modern object-database mapper for .NET |
+| [Blazor](https://learn.microsoft.com/en-us/aspnet/core/blazor/) | 📚 Documentation | Build interactive web UIs with C# |
+
 ## <img src="https://img.shields.io/badge/Database-336791?style=for-the-badge&logo=postgresql&logoColor=white" /> Databases
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="20" height="20" /> SQL Databases
@@ -480,6 +496,7 @@ flowchart LR
 | [Turso Docs](https://docs.turso.tech/introduction) | 📚 Documentation | Edge-hosted SQLite (libSQL) platform |
 | [Neon PostgreSQL Tutorial](https://neon.com/postgresql/tutorial) | 📖 Tutorial | Practical Postgres guide from Neon |
 | [MySQL Tutorial](https://dev.mysql.com/doc/mysql-tutorial-excerpt/8.0/en/) | 📖 Tutorial | Official MySQL tutorial |
+| [MySQL Getting Started](https://dev.mysql.com/doc/refman/8.4/en/tutorial.html) | 📖 Tutorial | Official MySQL reference manual tutorial (companion to excerpt) |
 | [SQLBolt](https://sqlbolt.com/) | 🎮 Interactive Lessons | Learn SQL with interactive exercises |
 | [TSQL Tutorial](https://www.tsql.info/) | 📖 Tutorial | Complete T-SQL (Transact-SQL) tutorial |
 | [Microsoft SQL Server Learning](https://learn.microsoft.com/en-us/sql/sql-server/) | 📚 Documentation | Official SQL Server documentation |
@@ -561,7 +578,6 @@ flowchart LR
 | [ClickHouse Docs](https://clickhouse.com/docs) | 📚 Documentation | Fast open-source OLAP database |
 | [dbt Docs](https://docs.getdbt.com/docs/introduction) | 📚 Documentation | Analytics engineering / SQL transformations |
 | [Metabase Docs](https://www.metabase.com/docs/latest/) | 📚 Documentation | Open-source business intelligence |
-
 | [Neo4j Graph Academy](https://graphacademy.neo4j.com/) | 🎓 Courses | Free interactive graph database courses |
 | [Neo4j Docs](https://neo4j.com/docs/) | 📚 Documentation | Official Neo4j graph database documentation |
 | [PostGIS Docs](https://postgis.net/documentation/) | 📚 Documentation | Spatial and geographic objects for PostgreSQL |
@@ -614,6 +630,9 @@ flowchart LR
 | [webhook.site](https://webhook.site/) | 🛠️ Tool | Inspect and debug webhooks live |
 | [MDN CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS) | 📚 Documentation | Cross-Origin Resource Sharing explained |
 | [gRPC Introduction](https://grpc.io/docs/what-is-grpc/introduction/) | 📚 Documentation | High-performance RPC framework |
+| [Connect RPC Docs](https://connectrpc.com/docs/introduction/) | 📚 Documentation | Protobuf RPC that works with browsers and gRPC |
+| [CloudEvents](https://cloudevents.io/) | 📋 Specification | Common event data format across services |
+| [JSON Schema](https://json-schema.org/learn/getting-started-step-by-step) | 📖 Guide | Annotate and validate JSON documents |
 | [Protocol Buffers](https://protobuf.dev/) | 📚 Documentation | Language-neutral data serialization |
 | [AsyncAPI Docs](https://www.asyncapi.com/docs) | 📚 Documentation | Spec for event-driven APIs |
 | [NATS Docs](https://docs.nats.io/) | 📚 Documentation | Lightweight cloud-native messaging |
@@ -684,6 +703,9 @@ flowchart LR
 | [Cloudflare R2](https://developers.cloudflare.com/r2/) | 📚 Documentation | Object storage without egress fees |
 | [NocoDB](https://nocodb.com/) | 🛠️ Tool | Open-source Airtable alternative on your database |
 | [Baserow](https://baserow.io/) | 🛠️ Tool | Open-source no-code database and application builder |
+| [Appsmith Docs](https://docs.appsmith.com/) | 📚 Documentation | Open-source platform for internal tools |
+| [ToolJet Docs](https://docs.tooljet.com/) | 📚 Documentation | Open-source low-code platform for building apps |
+| [Budibase Docs](https://docs.budibase.com/) | 📚 Documentation | Open-source low-code platform for business apps |
 | [Cal.com Docs](https://cal.com/docs) | 📚 Documentation | Open-source scheduling infrastructure |
 | [Chrome Performance DevTools](https://developer.chrome.com/docs/devtools/performance) | 📖 Tutorial | Profile runtime performance in the browser |
 
@@ -774,6 +796,12 @@ flowchart LR
 | [Trivy Docs](https://trivy.dev/docs/) | 📚 Documentation | Vulnerability scanner for containers and code |
 | [Gitleaks](https://github.com/gitleaks/gitleaks) | 🛠️ Tool | Detect secrets and credentials in git history |
 | [OWASP Dependency-Check](https://owasp.org/www-project-dependency-check/) | 🛠️ Tool | Identify known vulnerable dependencies |
+| [Cosign Docs](https://docs.sigstore.dev/cosign/system_config/installation/) | 📚 Documentation | Sign and verify container images with Sigstore |
+| [Syft](https://github.com/anchore/syft) | 🛠️ Tool | Generate Software Bill of Materials (SBOM) |
+| [Grype](https://github.com/anchore/grype) | 🛠️ Tool | Vulnerability scanner for container images and filesystems |
+| [Kyverno Docs](https://kyverno.io/docs/) | 📚 Documentation | Kubernetes-native policy management |
+| [OPA / Gatekeeper](https://open-policy-agent.github.io/gatekeeper/website/docs/) | 📚 Documentation | Policy controller for Kubernetes admission |
+| [Cilium Docs](https://docs.cilium.io/) | 📚 Documentation | eBPF-based networking, security, and observability |
 
 ## <img src="https://img.shields.io/badge/Automation-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" /> Automation & Workflows
 
@@ -878,6 +906,11 @@ flowchart LR
 | [Mastra Docs](https://mastra.ai/en/docs) | 📚 Documentation | TypeScript framework for AI agents and workflows |
 | [CrewAI Docs](https://docs.crewai.com/) | 📚 Documentation | Framework for orchestrating role-playing AI agents |
 | [Pydantic AI](https://ai.pydantic.dev/) | 📚 Documentation | Type-safe agent framework built on Pydantic |
+| [Open WebUI](https://docs.openwebui.com/) | 📚 Documentation | Self-hosted web UI for local and remote LLMs |
+| [Dify Docs](https://docs.dify.ai/) | 📚 Documentation | Open-source LLM app development platform |
+| [Flowise Docs](https://docs.flowiseai.com/) | 📚 Documentation | Drag-and-drop UI to build LLM flows |
+| [Instructor](https://python.useinstructor.com/) | 📚 Documentation | Structured LLM outputs with Pydantic/Zod-like schemas |
+| [DSPy](https://dspy.ai/) | 📚 Documentation | Programmatic prompting and optimizer framework |
 | [Transformers.js](https://huggingface.co/docs/transformers.js) | 📚 Documentation | Run Hugging Face transformers in the browser |
 | [WebLLM](https://webllm.mlc.ai/) | 🛠️ Tool | High-performance in-browser LLM inference via WebGPU |
 | [WASI Preview](https://wasi.dev/) | 📚 Documentation | System interface for running Wasm outside the browser |
@@ -1129,6 +1162,9 @@ flowchart LR
 | Resource | Type | Description |
 |----------|------|-------------|
 | [React Native Tutorial](https://reactnative.dev/docs/tutorial) | 📖 Tutorial | Build mobile apps with React Native |
+| [Expo Docs](https://docs.expo.dev/) | 📚 Documentation | Fastest way to build React Native apps |
+| [Expo Router](https://docs.expo.dev/router/introduction/) | 📚 Documentation | File-based routing for universal React Native apps |
+| [NativeWind](https://www.nativewind.dev/) | 📚 Documentation | Tailwind CSS for React Native |
 | [Flutter Documentation](https://docs.flutter.dev/) | 📚 Documentation | Google's UI toolkit for mobile |
 | [Dart Overview](https://dart.dev/overview) | 📚 Documentation | Language powering Flutter and modern Dart apps |
 | [Flutter Get Started](https://docs.flutter.dev/get-started/install) | 📖 Tutorial | Install Flutter and create your first app |
@@ -1214,6 +1250,7 @@ flowchart LR
 |----------|------|-------------|
 | [LeetCode](https://leetcode.com/) | 💻 Practice Platform | Algorithm and data structure problems |
 | [HackerRank](https://www.hackerrank.com/) | 💻 Practice Platform | Programming challenges and contests |
+| [CodeSignal Arcade](https://codesignal.com/learn/) | 💻 Practice | Interactive coding practice and assessments |
 | [freeCodeCamp Coding Interview Prep](https://www.freecodecamp.org/learn/coding-interview-prep/) | 💻 Practice | Free algorithm and interview practice challenges |
 | [Codewars](https://www.codewars.com/) | 💻 Practice Platform | Code challenges and kata |
 | [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook) | 📋 Guide | Comprehensive interview preparation guide |
@@ -1260,6 +1297,9 @@ flowchart LR
 | Resource | Type | Description |
 |----------|------|-------------|
 | [CS50x](https://cs50.harvard.edu/x/) | 🎓 Course | Harvard's introduction to computer science (free audit) |
+| [MIT OpenCourseWare](https://ocw.mit.edu/) | 🎓 Courses | Free MIT course materials across CS and engineering |
+| [Scrimba](https://scrimba.com/) | 🎓 Courses | Interactive frontend coding courses (free tracks available) |
+| [The Odin Project Foundations](https://www.theodinproject.com/paths/foundations/courses/foundations) | 🎓 Course | Foundations path before fullstack specializations |
 | [MIT Missing Semester](https://missing.csail.mit.edu/) | 🎓 Course | Tools and practices for programmers (shell, git, vim) |
 | [OSSU Computer Science](https://github.com/ossu/computer-science) | 🗺️ Curriculum | Free self-taught CS degree path |
 | [Teach Yourself CS](https://teachyourselfcs.com/) | 📋 Guide | Curated CS fundamentals reading list |

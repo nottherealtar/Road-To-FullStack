@@ -33,7 +33,7 @@
 
 A curated collection of **100% FREE** courses, docs, tutorials, and projects to go from zero → full-stack developer (with DevOps skills). Built for self-taught learners, career switchers, and anyone who wants a clear path without paywalls.
 
-> **Last refreshed:** September 12, 2026 (morning maintenance) — link audit + React 19/Next App Router, Svelte 5, docs platforms, passkeys, local-first sync, and Cloudflare AI services. Nothing previously listed was removed.
+> **Last refreshed:** September 12, 2026 (evening maintenance) — full link audit; expanded scraping/browser automation, data pipelines, graph/geo DB, API gateways, security scanners, feature-flag standards, and media tooling. Nothing previously listed was removed.
 
 ### Why this repo?
 | | |
@@ -153,6 +153,8 @@ flowchart LR
 ### 🧠 **AI & Machine Learning**
 - [<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white" /> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white" /> <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white" /> AI & Machine Learning](#-ai--machine-learning)
 - [<img src="https://img.shields.io/badge/AI%20SDK-000000?style=flat&logo=vercel&logoColor=white" /> AI for Developers](#-ai-for-developers)
+- [<img src="https://img.shields.io/badge/Scraping-0F766E?style=flat" /> Scraping & Extraction](#scraping--extraction)
+- [<img src="https://img.shields.io/badge/MCP-111827?style=flat&logo=openai&logoColor=white" /> MCP & Coding Agents](#mcp--coding-agents)
 
 ### 🖥️ **Content & Development Tools**
 - [<img src="https://img.shields.io/badge/Sanity-F03E2F?style=flat&logo=sanity&logoColor=white" /> <img src="https://img.shields.io/badge/Strapi-2F2E8B?style=flat&logo=strapi&logoColor=white" /> Content Management](#-content-management)
@@ -473,6 +475,11 @@ flowchart LR
 |----------|------|-------------|
 | [MongoDB Learn](https://learn.mongodb.com/) | 🎓 Courses | Free MongoDB courses and certification |
 | [Redis Get Started](https://redis.io/docs/latest/get-started/) | 📖 Tutorial | Official Redis getting started guide |
+| [Valkey](https://valkey.io/) | 📚 Documentation | Open-source Redis-compatible in-memory data store |
+| [Dragonfly Docs](https://www.dragonflydb.io/docs) | 📚 Documentation | High-performance Redis-compatible datastore |
+| [Garnet](https://github.com/microsoft/garnet) | 📚 Documentation | Remote cache-store from Microsoft Research |
+| [Memcached](https://memcached.org/) | 📚 Documentation | High-performance distributed memory object caching |
+| [Redis Query Engine](https://redis.io/docs/latest/develop/interact/search-and-query/) | 📚 Documentation | Search and query capabilities in Redis |
 | [Redis University](https://redis.io/university/) | 🎓 Courses | Free Redis courses and certifications |
 | [Redis Streams](https://redis.io/docs/latest/develop/data-types/streams/) | 📚 Documentation | Stream processing data type in Redis |
 | [Firebase Documentation](https://firebase.google.com/docs) | 📚 Documentation | Complete Firebase/Firestore guide |
@@ -538,6 +545,16 @@ flowchart LR
 | [dbt Docs](https://docs.getdbt.com/docs/introduction) | 📚 Documentation | Analytics engineering / SQL transformations |
 | [Metabase Docs](https://www.metabase.com/docs/latest/) | 📚 Documentation | Open-source business intelligence |
 
+| [Neo4j Graph Academy](https://graphacademy.neo4j.com/) | 🎓 Courses | Free interactive graph database courses |
+| [Neo4j Docs](https://neo4j.com/docs/) | 📚 Documentation | Official Neo4j graph database documentation |
+| [PostGIS Docs](https://postgis.net/documentation/) | 📚 Documentation | Spatial and geographic objects for PostgreSQL |
+| [Flyway Docs](https://documentation.red-gate.com/flyway) | 📚 Documentation | Database migration tooling |
+| [golang-migrate](https://github.com/golang-migrate/migrate) | 🛠️ Tool | Database migrations written in Go |
+| [Airbyte Docs](https://docs.airbyte.com/) | 📚 Documentation | Open-source data integration / ELT platform |
+| [Dagster Docs](https://docs.dagster.io/) | 📚 Documentation | Data orchestration for analytics and ML |
+| [Prefect Docs](https://docs.prefect.io/) | 📚 Documentation | Modern workflow orchestration for data pipelines |
+| [Meltano Docs](https://docs.meltano.com/) | 📚 Documentation | Open-source DataOps / ELT framework |
+
 ## <img src="https://img.shields.io/badge/APIs-02569B?style=for-the-badge&logo=rest&logoColor=white" /> APIs & Integration
 
 | Resource | Type | Description |
@@ -560,6 +577,13 @@ flowchart LR
 | [Apollo Client Get Started](https://www.apollographql.com/docs/react/get-started) | 📖 Tutorial | GraphQL client setup for React |
 | [GraphQL Yoga](https://the-guild.dev/graphql/yoga-server/docs) | 📚 Documentation | Soft, batteries-included GraphQL server |
 | [Socket.IO Docs](https://socket.io/docs/v4/) | 📚 Documentation | Real-time bidirectional event-based communication |
+| [Server-Sent Events (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events) | 📚 Documentation | One-way server-to-client streaming over HTTP |
+| [EventSource (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/EventSource) | 📚 Documentation | Browser API for consuming SSE streams |
+| [Mercure](https://mercure.rocks/docs/) | 📚 Documentation | Publish-subscribe protocol for real-time web apps |
+| [Centrifugo](https://centrifugal.dev/docs/getting-started/introduction) | 📚 Documentation | Scalable real-time messaging server |
+| [Soketi](https://github.com/soketi/soketi) | 📚 Documentation | Free Pusher protocol-compatible WebSocket server |
+| [Pusher Docs](https://pusher.com/docs) | 📚 Documentation | Hosted realtime channels and APIs |
+| [Ably Docs](https://ably.com/docs) | 📚 Documentation | Realtime infrastructure and messaging platform |
 | [MDN WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API) | 📚 Documentation | Browser WebSocket API reference |
 | [JSONPlaceholder](https://jsonplaceholder.typicode.com/) | 🛠️ Tool | Free fake REST API for practice |
 | [DummyJSON](https://dummyjson.com/) | 🛠️ Tool | Fake REST/GraphQL-like data for prototyping |
@@ -716,6 +740,15 @@ flowchart LR
 | [MDN DNS](https://developer.mozilla.org/en-US/docs/Glossary/DNS) | 📋 Reference | Domain Name System basics |
 | [MDN TLS](https://developer.mozilla.org/en-US/docs/Glossary/TLS) | 📋 Reference | Transport Layer Security basics |
 | [Traefik Quick Start](https://doc.traefik.io/traefik/getting-started/quick-start/) | 📚 Documentation | Cloud-native application proxy |
+
+| [Kong Gateway Docs](https://docs.konghq.com/gateway/latest/) | 📚 Documentation | API gateway and microservices connectivity |
+| [Envoy Proxy Docs](https://www.envoyproxy.io/docs/envoy/latest/) | 📚 Documentation | Cloud-native high-performance proxy |
+| [Linkerd Docs](https://linkerd.io/2/overview/) | 📚 Documentation | Ultralight service mesh for Kubernetes |
+| [Istio Docs](https://istio.io/latest/docs/) | 📚 Documentation | Service mesh for traffic, security, and observability |
+| [Locust Docs](https://docs.locust.io/) | 📚 Documentation | Scalable Python-based load testing |
+| [Trivy Docs](https://trivy.dev/docs/) | 📚 Documentation | Vulnerability scanner for containers and code |
+| [Gitleaks](https://github.com/gitleaks/gitleaks) | 🛠️ Tool | Detect secrets and credentials in git history |
+| [OWASP Dependency-Check](https://owasp.org/www-project-dependency-check/) | 🛠️ Tool | Identify known vulnerable dependencies |
 
 ## <img src="https://img.shields.io/badge/Automation-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" /> Automation & Workflows
 
@@ -877,6 +910,55 @@ flowchart LR
 | [GitHub Copilot](https://github.com/features/copilot) | 🤖 Tool | AI pair programmer (free for students) |
 | [Papers with Code](https://paperswithcode.com/) | 📰 Repository | Latest ML research with code |
 | [Model Zoo](https://modelzoo.co/) | 🏪 Repository | Pre-trained models repository |
+
+
+
+<a id="scraping--extraction"></a>
+## <img src="https://img.shields.io/badge/Scraping-0F766E?style=for-the-badge&logo=crawl4ai&logoColor=white" /> Scraping & Extraction
+
+| Resource | Type | Description |
+|----------|------|-------------|
+| [Firecrawl Docs](https://docs.firecrawl.dev/) | 📚 Documentation | Crawl websites into clean LLM-ready data |
+| [Crawl4AI](https://github.com/unclecode/crawl4ai) | 📚 Documentation | Open-source LLM-friendly web crawler |
+| [Scrapy Docs](https://docs.scrapy.org/) | 📚 Documentation | Fast high-level web crawling & scraping framework |
+| [Cheerio](https://cheerio.js.org/docs/intro) | 📚 Documentation | Fast, flexible HTML parsing for the server |
+| [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) | 📚 Documentation | Python library for pulling data out of HTML/XML |
+
+| [Playwright Docs](https://playwright.dev/docs/intro) | 📚 Documentation | Browser automation for scraping and E2E testing |
+| [Puppeteer Docs](https://pptr.dev/) | 📚 Documentation | Headless Chrome automation for Node.js |
+| [Selenium Docs](https://www.selenium.dev/documentation/) | 📚 Documentation | Cross-browser browser automation suite |
+| [Robots Exclusion Protocol](https://developers.google.com/search/docs/crawling-indexing/robots/intro) | 📋 Guide | Respect robots.txt when crawling sites |
+| [HTTP Archive](https://httparchive.org/) | 📊 Dataset | Public web performance and technology trends |
+
+<a id="mcp--coding-agents"></a>
+## <img src="https://img.shields.io/badge/MCP-111827?style=for-the-badge&logo=openai&logoColor=white" /> MCP & Coding Agents
+
+| Resource | Type | Description |
+|----------|------|-------------|
+| [Model Context Protocol](https://modelcontextprotocol.io/) | 📚 Documentation | Open standard for connecting AI assistants to tools and data |
+| [MCP Servers](https://github.com/modelcontextprotocol/servers) | 📋 Repository | Reference and community MCP server implementations |
+| [MCP Inspector](https://github.com/modelcontextprotocol/inspector) | 🛠️ Tool | Visual debugger for MCP servers |
+| [AGENTS.md](https://agents.md/) | 📋 Guide | Open format for guiding coding agents in repositories |
+| [Cursor Rules](https://cursor.com/docs/context/rules) | 📚 Documentation | Persist project-specific guidance for Cursor Agent |
+| [Claude Code Docs](https://code.claude.com/docs/en/overview) | 📚 Documentation | Anthropic's agentic coding tool in the terminal |
+| [OpenAI Codex CLI](https://github.com/openai/codex) | 🛠️ Tool | Lightweight coding agent that runs in your terminal |
+| [Gemini CLI](https://github.com/google-gemini/gemini-cli) | 🛠️ Tool | Open-source AI agent for the command line |
+| [Aider](https://aider.chat/) | 🛠️ Tool | AI pair programming in your terminal |
+| [Continue Docs](https://docs.continue.dev/) | 📚 Documentation | Open-source AI code assistant for IDEs |
+| [Goose](https://block.github.io/goose/) | 🛠️ Tool | Local, extensible AI agent by Block |
+| [OpenHands](https://docs.openhands.dev/) | 📚 Documentation | Open platform for software development agents |
+| [GitHub Copilot Docs](https://docs.github.com/en/copilot) | 📚 Documentation | AI pair programmer integrated with GitHub |
+| [v0 Docs](https://v0.dev/docs) | 📚 Documentation | AI UI generation from Vercel |
+| [shadcn MCP](https://ui.shadcn.com/docs/mcp) | 📚 Documentation | MCP server for shadcn/ui components |
+| [Smithery](https://smithery.ai/) | 🗺️ Registry | Discover and connect MCP servers |
+| [Browserbase Docs](https://www.browserbase.com/docs) | 📚 Documentation | Headless browsers for AI agents |
+| [Firecrawl Docs](https://docs.firecrawl.dev/) | 📚 Documentation | Turn websites into LLM-ready markdown/data |
+| [Tavily Docs](https://docs.tavily.com/) | 📚 Documentation | Search API built for AI agents |
+| [Jina Reader](https://jina.ai/reader/) | 🛠️ Tool | Convert any URL into LLM-friendly text |
+
+| [MCP Specification](https://modelcontextprotocol.io/specification/latest) | 📋 Specification | Protocol details for building MCP clients and servers |
+| [Anthropic MCP Docs](https://docs.anthropic.com/en/docs/agents-and-tools/mcp) | 📚 Documentation | Using MCP with Claude and Anthropic tools |
+| [LangChain MCP Adapters](https://docs.langchain.com/oss/python/langchain/mcp) | 📚 Documentation | Connect LangChain agents to MCP tool servers |
 
 ## <img src="https://img.shields.io/badge/AI%20for%20Devs-000000?style=for-the-badge&logo=openai&logoColor=white" /> AI for Developers
 
@@ -1170,6 +1252,10 @@ flowchart LR
 | [Cloudflare Durable Objects](https://developers.cloudflare.com/durable-objects/) | 📚 Documentation | Strongly consistent stateful edge compute |
 | [Fly Machines](https://fly.io/docs/machines/overview/) | 📚 Documentation | Fast-booting VMs for fullstack workloads |
 | [Coolify Docs](https://coolify.io/docs) | 📚 Documentation | Self-host PaaS alternative (open source) |
+
+| [Dokploy Docs](https://docs.dokploy.com/) | 📚 Documentation | Self-hosted PaaS for deploying apps with Docker |
+| [Portainer Docs](https://docs.portainer.io/) | 📚 Documentation | Container management UI for Docker and Kubernetes |
+| [CapRover Docs](https://caprover.com/docs/get-started.html) | 📚 Documentation | Self-hosted Heroku-like PaaS on your own VPS |
 | [GitHub Student Developer Pack](https://education.github.com/pack) | 🎁 Bundle | Free developer tools and credits for students |
 | [date-fns](https://date-fns.org/) | 📚 Documentation | Modern JavaScript date utility library |
 | [Day.js](https://day.js.org/docs/en/installation/installation) | 📚 Documentation | Tiny date library with a Moment-like API |
@@ -1318,12 +1404,23 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [Leaflet](https://leafletjs.com/reference.html) | 📚 Documentation | Lightweight open-source map library |
 | [Sharp](https://sharp.pixelplumbing.com/) | 📚 Documentation | High-performance Node.js image processing |
 
+| [FFmpeg Documentation](https://ffmpeg.org/documentation.html) | 📚 Documentation | Record, convert, and stream audio/video |
+| [Mux Docs](https://docs.mux.com/) | 📚 Documentation | Video API for streaming and on-demand playback |
+| [HLS.js Docs](https://github.com/video-dev/hls.js/#getting-started) | 📚 Documentation | HTTP Live Streaming client for browsers |
+| [MediaRecorder API (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/MediaRecorder) | 📚 Documentation | Record media streams in the browser |
+
 <a id="background-jobs--queues"></a>
 ## <img src="https://img.shields.io/badge/Jobs-111827?style=for-the-badge&logo=redis&logoColor=white" /> Background Jobs & Queues
 
 | Resource | Type | Description |
 |----------|------|-------------|
 | [BullMQ Docs](https://docs.bullmq.io/) | 📚 Documentation | Redis-based Node.js job queues |
+| [Bull](https://github.com/OptimalBits/bull) | 📚 Documentation | Premium Queue package for handling jobs in Node |
+| [node-schedule](https://github.com/node-schedule/node-schedule) | 🛠️ Tool | Cron-like job scheduler for Node.js |
+| [Croner](https://github.com/Hexagon/croner) | 🛠️ Tool | Trigger functions or evaluate cron expressions |
+| [Graphile Worker](https://worker.graphile.org/) | 📚 Documentation | High-performance Node.js/PostgreSQL job queue |
+| [pg-boss](https://github.com/timgit/pg-boss) | 📚 Documentation | Queueing jobs in Postgres for Node.js |
+| [Sidekiq](https://sidekiq.org/) | 📚 Documentation | Efficient background processing for Ruby |
 | [Inngest Docs](https://www.inngest.com/docs) | 📚 Documentation | Event-driven background jobs and workflows |
 | [Trigger.dev Docs](https://trigger.dev/docs) | 📚 Documentation | Background jobs for TypeScript apps |
 | [Temporal Docs](https://docs.temporal.io/) | 📚 Documentation | Durable workflow execution platform |
@@ -1338,6 +1435,14 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [Stripe Get Started](https://docs.stripe.com/get-started) | 📚 Documentation | Accept payments and build billing flows |
 | [Stripe Development Docs](https://stripe.com/docs/development) | 📚 Documentation | APIs, testing, and integration guides |
 | [Resend Docs](https://resend.com/docs/introduction) | 📚 Documentation | Modern transactional email for developers |
+| [Postmark Docs](https://postmarkapp.com/developer) | 📚 Documentation | Reliable transactional email delivery |
+| [SendGrid Docs](https://www.twilio.com/docs/sendgrid) | 📚 Documentation | Email delivery and marketing APIs |
+| [Amazon SES](https://docs.aws.amazon.com/ses/) | 📚 Documentation | Scalable cloud email sending service |
+| [Novu Docs](https://docs.novu.co/) | 📚 Documentation | Open-source notification infrastructure |
+| [Courier Docs](https://www.courier.com/docs) | 📚 Documentation | Multi-channel notification platform |
+| [OneSignal Docs](https://documentation.onesignal.com/) | 📚 Documentation | Push notifications and messaging |
+| [Listmonk](https://listmonk.app/) | 🛠️ Tool | Self-hosted newsletter and mailing list manager |
+| [Ghost Docs](https://ghost.org/docs/) | 📚 Documentation | Publishing platform with memberships and newsletters |
 | [React Email](https://react.email/docs/introduction) | 📚 Documentation | Build and send emails using React components |
 | [MJML](https://mjml.io/) | 📚 Documentation | Responsive email markup language |
 | [Mailpit](https://github.com/axllent/mailpit) | 🛠️ Tool | Local email testing with a web UI |
@@ -1356,6 +1461,10 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [Schema.org](https://schema.org/) | 📚 Documentation | Vocabulary for structured data on the web |
 | [MDN SEO Glossary](https://developer.mozilla.org/en-US/docs/Glossary/SEO) | 📋 Reference | Quick SEO definition and related concepts |
 
+| [Google Sitemaps Guide](https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview) | 📖 Guide | Create and submit XML sitemaps for search discovery |
+| [XML Sitemaps Protocol](https://www.sitemaps.org/protocol.html) | 📋 Specification | Sitemap format for search engine crawlers |
+| [robots.txt Specification](https://www.rfc-editor.org/rfc/rfc9309.html) | 📋 Specification | Robots Exclusion Protocol (RFC 9309) |
+
 <a id="i18n--feature-flags"></a>
 ## <img src="https://img.shields.io/badge/i18n-1D4ED8?style=for-the-badge" /> i18n & Feature Flags
 
@@ -1365,6 +1474,13 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [next-intl](https://next-intl.dev/docs/getting-started) | 📚 Documentation | Internationalization for Next.js apps |
 | [Unleash Docs](https://docs.getunleash.io/) | 📚 Documentation | Open-source feature flag platform |
 | [Flagsmith Docs](https://docs.flagsmith.com/) | 📚 Documentation | Feature flags and remote config |
+
+| [FormatJS](https://formatjs.io/docs/getting-started/installation/) | 📚 Documentation | Internationalization libraries and tools (ICU message format) |
+| [Lingui](https://lingui.dev/) | 📚 Documentation | Readable, automated i18n for JavaScript projects |
+| [Paraglide JS](https://inlang.com/m/gerre34r/library-inlang-paraglideJs) | 📚 Documentation | Tiny, type-safe i18n library compiled at build time |
+| [OpenFeature](https://openfeature.dev/docs/reference/intro) | 📚 Documentation | Vendor-neutral feature flag standard and SDKs |
+| [GrowthBook Docs](https://docs.growthbook.io/) | 📚 Documentation | Open-source feature flags and A/B testing |
+| [LaunchDarkly Docs](https://docs.launchdarkly.com/home) | 📚 Documentation | Feature management platform (free tier / docs) |
 
 <a id="learning-paths"></a>
 ## <img src="https://img.shields.io/badge/Learning%20Paths-9B59B6?style=for-the-badge&logo=roadmap&logoColor=white" /> Learning Paths

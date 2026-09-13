@@ -33,7 +33,7 @@
 
 A curated collection of **100% FREE** courses, docs, tutorials, and projects to go from zero → full-stack developer (with DevOps skills). Built for self-taught learners, career switchers, and anyone who wants a clear path without paywalls.
 
-> **Last refreshed:** September 13, 2026 (mid-morning maintenance) — full link audit; fixed several markdown table breaks; added SolidStart/Fresh/Qwik City, Logto/Zitadel/Authentik, Redpanda/Cube, Semantic Kernel/AutoGen/smolagents, oxlint/typos, HTTP/3 & Server-Timing & gRPC-Web, Chromatic/Storybook Test, ExternalDNS/ingress-nginx/Longhorn, Twenty/Plane. Nothing previously listed was removed.
+> **Last refreshed:** September 13, 2026 (afternoon maintenance) — full link audit; retargeted timed-out Model Zoo link; added VueUse/Pinia/Nuxt UI, Polars/Arrow/DuckDB-Wasm/MotherDuck, LakeFS/DataHub, Sealed Secrets/Quickwit, CS50 AI/Web, Outline/BookStack/Wiki.js, Matomo/Twilio/B2/Wasabi, Maestro/Detox/Appium, Juice Shop/Snyk Learn, and Moon. Nothing previously listed was removed.
 
 ### Why this repo?
 | | |
@@ -287,6 +287,10 @@ flowchart LR
 | [React Server Functions](https://react.dev/reference/rsc/server-functions) | 📚 Documentation | Call server-side functions from the client |
 | [React Compiler](https://react.dev/learn/react-compiler) | 📚 Documentation | Automatic memoization compiler for React |
 | [Vue.js Guide](https://vuejs.org/guide/) | 📚 Documentation | Complete Vue.js learning guide |
+| [Pinia Docs](https://pinia.vuejs.org/) | 📚 Documentation | Official state management library for Vue |
+| [VueUse](https://vueuse.org/) | 📚 Documentation | Collection of essential Vue Composition utilities |
+| [Nuxt UI](https://ui.nuxt.com/getting-started) | 📚 Documentation | Fully styled and customizable Vue component library |
+| [Nuxt Hub](https://hub.nuxt.com/docs/getting-started) | 📚 Documentation | Full-stack Nuxt platform features (storage, KV, AI, DB) |
 | [Angular Tutorial](https://angular.dev/tutorials/learn-angular) | 📖 Tutorial | Official Angular framework tutorial |
 | [Svelte Tutorial](https://svelte.dev/tutorial) | 🎮 Interactive Tutorial | Learn Svelte with hands-on examples |
 | [Svelte 5 Overview](https://svelte.dev/docs/svelte/overview) | 📚 Documentation | Svelte 5 language and runes overview |
@@ -595,6 +599,12 @@ flowchart LR
 | [Cloudflare D1](https://developers.cloudflare.com/d1/) | 📚 Documentation | Serverless SQL database on Cloudflare |
 | [Typesense Guide](https://typesense.org/docs/guide/) | 📚 Documentation | Typo-tolerant open-source search engine |
 | [DuckDB Docs](https://duckdb.org/docs/) | 📚 Documentation | In-process analytical SQL database |
+| [DuckDB Wasm](https://duckdb.org/docs/stable/clients/wasm/overview.html) | 📚 Documentation | Run DuckDB entirely in the browser via WebAssembly |
+| [MotherDuck Docs](https://motherduck.com/docs/) | 📚 Documentation | Serverless DuckDB cloud analytics platform |
+| [Polars Docs](https://docs.pola.rs/) | 📚 Documentation | Fast DataFrame library for Python/Rust |
+| [Apache Arrow Docs](https://arrow.apache.org/docs/) | 📚 Documentation | Columnar in-memory analytics foundation |
+| [LakeFS Docs](https://docs.lakefs.io/) | 📚 Documentation | Git-like version control for data lakes |
+| [DataHub Docs](https://datahubproject.io/docs/) | 📚 Documentation | Open-source metadata platform for data discovery |
 | [ClickHouse Docs](https://clickhouse.com/docs) | 📚 Documentation | Fast open-source OLAP database |
 | [Apache Iceberg Docs](https://iceberg.apache.org/docs/latest/) | 📚 Documentation | Open table format for huge analytic datasets |
 | [Delta Lake Docs](https://docs.delta.io/latest/index.html) | 📚 Documentation | Reliable open-source storage layer for data lakes |
@@ -674,6 +684,8 @@ flowchart LR
 | Resource | Type | Description |
 |----------|------|-------------|
 | [OWASP Top 10](https://owasp.org/projects/top-ten) | 📋 Guide | Top 10 web application security risks (official project) |
+| [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/) | 🎮 Interactive | Intentionally insecure web app for security practice |
+| [Snyk Learn](https://learn.snyk.io/) | 🎓 Courses | Free interactive lessons on application security |
 | [Web Security Academy](https://portswigger.net/web-security) | 🎓 Course | Free web security learning platform |
 | [Cybrary](https://www.cybrary.it/) | 🎓 Courses | Free cybersecurity training |
 | [HackerOne University](https://www.hacker101.com/) | 🎓 Course | Bug bounty and security testing |
@@ -883,6 +895,8 @@ flowchart LR
 | [Kubernetes Gateway API](https://gateway-api.sigs.k8s.io/) | 📚 Documentation | Next-generation Kubernetes service networking |
 | [cert-manager](https://cert-manager.io/docs/) | 📚 Documentation | Automated TLS certificates for Kubernetes |
 | [External Secrets](https://external-secrets.io/) | 📚 Documentation | Sync secrets from external providers into Kubernetes |
+| [Sealed Secrets](https://github.com/bitnami-labs/sealed-secrets) | 🛠️ Tool | Encrypt Kubernetes secrets into safe-to-commit SealedSecrets |
+| [Quickwit](https://github.com/quickwit-oss/quickwit) | 📚 Documentation | Cloud-native search engine for logs and traces |
 | [SOPS](https://github.com/getsops/sops) | 🛠️ Tool | Encrypt secrets in YAML/JSON/ENV files |
 | [Vault Docs](https://developer.hashicorp.com/vault/docs) | 📚 Documentation | Secrets management and encryption as a service |
 | [Infisical Docs](https://infisical.com/docs/documentation/getting-started/introduction) | 📚 Documentation | Open-source secrets management platform |
@@ -1036,7 +1050,7 @@ flowchart LR
 | [Replit AI](https://replit.com/) | ☁️ Platform | AI-powered coding environment |
 | [GitHub Copilot](https://github.com/features/copilot) | 🤖 Tool | AI pair programmer (free for students) |
 | [Papers with Code](https://paperswithcode.com/) | 📰 Repository | Latest ML research with code |
-| [Model Zoo](https://modelzoo.co/) | 🏪 Repository | Pre-trained models repository |
+| [Hugging Face Models](https://huggingface.co/models) | 🏪 Repository | Huge catalog of pre-trained ML models (Model Zoo destination timed out) |
 
 
 
@@ -1222,6 +1236,9 @@ flowchart LR
 | [React Native Tutorial](https://reactnative.dev/docs/tutorial) | 📖 Tutorial | Build mobile apps with React Native |
 | [Expo Docs](https://docs.expo.dev/) | 📚 Documentation | Fastest way to build React Native apps |
 | [Expo Router](https://docs.expo.dev/router/introduction/) | 📚 Documentation | File-based routing for universal React Native apps |
+| [Maestro Docs](https://docs.maestro.dev/) | 📚 Documentation | Simple, fast mobile UI testing framework |
+| [Detox Docs](https://wix.github.io/Detox/) | 📚 Documentation | Gray-box end-to-end testing for React Native |
+| [Appium Docs](https://appium.io/docs/en/latest/) | 📚 Documentation | Cross-platform mobile automation framework |
 | [NativeWind](https://www.nativewind.dev/) | 📚 Documentation | Tailwind CSS for React Native |
 | [Flutter Documentation](https://docs.flutter.dev/) | 📚 Documentation | Google's UI toolkit for mobile |
 | [Dart Overview](https://dart.dev/overview) | 📚 Documentation | Language powering Flutter and modern Dart apps |
@@ -1352,6 +1369,8 @@ flowchart LR
 | [actionlint](https://github.com/rhysd/actionlint) | 🛠️ Tool | Static checker for GitHub Actions workflows |
 | [Vale](https://vale.sh/) | 📚 Documentation | Syntax-aware prose linter for docs and blogs |
 | [Turborepo Handbook](https://turbo.build/repo/docs/handbook) | 📚 Documentation | High-performance monorepo build system |
+| [Moonrepo Docs](https://moonrepo.dev/docs) | 📚 Documentation | Fast, developer-friendly monorepo build system |
+| [Bazel Docs](https://bazel.build/start) | 📚 Documentation | Fast, scalable multi-language build system |
 | [Nx Intro](https://nx.dev/getting-started/intro) | 📚 Documentation | Smart monorepos and AI-assisted tooling |
 
 ## <img src="https://img.shields.io/badge/CS%20Fundamentals-6B73FF?style=for-the-badge&logo=computer&logoColor=white" /> Computer Science Fundamentals
@@ -1359,6 +1378,8 @@ flowchart LR
 | Resource | Type | Description |
 |----------|------|-------------|
 | [CS50x](https://cs50.harvard.edu/x/) | 🎓 Course | Harvard's introduction to computer science (free audit) |
+| [CS50's Web Programming](https://cs50.harvard.edu/web/) | 🎓 Course | Harvard CS50W — web programming with Python and JavaScript |
+| [CS50's AI](https://cs50.harvard.edu/ai/) | 🎓 Course | Harvard CS50AI — introduction to artificial intelligence |
 | [MIT OpenCourseWare](https://ocw.mit.edu/) | 🎓 Courses | Free MIT course materials across CS and engineering |
 | [Scrimba](https://scrimba.com/) | 🎓 Courses | Interactive frontend coding courses (free tracks available) |
 | [The Odin Project Foundations](https://www.theodinproject.com/paths/foundations/courses/foundations) | 🎓 Course | Foundations path before fullstack specializations |
@@ -1374,6 +1395,10 @@ flowchart LR
 | Resource | Type | Description |
 |----------|------|-------------|
 | [Write the Docs Guide](https://www.writethedocs.org/guide/) | 📖 Guide | Community-written documentation best practices |
+| [Outline Docs](https://docs.getoutline.com/) | 📚 Documentation | Open-source team knowledge base / wiki |
+| [BookStack Docs](https://www.bookstackapp.com/docs/) | 📚 Documentation | Simple, self-hosted platform for organising documentation |
+| [Wiki.js Docs](https://docs.requarks.io/) | 📚 Documentation | Modern and powerful open-source wiki app |
+| [Matomo Docs](https://matomo.org/guide/) | 📚 Documentation | Open-source web analytics platform |
 | [Diátaxis Framework](https://diataxis.fr/) | 📋 Framework | Approach for structuring technical documentation |
 | [Google Technical Writing Courses](https://developers.google.com/tech-writing) | 🎓 Courses | Free technical writing courses from Google |
 | [The Good Docs Project](https://www.thegooddocsproject.dev/) | 📋 Templates | Templates and guidance for project docs |
@@ -1588,6 +1613,9 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [Lemon Squeezy Docs](https://docs.lemonsqueezy.com/) | 📚 Documentation | Payments, tax, and subscriptions for digital products |
 | [Paddle Billing Docs](https://developer.paddle.com/) | 📚 Documentation | Merchant-of-record billing APIs for SaaS |
 | [Resend Docs](https://resend.com/docs/introduction) | 📚 Documentation | Modern transactional email for developers |
+| [Twilio Docs](https://www.twilio.com/docs) | 📚 Documentation | SMS, voice, WhatsApp, and communications APIs |
+| [Backblaze B2 Docs](https://www.backblaze.com/docs/cloud-storage) | 📚 Documentation | Affordable S3-compatible cloud object storage |
+| [Wasabi Docs](https://docs.wasabi.com/) | 📚 Documentation | Hot cloud storage with S3-compatible APIs |
 | [Postmark Docs](https://postmarkapp.com/developer) | 📚 Documentation | Reliable transactional email delivery |
 | [SendGrid Docs](https://www.twilio.com/docs/sendgrid) | 📚 Documentation | Email delivery and marketing APIs |
 | [Amazon SES](https://docs.aws.amazon.com/ses/) | 📚 Documentation | Scalable cloud email sending service |

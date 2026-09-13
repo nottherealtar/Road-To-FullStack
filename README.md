@@ -33,7 +33,7 @@
 
 A curated collection of **100% FREE** courses, docs, tutorials, and projects to go from zero → full-stack developer (with DevOps skills). Built for self-taught learners, career switchers, and anyone who wants a clear path without paywalls.
 
-> **Last refreshed:** September 13, 2026 (early-morning maintenance) — full link audit; added JVM frameworks (Quarkus/Micronaut/Ktor), Phoenix LiveView, web components, lakehouse/OLAP (Iceberg/Delta/Trino), observability (VictoriaMetrics/Pyroscope/OpenObserve), GitOps/runtime security (Argo Workflows/Buildpacks/Falco), API protection (Unkey/Arcjet/Upstash), Polar/Lemon Squeezy, and AnythingLLM/MLX. Fixed Realtime media table break. Nothing previously listed was removed.
+> **Last refreshed:** September 13, 2026 (mid-morning maintenance) — full link audit; fixed several markdown table breaks; added SolidStart/Fresh/Qwik City, Logto/Zitadel/Authentik, Redpanda/Cube, Semantic Kernel/AutoGen/smolagents, oxlint/typos, HTTP/3 & Server-Timing & gRPC-Web, Chromatic/Storybook Test, ExternalDNS/ingress-nginx/Longhorn, Twenty/Plane. Nothing previously listed was removed.
 
 ### Why this repo?
 | | |
@@ -352,6 +352,10 @@ flowchart LR
 | [Zustand](https://zustand.docs.pmnd.rs/) | 📚 Documentation | Small, fast React state management |
 | [Radix Primitives](https://www.radix-ui.com/primitives/docs/overview/introduction) | 📚 Documentation | Unstyled accessible UI primitives |
 | [Storybook](https://storybook.js.org/docs) | 📚 Documentation | Build and test UI components in isolation |
+| [Storybook Test](https://storybook.js.org/docs/writing-tests) | 📚 Documentation | Component, interaction, and accessibility tests in Storybook |
+| [Chromatic Docs](https://www.chromatic.com/docs/) | 📚 Documentation | Visual testing and review for Storybook |
+| [Playwright Component Testing](https://playwright.dev/docs/test-components) | 📚 Documentation | Test components with Playwright |
+| [Vitest Browser Mode](https://vitest.dev/guide/browser/) | 📚 Documentation | Run Vitest tests in real browsers |
 | [Ladle](https://ladle.dev/) | 📚 Documentation | Fast Storybook alternative powered by Vite |
 | [Histoire](https://histoire.dev/) | 📚 Documentation | Vite-native component workshop |
 | [Motion](https://motion.dev/docs) | 📚 Documentation | Modern animation library for the web |
@@ -359,6 +363,11 @@ flowchart LR
 | [Nuxt Docs](https://nuxt.com/docs/getting-started/introduction) | 📚 Documentation | The Intuitive Vue Framework |
 | [SvelteKit Docs](https://kit.svelte.dev/docs/introduction) | 📚 Documentation | Full-stack Svelte application framework |
 | [Qwik Getting Started](https://qwik.dev/docs/getting-started/) | 📚 Documentation | Resumable framework for instant-loading apps |
+| [Qwik City](https://qwik.dev/docs/qwikcity/) | 📚 Documentation | Meta-framework for Qwik apps (routing, data loading) |
+| [SolidStart](https://github.com/solidjs/solid-start) | 📚 Documentation | Full-stack meta-framework for SolidJS (official docs often bot-block; GitHub repo) |
+| [SolidJS](https://github.com/solidjs/solid) | 📚 Documentation | Fine-grained reactive UI library (official site often bot-blocks; GitHub source/docs) |
+| [Fresh](https://fresh.deno.dev/docs/introduction) | 📚 Documentation | Next-gen web framework for Deno with islands |
+| [Analog](https://analogjs.org/docs) | 📚 Documentation | Fullstack meta-framework for Angular |
 | [TanStack Start](https://tanstack.com/start/latest) | 📚 Documentation | Full-stack framework powered by TanStack Router |
 | [RedwoodJS Docs](https://docs.redwoodjs.com/) | 📚 Documentation | Full-stack, Jamstack-oriented React framework |
 | [Bulletproof React](https://github.com/alan2207/bulletproof-react) | 📋 Guide | Opinionated React architecture best practices |
@@ -595,6 +604,9 @@ flowchart LR
 | [Great Expectations](https://docs.greatexpectations.io/) | 📚 Documentation | Data quality / validation framework |
 | [dbt Docs](https://docs.getdbt.com/docs/introduction) | 📚 Documentation | Analytics engineering / SQL transformations |
 | [Metabase Docs](https://www.metabase.com/docs/latest/) | 📚 Documentation | Open-source business intelligence |
+| [Cube Docs](https://cube.dev/docs) | 📚 Documentation | Semantic layer and headless BI for data apps |
+| [Apache Superset Docs](https://superset.apache.org/docs/intro/) | 📚 Documentation | Modern data exploration and visualization platform |
+| [Evidence Docs](https://docs.evidence.dev/) | 📚 Documentation | Business intelligence as code with Markdown/SQL |
 | [Neo4j Graph Academy](https://graphacademy.neo4j.com/) | 🎓 Courses | Free interactive graph database courses |
 | [Neo4j Docs](https://neo4j.com/docs/) | 📚 Documentation | Official Neo4j graph database documentation |
 | [PostGIS Docs](https://postgis.net/documentation/) | 📚 Documentation | Spatial and geographic objects for PostgreSQL |
@@ -653,6 +665,9 @@ flowchart LR
 | [Protocol Buffers](https://protobuf.dev/) | 📚 Documentation | Language-neutral data serialization |
 | [AsyncAPI Docs](https://www.asyncapi.com/docs) | 📚 Documentation | Spec for event-driven APIs |
 | [NATS Docs](https://docs.nats.io/) | 📚 Documentation | Lightweight cloud-native messaging |
+| [NATS JetStream](https://docs.nats.io/nats-concepts/jetstream) | 📚 Documentation | Persistent streaming and queues for NATS |
+| [Redpanda Docs](https://docs.redpanda.com/current/home/) | 📚 Documentation | Kafka-compatible streaming platform (no ZooKeeper) |
+| [Apache Pulsar Concepts](https://pulsar.apache.org/docs/4.0.x/concepts-overview/) | 📚 Documentation | Multi-tenant pub-sub messaging and streaming |
 
 ## <img src="https://img.shields.io/badge/Security-000000?style=for-the-badge&logo=owasp&logoColor=white" /> Security
 
@@ -696,6 +711,10 @@ flowchart LR
 | [Supabase Auth](https://supabase.com/docs/guides/auth) | 📚 Documentation | Open-source auth with social providers and RLS |
 | [Lucia](https://lucia-auth.com/) | 📚 Documentation | Learning resource for implementing sessions/auth |
 | [Keycloak Docs](https://www.keycloak.org/documentation) | 📚 Documentation | Open-source identity and access management |
+| [Logto Docs](https://docs.logto.io/) | 📚 Documentation | Open-source Auth0/Cognito alternative for modern apps |
+| [Zitadel Docs](https://zitadel.com/docs) | 📚 Documentation | Open-source identity infrastructure with CIAM features |
+| [Authentik Docs](https://docs.goauthentik.io/) | 📚 Documentation | Flexible open-source identity provider |
+| [Authelia Docs](https://www.authelia.com/overview/prologue/introduction/) | 📚 Documentation | Open-source authentication and authorization server |
 | [Open Policy Agent](https://www.openpolicyagent.org/docs/latest/) | 📚 Documentation | Policy-as-code for authorization decisions |
 
 ## <img src="https://img.shields.io/badge/Performance-F44B21?style=for-the-badge&logo=lighthouse&logoColor=white" /> Performance & Optimization
@@ -724,6 +743,9 @@ flowchart LR
 | [ToolJet Docs](https://docs.tooljet.com/) | 📚 Documentation | Open-source low-code platform for building apps |
 | [Budibase Docs](https://docs.budibase.com/) | 📚 Documentation | Open-source low-code platform for business apps |
 | [Cal.com Docs](https://cal.com/docs) | 📚 Documentation | Open-source scheduling infrastructure |
+| [Twenty CRM Docs](https://docs.twenty.com/) | 📚 Documentation | Open-source CRM (Salesforce alternative) |
+| [Plane Docs](https://docs.plane.so/) | 📚 Documentation | Open-source project management (Jira alternative) |
+| [AppFlowy Docs](https://docs.appflowy.io/) | 📚 Documentation | Open-source Notion-style workspace |
 | [Chrome Performance DevTools](https://developer.chrome.com/docs/devtools/performance) | 📖 Tutorial | Profile runtime performance in the browser |
 
 ## <img src="https://img.shields.io/badge/DevOps-2496ED?style=for-the-badge&logo=docker&logoColor=white" /> DevOps & Cloud
@@ -828,6 +850,10 @@ flowchart LR
 | [Kyverno Docs](https://kyverno.io/docs/) | 📚 Documentation | Kubernetes-native policy management |
 | [OPA / Gatekeeper](https://open-policy-agent.github.io/gatekeeper/website/docs/) | 📚 Documentation | Policy controller for Kubernetes admission |
 | [Cilium Docs](https://docs.cilium.io/) | 📚 Documentation | eBPF-based networking, security, and observability |
+| [ingress-nginx](https://kubernetes.github.io/ingress-nginx/) | 📚 Documentation | Ingress controller for Kubernetes using NGINX |
+| [ExternalDNS](https://kubernetes-sigs.github.io/external-dns/) | 📚 Documentation | Configure external DNS providers from Kubernetes resources |
+| [Longhorn Docs](https://longhorn.io/docs/) | 📚 Documentation | Cloud-native distributed block storage for Kubernetes |
+| [Cluster API](https://cluster-api.sigs.k8s.io/) | 📚 Documentation | Declarative Kubernetes cluster lifecycle management |
 
 ## <img src="https://img.shields.io/badge/Automation-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" /> Automation & Workflows
 
@@ -934,6 +960,11 @@ flowchart LR
 | [Mistral Docs](https://docs.mistral.ai/) | 📚 Documentation | Mistral AI platform and model APIs |
 | [Mastra Docs](https://mastra.ai/en/docs) | 📚 Documentation | TypeScript framework for AI agents and workflows |
 | [CrewAI Docs](https://docs.crewai.com/) | 📚 Documentation | Framework for orchestrating role-playing AI agents |
+| [Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/overview/) | 📚 Documentation | Microsoft SDK for AI agents and orchestration |
+| [AutoGen](https://microsoft.github.io/autogen/stable/) | 📚 Documentation | Multi-agent AI application framework |
+| [smolagents](https://huggingface.co/docs/smolagents) | 📚 Documentation | Tiny agent framework from Hugging Face |
+| [LM Studio](https://lmstudio.ai/docs) | 🛠️ Tool | Run local LLMs with a desktop UI and local server |
+| [Jan](https://jan.ai/docs) | 🛠️ Tool | Open-source ChatGPT alternative that runs offline |
 | [Pydantic AI](https://ai.pydantic.dev/) | 📚 Documentation | Type-safe agent framework built on Pydantic |
 | [Open WebUI](https://docs.openwebui.com/) | 📚 Documentation | Self-hosted web UI for local and remote LLMs |
 | [Dify Docs](https://docs.dify.ai/) | 📚 Documentation | Open-source LLM app development platform |
@@ -1019,7 +1050,6 @@ flowchart LR
 | [Scrapy Docs](https://docs.scrapy.org/) | 📚 Documentation | Fast high-level web crawling & scraping framework |
 | [Cheerio](https://cheerio.js.org/docs/intro) | 📚 Documentation | Fast, flexible HTML parsing for the server |
 | [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) | 📚 Documentation | Python library for pulling data out of HTML/XML |
-
 | [Playwright Docs](https://playwright.dev/docs/intro) | 📚 Documentation | Browser automation for scraping and E2E testing |
 | [Puppeteer Docs](https://pptr.dev/) | 📚 Documentation | Headless Chrome automation for Node.js |
 | [Selenium Docs](https://www.selenium.dev/documentation/) | 📚 Documentation | Cross-browser browser automation suite |
@@ -1051,7 +1081,6 @@ flowchart LR
 | [Firecrawl Docs](https://docs.firecrawl.dev/) | 📚 Documentation | Turn websites into LLM-ready markdown/data |
 | [Tavily Docs](https://docs.tavily.com/) | 📚 Documentation | Search API built for AI agents |
 | [Jina Reader](https://jina.ai/reader/) | 🛠️ Tool | Convert any URL into LLM-friendly text |
-
 | [MCP Specification](https://modelcontextprotocol.io/specification/latest) | 📋 Specification | Protocol details for building MCP clients and servers |
 | [Anthropic MCP Docs](https://docs.anthropic.com/en/docs/agents-and-tools/mcp) | 📚 Documentation | Using MCP with Claude and Anthropic tools |
 | [LangChain MCP Adapters](https://docs.langchain.com/oss/python/langchain/mcp) | 📚 Documentation | Connect LangChain agents to MCP tool servers |
@@ -1311,6 +1340,10 @@ flowchart LR
 | [ESLint Getting Started](https://eslint.org/docs/latest/use/getting-started) | 📚 Documentation | Find and fix problems in JavaScript code |
 | [Prettier Docs](https://prettier.io/docs/en/) | 📚 Documentation | Opinionated code formatter |
 | [Biome Getting Started](https://biomejs.dev/guides/getting-started/) | 📚 Documentation | Fast formatter and linter (Rust-based) |
+| [oxc / oxlint](https://oxc.rs/) | 🛠️ Tool | High-performance Rust-based JS/TS compiler tooling and linter |
+| [typos](https://github.com/crate-ci/typos) | 🛠️ Tool | Fast source-code spell checker |
+| [dprint](https://dprint.dev/) | 🛠️ Tool | Pluggable code formatting platform |
+| [mise](https://mise.jdx.dev/) | 🛠️ Tool | Dev tools / runtime version manager (asdf-compatible) |
 | [Oxc](https://oxc.rs/) | 📚 Documentation | High-performance Rust-based JS/TS toolchain |
 | [dprint](https://dprint.dev/) | 📚 Documentation | Pluggable and configurable code formatting platform |
 | [Ruff](https://docs.astral.sh/ruff/) | 📚 Documentation | Extremely fast Python linter and formatter |
@@ -1364,7 +1397,6 @@ flowchart LR
 | [Cloudflare Durable Objects](https://developers.cloudflare.com/durable-objects/) | 📚 Documentation | Strongly consistent stateful edge compute |
 | [Fly Machines](https://fly.io/docs/machines/overview/) | 📚 Documentation | Fast-booting VMs for fullstack workloads |
 | [Coolify Docs](https://coolify.io/docs) | 📚 Documentation | Self-host PaaS alternative (open source) |
-
 | [Dokploy Docs](https://docs.dokploy.com/) | 📚 Documentation | Self-hosted PaaS for deploying apps with Docker |
 | [Portainer Docs](https://docs.portainer.io/) | 📚 Documentation | Container management UI for Docker and Kubernetes |
 | [CapRover Docs](https://caprover.com/docs/get-started.html) | 📚 Documentation | Self-hosted Heroku-like PaaS on your own VPS |
@@ -1456,6 +1488,10 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [WebGPU Fundamentals](https://webgpufundamentals.org/) | 📖 Tutorial | Next-generation GPU graphics/compute on the web |
 | [WebGPU API (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API) | 📚 Documentation | Modern GPU access for graphics and compute |
 | [WebTransport (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/WebTransport) | 📚 Documentation | Low-latency client-server messaging over HTTP/3 |
+| [HTTP/3 (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Protocol_upgrade_mechanism) | 📚 Documentation | Next-generation HTTP over QUIC |
+| [QUIC (MDN)](https://developer.mozilla.org/en-US/docs/Glossary/QUIC) | 📋 Reference | Transport protocol underlying HTTP/3 |
+| [Server-Timing (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Server-Timing) | 📚 Documentation | Communicate backend timing metrics to the browser |
+| [gRPC-Web](https://github.com/grpc/grpc-web) | 📚 Documentation | gRPC for browser clients |
 | [Web Crypto API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API) | 📚 Documentation | Cryptography primitives in the browser |
 | [Push API](https://developer.mozilla.org/en-US/docs/Web/API/Push_API) | 📚 Documentation | Push notifications from a server to a web app |
 | [FedCM API](https://developer.mozilla.org/en-US/docs/Web/API/FedCM_API) | 📚 Documentation | Privacy-preserving federated identity on the web |
@@ -1577,7 +1613,6 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [Intro to Structured Data](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data) | 📖 Guide | Help search engines understand your pages |
 | [Schema.org](https://schema.org/) | 📚 Documentation | Vocabulary for structured data on the web |
 | [MDN SEO Glossary](https://developer.mozilla.org/en-US/docs/Glossary/SEO) | 📋 Reference | Quick SEO definition and related concepts |
-
 | [Google Sitemaps Guide](https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview) | 📖 Guide | Create and submit XML sitemaps for search discovery |
 | [XML Sitemaps Protocol](https://www.sitemaps.org/protocol.html) | 📋 Specification | Sitemap format for search engine crawlers |
 | [robots.txt Specification](https://www.rfc-editor.org/rfc/rfc9309.html) | 📋 Specification | Robots Exclusion Protocol (RFC 9309) |
@@ -1591,7 +1626,6 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [next-intl](https://next-intl.dev/docs/getting-started) | 📚 Documentation | Internationalization for Next.js apps |
 | [Unleash Docs](https://docs.getunleash.io/) | 📚 Documentation | Open-source feature flag platform |
 | [Flagsmith Docs](https://docs.flagsmith.com/) | 📚 Documentation | Feature flags and remote config |
-
 | [FormatJS](https://formatjs.io/docs/getting-started/installation/) | 📚 Documentation | Internationalization libraries and tools (ICU message format) |
 | [Lingui](https://lingui.dev/) | 📚 Documentation | Readable, automated i18n for JavaScript projects |
 | [Paraglide JS](https://inlang.com/m/gerre34r/library-inlang-paraglideJs) | 📚 Documentation | Tiny, type-safe i18n library compiled at build time |

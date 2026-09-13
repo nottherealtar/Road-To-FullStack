@@ -33,7 +33,7 @@
 
 A curated collection of **100% FREE** courses, docs, tutorials, and projects to go from zero → full-stack developer (with DevOps skills). Built for self-taught learners, career switchers, and anyone who wants a clear path without paywalls.
 
-> **Last refreshed:** September 13, 2026 (afternoon maintenance) — full link audit; retargeted timed-out Model Zoo link; added VueUse/Pinia/Nuxt UI, Polars/Arrow/DuckDB-Wasm/MotherDuck, LakeFS/DataHub, Sealed Secrets/Quickwit, CS50 AI/Web, Outline/BookStack/Wiki.js, Matomo/Twilio/B2/Wasabi, Maestro/Detox/Appium, Juice Shop/Snyk Learn, and Moon. Nothing previously listed was removed.
+> **Last refreshed:** September 13, 2026 (evening maintenance) — full link audit; added Julia/Clojure, daisyUI/Flowbite/Park UI, JSON:API/OpenAPI Generator/Buf, Standard Schema/Effect Schema, Vitess/Citus/Hudi/OpenMetadata, Garage/SeaweedFS, Wails/Neutralino/Nhost, Flux/Grafana Alloy/OTel Collector, Restate, GPT4All, and Speakeasy/Fern. Nothing previously listed was removed.
 
 ### Why this repo?
 | | |
@@ -116,6 +116,8 @@ flowchart LR
   - [<img src="https://img.shields.io/badge/Ruby-CC342D?style=flat&logo=ruby&logoColor=white" /> Ruby](#-ruby)
   - [<img src="https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white" /> Rust](#-rust)
   - [<img src="https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white" /> Go](#-go)
+  - [<img src="https://img.shields.io/badge/Julia-9558B2?style=flat&logo=julia&logoColor=white" /> Julia](#-julia)
+  - [<img src="https://img.shields.io/badge/Clojure-5881D8?style=flat&logo=clojure&logoColor=white" /> Clojure](#-clojure)
   - [<img src="https://img.shields.io/badge/Elixir-4B275F?style=flat&logo=elixir&logoColor=white" /> Elixir](#-elixir--phoenix)
   - [<img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white" /> PHP](#-php)
   - [<img src="https://img.shields.io/badge/.NET-512BD4?style=flat&logo=dotnet&logoColor=white" /> C# / .NET](#-c--net)
@@ -323,6 +325,9 @@ flowchart LR
 | [Import maps (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/script/type/importmap) | 📚 Documentation | Control browser module resolution without a bundler |
 | [Tailwind CSS Docs](https://tailwindcss.com/docs) | 📚 Documentation | Utility-first CSS framework |
 | [shadcn/ui Docs](https://ui.shadcn.com/docs) | 📚 Documentation | Accessible component patterns built with Radix and Tailwind |
+| [daisyUI](https://daisyui.com/docs/) | 📚 Documentation | Tailwind CSS component library with semantic class names |
+| [Flowbite](https://flowbite.com/docs/getting-started/introduction/) | 📚 Documentation | Tailwind CSS component library and design system |
+| [Park UI](https://park-ui.com/docs) | 📚 Documentation | Beautifully designed components built with Ark UI and Panda CSS |
 | [TanStack Query](https://tanstack.com/query/latest/docs/framework/react/overview) | 📚 Documentation | Powerful async state management for React |
 | [TanStack Router](https://tanstack.com/router/latest) | 📚 Documentation | Type-safe routing for React and solid apps |
 | [TanStack Virtual](https://tanstack.com/virtual/latest) | 📚 Documentation | Headless UI for virtualizing large lists |
@@ -477,6 +482,18 @@ flowchart LR
 | [Effective Go](https://golang.org/doc/effective_go.html) | 📋 Guide | Tips for writing clear Go code |
 | [Go Web Examples](https://gowebexamples.com/) | 📖 Examples | Web development examples in Go |
 
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/julia/julia-original.svg" width="20" height="20" /> Julia
+| Resource | Type | Description |
+|----------|------|-------------|
+| [Julia Documentation](https://docs.julialang.org/) | 📚 Documentation | Official Julia language documentation |
+| [Julia Learning Resources](https://julialang.org/learning/) | 🎓 Courses | Official curated Julia learning resources |
+
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/clojure/clojure-original.svg" width="20" height="20" /> Clojure
+| Resource | Type | Description |
+|----------|------|-------------|
+| [Clojure Guides](https://clojure.org/guides/getting_started) | 📖 Guide | Official Clojure getting started guides |
+| [ClojureDocs](https://clojuredocs.org/) | 📚 Documentation | Community-powered Clojure documentation and examples |
+
 ### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" width="20" height="20" /> Elixir & Phoenix
 | Resource | Type | Description |
 |----------|------|-------------|
@@ -595,6 +612,10 @@ flowchart LR
 | [Weaviate Docs](https://weaviate.io/developers/weaviate) | 📚 Documentation | Open-source vector database |
 | [Chroma Docs](https://docs.trychroma.com/docs/overview/introduction) | 📚 Documentation | AI-native embedding database |
 | [Timescale Docs](https://docs.timescale.com/) | 📚 Documentation | Postgres for time-series and analytics |
+| [Vitess Docs](https://vitess.io/docs/) | 📚 Documentation | Horizontally scalable MySQL clustering system |
+| [Citus Docs](https://docs.citusdata.com/) | 📚 Documentation | Distributed Postgres for multi-tenant and real-time analytics |
+| [Apache Hudi Docs](https://hudi.apache.org/docs/overview/) | 📚 Documentation | Transactional data lake platform |
+| [OpenMetadata Docs](https://docs.open-metadata.org/) | 📚 Documentation | Unified metadata platform for data discovery and governance |
 | [CockroachDB Docs](https://www.cockroachlabs.com/docs/) | 📚 Documentation | Distributed SQL database |
 | [Cloudflare D1](https://developers.cloudflare.com/d1/) | 📚 Documentation | Serverless SQL database on Cloudflare |
 | [Typesense Guide](https://typesense.org/docs/guide/) | 📚 Documentation | Typo-tolerant open-source search engine |
@@ -642,6 +663,11 @@ flowchart LR
 | [Public APIs List](https://github.com/public-apis/public-apis) | 📋 Repository | Huge list of free APIs for practice |
 | [JSON API Specification](https://jsonapi.org/) | 📋 Specification | Building APIs in JSON |
 | [OpenAPI Specification](https://swagger.io/specification/) | 📋 Specification | API documentation standard |
+| [JSON:API](https://jsonapi.org/) | 📋 Specification | Convention for building JSON APIs |
+| [OpenAPI Generator](https://openapi-generator.tech/docs/installation) | 🛠️ Tool | Generate clients, servers, and docs from OpenAPI |
+| [Buf Docs](https://buf.build/docs/introduction) | 📚 Documentation | Protobuf tooling, linting, and schema registry |
+| [Speakeasy Docs](https://www.speakeasy.com/docs) | 📚 Documentation | Generate type-safe SDKs from OpenAPI |
+| [Fern Docs](https://www.buildwithfern.com/learn) | 📚 Documentation | Define APIs and generate SDKs/docs |
 | [webhooks.fyi](https://webhooks.fyi/) | 📖 Guide | Complete guide to webhooks |
 | [tRPC Docs](https://trpc.io/docs) | 📚 Documentation | End-to-end typesafe APIs for TypeScript |
 | [Zod Documentation](https://zod.dev/) | 📚 Documentation | TypeScript-first schema validation |
@@ -650,6 +676,8 @@ flowchart LR
 | [TypeBox](https://github.com/sinclairzx81/typebox) | 📚 Documentation | JSON Schema type builder for TypeScript |
 | [oRPC](https://orpc.unnoq.com/) | 📚 Documentation | End-to-end typesafe APIs with OpenAPI support |
 | [Effect Docs](https://effect.website/docs/getting-started/introduction/) | 📚 Documentation | TypeScript library for robust, typed programs |
+| [Effect Schema](https://effect.website/docs/schema/introduction/) | 📚 Documentation | Powerful schema definition and validation for Effect |
+| [Standard Schema](https://standardschema.dev/) | 📋 Specification | Common interface for TypeScript validation libraries |
 | [Learn OpenAPI](https://learn.openapis.org/) | 📖 Guide | Official OpenAPI learning resources |
 | [Apollo Client Get Started](https://www.apollographql.com/docs/react/get-started) | 📖 Tutorial | GraphQL client setup for React |
 | [GraphQL Yoga](https://the-guild.dev/graphql/yoga-server/docs) | 📚 Documentation | Soft, batteries-included GraphQL server |
@@ -748,6 +776,8 @@ flowchart LR
 | [Squoosh](https://squoosh.app/) | 🛠️ Tool | Compress and convert images in the browser |
 | [imgproxy](https://imgproxy.net/) | 📚 Documentation | Fast, secure standalone image processing server |
 | [MinIO Docs](https://min.io/docs/minio/linux/index.html) | 📚 Documentation | High-performance S3-compatible object storage |
+| [Garage Docs](https://garagehq.deuxfleurs.fr/documentation/) | 📚 Documentation | Lightweight geo-distributed S3-compatible storage |
+| [SeaweedFS](https://github.com/seaweedfs/seaweedfs) | 📚 Documentation | Fast distributed storage for blobs, objects, and files |
 | [Cloudflare R2](https://developers.cloudflare.com/r2/) | 📚 Documentation | Object storage without egress fees |
 | [NocoDB](https://nocodb.com/) | 🛠️ Tool | Open-source Airtable alternative on your database |
 | [Baserow](https://baserow.io/) | 🛠️ Tool | Open-source no-code database and application builder |
@@ -785,6 +815,7 @@ flowchart LR
 | [Helm Docs](https://helm.sh/docs/) | 📚 Documentation | Kubernetes package manager |
 | [Kustomize](https://kubectl.docs.kubernetes.io/references/kustomize/) | 📚 Documentation | Kubernetes native configuration management |
 | [Argo CD](https://argo-cd.readthedocs.io/en/stable/) | 📚 Documentation | Declarative GitOps continuous delivery |
+| [Flux Docs](https://fluxcd.io/flux/) | 📚 Documentation | GitOps toolkit for Kubernetes continuous delivery |
 | [Argo Workflows](https://argo-workflows.readthedocs.io/en/latest/) | 📚 Documentation | Kubernetes-native workflow engine |
 | [Tekton Docs](https://tekton.dev/docs/) | 📚 Documentation | Cloud-native CI/CD building blocks on Kubernetes |
 | [Cloud Native Buildpacks](https://buildpacks.io/docs/) | 📚 Documentation | Transform source code into OCI images |
@@ -838,6 +869,9 @@ flowchart LR
 | [ELK Stack Tutorial](https://www.elastic.co/guide/en/elastic-stack-get-started/current/get-started-elastic-stack.html) | 📖 Tutorial | Elasticsearch, Logstash, and Kibana |
 | [Jaeger Documentation](https://www.jaegertracing.io/docs/) | 📚 Documentation | Distributed tracing system |
 | [OpenTelemetry Docs](https://opentelemetry.io/docs/) | 📚 Documentation | Vendor-neutral observability framework |
+| [OpenTelemetry Collector](https://opentelemetry.io/docs/collector/) | 📚 Documentation | Vendor-agnostic way to receive, process, and export telemetry |
+| [Grafana Alloy](https://grafana.com/docs/alloy/latest/) | 📚 Documentation | OpenTelemetry Collector distribution with Prometheus pipelines |
+| [Prometheus Operator](https://prometheus-operator.dev/) | 📚 Documentation | Manage Prometheus monitoring stacks on Kubernetes |
 | [The Twelve-Factor App](https://12factor.net/) | 📋 Guide | Methodology for building SaaS apps |
 | [Sentry JS Docs](https://docs.sentry.io/platforms/javascript/) | 📚 Documentation | Error monitoring for JavaScript apps |
 | [Pino](https://github.com/pinojs/pino) | 📚 Documentation | Extremely fast Node.js logger |
@@ -962,6 +996,7 @@ flowchart LR
 | [LlamaIndex Docs](https://docs.llamaindex.ai/en/stable/) | 📚 Documentation | Framework for LLM-powered data agents and RAG |
 | [Haystack](https://docs.haystack.deepset.ai/docs/intro) | 📚 Documentation | LLM orchestration framework for production NLP |
 | [Ollama](https://ollama.com/) | 🛠️ Tool | Run open LLMs locally with a simple CLI/API |
+| [GPT4All Docs](https://docs.gpt4all.io/) | 📚 Documentation | Run local LLMs on desktops with a free open-source chat client |
 | [AnythingLLM Docs](https://docs.anythingllm.com/) | 📚 Documentation | All-in-one desktop/server app for private AI |
 | [MLX](https://ml-explore.github.io/mlx/build/html/index.html) | 📚 Documentation | Array framework for ML on Apple silicon |
 | [GGUF](https://github.com/ggerganov/ggml/blob/master/docs/gguf.md) | 📋 Spec | Quantized model file format used by llama.cpp |
@@ -1246,6 +1281,8 @@ flowchart LR
 | [Ionic Framework](https://ionicframework.com/docs) | 📚 Documentation | Hybrid mobile app development |
 | [Capacitor Docs](https://capacitorjs.com/docs) | 📚 Documentation | Native runtime for web apps on iOS/Android |
 | [Tauri](https://tauri.app/start/) | 📚 Documentation | Build tiny, secure desktop apps with web frontends |
+| [Wails](https://github.com/wailsapp/wails) | 📚 Documentation | Build desktop apps with Go and web frontends |
+| [Neutralinojs Docs](https://neutralino.js.org/docs/) | 📚 Documentation | Lightweight cross-platform desktop apps with web tech |
 | [Electron Docs](https://www.electronjs.org/docs/latest/) | 📚 Documentation | Cross-platform desktop apps with Chromium + Node |
 | [SwiftUI Tutorials](https://developer.apple.com/tutorials/swiftui) | 🎓 Tutorials | Build native Apple apps with SwiftUI |
 | [Jetpack Compose Course](https://developer.android.com/courses/android-basics-compose/course) | 🎓 Course | Modern Android UI with Compose |
@@ -1305,6 +1342,8 @@ flowchart LR
 | [Directus Docs](https://docs.directus.io/) | 📚 Documentation | Open-source data platform / headless CMS |
 | [Appwrite Docs](https://appwrite.io/docs) | 📚 Documentation | Open-source backend platform for web and mobile |
 | [PocketBase](https://pocketbase.io/docs/) | 📚 Documentation | Open-source backend in a single file |
+| [Nhost Docs](https://docs.nhost.io/) | 📚 Documentation | Open-source Firebase alternative with GraphQL and Auth |
+| [Encore.ts Docs](https://encore.dev/docs/ts) | 📚 Documentation | TypeScript backend framework with infra from code |
 | [Convex Docs](https://www.convex.dev/docs) | 📚 Documentation | Reactive backend-as-a-service for TypeScript |
 | [Hasura Docs](https://hasura.io/docs/latest/index/) | 📚 Documentation | Instant GraphQL/REST APIs on Postgres |
 | [PostgREST](https://docs.postgrest.org/) | 📚 Documentation | Turn Postgres into a RESTful API |
@@ -1594,6 +1633,7 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [pg-boss](https://github.com/timgit/pg-boss) | 📚 Documentation | Queueing jobs in Postgres for Node.js |
 | [Sidekiq](https://sidekiq.org/) | 📚 Documentation | Efficient background processing for Ruby |
 | [Inngest Docs](https://www.inngest.com/docs) | 📚 Documentation | Event-driven background jobs and workflows |
+| [Restate Docs](https://docs.restate.dev/) | 📚 Documentation | Durable execution platform for reliable distributed apps |
 | [Trigger.dev Docs](https://trigger.dev/docs) | 📚 Documentation | Background jobs for TypeScript apps |
 | [Temporal Docs](https://docs.temporal.io/) | 📚 Documentation | Durable workflow execution platform |
 | [Azure Circuit Breaker Pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/circuit-breaker) | 📋 Pattern | Stop cascading failures in distributed systems |

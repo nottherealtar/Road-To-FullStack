@@ -33,7 +33,7 @@
 
 A curated collection of **100% FREE** courses, docs, tutorials, and projects to go from zero → full-stack developer (with DevOps skills). Built for self-taught learners, career switchers, and anyone who wants a clear path without paywalls.
 
-> **Last refreshed:** September 12, 2026 (night maintenance) — full link audit; added C#/.NET, Hotwire/Inertia, supply-chain security (Cosign/Syft/Grype/Kyverno), local AI UIs (Open WebUI/Dify/Flowise), Connect RPC/CloudEvents, Expo Router/NativeWind, and low-code builders. Fixed Neo4j table break. Nothing previously listed was removed.
+> **Last refreshed:** September 13, 2026 (early-morning maintenance) — full link audit; added JVM frameworks (Quarkus/Micronaut/Ktor), Phoenix LiveView, web components, lakehouse/OLAP (Iceberg/Delta/Trino), observability (VictoriaMetrics/Pyroscope/OpenObserve), GitOps/runtime security (Argo Workflows/Buildpacks/Falco), API protection (Unkey/Arcjet/Upstash), Polar/Lemon Squeezy, and AnythingLLM/MLX. Fixed Realtime media table break. Nothing previously listed was removed.
 
 ### Why this repo?
 | | |
@@ -341,6 +341,10 @@ flowchart LR
 | [Stimulus Handbook](https://stimulus.hotwired.dev/handbook/introduction) | 📚 Documentation | Modest JavaScript framework for the HTML you have |
 | [Inertia.js Docs](https://inertiajs.com/) | 📚 Documentation | Build SPAs using classic server-side routing |
 | [Laravel Livewire](https://livewire.laravel.com/docs) | 📚 Documentation | Dynamic interfaces powered by Laravel |
+| [Lit Docs](https://lit.dev/docs/) | 📚 Documentation | Simple, fast web components library |
+| [MDN Custom Elements](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements) | 📚 Documentation | Native Web Components custom elements API |
+| [Shoelace](https://shoelace.style/) | 📚 Documentation | Forward-thinking library of web components |
+| [Open Web Components](https://open-wc.org/) | 📚 Documentation | Guides and tools for web components |
 | [Full Stack Open](https://fullstackopen.com/en/) | 🎓 Course | Deep React/Node/GraphQL fullstack curriculum |
 | [30 Days of React](https://github.com/Asabeneh/30-Days-Of-React) | 🏆 Challenge | Hands-on React practice over 30 days |
 | [React Router](https://reactrouter.com/home) | 📚 Documentation | Declarative routing for React apps |
@@ -428,6 +432,10 @@ flowchart LR
 |----------|------|-------------|
 | [Oracle Java Tutorials](https://docs.oracle.com/javase/tutorial/) | 📖 Tutorial | Official Java programming tutorials |
 | [Spring Boot Guides](https://spring.io/guides) | 📖 Tutorials | Spring Boot framework tutorials |
+| [Spring WebFlux](https://docs.spring.io/spring-framework/reference/web/webflux.html) | 📚 Documentation | Reactive web stack for Spring |
+| [Quarkus Guides](https://quarkus.io/guides/) | 📚 Documentation | Supersonic Subatomic Java framework |
+| [Micronaut Docs](https://docs.micronaut.io/latest/guide/) | 📚 Documentation | Modern JVM framework for microservices and serverless |
+| [Ktor Docs](https://ktor.io/docs/welcome.html) | 📚 Documentation | Asynchronous Kotlin framework for connected applications |
 | [Java Code Geeks](https://www.javacodegeeks.com/) | 📰 Articles | Java development articles and tutorials |
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg" width="20" height="20" /> Ruby
@@ -462,6 +470,8 @@ flowchart LR
 | [Elixir Getting Started](https://elixir-lang.org/getting-started/introduction.html) | 📖 Tutorial | Official Elixir language introduction |
 | [Phoenix Overview](https://hexdocs.pm/phoenix/overview.html) | 📚 Documentation | Productive web framework for Elixir |
 | [Phoenix Framework](https://www.phoenixframework.org/) | 🌐 Website | Guides and ecosystem for Phoenix |
+| [Phoenix LiveView](https://hexdocs.pm/phoenix_live_view/Phoenix.LiveView.html) | 📚 Documentation | Rich, real-time UIs with server-rendered HTML |
+| [Phoenix LiveView Guides](https://hexdocs.pm/phoenix_live_view/welcome.html) | 📖 Guide | Official LiveView getting-started path |
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" width="20" height="20" /> PHP
 | Resource | Type | Description |
@@ -489,6 +499,7 @@ flowchart LR
 | Resource | Type | Description |
 |----------|------|-------------|
 | [W3Schools SQL Tutorial](https://www.w3schools.com/sql/) | 📖 Tutorial | Complete SQL tutorial with examples |
+| [Mode SQL Tutorial](https://mode.com/sql-tutorial/) | 📖 Tutorial | Practical SQL tutorial for analysts and developers |
 | [PostgreSQL Tutorial](https://www.postgresqltutorial.com/) | 📖 Tutorial | Comprehensive PostgreSQL guide |
 | [Official PostgreSQL Tutorial](https://www.postgresql.org/docs/current/tutorial.html) | 📖 Tutorial | Official Postgres getting-started tutorial |
 | [PostgreSQL EXPLAIN](https://www.postgresql.org/docs/current/using-explain.html) | 📖 Guide | Understand and tune query plans |
@@ -576,6 +587,12 @@ flowchart LR
 | [Typesense Guide](https://typesense.org/docs/guide/) | 📚 Documentation | Typo-tolerant open-source search engine |
 | [DuckDB Docs](https://duckdb.org/docs/) | 📚 Documentation | In-process analytical SQL database |
 | [ClickHouse Docs](https://clickhouse.com/docs) | 📚 Documentation | Fast open-source OLAP database |
+| [Apache Iceberg Docs](https://iceberg.apache.org/docs/latest/) | 📚 Documentation | Open table format for huge analytic datasets |
+| [Delta Lake Docs](https://docs.delta.io/latest/index.html) | 📚 Documentation | Reliable open-source storage layer for data lakes |
+| [Trino Docs](https://trino.io/docs/current/) | 📚 Documentation | Distributed SQL query engine for data lakes |
+| [Apache Pinot Docs](https://docs.pinot.apache.org/) | 📚 Documentation | Realtime distributed OLAP datastore |
+| [Apache Druid Docs](https://druid.apache.org/docs/latest/design/) | 📚 Documentation | Real-time analytics database |
+| [Great Expectations](https://docs.greatexpectations.io/) | 📚 Documentation | Data quality / validation framework |
 | [dbt Docs](https://docs.getdbt.com/docs/introduction) | 📚 Documentation | Analytics engineering / SQL transformations |
 | [Metabase Docs](https://www.metabase.com/docs/latest/) | 📚 Documentation | Open-source business intelligence |
 | [Neo4j Graph Academy](https://graphacademy.neo4j.com/) | 🎓 Courses | Free interactive graph database courses |
@@ -734,6 +751,11 @@ flowchart LR
 | [Helm Docs](https://helm.sh/docs/) | 📚 Documentation | Kubernetes package manager |
 | [Kustomize](https://kubectl.docs.kubernetes.io/references/kustomize/) | 📚 Documentation | Kubernetes native configuration management |
 | [Argo CD](https://argo-cd.readthedocs.io/en/stable/) | 📚 Documentation | Declarative GitOps continuous delivery |
+| [Argo Workflows](https://argo-workflows.readthedocs.io/en/latest/) | 📚 Documentation | Kubernetes-native workflow engine |
+| [Tekton Docs](https://tekton.dev/docs/) | 📚 Documentation | Cloud-native CI/CD building blocks on Kubernetes |
+| [Cloud Native Buildpacks](https://buildpacks.io/docs/) | 📚 Documentation | Transform source code into OCI images |
+| [Kaniko](https://github.com/GoogleContainerTools/kaniko) | 🛠️ Tool | Build container images inside Kubernetes without a Docker daemon |
+| [Falco Docs](https://falco.org/docs/) | 📚 Documentation | Cloud-native runtime security with eBPF/syscalls |
 | [Flux](https://fluxcd.io/flux/get-started/) | 📚 Documentation | GitOps toolkit for Kubernetes |
 | [Podman Docs](https://docs.podman.io/) | 📚 Documentation | Daemonless container engine |
 
@@ -766,6 +788,10 @@ flowchart LR
 | Resource | Type | Description |
 |----------|------|-------------|
 | [Prometheus Documentation](https://prometheus.io/docs/) | 📚 Documentation | Open-source monitoring system |
+| [VictoriaMetrics Docs](https://docs.victoriametrics.com/) | 📚 Documentation | Fast, cost-efficient time series database and monitoring |
+| [Pyroscope Docs](https://grafana.com/docs/pyroscope/latest/) | 📚 Documentation | Continuous profiling for every application |
+| [OpenObserve Docs](https://openobserve.ai/docs/) | 📚 Documentation | Open-source observability platform (logs/metrics/traces) |
+| [Parca Docs](https://www.parca.dev/docs/) | 📚 Documentation | Continuous profiling with eBPF |
 | [Grafana Tutorials](https://grafana.com/tutorials/) | 📖 Tutorials | Data visualization and monitoring |
 | [Grafana Getting Started](https://grafana.com/docs/grafana/latest/getting-started/) | 📚 Documentation | Official Grafana getting-started docs |
 | [Grafana Loki](https://grafana.com/docs/loki/latest/) | 📚 Documentation | Log aggregation inspired by Prometheus |
@@ -896,6 +922,9 @@ flowchart LR
 | [LlamaIndex Docs](https://docs.llamaindex.ai/en/stable/) | 📚 Documentation | Framework for LLM-powered data agents and RAG |
 | [Haystack](https://docs.haystack.deepset.ai/docs/intro) | 📚 Documentation | LLM orchestration framework for production NLP |
 | [Ollama](https://ollama.com/) | 🛠️ Tool | Run open LLMs locally with a simple CLI/API |
+| [AnythingLLM Docs](https://docs.anythingllm.com/) | 📚 Documentation | All-in-one desktop/server app for private AI |
+| [MLX](https://ml-explore.github.io/mlx/build/html/index.html) | 📚 Documentation | Array framework for ML on Apple silicon |
+| [GGUF](https://github.com/ggerganov/ggml/blob/master/docs/gguf.md) | 📋 Spec | Quantized model file format used by llama.cpp |
 | [llama.cpp](https://github.com/ggerganov/llama.cpp) | 📚 Documentation | Efficient LLM inference in C/C++ |
 | [vLLM Docs](https://docs.vllm.ai/) | 📚 Documentation | High-throughput LLM serving engine |
 | [Langfuse Docs](https://langfuse.com/docs) | 📚 Documentation | Open-source LLM observability and analytics |
@@ -1486,7 +1515,6 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [LiveKit Docs](https://docs.livekit.io/home/) | 📚 Documentation | Open-source WebRTC application platform |
 | [Leaflet](https://leafletjs.com/reference.html) | 📚 Documentation | Lightweight open-source map library |
 | [Sharp](https://sharp.pixelplumbing.com/) | 📚 Documentation | High-performance Node.js image processing |
-
 | [FFmpeg Documentation](https://ffmpeg.org/documentation.html) | 📚 Documentation | Record, convert, and stream audio/video |
 | [Mux Docs](https://docs.mux.com/) | 📚 Documentation | Video API for streaming and on-demand playback |
 | [HLS.js Docs](https://github.com/video-dev/hls.js/#getting-started) | 📚 Documentation | HTTP Live Streaming client for browsers |
@@ -1509,6 +1537,9 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [Temporal Docs](https://docs.temporal.io/) | 📚 Documentation | Durable workflow execution platform |
 | [Azure Circuit Breaker Pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/circuit-breaker) | 📋 Pattern | Stop cascading failures in distributed systems |
 | [Azure Rate Limiting Pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/rate-limiting-pattern) | 📋 Pattern | Protect services from overload |
+| [Unkey Docs](https://www.unkey.com/docs) | 📚 Documentation | API key management and rate limiting |
+| [Arcjet Docs](https://docs.arcjet.com/) | 📚 Documentation | Security SDK for rate limiting, bots, and email validation |
+| [Upstash Ratelimit](https://upstash.com/docs/redis/sdks/ratelimit-ts/overview) | 📚 Documentation | Serverless rate limiting with Redis |
 
 <a id="payments-email--files"></a>
 ## <img src="https://img.shields.io/badge/Payments-635BFF?style=for-the-badge&logo=stripe&logoColor=white" /> Payments, Email & Files
@@ -1517,6 +1548,9 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 |----------|------|-------------|
 | [Stripe Get Started](https://docs.stripe.com/get-started) | 📚 Documentation | Accept payments and build billing flows |
 | [Stripe Development Docs](https://stripe.com/docs/development) | 📚 Documentation | APIs, testing, and integration guides |
+| [Polar Docs](https://polar.sh/docs) | 📚 Documentation | Payments and monetization for open-source / indie hackers |
+| [Lemon Squeezy Docs](https://docs.lemonsqueezy.com/) | 📚 Documentation | Payments, tax, and subscriptions for digital products |
+| [Paddle Billing Docs](https://developer.paddle.com/) | 📚 Documentation | Merchant-of-record billing APIs for SaaS |
 | [Resend Docs](https://resend.com/docs/introduction) | 📚 Documentation | Modern transactional email for developers |
 | [Postmark Docs](https://postmarkapp.com/developer) | 📚 Documentation | Reliable transactional email delivery |
 | [SendGrid Docs](https://www.twilio.com/docs/sendgrid) | 📚 Documentation | Email delivery and marketing APIs |

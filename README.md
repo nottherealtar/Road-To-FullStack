@@ -33,7 +33,7 @@
 
 A curated collection of **100% FREE** courses, docs, tutorials, and projects to go from zero → full-stack developer (with DevOps skills). Built for self-taught learners, career switchers, and anyone who wants a clear path without paywalls.
 
-> **Last refreshed:** September 13, 2026 (evening maintenance) — full link audit; added Julia/Clojure, daisyUI/Flowbite/Park UI, JSON:API/OpenAPI Generator/Buf, Standard Schema/Effect Schema, Vitess/Citus/Hudi/OpenMetadata, Garage/SeaweedFS, Wails/Neutralino/Nhost, Flux/Grafana Alloy/OTel Collector, Restate, GPT4All, and Speakeasy/Fern. Nothing previously listed was removed.
+> **Last refreshed:** September 14, 2026 (late-night maintenance) — full link audit; retargeted Buf docs for bot-friendly access; added OCaml/Haskell/Livebook, KeyDB/Hazelcast/RocketMQ/ZincSearch, GlitchTip/Highlight.io, Astro DB, Nix flakes/BuildKit/Buildah, Checkov/CDKTF/DevSpace, Uppy/FilePond, WebNN, and Percy. Nothing previously listed was removed.
 
 ### Why this repo?
 | | |
@@ -301,6 +301,7 @@ flowchart LR
 | [Next.js App Router](https://nextjs.org/docs/app) | 📚 Documentation | Modern Next.js routing, layouts, and rendering |
 | [Turbopack](https://nextjs.org/docs/app/api-reference/turbopack) | 📚 Documentation | Incremental bundler integrated with Next.js |
 | [Astro Docs](https://docs.astro.build/) | 📚 Documentation | Content-focused web framework with islands architecture |
+| [Astro DB](https://docs.astro.build/en/guides/astro-db/) | 📚 Documentation | Fully managed SQL database designed for Astro |
 | [Astro Actions](https://docs.astro.build/en/guides/actions/) | 📚 Documentation | Type-safe backend functions from Astro frontends |
 | [Astro Content Collections](https://docs.astro.build/en/guides/content-collections/) | 📚 Documentation | Typed Markdown/MDX content pipelines |
 | [Starlight](https://starlight.astro.build/) | 📚 Documentation | Documentation website framework built on Astro |
@@ -363,6 +364,7 @@ flowchart LR
 | [Storybook](https://storybook.js.org/docs) | 📚 Documentation | Build and test UI components in isolation |
 | [Storybook Test](https://storybook.js.org/docs/writing-tests) | 📚 Documentation | Component, interaction, and accessibility tests in Storybook |
 | [Chromatic Docs](https://www.chromatic.com/docs/) | 📚 Documentation | Visual testing and review for Storybook |
+| [Percy Docs](https://www.browserstack.com/docs/percy) | 📚 Documentation | Visual testing and review platform |
 | [Playwright Component Testing](https://playwright.dev/docs/test-components) | 📚 Documentation | Test components with Playwright |
 | [Vitest Browser Mode](https://vitest.dev/guide/browser/) | 📚 Documentation | Run Vitest tests in real browsers |
 | [Ladle](https://ladle.dev/) | 📚 Documentation | Fast Storybook alternative powered by Vite |
@@ -487,6 +489,9 @@ flowchart LR
 |----------|------|-------------|
 | [Julia Documentation](https://docs.julialang.org/) | 📚 Documentation | Official Julia language documentation |
 | [Julia Learning Resources](https://julialang.org/learning/) | 🎓 Courses | Official curated Julia learning resources |
+| [OCaml Learn](https://ocaml.org/docs) | 📚 Documentation | Official OCaml language learning docs |
+| [Haskell Documentation](https://www.haskell.org/documentation/) | 📚 Documentation | Official Haskell language documentation and guides |
+| [Livebook](https://livebook.dev/) | 🛠️ Tool | Interactive Elixir notebooks for learning and data apps |
 
 ### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/clojure/clojure-original.svg" width="20" height="20" /> Clojure
 | Resource | Type | Description |
@@ -551,6 +556,8 @@ flowchart LR
 | [MongoDB Learn](https://learn.mongodb.com/) | 🎓 Courses | Free MongoDB courses and certification |
 | [Redis Get Started](https://redis.io/docs/latest/get-started/) | 📖 Tutorial | Official Redis getting started guide |
 | [Valkey](https://valkey.io/) | 📚 Documentation | Open-source Redis-compatible in-memory data store |
+| [KeyDB Docs](https://docs.keydb.dev/) | 📚 Documentation | High-performance fork of Redis with multithreading |
+| [Hazelcast Docs](https://docs.hazelcast.com/hazelcast/latest/) | 📚 Documentation | Distributed in-memory data grid and compute platform |
 | [Dragonfly Docs](https://www.dragonflydb.io/docs) | 📚 Documentation | High-performance Redis-compatible datastore |
 | [Garnet](https://github.com/microsoft/garnet) | 📚 Documentation | Remote cache-store from Microsoft Research |
 | [Memcached](https://memcached.org/) | 📚 Documentation | High-performance distributed memory object caching |
@@ -605,6 +612,7 @@ flowchart LR
 | [RabbitMQ Tutorials](https://www.rabbitmq.com/tutorials) | 📖 Tutorials | Hands-on messaging tutorials |
 | [Elasticsearch Getting Started](https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html) | 📚 Documentation | Search and analytics engine basics |
 | [Meilisearch Docs](https://www.meilisearch.com/docs/learn/getting_started/installation) | 📚 Documentation | Fast, easy open-source search |
+| [ZincSearch](https://github.com/zincsearch/zincsearch) | 📚 Documentation | Lightweight Elasticsearch alternative for full-text search |
 | [Typesense Docs](https://typesense.org/docs/) | 📚 Documentation | Typo-tolerant open-source search engine |
 | [OpenSearch Docs](https://opensearch.org/docs/latest/) | 📚 Documentation | Community-driven Elasticsearch fork |
 | [pgvector](https://github.com/pgvector/pgvector) | 📚 Documentation | Vector similarity search for Postgres |
@@ -665,7 +673,7 @@ flowchart LR
 | [OpenAPI Specification](https://swagger.io/specification/) | 📋 Specification | API documentation standard |
 | [JSON:API](https://jsonapi.org/) | 📋 Specification | Convention for building JSON APIs |
 | [OpenAPI Generator](https://openapi-generator.tech/docs/installation) | 🛠️ Tool | Generate clients, servers, and docs from OpenAPI |
-| [Buf Docs](https://buf.build/docs/introduction) | 📚 Documentation | Protobuf tooling, linting, and schema registry |
+| [Buf Docs](https://github.com/bufbuild/buf) | 📚 Documentation | Protobuf tooling, linting, and schema registry (buf.build docs block some bots) |
 | [Speakeasy Docs](https://www.speakeasy.com/docs) | 📚 Documentation | Generate type-safe SDKs from OpenAPI |
 | [Fern Docs](https://www.buildwithfern.com/learn) | 📚 Documentation | Define APIs and generate SDKs/docs |
 | [webhooks.fyi](https://webhooks.fyi/) | 📖 Guide | Complete guide to webhooks |
@@ -705,6 +713,7 @@ flowchart LR
 | [NATS Docs](https://docs.nats.io/) | 📚 Documentation | Lightweight cloud-native messaging |
 | [NATS JetStream](https://docs.nats.io/nats-concepts/jetstream) | 📚 Documentation | Persistent streaming and queues for NATS |
 | [Redpanda Docs](https://docs.redpanda.com/current/home/) | 📚 Documentation | Kafka-compatible streaming platform (no ZooKeeper) |
+| [Apache RocketMQ Docs](https://rocketmq.apache.org/docs/quick-start/) | 📚 Documentation | Cloud-native distributed messaging and streaming |
 | [Apache Pulsar Concepts](https://pulsar.apache.org/docs/4.0.x/concepts-overview/) | 📚 Documentation | Multi-tenant pub-sub messaging and streaming |
 
 ## <img src="https://img.shields.io/badge/Security-000000?style=for-the-badge&logo=owasp&logoColor=white" /> Security
@@ -823,6 +832,9 @@ flowchart LR
 | [Falco Docs](https://falco.org/docs/) | 📚 Documentation | Cloud-native runtime security with eBPF/syscalls |
 | [Flux](https://fluxcd.io/flux/get-started/) | 📚 Documentation | GitOps toolkit for Kubernetes |
 | [Podman Docs](https://docs.podman.io/) | 📚 Documentation | Daemonless container engine |
+| [BuildKit](https://docs.docker.com/build/buildkit/) | 📚 Documentation | Next-generation Docker/OCI image builder |
+| [Buildah Docs](https://buildah.io/) | 📚 Documentation | Build OCI container images without a daemon |
+| [DevSpace Docs](https://www.devspace.sh/docs/getting-started/installation) | 📚 Documentation | Fast Kubernetes development workflow tool |
 
 ### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="20" height="20" /> Cloud Platforms
 | Resource | Type | Description |
@@ -874,6 +886,8 @@ flowchart LR
 | [Prometheus Operator](https://prometheus-operator.dev/) | 📚 Documentation | Manage Prometheus monitoring stacks on Kubernetes |
 | [The Twelve-Factor App](https://12factor.net/) | 📋 Guide | Methodology for building SaaS apps |
 | [Sentry JS Docs](https://docs.sentry.io/platforms/javascript/) | 📚 Documentation | Error monitoring for JavaScript apps |
+| [GlitchTip Docs](https://glitchtip.com/documentation) | 📚 Documentation | Open-source error tracking (Sentry-compatible) |
+| [Highlight Docs](https://www.highlight.io/docs) | 📚 Documentation | Open-source session replay, error monitoring, and logging |
 | [Pino](https://github.com/pinojs/pino) | 📚 Documentation | Extremely fast Node.js logger |
 | [Caddy Getting Started](https://caddyserver.com/docs/getting-started) | 📚 Documentation | Automatic HTTPS web server |
 | [Nginx Docs](https://nginx.org/en/docs/) | 📚 Documentation | High-performance reverse proxy and web server |
@@ -919,6 +933,9 @@ flowchart LR
 | [Earthly Docs](https://docs.earthly.dev/) | 📚 Documentation | Repeatable builds with Dockerfile-like syntax |
 | [Helmfile](https://helmfile.readthedocs.io/) | 📚 Documentation | Declarative spec for deploying Helm charts |
 | [Pulumi Docs](https://www.pulumi.com/docs/) | 📚 Documentation | Infrastructure as code using familiar languages |
+| [CDK for Terraform](https://developer.hashicorp.com/terraform/cdktf) | 📚 Documentation | Define Terraform configs with TypeScript/Python/etc. |
+| [Checkov Docs](https://www.checkov.io/1.Welcome/What%20is%20Checkov.html) | 📚 Documentation | Static analysis for IaC misconfigurations |
+| [Nix Flakes](https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-flake.html) | 📚 Documentation | Reproducible, hermetic development and package management |
 | [AWS CDK](https://docs.aws.amazon.com/cdk/v2/guide/home.html) | 📚 Documentation | Define cloud infrastructure in code |
 | [AWS SAM](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html) | 📚 Documentation | Build serverless applications on AWS |
 | [Serverless Framework](https://www.serverless.com/framework/docs) | 📚 Documentation | Develop and deploy serverless apps across clouds |
@@ -1551,6 +1568,7 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [Three.js Manual](https://threejs.org/manual/) | 📖 Tutorial | 3D graphics on the web with Three.js |
 | [WebGPU Fundamentals](https://webgpufundamentals.org/) | 📖 Tutorial | Next-generation GPU graphics/compute on the web |
 | [WebGPU API (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API) | 📚 Documentation | Modern GPU access for graphics and compute |
+| [WebNN](https://webmachinelearning.github.io/webnn/) | 📚 Documentation | Hardware-accelerated neural networks in the browser |
 | [WebTransport (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/WebTransport) | 📚 Documentation | Low-latency client-server messaging over HTTP/3 |
 | [HTTP/3 (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Protocol_upgrade_mechanism) | 📚 Documentation | Next-generation HTTP over QUIC |
 | [QUIC (MDN)](https://developer.mozilla.org/en-US/docs/Glossary/QUIC) | 📋 Reference | Transport protocol underlying HTTP/3 |
@@ -1669,6 +1687,8 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [Mailpit](https://github.com/axllent/mailpit) | 🛠️ Tool | Local email testing with a web UI |
 | [Can I Email](https://www.caniemail.com/) | 🛠️ Tool | Email client CSS/HTML support tables |
 | [UploadThing Docs](https://docs.uploadthing.com/) | 📚 Documentation | Type-safe file uploads for fullstack apps |
+| [Uppy Docs](https://uppy.io/docs/) | 📚 Documentation | Modular open-source file uploader for the web |
+| [FilePond Docs](https://pqina.nl/filepond/docs/) | 📚 Documentation | Accessible and flexible JavaScript file upload library |
 
 <a id="seo--discoverability"></a>
 ## <img src="https://img.shields.io/badge/SEO-0F9D58?style=for-the-badge&logo=google&logoColor=white" /> SEO & Discoverability

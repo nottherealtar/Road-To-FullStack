@@ -33,7 +33,7 @@
 
 A curated collection of **100% FREE** courses, docs, tutorials, and projects to go from zero → full-stack developer (with DevOps skills). Built for self-taught learners, career switchers, and anyone who wants a clear path without paywalls.
 
-> **Last refreshed:** September 14, 2026 (afternoon maintenance) — full link audit (1,431 unique URLs); added Raku/Nim/Mojo/PureScript/ReScript, Helidon/Vert.x/Javalin, Leptos/Dioxus/Yew, Slim/Hummingbird, Beam/NiFi/StarRocks/Doris/TiDB/Yugabyte/FoundationDB/LanceDB/Solr/Vespa/DataFusion/Avro/Thrift, Camel/ActiveMQ/Redpanda Connect, Envoy Gateway/Hubble/Argo Rollouts/Flagger/Ceph/Kopia/Vegeta, jj/GitButler, Cucumber, Keystone/Refine, PlantUML/C4/Structurizr, OpenID Connect, ConfigCat, LocalAI/PrivateGPT, Mailgun, and Scoop/winget/Chocolatey. Nothing previously listed was removed.
+> **Last refreshed:** September 14, 2026 (evening maintenance) — full link audit (1,512 unique URLs); added Debezium/Flink CDC/SeaTunnel/Calcite/Arrow Flight/Materialize/RisingWave/Redpanda Console+Connect/Ibis/dlt/OpenLineage, SpiceDB/OpenFGA/Casbin/Cerbos/OPAL, ASVS/ATT&CK/ZAP/Nuclei/Hypothesis/CycloneDX/SPDX/SLSA/SRE Book/Chaos Principles, Beyla/Coroot/Uptrace, Drone/Woodpecker/Gitea Actions, Wrangler/Miniflare/Hyperdrive/Firebase Emulator/Supabase CLI, Hono RPC/Elysia Eden/tRPC OpenAPI, GSAP/Anime.js/Lottie/R3F/Web Audio/WebCodecs, Phaser/Godot, mediasoup/Matrix/Zulip/Mattermost, Starship/Zellij/tmux/WezTerm/Alacritty/Kitty and modern CLI utilities, Ethereal, Browser Use/Stagehand, MCP Inspector/Ray/BentoML, TypeScript Deep Dive, Astro Tutorial, and D2. Nothing previously listed was removed.
 
 ### Why this repo?
 | | |
@@ -276,6 +276,7 @@ flowchart LR
 |----------|------|-------------|
 | [TypeScript Official Docs](https://www.typescriptlang.org/docs/) | 📚 Documentation | Complete TypeScript language documentation |
 | [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html) | 📚 Book | Official handbook covering types, modules, and tooling |
+| [TypeScript Deep Dive](https://basarat.gitbook.io/typescript/) | 📚 Book | Community-loved deep dive into TypeScript |
 | [TypeScript for JavaScript Programmers](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html) | 📖 Tutorial | Fast on-ramp if you already know JavaScript |
 | [Total TypeScript Tutorials](https://www.totaltypescript.com/tutorials) | 🎓 Tutorials | Free practical TypeScript tutorials |
 | [React TypeScript Cheatsheet](https://react-typescript-cheatsheet.netlify.app/) | 📋 Cheatsheet | Patterns for using TypeScript with React |
@@ -302,6 +303,7 @@ flowchart LR
 | [Next.js App Router](https://nextjs.org/docs/app) | 📚 Documentation | Modern Next.js routing, layouts, and rendering |
 | [Turbopack](https://nextjs.org/docs/app/api-reference/turbopack) | 📚 Documentation | Incremental bundler integrated with Next.js |
 | [Astro Docs](https://docs.astro.build/) | 📚 Documentation | Content-focused web framework with islands architecture |
+| [Astro Tutorial](https://docs.astro.build/en/tutorial/0-introduction/) | 🎓 Tutorial | Official hands-on Astro tutorial |
 | [Astro DB](https://docs.astro.build/en/guides/astro-db/) | 📚 Documentation | Fully managed SQL database designed for Astro |
 | [Astro Actions](https://docs.astro.build/en/guides/actions/) | 📚 Documentation | Type-safe backend functions from Astro frontends |
 | [Astro Content Collections](https://docs.astro.build/en/guides/content-collections/) | 📚 Documentation | Typed Markdown/MDX content pipelines |
@@ -372,6 +374,12 @@ flowchart LR
 | [Ladle](https://ladle.dev/) | 📚 Documentation | Fast Storybook alternative powered by Vite |
 | [Histoire](https://histoire.dev/) | 📚 Documentation | Vite-native component workshop |
 | [Motion](https://motion.dev/docs) | 📚 Documentation | Modern animation library for the web |
+| [GSAP Docs](https://gsap.com/docs/v3/) | 📚 Documentation | Professional-grade JavaScript animation library |
+| [Anime.js Docs](https://animejs.com/documentation/) | 📚 Documentation | Lightweight JavaScript animation library |
+| [Lottie](https://airbnb.io/lottie/#/) | 📚 Documentation | Render After Effects animations on the web and mobile |
+| [React Three Fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction) | 📚 Documentation | React renderer for Three.js |
+| [Web Audio API (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API) | 📚 Documentation | Process and synthesize audio in the browser |
+| [WebCodecs API (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/WebCodecs_API) | 📚 Documentation | Low-level access to media encoders/decoders |
 | [Remix Docs](https://remix.run/docs/en/main) | 📚 Documentation | Full-stack web framework focused on web standards |
 | [Nuxt Docs](https://nuxt.com/docs/getting-started/introduction) | 📚 Documentation | The Intuitive Vue Framework |
 | [SvelteKit Docs](https://kit.svelte.dev/docs/introduction) | 📚 Documentation | Full-stack Svelte application framework |
@@ -436,7 +444,10 @@ flowchart LR
 | [Fastify Getting Started](https://fastify.dev/docs/latest/Guides/Getting-Started/) | 📚 Documentation | Fast and low-overhead Node.js web framework |
 | [NestJS Docs](https://docs.nestjs.com/) | 📚 Documentation | Progressive Node.js framework for scalable server apps |
 | [Hono Docs](https://hono.dev/docs/) | 📚 Documentation | Ultrafast web framework for the Edges |
+| [Hono RPC](https://hono.dev/docs/guides/rpc) | 📚 Documentation | End-to-end type-safe client for Hono APIs |
 | [Elysia](https://elysiajs.com/quick-start.html) | 📚 Documentation | Ergonomic TypeScript framework for Bun |
+| [Elysia Eden](https://elysiajs.com/eden/overview.html) | 📚 Documentation | End-to-end type-safe client for Elysia |
+| [tRPC OpenAPI](https://trpc.io/docs/openapi) | 📚 Documentation | Generate OpenAPI specs from tRPC routers |
 | [Nitro Guide](https://nitro.build/guide) | 📚 Documentation | Next-generation server toolkit |
 | [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices) | 📋 Guide | Comprehensive Node.js best practices |
 | [The Odin Project - NodeJS](https://www.theodinproject.com/paths/full-stack-javascript) | 🎓 Course | Full-stack JavaScript path including Node |
@@ -691,6 +702,17 @@ flowchart LR
 | [Apache Parquet Docs](https://parquet.apache.org/docs/) | 📚 Documentation | Columnar storage format for analytics workloads |
 | [Apache Beam Quickstart](https://beam.apache.org/get-started/quickstart-java/) | 📖 Tutorial | Unified batch and streaming data processing |
 | [Apache NiFi Docs](https://nifi.apache.org/documentation/v2/) | 📚 Documentation | Visual dataflow system for routing and transformation |
+| [Debezium Documentation](https://debezium.io/documentation/) | 📚 Documentation | Change data capture for databases into event streams |
+| [Apache Flink CDC](https://nightlies.apache.org/flink/flink-cdc-docs-stable/) | 📚 Documentation | Real-time CDC connectors and pipelines on Flink |
+| [Apache SeaTunnel Docs](https://seatunnel.apache.org/docs/2.3.8/about/) | 📚 Documentation | High-performance distributed data integration platform |
+| [Apache Calcite Docs](https://calcite.apache.org/docs/) | 📚 Documentation | Dynamic data management framework and SQL parser/optimizer |
+| [Apache Arrow Flight](https://arrow.apache.org/docs/format/Flight.html) | 📚 Documentation | High-performance language-agnostic data transport |
+| [Apache Arrow Flight SQL](https://arrow.apache.org/docs/format/FlightSql.html) | 📚 Documentation | Wire protocol for JDBC/ODBC-like access over Flight |
+| [Materialize Docs](https://materialize.com/docs/) | 📚 Documentation | Streaming SQL database for real-time applications |
+| [RisingWave Docs](https://docs.risingwave.com/) | 📚 Documentation | Distributed SQL streaming database |
+| [Ibis Docs](https://ibis-project.org/docs/) | 📚 Documentation | Portable Python dataframe API across many backends |
+| [dlt Docs](https://dlthub.com/docs/intro) | 📚 Documentation | Open-source Python library for reliable data loading |
+| [OpenLineage Docs](https://openlineage.io/docs/) | 📚 Documentation | Open standard for data lineage collection |
 | [StarRocks Docs](https://docs.starrocks.io/docs/introduction/StarRocks_intro/) | 📚 Documentation | High-performance analytical database for real-time analytics |
 | [Apache Doris Quick Start](https://doris.apache.org/docs/3.0/gettingStarted/quick-start/) | 📚 Documentation | Real-time analytical database for reporting and BI |
 | [TiDB Quick Start](https://docs.pingcap.com/tidb/stable/quick-start-with-tidb/) | 📚 Documentation | Distributed SQL database compatible with MySQL |
@@ -782,6 +804,8 @@ flowchart LR
 | [NATS Docs](https://docs.nats.io/) | 📚 Documentation | Lightweight cloud-native messaging |
 | [NATS JetStream](https://docs.nats.io/nats-concepts/jetstream) | 📚 Documentation | Persistent streaming and queues for NATS |
 | [Redpanda Docs](https://docs.redpanda.com/current/home/) | 📚 Documentation | Kafka-compatible streaming platform (no ZooKeeper) |
+| [Redpanda Console](https://docs.redpanda.com/current/console/) | 📚 Documentation | Web UI for exploring Kafka-compatible topics and messages |
+| [Redpanda Connect](https://docs.redpanda.com/redpanda-connect/about/) | 📚 Documentation | Declarative stream processing and ETL pipelines |
 | [Apache RocketMQ Docs](https://rocketmq.apache.org/docs/quick-start/) | 📚 Documentation | Cloud-native distributed messaging and streaming |
 | [Apache Pulsar Concepts](https://pulsar.apache.org/docs/4.0.x/concepts-overview/) | 📚 Documentation | Multi-tenant pub-sub messaging and streaming |
 | [Apache Camel Manual](https://camel.apache.org/manual/index.html) | 📚 Documentation | Integration framework with hundreds of connectors |
@@ -808,6 +832,16 @@ flowchart LR
 | [web.dev Secure Cookies](https://web.dev/articles/samesite-cookies-explained) | 📖 Article | SameSite cookies and cross-site request risks |
 | [Permissions Policy (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy) | 📚 Documentation | Control browser features available to a document |
 | [picoCTF](https://picoctf.org/) | 🎮 Interactive | Free beginner-friendly cybersecurity CTF practice |
+| [OWASP ASVS](https://owasp.org/www-project-application-security-verification-standard/) | 📋 Standard | Application Security Verification Standard |
+| [MITRE ATT&CK](https://attack.mitre.org/) | 📋 Knowledge Base | Adversary tactics and techniques knowledge base |
+| [OWASP ZAP Docs](https://www.zaproxy.org/docs/) | 📚 Documentation | Free web application security scanner |
+| [Nuclei Docs](https://docs.projectdiscovery.io/tools/nuclei/overview) | 📚 Documentation | Fast, template-based vulnerability scanner |
+| [Hypothesis Docs](https://hypothesis.readthedocs.io/) | 📚 Documentation | Property-based testing for Python |
+| [CycloneDX](https://cyclonedx.org/) | 📋 Specification | SBOM standard for application security |
+| [SPDX](https://spdx.dev/) | 📋 Specification | Open standard for software package data exchange / SBOMs |
+| [SLSA](https://slsa.dev/) | 📋 Framework | Supply-chain levels for software artifacts |
+| [Site Reliability Engineering Book](https://sre.google/sre-book/table-of-contents/) | 📚 Book | Free Google SRE book on running reliable systems |
+| [Principles of Chaos Engineering](https://principlesofchaos.org/) | 📋 Guide | Foundational principles for chaos experiments |
 | [Hack The Box](https://www.hackthebox.com/) | 🎮 Interactive | Hands-on hacking labs (free tier available) |
 
 
@@ -842,6 +876,11 @@ flowchart LR
 | [OpenID Connect](https://openid.net/developers/how-connect-works/) | 📋 Guide | How OpenID Connect builds identity on OAuth 2.0 |
 | [Authelia Docs](https://www.authelia.com/overview/prologue/introduction/) | 📚 Documentation | Open-source authentication and authorization server |
 | [Open Policy Agent](https://www.openpolicyagent.org/docs/latest/) | 📚 Documentation | Policy-as-code for authorization decisions |
+| [SpiceDB Docs](https://authzed.com/docs/spicedb/getting-started/discovering-spicedb) | 📚 Documentation | Google Zanzibar-inspired permissions database |
+| [OpenFGA Docs](https://openfga.dev/docs) | 📚 Documentation | Fine-grained authorization inspired by Google Zanzibar |
+| [Casbin Docs](https://casbin.org/docs/overview) | 📚 Documentation | Authorization library supporting ACL, RBAC, ABAC, and more |
+| [Cerbos Docs](https://docs.cerbos.dev/) | 📚 Documentation | Self-hosted, policy-based access control for apps |
+| [OPAL](https://github.com/permitio/opal) | 📚 Documentation | Real-time policy and data sync layer for OPA/Cedar |
 
 ## <img src="https://img.shields.io/badge/Performance-F44B21?style=for-the-badge&logo=lighthouse&logoColor=white" /> Performance & Optimization
 
@@ -989,6 +1028,9 @@ flowchart LR
 | [Elastic APM](https://www.elastic.co/docs/solutions/observability/apm) | 📚 Documentation | Application performance monitoring in the Elastic Stack |
 | [Grafana Faro](https://grafana.com/docs/grafana-cloud/observe-and-act/monitor-applications/frontend-observability/) | 📚 Documentation | Frontend application observability |
 | [Faro Web SDK](https://github.com/grafana/faro-web-sdk) | 🛠️ Tool | Open-source web SDK for Grafana Faro |
+| [Grafana Beyla](https://grafana.com/docs/beyla/latest/) | 📚 Documentation | eBPF auto-instrumentation for application observability |
+| [Coroot Docs](https://docs.coroot.com/) | 📚 Documentation | Open-source eBPF-based observability platform |
+| [Uptrace Docs](https://uptrace.dev/get/) | 📚 Documentation | Open-source APM and distributed tracing with OpenTelemetry |
 | [bpftrace](https://bpftrace.org/) | 📚 Documentation | High-level eBPF tracing language for Linux |
 | [Tetragon Docs](https://tetragon.io/docs/getting-started/) | 📚 Documentation | eBPF-based security observability and runtime enforcement |
 | [Pixie](https://px.dev/) | 📚 Documentation | Instant Kubernetes observability with eBPF |
@@ -1033,6 +1075,9 @@ flowchart LR
 | [ExternalDNS](https://kubernetes-sigs.github.io/external-dns/) | 📚 Documentation | Configure external DNS providers from Kubernetes resources |
 | [Longhorn Docs](https://longhorn.io/docs/) | 📚 Documentation | Cloud-native distributed block storage for Kubernetes |
 | [Cluster API](https://cluster-api.sigs.k8s.io/) | 📚 Documentation | Declarative Kubernetes cluster lifecycle management |
+| [Drone CI Docs](https://docs.drone.io/) | 📚 Documentation | Container-native continuous delivery platform |
+| [Woodpecker CI Docs](https://woodpecker-ci.org/docs/intro) | 📚 Documentation | Simple, ethical CI/CD engine (Drone fork) |
+| [Gitea Actions](https://docs.gitea.com/usage/actions/overview) | 📚 Documentation | GitHub Actions-compatible CI on self-hosted Gitea |
 
 ## <img src="https://img.shields.io/badge/Automation-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" /> Automation & Workflows
 
@@ -1224,7 +1269,7 @@ flowchart LR
 | [MLOps Specialization](https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops) | 🎓 Course | DeepLearning.AI MLOps course (audit for free) |
 | [DVC Documentation](https://dvc.org/doc) | 📚 Documentation | Data version control for ML |
 | [Kubeflow Documentation](https://www.kubeflow.org/docs/) | 📚 Documentation | ML workflows on Kubernetes |
-| [BentoML Documentation](https://docs.bentoml.org/) | 📚 Documentation | Model serving framework |
+| [BentoML Documentation](https://docs.bentoml.com/en/latest/) | 📚 Documentation | Model serving framework |
 | [Seldon Documentation](https://docs.seldon.ai/) | 📚 Documentation | ML model deployment platform |
 
 ### 🆓 Free AI Development Platforms
@@ -1247,6 +1292,8 @@ flowchart LR
 |----------|------|-------------|
 | [Firecrawl Docs](https://docs.firecrawl.dev/) | 📚 Documentation | Crawl websites into clean LLM-ready data |
 | [Crawl4AI](https://github.com/unclecode/crawl4ai) | 📚 Documentation | Open-source LLM-friendly web crawler |
+| [Browser Use Docs](https://docs.browser-use.com/) | 📚 Documentation | Make AI agents control a browser |
+| [Stagehand Docs](https://docs.stagehand.dev/) | 📚 Documentation | Browser automation framework designed for AI agents |
 | [Scrapy Docs](https://docs.scrapy.org/) | 📚 Documentation | Fast high-level web crawling & scraping framework |
 | [Cheerio](https://cheerio.js.org/docs/intro) | 📚 Documentation | Fast, flexible HTML parsing for the server |
 | [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) | 📚 Documentation | Python library for pulling data out of HTML/XML |
@@ -1271,6 +1318,9 @@ flowchart LR
 | [Gemini CLI](https://github.com/google-gemini/gemini-cli) | 🛠️ Tool | Open-source AI agent for the command line |
 | [Aider](https://aider.chat/) | 🛠️ Tool | AI pair programming in your terminal |
 | [Continue Docs](https://docs.continue.dev/) | 📚 Documentation | Open-source AI code assistant for IDEs |
+| [MCP Inspector](https://modelcontextprotocol.io/docs/tools/inspector) | 🛠️ Tool | Interactive inspector for MCP servers |
+| [Ray Docs](https://docs.ray.io/en/latest/) | 📚 Documentation | Distributed computing framework for AI and Python workloads |
+| [BentoML Docs](https://docs.bentoml.com/en/latest/) | 📚 Documentation | Framework for serving and deploying ML models |
 | [Goose](https://block.github.io/goose/) | 🛠️ Tool | Local, extensible AI agent by Block |
 | [OpenHands](https://docs.openhands.dev/) | 📚 Documentation | Open platform for software development agents |
 | [GitHub Copilot Docs](https://docs.github.com/en/copilot) | 📚 Documentation | AI pair programmer integrated with GitHub |
@@ -1352,6 +1402,7 @@ flowchart LR
 | [PlantUML Guide](https://plantuml.com/guide) | 📖 Guide | Text-based UML and architecture diagrams |
 | [C4 Model](https://c4model.com/) | 📋 Guide | Hierarchical software architecture diagramming approach |
 | [Structurizr Help](https://structurizr.com/help) | 📚 Documentation | C4-based architecture diagrams as code |
+| [D2 Tour](https://d2lang.com/tour/intro/) | 📖 Guide | Modern diagram-as-code language |
 
 ### 📱 Technology Comparison Charts
 | Resource | Type | Description |
@@ -1448,6 +1499,8 @@ flowchart LR
 | [Compose Multiplatform](https://www.jetbrains.com/compose-multiplatform/) | 📚 Documentation | Declarative UI framework for Android, iOS, desktop, and web |
 | [Godot Docs](https://docs.godotengine.org/en/stable/) | 📚 Documentation | Free and open-source game engine (also great for interactive apps) |
 | [Bevy Quick Start](https://bevy.org/learn/quick-start/getting-started/) | 📖 Tutorial | Data-driven game engine built in Rust |
+| [Phaser Learn](https://phaser.io/learn) | 🎓 Tutorials | Popular 2D HTML5 game framework |
+| [Godot Docs](https://docs.godotengine.org/en/stable/getting_started/introduction/index.html) | 📚 Documentation | Free and open-source game engine |
 
 ## <img src="https://img.shields.io/badge/Web3-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white" /> Web3 & Blockchain
 
@@ -1578,6 +1631,27 @@ flowchart LR
 | [Bazel Docs](https://bazel.build/start) | 📚 Documentation | Fast, scalable multi-language build system |
 | [Nx Intro](https://nx.dev/getting-started/intro) | 📚 Documentation | Smart monorepos and AI-assisted tooling |
 | [Just](https://just.systems/man/en/) | 🛠️ Tool | Handy command runner for project tasks |
+| [Starship](https://starship.rs/) | 🛠️ Tool | Minimal, blazing-fast, customizable shell prompt |
+| [Zellij](https://zellij.dev/documentation/) | 🛠️ Tool | Terminal workspace / multiplexer with a friendly UX |
+| [tmux Wiki](https://github.com/tmux/tmux/wiki) | 📚 Documentation | Terminal multiplexer for sessions and panes |
+| [WezTerm](https://wezfurlong.org/wezterm/index.html) | 🛠️ Tool | GPU-accelerated cross-platform terminal emulator |
+| [Alacritty](https://alacritty.org/) | 🛠️ Tool | Fast, cross-platform OpenGL terminal emulator |
+| [Kitty](https://sw.kovidgoyal.net/kitty/) | 🛠️ Tool | Fast, feature-rich, GPU-based terminal emulator |
+| [ripgrep](https://github.com/BurntSushi/ripgrep) | 🛠️ Tool | Extremely fast recursive search (grep alternative) |
+| [fd](https://github.com/sharkdp/fd) | 🛠️ Tool | Simple, fast, and user-friendly alternative to find |
+| [eza](https://github.com/eza-community/eza) | 🛠️ Tool | Modern, maintained replacement for ls |
+| [fzf](https://github.com/junegunn/fzf) | 🛠️ Tool | Command-line fuzzy finder |
+| [zoxide](https://github.com/ajeetdsouza/zoxide) | 🛠️ Tool | Smarter cd command that learns your habits |
+| [lazygit](https://github.com/jesseduffield/lazygit) | 🛠️ Tool | Simple terminal UI for git commands |
+| [lazydocker](https://github.com/jesseduffield/lazydocker) | 🛠️ Tool | Terminal UI for Docker and Docker Compose |
+| [bottom](https://github.com/ClementTsang/bottom) | 🛠️ Tool | Graphical process/system monitor for the terminal |
+| [Charm](https://charm.sh/) | 🛠️ Tool | Libraries and tools for delightful terminal apps |
+| [Bubble Tea](https://github.com/charmbracelet/bubbletea) | 📚 Documentation | Powerful Go framework for terminal UIs (Elm Architecture) |
+| [Gum](https://github.com/charmbracelet/gum) | 🛠️ Tool | Glue for delightful shell scripts |
+| [Cobra](https://github.com/spf13/cobra) | 📚 Documentation | Popular Go library for creating powerful CLI applications |
+| [Clap](https://docs.rs/clap/latest/clap/) | 📚 Documentation | Command-line argument parser for Rust |
+| [Typer](https://typer.tiangolo.com/) | 📚 Documentation | Build great CLIs with Python type hints |
+| [Click](https://click.palletsprojects.com/) | 📚 Documentation | Composable command-line interface toolkit for Python |
 | [Scoop](https://scoop.sh/) | 🛠️ Tool | Command-line installer for Windows |
 | [winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/) | 🛠️ Tool | Windows Package Manager from Microsoft |
 | [Chocolatey Docs](https://docs.chocolatey.org/en-us/) | 📚 Documentation | Package manager for Windows |
@@ -1624,6 +1698,11 @@ flowchart LR
 | [Fly.io Docs](https://fly.io/docs/) | ☁️ Platform | Run containers close to your users |
 | [Cloudflare Workers Docs](https://developers.cloudflare.com/workers/) | ☁️ Platform | Serverless compute on Cloudflare's edge |
 | [Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/) | 📚 Documentation | Run AI models on Cloudflare's global network |
+| [Wrangler Docs](https://developers.cloudflare.com/workers/wrangler/) | 📚 Documentation | CLI for developing and deploying Cloudflare Workers |
+| [Miniflare](https://developers.cloudflare.com/workers/testing/miniflare/) | 📚 Documentation | Local simulator for Cloudflare Workers |
+| [Cloudflare Hyperdrive](https://developers.cloudflare.com/hyperdrive/) | 📚 Documentation | Accelerate queries to existing databases from Workers |
+| [Firebase Emulator Suite](https://firebase.google.com/docs/emulator-suite) | 📚 Documentation | Local emulators for Firebase Auth, Firestore, Functions, and more |
+| [Supabase CLI](https://supabase.com/docs/reference/cli/introduction) | 📚 Documentation | Local development and management CLI for Supabase |
 | [Cloudflare AI Gateway](https://developers.cloudflare.com/ai-gateway/) | 📚 Documentation | Control, cache, and observe AI traffic |
 | [Cloudflare Vectorize](https://developers.cloudflare.com/vectorize/) | 📚 Documentation | Vector database for AI applications |
 | [Cloudflare Queues](https://developers.cloudflare.com/queues/) | 📚 Documentation | Message queues for Workers |
@@ -1786,6 +1865,10 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 |----------|------|-------------|
 | [WebRTC Overview](https://webrtc.org/getting-started/overview) | 📚 Documentation | Peer-to-peer audio, video, and data |
 | [LiveKit Docs](https://docs.livekit.io/home/) | 📚 Documentation | Open-source WebRTC application platform |
+| [mediasoup Docs](https://mediasoup.org/documentation/v3/) | 📚 Documentation | Powerful WebRTC SFU for scalable realtime media |
+| [Matrix Client-Server API](https://matrix.org/docs/guides/client-server-api/) | 📚 Documentation | Open standard for decentralized realtime communication |
+| [Zulip Docs](https://zulip.readthedocs.io/en/stable/) | 📚 Documentation | Powerful open-source team chat organized by topics |
+| [Mattermost Docs](https://docs.mattermost.com/) | 📚 Documentation | Open-source Slack alternative for team collaboration |
 | [Leaflet](https://leafletjs.com/reference.html) | 📚 Documentation | Lightweight open-source map library |
 | [Sharp](https://sharp.pixelplumbing.com/) | 📚 Documentation | High-performance Node.js image processing |
 | [FFmpeg Documentation](https://ffmpeg.org/documentation.html) | 📚 Documentation | Record, convert, and stream audio/video |
@@ -1842,6 +1925,7 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [React Email](https://react.email/docs/introduction) | 📚 Documentation | Build and send emails using React components |
 | [MJML](https://mjml.io/) | 📚 Documentation | Responsive email markup language |
 | [Mailpit](https://github.com/axllent/mailpit) | 🛠️ Tool | Local email testing with a web UI |
+| [Ethereal Email](https://ethereal.email/) | 🛠️ Tool | Fake SMTP service for testing outbound email |
 | [Can I Email](https://www.caniemail.com/) | 🛠️ Tool | Email client CSS/HTML support tables |
 | [UploadThing Docs](https://docs.uploadthing.com/) | 📚 Documentation | Type-safe file uploads for fullstack apps |
 | [Uppy Docs](https://uppy.io/docs/) | 📚 Documentation | Modular open-source file uploader for the web |

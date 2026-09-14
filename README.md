@@ -33,7 +33,7 @@
 
 A curated collection of **100% FREE** courses, docs, tutorials, and projects to go from zero → full-stack developer (with DevOps skills). Built for self-taught learners, career switchers, and anyone who wants a clear path without paywalls.
 
-> **Last refreshed:** September 14, 2026 (early-morning maintenance) — full link audit; added F#/Crystal, Kotlin Coroutines/Compose Multiplatform, Micrometer/Resilience4j, WireMock/Gatling/Artillery/Spectral/Schemathesis, Consul/Nomad/Packer/Vagrant/Terragrunt/Backstage, Zipkin/SkyWalking/VictoriaLogs/Grafana OnCall/OpenCost, Dapr/Spin/WasmCloud/KEDA, and xh. Nothing previously listed was removed.
+> **Last refreshed:** September 14, 2026 (mid-morning maintenance) — full link audit; added Scala/ZIO, Axum/Chi/Fiber/Echo, Django Ninja/Litestar, Quarto/Marimo/Jupyter Book/Observable Framework/NiceGUI/Reflex, Atlantis/Boundary/Molecule, PagerDuty/Opsgenie/Statuspage/Keep, Honeycomb, TryHackMe/OverTheWire, AFFiNE, Zero/TanStack DB, and Farm. Nothing previously listed was removed.
 
 ### Why this repo?
 | | |
@@ -116,6 +116,7 @@ flowchart LR
   - [<img src="https://img.shields.io/badge/Ruby-CC342D?style=flat&logo=ruby&logoColor=white" /> Ruby](#-ruby)
   - [<img src="https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white" /> Rust](#-rust)
   - [<img src="https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white" /> Go](#-go)
+  - [<img src="https://img.shields.io/badge/Scala-DC322F?style=flat&logo=scala&logoColor=white" /> Scala](#-scala)
   - [<img src="https://img.shields.io/badge/Julia-9558B2?style=flat&logo=julia&logoColor=white" /> Julia](#-julia)
   - [<img src="https://img.shields.io/badge/Clojure-5881D8?style=flat&logo=clojure&logoColor=white" /> Clojure](#-clojure)
   - [<img src="https://img.shields.io/badge/Elixir-4B275F?style=flat&logo=elixir&logoColor=white" /> Elixir](#-elixir--phoenix)
@@ -317,6 +318,7 @@ flowchart LR
 | [Redocly Docs](https://redocly.com/docs) | 📚 Documentation | OpenAPI docs, linting, and API governance |
 | [Swagger UI](https://github.com/swagger-api/swagger-ui) | 🛠️ Tool | Interactive OpenAPI/Swagger documentation UI |
 | [Vite Guide](https://vite.dev/guide/) | 📖 Guide | Next-generation frontend build tool |
+| [Farm Docs](https://www.farmfe.org/docs/quick-start) | 📚 Documentation | Extremely fast Vite-compatible web build tool written in Rust |
 | [Rolldown](https://rolldown.rs/) | 📚 Documentation | Rust-based JavaScript bundler (Vite's future bundler) |
 | [Rspack](https://rspack.dev/guide/start/introduction) | 📚 Documentation | Fast Rust-based bundler compatible with the Webpack ecosystem |
 | [esbuild](https://esbuild.github.io/) | 📚 Documentation | Extremely fast JavaScript bundler and minifier |
@@ -449,6 +451,10 @@ flowchart LR
 | [Django Tutorial](https://docs.djangoproject.com/en/stable/intro/tutorial01/) | 📖 Tutorial | Official Django web framework tutorial |
 | [Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) | 📖 Tutorial Series | Comprehensive Flask tutorial |
 | [FastAPI Tutorial](https://fastapi.tiangolo.com/tutorial/) | 📖 Tutorial | Modern Python API development |
+| [Django Ninja](https://django-ninja.dev/) | 📚 Documentation | Fast Django REST framework inspired by FastAPI |
+| [Litestar Docs](https://docs.litestar.dev/latest/) | 📚 Documentation | High-performance ASGI API framework for Python |
+| [NiceGUI Docs](https://nicegui.io/documentation) | 📚 Documentation | Build web UIs in Python with minimal effort |
+| [Reflex Docs](https://reflex.dev/docs/getting-started/introduction/) | 📚 Documentation | Build web apps in pure Python |
 | [Mega Tutorial](https://github.com/getvmio/free-python-resources) | 📖 Knowledge Repo | Modern Python development |
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="20" height="20" /> Java
@@ -482,6 +488,8 @@ flowchart LR
 | [Rust by Example](https://doc.rust-lang.org/rust-by-example/) | 📖 Examples | Learn Rust through annotated examples |
 | [Rustlings](https://github.com/rust-lang/rustlings) | 🏆 Exercises | Small exercises to get you used to Rust |
 | [Actix Web Guide](https://actix.rs/docs/) | 📖 Tutorial | Web framework for Rust |
+| [Axum](https://docs.rs/axum/latest/axum/) | 📚 Documentation | Ergonomic web framework built with Tokio and Tower |
+| [Rocket Guide](https://rocket.rs/guide/v0.5/) | 📚 Documentation | Type-safe, async web framework for Rust |
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" width="20" height="20" /> Go
 | Resource | Type | Description |
@@ -489,7 +497,17 @@ flowchart LR
 | [A Tour of Go](https://tour.golang.org/) | 🎮 Interactive Tutorial | Official interactive Go tutorial |
 | [Go by Example](https://gobyexample.com/) | 📖 Examples | Hands-on introduction to Go |
 | [Effective Go](https://golang.org/doc/effective_go.html) | 📋 Guide | Tips for writing clear Go code |
+| [Chi Docs](https://go-chi.io/#/pages/intro) | 📚 Documentation | Lightweight, idiomatic Go HTTP router |
+| [Echo Docs](https://echo.labstack.com/docs/) | 📚 Documentation | High-performance Go web framework |
+| [Fiber Docs](https://docs.gofiber.io/) | 📚 Documentation | Express-inspired web framework for Go |
 | [Go Web Examples](https://gowebexamples.com/) | 📖 Examples | Web development examples in Go |
+
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" width="20" height="20" /> Scala
+| Resource | Type | Description |
+|----------|------|-------------|
+| [Scala Documentation](https://docs.scala-lang.org/) | 📚 Documentation | Official Scala language documentation |
+| [ZIO Docs](https://zio.dev/guides/quickstarts/hello-world) | 📚 Documentation | Type-safe, composable asynchronous and concurrent Scala library |
+| [Play Framework Docs](https://www.playframework.com/documentation/latest/Home) | 📚 Documentation | High-productivity web framework for Java and Scala |
 
 ### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/julia/julia-original.svg" width="20" height="20" /> Julia
 | Resource | Type | Description |
@@ -731,6 +749,8 @@ flowchart LR
 |----------|------|-------------|
 | [OWASP Top 10](https://owasp.org/projects/top-ten) | 📋 Guide | Top 10 web application security risks (official project) |
 | [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/) | 🎮 Interactive | Intentionally insecure web app for security practice |
+| [TryHackMe](https://tryhackme.com/) | 🎓 Courses | Hands-on cybersecurity learning paths (free rooms available) |
+| [OverTheWire](https://overthewire.org/wargames/) | 🎮 Interactive | Security wargames for learning through practice |
 | [Snyk Learn](https://learn.snyk.io/) | 🎓 Courses | Free interactive lessons on application security |
 | [Web Security Academy](https://portswigger.net/web-security) | 🎓 Course | Free web security learning platform |
 | [Cybrary](https://www.cybrary.it/) | 🎓 Courses | Free cybersecurity training |
@@ -900,6 +920,11 @@ flowchart LR
 | [Apache SkyWalking Docs](https://skywalking.apache.org/docs/) | 📚 Documentation | Application performance monitor and observability platform |
 | [VictoriaLogs Docs](https://docs.victoriametrics.com/victorialogs/) | 📚 Documentation | Fast, resource-efficient log database |
 | [Grafana OnCall](https://grafana.com/docs/oncall/latest/) | 📚 Documentation | Open-source on-call and incident response |
+| [PagerDuty Docs](https://developer.pagerduty.com/docs/) | 📚 Documentation | Incident management and on-call APIs |
+| [Opsgenie Docs](https://support.atlassian.com/opsgenie/) | 📚 Documentation | Alerting and on-call management |
+| [Atlassian Statuspage](https://support.atlassian.com/statuspage/) | 📚 Documentation | Public status pages for service communication |
+| [Keep Docs](https://docs.keephq.dev/) | 📚 Documentation | Open-source AIOps / alert management platform |
+| [Honeycomb Docs](https://docs.honeycomb.io/) | 📚 Documentation | Observability platform for high-cardinality data |
 | [OpenCost Docs](https://www.opencost.io/docs/) | 📚 Documentation | Open-source Kubernetes cost monitoring |
 | [OpenTelemetry Collector](https://opentelemetry.io/docs/collector/) | 📚 Documentation | Vendor-agnostic way to receive, process, and export telemetry |
 | [Grafana Alloy](https://grafana.com/docs/alloy/latest/) | 📚 Documentation | OpenTelemetry Collector distribution with Prometheus pipelines |
@@ -954,6 +979,9 @@ flowchart LR
 | [Helmfile](https://helmfile.readthedocs.io/) | 📚 Documentation | Declarative spec for deploying Helm charts |
 | [Pulumi Docs](https://www.pulumi.com/docs/) | 📚 Documentation | Infrastructure as code using familiar languages |
 | [Terragrunt Docs](https://terragrunt.gruntwork.io/docs/) | 📚 Documentation | Thin wrapper for keeping Terraform DRY and maintainable |
+| [Atlantis Docs](https://www.runatlantis.io/docs/) | 📚 Documentation | Terraform pull-request automation |
+| [Boundary Docs](https://developer.hashicorp.com/boundary/docs) | 📚 Documentation | Secure remote access to hosts and services |
+| [Molecule Docs](https://github.com/ansible/molecule) | 📚 Documentation | Testing framework for Ansible roles |
 | [Backstage Docs](https://backstage.io/docs) | 📚 Documentation | Open platform for building developer portals |
 | [CDK for Terraform](https://developer.hashicorp.com/terraform/cdktf) | 📚 Documentation | Define Terraform configs with TypeScript/Python/etc. |
 | [Checkov Docs](https://www.checkov.io/1.Welcome/What%20is%20Checkov.html) | 📚 Documentation | Static analysis for IaC misconfigurations |
@@ -1079,6 +1107,10 @@ flowchart LR
 |----------|------|-------------|
 | [Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) | 📚 Book | Free Python Data Science Handbook |
 | [Jupyter Notebook Documentation](https://jupyter-notebook.readthedocs.io/) | 📚 Documentation | Interactive computing environment |
+| [Quarto Docs](https://quarto.org/docs/guide/) | 📚 Documentation | Scientific and technical publishing system |
+| [Marimo Docs](https://docs.marimo.io/) | 📚 Documentation | Reactive Python notebook as a reusable app |
+| [Jupyter Book](https://jupyterbook.org/en/stable/intro.html) | 📚 Documentation | Build books and documentation from Jupyter notebooks |
+| [Observable Framework](https://github.com/observablehq/framework) | 📚 Documentation | Static site generator for data apps |
 | [Google Colab](https://colab.research.google.com/) | 🛠️ Tool | Free GPU/TPU Jupyter notebooks |
 | [Apache Spark Documentation](https://spark.apache.org/docs/latest/) | 📚 Documentation | Large-scale data processing |
 | [Dask Documentation](https://docs.dask.org/) | 📚 Documentation | Parallel computing with Python |
@@ -1399,6 +1431,9 @@ flowchart LR
 | [WatermelonDB](https://watermelondb.dev/docs) | 📚 Documentation | High-performance local database for React/RN |
 | [PouchDB](https://pouchdb.com/) | 📚 Documentation | Offline-first database inspired by CouchDB |
 | [Yjs Docs](https://docs.yjs.dev/) | 📚 Documentation | CRDT framework for shared editing |
+| [Zero Docs](https://zero.rocicorp.dev/docs) | 📚 Documentation | Sync engine for building instant apps |
+| [TanStack DB](https://tanstack.com/db/latest) | 📚 Documentation | Reactive client store for syncing and live queries |
+| [AFFiNE Docs](https://docs.affine.pro/) | 📚 Documentation | Open-source Notion/Miro-style collaborative workspace |
 | [Automerge](https://automerge.org/docs/hello/) | 📚 Documentation | Conflict-free replicated data types library |
 | [PartyKit Docs](https://docs.partykit.io/) | 📚 Documentation | Build realtime multiplayer apps on the edge |
 | [PowerSync Docs](https://docs.powersync.com/) | 📚 Documentation | Sync Postgres to on-device SQLite |

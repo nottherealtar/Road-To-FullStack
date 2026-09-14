@@ -33,7 +33,7 @@
 
 A curated collection of **100% FREE** courses, docs, tutorials, and projects to go from zero → full-stack developer (with DevOps skills). Built for self-taught learners, career switchers, and anyone who wants a clear path without paywalls.
 
-> **Last refreshed:** September 14, 2026 (mid-morning maintenance) — full link audit; added Scala/ZIO, Axum/Chi/Fiber/Echo, Django Ninja/Litestar, Quarto/Marimo/Jupyter Book/Observable Framework/NiceGUI/Reflex, Atlantis/Boundary/Molecule, PagerDuty/Opsgenie/Statuspage/Keep, Honeycomb, TryHackMe/OverTheWire, AFFiNE, Zero/TanStack DB, and Farm. Nothing previously listed was removed.
+> **Last refreshed:** September 14, 2026 (late-morning maintenance) — full link audit (1,379 unique URLs); retargeted Rust icon CDN; added Groovy, Ballerina, Ash/Hanami/Sinatra/Vapor, Paimon/Nessie/QuestDB/Milvus/Parquet, FlatBuffers/Cap'n Proto, picoCTF/HackTheBox, Celery, Knative/OpenFaaS/Harbor/Velero/Chaos Mesh/Litmus/MetalLB/Rook/Zot/Nixpacks/containerd/nerdctl, New Relic/Elastic APM/Grafana Faro, bpftrace/Tetragon/Pixie, Godot/Bevy, WCAG, Google Fonts Knowledge, and Just. Nothing previously listed was removed.
 
 ### Why this repo?
 | | |
@@ -417,6 +417,7 @@ flowchart LR
 | [unDraw](https://undraw.co/) | 🎨 Illustrations | Free open-source illustrations for projects |
 | [Coolors](https://coolors.co/) | 🛠️ Tool | Fast color palette generator |
 | [Happy Hues](https://www.happyhues.co/) | 🎨 Inspiration | Curated color palette moods for UI |
+| [Google Fonts Knowledge](https://fonts.google.com/knowledge) | 📖 Guide | Free typography learning resources from Google Fonts |
 
 ## <img src="https://img.shields.io/badge/Backend-339933?style=for-the-badge&logo=node.js&logoColor=white" /> Backend Development
 
@@ -470,6 +471,8 @@ flowchart LR
 | [Micronaut Docs](https://docs.micronaut.io/latest/guide/) | 📚 Documentation | Modern JVM framework for microservices and serverless |
 | [Ktor Docs](https://ktor.io/docs/welcome.html) | 📚 Documentation | Asynchronous Kotlin framework for connected applications |
 | [Java Code Geeks](https://www.javacodegeeks.com/) | 📰 Articles | Java development articles and tutorials |
+| [Groovy Documentation](https://groovy-lang.org/documentation.html) | 📚 Documentation | Dynamic JVM language that complements Java |
+| [Ballerina Learn](https://ballerina.io/learn/) | 📚 Documentation | Cloud-native language designed for network services and APIs |
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg" width="20" height="20" /> Ruby
 | Resource | Type | Description |
@@ -478,13 +481,16 @@ flowchart LR
 | [Ruby on Rails Guides](https://guides.rubyonrails.org/) | 📖 Tutorial | Complete Rails framework guides |
 | [The Odin Project - Ruby](https://www.theodinproject.com/paths/full-stack-ruby-on-rails) | 🎓 Course | Full-stack Ruby on Rails curriculum |
 | [Ruby Koans](http://rubykoans.com/) | 🧘 Interactive | Learn Ruby through test-driven development |
+| [Hanami Guides](https://hanamirb.org/) | 📚 Documentation | Modern, maintainable Ruby web framework |
+| [Sinatra Intro](https://sinatrarb.com/intro.html) | 📖 Tutorial | Lightweight DSL for Ruby web apps |
 
-### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" width="20" height="20" /> Rust
+### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-original.svg" width="20" height="20" /> Rust
 | Resource | Type | Description |
 |----------|------|-------------|
 | [The Rust Programming Language](https://doc.rust-lang.org/book/) | 📚 Book | Official Rust book (free online) |
 | [Zig Learn](https://ziglang.org/learn/) | 📚 Documentation | Simple language for maintaining robust software |
 | [Gleam Book](https://gleam.run/book/) | 📚 Book | Type-safe language for the Erlang VM |
+| [Gleam Documentation](https://gleam.run/documentation/) | 📚 Documentation | Official Gleam language and tooling docs |
 | [Rust by Example](https://doc.rust-lang.org/rust-by-example/) | 📖 Examples | Learn Rust through annotated examples |
 | [Rustlings](https://github.com/rust-lang/rustlings) | 🏆 Exercises | Small exercises to get you used to Rust |
 | [Actix Web Guide](https://actix.rs/docs/) | 📖 Tutorial | Web framework for Rust |
@@ -534,6 +540,7 @@ flowchart LR
 | [Phoenix Framework](https://www.phoenixframework.org/) | 🌐 Website | Guides and ecosystem for Phoenix |
 | [Phoenix LiveView](https://hexdocs.pm/phoenix_live_view/Phoenix.LiveView.html) | 📚 Documentation | Rich, real-time UIs with server-rendered HTML |
 | [Phoenix LiveView Guides](https://hexdocs.pm/phoenix_live_view/welcome.html) | 📖 Guide | Official LiveView getting-started path |
+| [Ash Framework](https://ash.hexdocs.pm/get-started.html) | 📚 Documentation | Declarative, resource-oriented framework for Elixir |
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" width="20" height="20" /> PHP
 | Resource | Type | Description |
@@ -554,6 +561,7 @@ flowchart LR
 | [Minimal APIs overview](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis) | 📚 Documentation | Lightweight HTTP APIs in ASP.NET Core |
 | [Entity Framework Core](https://learn.microsoft.com/en-us/ef/core/) | 📚 Documentation | Modern object-database mapper for .NET |
 | [Blazor](https://learn.microsoft.com/en-us/aspnet/core/blazor/) | 📚 Documentation | Build interactive web UIs with C# |
+| [Vapor Docs](https://docs.vapor.codes/) | 📚 Documentation | Server-side Swift web framework |
 
 ## <img src="https://img.shields.io/badge/Database-336791?style=for-the-badge&logo=postgresql&logoColor=white" /> Databases
 
@@ -663,6 +671,11 @@ flowchart LR
 | [DataHub Docs](https://datahubproject.io/docs/) | 📚 Documentation | Open-source metadata platform for data discovery |
 | [ClickHouse Docs](https://clickhouse.com/docs) | 📚 Documentation | Fast open-source OLAP database |
 | [Apache Iceberg Docs](https://iceberg.apache.org/docs/latest/) | 📚 Documentation | Open table format for huge analytic datasets |
+| [Apache Paimon Docs](https://paimon.apache.org/) | 📚 Documentation | Streaming data lakehouse storage for real-time analytics |
+| [Project Nessie](https://projectnessie.org/) | 📚 Documentation | Git-like transactions and catalog for data lakes |
+| [QuestDB Docs](https://questdb.com/docs/) | 📚 Documentation | High-performance open-source time-series database |
+| [Milvus](https://github.com/milvus-io/milvus) | 📚 Documentation | Open-source vector database for embedding search |
+| [Apache Parquet Docs](https://parquet.apache.org/docs/) | 📚 Documentation | Columnar storage format for analytics workloads |
 | [Delta Lake Docs](https://docs.delta.io/latest/index.html) | 📚 Documentation | Reliable open-source storage layer for data lakes |
 | [Trino Docs](https://trino.io/docs/current/) | 📚 Documentation | Distributed SQL query engine for data lakes |
 | [Apache Pinot Docs](https://docs.pinot.apache.org/) | 📚 Documentation | Realtime distributed OLAP datastore |
@@ -714,6 +727,8 @@ flowchart LR
 | [Effect Schema](https://effect.website/docs/schema/introduction/) | 📚 Documentation | Powerful schema definition and validation for Effect |
 | [Standard Schema](https://standardschema.dev/) | 📋 Specification | Common interface for TypeScript validation libraries |
 | [Learn OpenAPI](https://learn.openapis.org/) | 📖 Guide | Official OpenAPI learning resources |
+| [FlatBuffers Tutorial](https://flatbuffers.dev/flatbuffers_guide_tutorial.html) | 📖 Tutorial | Efficient cross-platform serialization |
+| [Cap'n Proto](https://capnproto.org/language.html) | 📚 Documentation | Extremely fast data interchange format and RPC |
 | [Apollo Client Get Started](https://www.apollographql.com/docs/react/get-started) | 📖 Tutorial | GraphQL client setup for React |
 | [GraphQL Yoga](https://the-guild.dev/graphql/yoga-server/docs) | 📚 Documentation | Soft, batteries-included GraphQL server |
 | [Socket.IO Docs](https://socket.io/docs/v4/) | 📚 Documentation | Real-time bidirectional event-based communication |
@@ -762,6 +777,8 @@ flowchart LR
 | [MDN Subresource Integrity](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) | 📚 Documentation | Verify third-party scripts/styles are untampered |
 | [web.dev Secure Cookies](https://web.dev/articles/samesite-cookies-explained) | 📖 Article | SameSite cookies and cross-site request risks |
 | [Permissions Policy (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy) | 📚 Documentation | Control browser features available to a document |
+| [picoCTF](https://picoctf.org/) | 🎮 Interactive | Free beginner-friendly cybersecurity CTF practice |
+| [Hack The Box](https://www.hackthebox.com/) | 🎮 Interactive | Hands-on hacking labs (free tier available) |
 
 
 <a id="auth--identity"></a>
@@ -838,6 +855,9 @@ flowchart LR
 | [Docker Compose](https://docs.docker.com/compose/) | 📚 Documentation | Multi-container apps with Compose |
 | [Docker 101 Tutorial](https://www.docker.com/101-tutorial/) | 🎓 Tutorial | Official beginner-friendly Docker tutorial |
 | [What is a container?](https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-a-container/) | 📖 Guide | Core container concepts from Docker docs |
+| [containerd Docs](https://containerd.io/docs/) | 📚 Documentation | Industry-standard container runtime |
+| [nerdctl](https://github.com/containerd/nerdctl) | 🛠️ Tool | Docker-compatible CLI for containerd |
+| [Nixpacks Docs](https://nixpacks.com/docs/getting-started) | 📚 Documentation | App-to-image builds with Nix (used by Railway and others) |
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg" width="20" height="20" /> Kubernetes
 | Resource | Type | Description |
@@ -864,6 +884,15 @@ flowchart LR
 | [BuildKit](https://docs.docker.com/build/buildkit/) | 📚 Documentation | Next-generation Docker/OCI image builder |
 | [Buildah Docs](https://buildah.io/) | 📚 Documentation | Build OCI container images without a daemon |
 | [DevSpace Docs](https://www.devspace.sh/docs/getting-started/installation) | 📚 Documentation | Fast Kubernetes development workflow tool |
+| [Knative Docs](https://knative.dev/docs/) | 📚 Documentation | Kubernetes-based platform for serverless workloads |
+| [OpenFaaS Docs](https://docs.openfaas.com/) | 📚 Documentation | Open-source functions-as-a-service framework |
+| [Harbor](https://goharbor.io/) | 📚 Documentation | Cloud-native container registry with security scanning |
+| [Velero Docs](https://velero.io/docs/main/) | 📚 Documentation | Backup and disaster recovery for Kubernetes |
+| [Chaos Mesh Docs](https://chaos-mesh.org/docs/) | 📚 Documentation | Chaos engineering platform for Kubernetes |
+| [LitmusChaos](https://litmuschaos.io/) | 📚 Documentation | Cloud-native chaos engineering toolkit |
+| [MetalLB](https://metallb.io/) | 📚 Documentation | Load-balancer for bare-metal Kubernetes clusters |
+| [Rook Docs](https://rook.io/docs/rook/latest-release/Getting-Started/quickstart/) | 📚 Documentation | Cloud-native storage orchestrator for Kubernetes |
+| [Zot](https://zotregistry.dev/) | 📚 Documentation | OCI-native container image registry |
 
 ### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="20" height="20" /> Cloud Platforms
 | Resource | Type | Description |
@@ -925,6 +954,13 @@ flowchart LR
 | [Atlassian Statuspage](https://support.atlassian.com/statuspage/) | 📚 Documentation | Public status pages for service communication |
 | [Keep Docs](https://docs.keephq.dev/) | 📚 Documentation | Open-source AIOps / alert management platform |
 | [Honeycomb Docs](https://docs.honeycomb.io/) | 📚 Documentation | Observability platform for high-cardinality data |
+| [New Relic APM Intro](https://docs.newrelic.com/docs/apm/new-relic-apm/getting-started/introduction-apm/) | 📚 Documentation | Application performance monitoring concepts (free tier docs) |
+| [Elastic APM](https://www.elastic.co/docs/solutions/observability/apm) | 📚 Documentation | Application performance monitoring in the Elastic Stack |
+| [Grafana Faro](https://grafana.com/docs/grafana-cloud/observe-and-act/monitor-applications/frontend-observability/) | 📚 Documentation | Frontend application observability |
+| [Faro Web SDK](https://github.com/grafana/faro-web-sdk) | 🛠️ Tool | Open-source web SDK for Grafana Faro |
+| [bpftrace](https://bpftrace.org/) | 📚 Documentation | High-level eBPF tracing language for Linux |
+| [Tetragon Docs](https://tetragon.io/docs/getting-started/) | 📚 Documentation | eBPF-based security observability and runtime enforcement |
+| [Pixie](https://px.dev/) | 📚 Documentation | Instant Kubernetes observability with eBPF |
 | [OpenCost Docs](https://www.opencost.io/docs/) | 📚 Documentation | Open-source Kubernetes cost monitoring |
 | [OpenTelemetry Collector](https://opentelemetry.io/docs/collector/) | 📚 Documentation | Vendor-agnostic way to receive, process, and export telemetry |
 | [Grafana Alloy](https://grafana.com/docs/alloy/latest/) | 📚 Documentation | OpenTelemetry Collector distribution with Prometheus pipelines |
@@ -1364,6 +1400,8 @@ flowchart LR
 | [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html) | 📚 Documentation | Share code across Android, iOS, and more |
 | [Kotlin Coroutines Guide](https://kotlinlang.org/docs/coroutines-guide.html) | 📚 Documentation | Structured concurrency for Kotlin |
 | [Compose Multiplatform](https://www.jetbrains.com/compose-multiplatform/) | 📚 Documentation | Declarative UI framework for Android, iOS, desktop, and web |
+| [Godot Docs](https://docs.godotengine.org/en/stable/) | 📚 Documentation | Free and open-source game engine (also great for interactive apps) |
+| [Bevy Quick Start](https://bevy.org/learn/quick-start/getting-started/) | 📖 Tutorial | Data-driven game engine built in Rust |
 
 ## <img src="https://img.shields.io/badge/Web3-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white" /> Web3 & Blockchain
 
@@ -1491,6 +1529,7 @@ flowchart LR
 | [Moonrepo Docs](https://moonrepo.dev/docs) | 📚 Documentation | Fast, developer-friendly monorepo build system |
 | [Bazel Docs](https://bazel.build/start) | 📚 Documentation | Fast, scalable multi-language build system |
 | [Nx Intro](https://nx.dev/getting-started/intro) | 📚 Documentation | Smart monorepos and AI-assisted tooling |
+| [Just](https://just.systems/man/en/) | 🛠️ Tool | Handy command runner for project tasks |
 
 ## <img src="https://img.shields.io/badge/CS%20Fundamentals-6B73FF?style=for-the-badge&logo=computer&logoColor=white" /> Computer Science Fundamentals
 
@@ -1618,6 +1657,7 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [WAVE](https://wave.webaim.org/) | 🛠️ Tool | Web accessibility evaluation tool |
 | [Inclusive Components](https://inclusive-components.design/) | 📖 Guide | Accessible component design patterns |
 | [React Aria](https://react-spectrum.adobe.com/react-aria/) | 📚 Documentation | Accessible UI primitives for React |
+| [WCAG Overview](https://www.w3.org/WAI/standards-guidelines/wcag/) | 📋 Guidelines | Web Content Accessibility Guidelines (W3C) |
 
 <a id="browser--networking"></a>
 ## <img src="https://img.shields.io/badge/HTTP-8A2BE2?style=for-the-badge&logo=firefox&logoColor=white" /> Browser & Networking
@@ -1723,6 +1763,7 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [Unkey Docs](https://www.unkey.com/docs) | 📚 Documentation | API key management and rate limiting |
 | [Arcjet Docs](https://docs.arcjet.com/) | 📚 Documentation | Security SDK for rate limiting, bots, and email validation |
 | [Upstash Ratelimit](https://upstash.com/docs/redis/sdks/ratelimit-ts/overview) | 📚 Documentation | Serverless rate limiting with Redis |
+| [Celery Docs](https://docs.celeryq.dev/en/stable/) | 📚 Documentation | Distributed task queue for Python |
 
 <a id="payments-email--files"></a>
 ## <img src="https://img.shields.io/badge/Payments-635BFF?style=for-the-badge&logo=stripe&logoColor=white" /> Payments, Email & Files

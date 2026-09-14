@@ -33,7 +33,7 @@
 
 A curated collection of **100% FREE** courses, docs, tutorials, and projects to go from zero → full-stack developer (with DevOps skills). Built for self-taught learners, career switchers, and anyone who wants a clear path without paywalls.
 
-> **Last refreshed:** September 14, 2026 (late-night maintenance) — full link audit; retargeted Buf docs for bot-friendly access; added OCaml/Haskell/Livebook, KeyDB/Hazelcast/RocketMQ/ZincSearch, GlitchTip/Highlight.io, Astro DB, Nix flakes/BuildKit/Buildah, Checkov/CDKTF/DevSpace, Uppy/FilePond, WebNN, and Percy. Nothing previously listed was removed.
+> **Last refreshed:** September 14, 2026 (early-morning maintenance) — full link audit; added F#/Crystal, Kotlin Coroutines/Compose Multiplatform, Micrometer/Resilience4j, WireMock/Gatling/Artillery/Spectral/Schemathesis, Consul/Nomad/Packer/Vagrant/Terragrunt/Backstage, Zipkin/SkyWalking/VictoriaLogs/Grafana OnCall/OpenCost, Dapr/Spin/WasmCloud/KEDA, and xh. Nothing previously listed was removed.
 
 ### Why this repo?
 | | |
@@ -391,6 +391,10 @@ flowchart LR
 | [Bytecode Alliance](https://bytecodealliance.org/) | 🌐 Organization | Open-source Wasm runtime and standards community |
 | [Wasm Component Model](https://component-model.bytecodealliance.org/) | 📚 Documentation | Compose Wasm modules across languages |
 | [Wasmtime](https://wasmtime.dev/) | 📚 Documentation | Fast and secure WebAssembly runtime |
+| [Spin Docs](https://developer.fermyon.com/spin/v3/index) | 📚 Documentation | Developer tool for building and running Wasm microservices |
+| [WasmCloud Docs](https://wasmcloud.com/docs/intro/) | 📚 Documentation | Distributed Wasm application platform |
+| [Dapr Docs](https://docs.dapr.io/) | 📚 Documentation | APIs for building portable, resilient microservices |
+| [KEDA Docs](https://keda.sh/docs/) | 📚 Documentation | Kubernetes event-driven autoscaling |
 | [Wasmer](https://wasmer.io/) | 📚 Documentation | Universal Wasm runtime for servers and browsers |
 | [WasmEdge](https://wasmedge.org/docs/) | 📚 Documentation | Cloud-native Wasm runtime for edge and servers |
 | [Spin](https://developer.fermyon.com/spin/v3/index) | 📚 Documentation | Developer tool for building Wasm microservices |
@@ -452,6 +456,9 @@ flowchart LR
 |----------|------|-------------|
 | [Oracle Java Tutorials](https://docs.oracle.com/javase/tutorial/) | 📖 Tutorial | Official Java programming tutorials |
 | [Spring Boot Guides](https://spring.io/guides) | 📖 Tutorials | Spring Boot framework tutorials |
+| [Micrometer Docs](https://docs.micrometer.io/) | 📚 Documentation | Application metrics facade for JVM apps |
+| [Resilience4j Docs](https://resilience4j.readme.io/) | 📚 Documentation | Lightweight fault-tolerance library for Java |
+| [Spring Modulith](https://docs.spring.io/spring-modulith/reference/) | 📚 Documentation | Modular monoliths with Spring Boot |
 | [Spring WebFlux](https://docs.spring.io/spring-framework/reference/web/webflux.html) | 📚 Documentation | Reactive web stack for Spring |
 | [Quarkus Guides](https://quarkus.io/guides/) | 📚 Documentation | Supersonic Subatomic Java framework |
 | [Micronaut Docs](https://docs.micronaut.io/latest/guide/) | 📚 Documentation | Modern JVM framework for microservices and serverless |
@@ -490,6 +497,8 @@ flowchart LR
 | [Julia Documentation](https://docs.julialang.org/) | 📚 Documentation | Official Julia language documentation |
 | [Julia Learning Resources](https://julialang.org/learning/) | 🎓 Courses | Official curated Julia learning resources |
 | [OCaml Learn](https://ocaml.org/docs) | 📚 Documentation | Official OCaml language learning docs |
+| [F# Documentation](https://learn.microsoft.com/en-us/dotnet/fsharp/) | 📚 Documentation | Functional-first language for .NET |
+| [Crystal Docs](https://crystal-lang.org/reference/) | 📚 Documentation | Ruby-inspired language with static typing and native speed |
 | [Haskell Documentation](https://www.haskell.org/documentation/) | 📚 Documentation | Official Haskell language documentation and guides |
 | [Livebook](https://livebook.dev/) | 🛠️ Tool | Interactive Elixir notebooks for learning and data apps |
 
@@ -874,6 +883,12 @@ flowchart LR
 | [Grafana Loki](https://grafana.com/docs/loki/latest/) | 📚 Documentation | Log aggregation inspired by Prometheus |
 | [Grafana Tempo](https://grafana.com/docs/tempo/latest/) | 📚 Documentation | Distributed tracing backend |
 | [k6 Docs](https://k6.io/docs/) | 📚 Documentation | Modern load testing for APIs and websites |
+| [Gatling Docs](https://docs.gatling.io/) | 📚 Documentation | High-performance load testing framework |
+| [Artillery Docs](https://www.artillery.io/docs) | 📚 Documentation | Cloud-scale load testing toolkit |
+| [WireMock Docs](https://wiremock.org/docs/) | 📚 Documentation | API mocking for integration tests |
+| [REST Assured](https://rest-assured.io/) | 📚 Documentation | Java DSL for testing REST services |
+| [Spectral Docs](https://github.com/stoplightio/spectral) | 📚 Documentation | OpenAPI/AsyncAPI linting and style rules |
+| [Schemathesis](https://schemathesis.readthedocs.io/) | 📚 Documentation | Property-based API testing from OpenAPI schemas |
 | [SigNoz Docs](https://signoz.io/docs/) | 📚 Documentation | Open-source observability alternative to Datadog |
 | [Uptime Kuma](https://github.com/louislam/uptime-kuma) | 🛠️ Tool | Self-hosted uptime monitoring |
 | [Checkly Docs](https://www.checklyhq.com/docs/) | 📚 Documentation | API and browser synthetic monitoring |
@@ -881,6 +896,11 @@ flowchart LR
 | [ELK Stack Tutorial](https://www.elastic.co/guide/en/elastic-stack-get-started/current/get-started-elastic-stack.html) | 📖 Tutorial | Elasticsearch, Logstash, and Kibana |
 | [Jaeger Documentation](https://www.jaegertracing.io/docs/) | 📚 Documentation | Distributed tracing system |
 | [OpenTelemetry Docs](https://opentelemetry.io/docs/) | 📚 Documentation | Vendor-neutral observability framework |
+| [Zipkin](https://zipkin.io/) | 📚 Documentation | Distributed tracing system |
+| [Apache SkyWalking Docs](https://skywalking.apache.org/docs/) | 📚 Documentation | Application performance monitor and observability platform |
+| [VictoriaLogs Docs](https://docs.victoriametrics.com/victorialogs/) | 📚 Documentation | Fast, resource-efficient log database |
+| [Grafana OnCall](https://grafana.com/docs/oncall/latest/) | 📚 Documentation | Open-source on-call and incident response |
+| [OpenCost Docs](https://www.opencost.io/docs/) | 📚 Documentation | Open-source Kubernetes cost monitoring |
 | [OpenTelemetry Collector](https://opentelemetry.io/docs/collector/) | 📚 Documentation | Vendor-agnostic way to receive, process, and export telemetry |
 | [Grafana Alloy](https://grafana.com/docs/alloy/latest/) | 📚 Documentation | OpenTelemetry Collector distribution with Prometheus pipelines |
 | [Prometheus Operator](https://prometheus-operator.dev/) | 📚 Documentation | Manage Prometheus monitoring stacks on Kubernetes |
@@ -933,6 +953,8 @@ flowchart LR
 | [Earthly Docs](https://docs.earthly.dev/) | 📚 Documentation | Repeatable builds with Dockerfile-like syntax |
 | [Helmfile](https://helmfile.readthedocs.io/) | 📚 Documentation | Declarative spec for deploying Helm charts |
 | [Pulumi Docs](https://www.pulumi.com/docs/) | 📚 Documentation | Infrastructure as code using familiar languages |
+| [Terragrunt Docs](https://terragrunt.gruntwork.io/docs/) | 📚 Documentation | Thin wrapper for keeping Terraform DRY and maintainable |
+| [Backstage Docs](https://backstage.io/docs) | 📚 Documentation | Open platform for building developer portals |
 | [CDK for Terraform](https://developer.hashicorp.com/terraform/cdktf) | 📚 Documentation | Define Terraform configs with TypeScript/Python/etc. |
 | [Checkov Docs](https://www.checkov.io/1.Welcome/What%20is%20Checkov.html) | 📚 Documentation | Static analysis for IaC misconfigurations |
 | [Nix Flakes](https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-flake.html) | 📚 Documentation | Reproducible, hermetic development and package management |
@@ -950,6 +972,10 @@ flowchart LR
 | [Quickwit](https://github.com/quickwit-oss/quickwit) | 📚 Documentation | Cloud-native search engine for logs and traces |
 | [SOPS](https://github.com/getsops/sops) | 🛠️ Tool | Encrypt secrets in YAML/JSON/ENV files |
 | [Vault Docs](https://developer.hashicorp.com/vault/docs) | 📚 Documentation | Secrets management and encryption as a service |
+| [Consul Docs](https://developer.hashicorp.com/consul/docs) | 📚 Documentation | Service networking, discovery, and mesh |
+| [Nomad Docs](https://developer.hashicorp.com/nomad/docs) | 📚 Documentation | Simple and flexible workload orchestrator |
+| [Packer Docs](https://developer.hashicorp.com/packer/docs) | 📚 Documentation | Automated machine image builds |
+| [Vagrant Docs](https://developer.hashicorp.com/vagrant/docs) | 📚 Documentation | Reproducible development environments |
 | [Infisical Docs](https://infisical.com/docs/documentation/getting-started/introduction) | 📚 Documentation | Open-source secrets management platform |
 | [Doppler Docs](https://docs.doppler.com/) | 📚 Documentation | Secrets management for developers and DevOps |
 | [Puppet Learning VM](https://puppet.com/try-puppet/puppet-learning-vm/) | 🧪 Interactive | Learn Puppet configuration management |
@@ -1304,6 +1330,8 @@ flowchart LR
 | [SwiftUI Tutorials](https://developer.apple.com/tutorials/swiftui) | 🎓 Tutorials | Build native Apple apps with SwiftUI |
 | [Jetpack Compose Course](https://developer.android.com/courses/android-basics-compose/course) | 🎓 Course | Modern Android UI with Compose |
 | [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html) | 📚 Documentation | Share code across Android, iOS, and more |
+| [Kotlin Coroutines Guide](https://kotlinlang.org/docs/coroutines-guide.html) | 📚 Documentation | Structured concurrency for Kotlin |
+| [Compose Multiplatform](https://www.jetbrains.com/compose-multiplatform/) | 📚 Documentation | Declarative UI framework for Android, iOS, desktop, and web |
 
 ## <img src="https://img.shields.io/badge/Web3-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white" /> Web3 & Blockchain
 
@@ -1509,6 +1537,7 @@ flowchart LR
 | [mirrord](https://mirrord.dev/docs/) | 📚 Documentation | Run local processes in the context of a cloud env |
 | [Hoppscotch](https://hoppscotch.io/) | 🛠️ Tool | Open-source API development ecosystem |
 | [Bruno](https://docs.usebruno.com/introduction) | 📚 Documentation | Git-friendly, offline-first API client |
+| [xh](https://github.com/ducaale/xh) | 🛠️ Tool | Friendly and fast HTTP client (HTTPie-compatible, Rust) |
 | [HTTPie](https://httpie.io/docs/cli) | 📚 Documentation | Human-friendly HTTP client for the terminal |
 | [Testcontainers](https://www.testcontainers.org/) | 📚 Documentation | Throwaway Docker containers for integration tests |
 | [LocalStack Docs](https://docs.localstack.cloud/) | 📚 Documentation | Local AWS cloud stack for development |

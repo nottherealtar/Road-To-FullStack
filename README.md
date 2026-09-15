@@ -33,7 +33,7 @@
 
 A curated collection of **100% FREE** courses, docs, tutorials, and projects to go from zero → full-stack developer (with DevOps skills). Built for self-taught learners, career switchers, and anyone who wants a clear path without paywalls.
 
-> **Last refreshed:** September 15, 2026 (morning maintenance) — full link audit (1,719 unique URLs); retargeted Protovalidate, NServiceBus, LM Studio, V, and Square docs for stronger link health; added HBase/Ignite/Geode/Infinispan, Memgraph/FalkorDB/ArcadeDB, OpenSearch Dashboards, Sedona/Spark Connect/Delta Sharing, GeoPandas, MQTT/STOMP, ClojureScript/Reagent/re-frame/Fulcro, Elm/ReasonML/V/Odin/Carbon/Chapel, Plotly.js/Bokeh/Altair/Vega-Lite/ECharts/visx/nivo/Recharts/shadcn charts, kepler.gl/deck.gl/MapLibre/Protomaps/LearnOSM/Turf, R4DS/tidyverse/Shiny/plumber, Mage/Luigi, Temporal TS SDK/Cadence/Conductor/Zeebe/Flowable/jBPM, Babylon.js/PlayCanvas/A-Frame/WebXR/model-viewer/glTF/Filament, TLS/QUIC/ACME/DoH/WebSocket/HTTP Semantics RFCs, Defold/Love2D/raylib/SDL/MonoGame/libGDX/Haxe, Wizer/wit-bindgen/cargo-component, SheetJS/PapaParse/JSZip/PDFKit/pdf-lib/WeasyPrint/Stirling PDF, Nextcloud/Syncthing/rclone/restic/Borg/OpenEBS/JuiceFS/Alluxio, DMARC, and Home Assistant/ESPHome/PlatformIO/Arduino/Zephyr/FreeRTOS/MicroPython/CircuitPython/TinyGo. Nothing previously listed was removed.
+> **Last refreshed:** September 15, 2026 (midday maintenance) — full link audit (1,789 unique URLs; only known hard fail remains DB-Engines SSL from this environment); added Roc/Go Learn/Dart Language Tour, Apache Hive/Kudu/Phoenix/Drill/Kylin/Atlas + Marquez, Soda/Elementary/whylogs/Evidently/Deepchecks, Flyte/ZenML/ClearML/Neptune/Comet, OWASP WSTG + web.dev Secure, OAuth/WebAuthn RFCs + SPIFFE/SPIRE, httpd/HAProxy + DNS stack (CoreDNS/Unbound/Pi-hole/DoH), Thanos/Mimir, JMeter, Killercoda/EduK8s/CNCF learning, Zola, Mockoon/Hoverfly/Prism/Bump/APIs.guru, HTTP/2–HTTP/3 RFCs, a11ysupport, roadmap.sh Backend/CyberSec, and MDN/web.dev/CSS-Tricks/Smashing/freeCodeCamp reading lists. Nothing previously listed was removed.
 
 ### Why this repo?
 | | |
@@ -529,12 +529,14 @@ flowchart LR
 | [Raku Docs](https://docs.raku.org/) | 📚 Documentation | Multi-paradigm language (formerly Perl 6) |
 | [PureScript Book](https://book.purescript.org/) | 📚 Book | Strongly-typed functional programming for the web |
 | [ReScript Docs](https://rescript-lang.org/docs/manual/latest/introduction) | 📚 Documentation | Fast, typed language that compiles to readable JavaScript |
+| [Roc Tutorial](https://www.roc-lang.org/tutorial) | 📖 Tutorial | Friendly functional language for building fast, reliable software |
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" width="20" height="20" /> Go
 | Resource | Type | Description |
 |----------|------|-------------|
 | [A Tour of Go](https://tour.golang.org/) | 🎮 Interactive Tutorial | Official interactive Go tutorial |
 | [Go by Example](https://gobyexample.com/) | 📖 Examples | Hands-on introduction to Go |
+| [Go Learn](https://go.dev/learn/) | 🎓 Courses | Official curated Go learning paths and tutorials |
 | [Effective Go](https://golang.org/doc/effective_go.html) | 📋 Guide | Tips for writing clear Go code |
 | [Chi Docs](https://go-chi.io/#/pages/intro) | 📚 Documentation | Lightweight, idiomatic Go HTTP router |
 | [Echo Docs](https://echo.labstack.com/docs/) | 📚 Documentation | High-performance Go web framework |
@@ -810,6 +812,18 @@ flowchart LR
 | [Apache Sedona](https://sedona.apache.org/) | 📚 Documentation | Cluster computing system for processing large-scale spatial data |
 | [Spark Connect](https://spark.apache.org/docs/latest/spark-connect-overview.html) | 📚 Documentation | Decoupled client architecture for Apache Spark |
 | [Delta Sharing](https://delta.io/sharing/) | 📚 Documentation | Open protocol for secure data sharing across platforms |
+| [Apache Hive](https://hive.apache.org/) | 📚 Documentation | Data warehouse software for reading, writing, and managing large datasets |
+| [Apache Kudu](https://kudu.apache.org/) | 📚 Documentation | Columnar storage manager for the Hadoop ecosystem |
+| [Apache Phoenix](https://phoenix.apache.org/) | 📚 Documentation | OLTP and operational analytics for Hadoop via SQL |
+| [Apache Drill](https://drill.apache.org/) | 📚 Documentation | Schema-free SQL query engine for Hadoop, NoSQL, and cloud storage |
+| [Apache Kylin](https://kylin.apache.org/) | 📚 Documentation | Extreme OLAP engine for big data analytics |
+| [Apache Atlas](https://atlas.apache.org/) | 📚 Documentation | Metadata management and data governance for Hadoop |
+| [Marquez](https://marquezproject.github.io/marquez/) | 📚 Documentation | Open-source metadata service for data lineage collection |
+| [Soda CL](https://docs.soda.io/soda-cl/soda-cl-overview.html) | 📚 Documentation | Data quality checks as code for pipelines and warehouses |
+| [Elementary Docs](https://docs.elementary-data.com/) | 📚 Documentation | Data observability for dbt projects |
+| [whylogs](https://whylogs.readthedocs.io/) | 📚 Documentation | Open-source data logging for ML and data quality |
+| [Evidently Docs](https://docs.evidentlyai.com/) | 📚 Documentation | Open-source ML and data quality monitoring |
+| [Deepchecks Docs](https://docs.deepchecks.com/) | 📚 Documentation | Continuous validation for ML data and models |
 | [PlanetScale Docs](https://planetscale.com/docs) | 📚 Documentation | Serverless MySQL platform with branching workflows |
 
 ## <img src="https://img.shields.io/badge/APIs-02569B?style=for-the-badge&logo=rest&logoColor=white" /> APIs & Integration
@@ -864,6 +878,12 @@ flowchart LR
 | [httpbingo](https://httpbingo.org/) | 🛠️ Tool | HTTP request & response testing service (httpbin-compatible) |
 | [ReqRes](https://reqres.in/) | 🛠️ Tool | Hosted REST-API ready to respond to your AJAX requests |
 | [webhook.site](https://webhook.site/) | 🛠️ Tool | Inspect and debug webhooks live |
+| [Mockoon Docs](https://mockoon.com/docs/latest/about/) | 📚 Documentation | Desktop and CLI tool to mock APIs locally |
+| [Hoverfly](https://hoverfly.io/) | 🛠️ Tool | Lightweight service virtualization / API simulation |
+| [Stoplight Prism](https://stoplight.io/open-source/prism) | 🛠️ Tool | OpenAPI-driven mock servers and contract validation |
+| [Bump.sh Docs](https://docs.bump.sh/) | 📚 Documentation | API docs and change management from OpenAPI/AsyncAPI |
+| [APIs.guru](https://apis.guru/) | 🗺️ Directory | Wikipedia for Web APIs (OpenAPI directory) |
+| [APIs You Won't Hate](https://apisyouwonthate.com/) | 📰 Articles | Practical API design articles and community resources |
 | [MDN CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS) | 📚 Documentation | Cross-Origin Resource Sharing explained |
 | [gRPC Introduction](https://grpc.io/docs/what-is-grpc/introduction/) | 📚 Documentation | High-performance RPC framework |
 | [Connect RPC Docs](https://connectrpc.com/docs/introduction/) | 📚 Documentation | Protobuf RPC that works with browsers and gRPC |
@@ -899,6 +919,8 @@ flowchart LR
 | [SANS Reading Room](https://www.sans.org/white-papers/) | 📰 Articles | Security research papers and guides |
 | [Mozilla Web Security Guidelines](https://infosec.mozilla.org/guidelines/web_security) | 📋 Guidelines | Web security best practices |
 | [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/) | 📋 Cheat Sheets | Practical secure-coding cheat sheets |
+| [OWASP Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/) | 📋 Guide | Comprehensive manual for testing web application security |
+| [web.dev Explore Secure](https://web.dev/explore/secure) | 📖 Guide | Google's curated web security learning path |
 | [MDN Content Security Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP) | 📚 Documentation | Mitigate XSS and injection with CSP headers |
 | [MDN Subresource Integrity](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) | 📚 Documentation | Verify third-party scripts/styles are untampered |
 | [web.dev Secure Cookies](https://web.dev/articles/samesite-cookies-explained) | 📖 Article | SameSite cookies and cross-site request risks |
@@ -953,6 +975,18 @@ flowchart LR
 | [Casbin Docs](https://casbin.org/docs/overview) | 📚 Documentation | Authorization library supporting ACL, RBAC, ABAC, and more |
 | [Cerbos Docs](https://docs.cerbos.dev/) | 📚 Documentation | Self-hosted, policy-based access control for apps |
 | [OPAL](https://github.com/permitio/opal) | 📚 Documentation | Real-time policy and data sync layer for OPA/Cedar |
+| [OAuth 2.0 (RFC 6749)](https://datatracker.ietf.org/doc/html/rfc6749) | 📋 Specification | The OAuth 2.0 authorization framework |
+| [Bearer Token (RFC 6750)](https://datatracker.ietf.org/doc/html/rfc6750) | 📋 Specification | OAuth 2.0 bearer token usage |
+| [PKCE (RFC 7636)](https://datatracker.ietf.org/doc/html/rfc7636) | 📋 Specification | Proof Key for Code Exchange for public OAuth clients |
+| [Token Introspection (RFC 7662)](https://datatracker.ietf.org/doc/html/rfc7662) | 📋 Specification | OAuth 2.0 token introspection |
+| [Authorization Server Metadata (RFC 8414)](https://datatracker.ietf.org/doc/html/rfc8414) | 📋 Specification | OAuth 2.0 authorization server metadata |
+| [Token Exchange (RFC 8693)](https://datatracker.ietf.org/doc/html/rfc8693) | 📋 Specification | OAuth 2.0 token exchange |
+| [JWT Access Tokens (RFC 9068)](https://datatracker.ietf.org/doc/html/rfc9068) | 📋 Specification | JWT profile for OAuth 2.0 access tokens |
+| [DPoP (RFC 9449)](https://datatracker.ietf.org/doc/html/rfc9449) | 📋 Specification | Demonstrating Proof of Possession for OAuth access tokens |
+| [IANA JWT Claims](https://www.iana.org/assignments/jwt/jwt.xhtml) | 📋 Reference | Registered JSON Web Token claim names |
+| [WebAuthn Level 3](https://www.w3.org/TR/webauthn-3/) | 📋 Specification | W3C Web Authentication API (Level 3) |
+| [SPIFFE](https://spiffe.io/) | 📚 Documentation | Secure Production Identity Framework for Everyone |
+| [SPIRE](https://spire.dev/) | 📚 Documentation | SPIFFE Runtime Environment for issuing workload identities |
 
 ## <img src="https://img.shields.io/badge/Performance-F44B21?style=for-the-badge&logo=lighthouse&logoColor=white" /> Performance & Optimization
 
@@ -1008,6 +1042,11 @@ flowchart LR
 | [Kubernetes Tutorials](https://kubernetes.io/docs/tutorials/) | 🎓 Course | Official Kubernetes tutorials and learning paths |
 | [Kubernetes the Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way) | 📖 Tutorial | Bootstrap Kubernetes the hard way on Google Cloud Platform |
 | [Killercoda Kubernetes](https://killercoda.com/course/kubernetes) | 🎮 Interactive | Hands-on Kubernetes scenarios (Katacoda successor) |
+| [Killercoda](https://killercoda.com/) | 🎮 Interactive | Browser-based interactive labs for cloud-native tools |
+| [EduK8s](https://eduk8s.io/) | 📚 Documentation | Framework for building interactive Kubernetes workshops |
+| [CNCF Online Programs](https://www.cncf.io/online-programs/) | 🎓 Courses | Free CNCF webinars, office hours, and learning programs |
+| [LF Training Resources](https://training.linuxfoundation.org/resources/) | 🎓 Courses | Free Linux Foundation training resources and courses |
+| [CNCF Tag Security](https://tag-security.cncf.io/) | 📋 Guide | Cloud-native security best practices and assessments |
 | [CNCF Kubernetes Training](https://www.cncf.io/certification/training/) | 🎓 Training | Cloud Native Computing Foundation training resources |
 | [Kubernetes Training](https://kubernetes.io/training/) | 🎓 Course | Official curated Kubernetes training resources |
 | [Play with Kubernetes](https://labs.play-with-k8s.com/) | 🧪 Interactive Lab | Hands-on Kubernetes playground |
@@ -1066,6 +1105,8 @@ flowchart LR
 |----------|------|-------------|
 | [Prometheus Documentation](https://prometheus.io/docs/) | 📚 Documentation | Open-source monitoring system |
 | [VictoriaMetrics Docs](https://docs.victoriametrics.com/) | 📚 Documentation | Fast, cost-efficient time series database and monitoring |
+| [Thanos](https://thanos.io/) | 📚 Documentation | Highly available Prometheus setup with long-term storage |
+| [Grafana Mimir](https://grafana.com/docs/mimir/latest/) | 📚 Documentation | Horizontally scalable, multi-tenant Prometheus-compatible TSDB |
 | [Pyroscope Docs](https://grafana.com/docs/pyroscope/latest/) | 📚 Documentation | Continuous profiling for every application |
 | [OpenObserve Docs](https://openobserve.ai/docs/) | 📚 Documentation | Open-source observability platform (logs/metrics/traces) |
 | [Parca Docs](https://www.parca.dev/docs/) | 📚 Documentation | Continuous profiling with eBPF |
@@ -1125,6 +1166,13 @@ flowchart LR
 | [step-ca Docs](https://smallstep.com/docs/step-ca/) | 📚 Documentation | Private certificate authority and ACME server |
 | [CrowdSec Docs](https://docs.crowdsec.net/) | 📚 Documentation | Collaborative, open-source IPS / security engine |
 | [Nginx Docs](https://nginx.org/en/docs/) | 📚 Documentation | High-performance reverse proxy and web server |
+| [Apache HTTP Server Docs](https://httpd.apache.org/docs/current/) | 📚 Documentation | The classic open-source HTTP server |
+| [HAProxy Docs](https://www.haproxy.com/documentation/haproxy-configuration-tutorials/core-concepts/) | 📚 Documentation | High-performance TCP/HTTP load balancer |
+| [CoreDNS Manual](https://coredns.io/manual/toc/) | 📚 Documentation | DNS server that chains plugins (Kubernetes default DNS) |
+| [Unbound](https://unbound.docs.nlnetlabs.nl/) | 📚 Documentation | Validating, recursive, caching DNS resolver |
+| [Pi-hole](https://pi-hole.net/) | 🛠️ Tool | Network-wide ad blocking via DNS |
+| [DNS Privacy Project](https://dnsprivacy.org/) | 📚 Documentation | Encrypting DNS (DoT/DoH) resources and deployments |
+| [Cloudflare 1.1.1.1](https://developers.cloudflare.com/1.1.1.1/) | 📚 Documentation | Public DNS resolver and privacy-focused DNS docs |
 | [Let's Encrypt Getting Started](https://letsencrypt.org/getting-started/) | 📖 Guide | Free TLS certificates for your sites |
 | [Certbot](https://certbot.eff.org/) | 🛠️ Tool | Automate Let's Encrypt certificate issuance |
 | [MDN DNS](https://developer.mozilla.org/en-US/docs/Glossary/DNS) | 📋 Reference | Domain Name System basics |
@@ -1142,6 +1190,7 @@ flowchart LR
 | [Kopia Docs](https://kopia.io/docs/) | 📚 Documentation | Fast, secure open-source backup tool |
 | [Vegeta](https://github.com/tsenart/vegeta) | 🛠️ Tool | HTTP load testing tool written in Go |
 | [Locust Docs](https://docs.locust.io/) | 📚 Documentation | Scalable Python-based load testing |
+| [Apache JMeter](https://jmeter.apache.org/usermanual/get-started.html) | 📖 Tutorial | Load test functional behavior and measure performance |
 | [Trivy Docs](https://trivy.dev/docs/) | 📚 Documentation | Vulnerability scanner for containers and code |
 | [Gitleaks](https://github.com/gitleaks/gitleaks) | 🛠️ Tool | Detect secrets and credentials in git history |
 | [OWASP Dependency-Check](https://owasp.org/www-project-dependency-check/) | 🛠️ Tool | Identify known vulnerable dependencies |
@@ -1381,6 +1430,11 @@ flowchart LR
 | [Kubeflow Documentation](https://www.kubeflow.org/docs/) | 📚 Documentation | ML workflows on Kubernetes |
 | [BentoML Documentation](https://docs.bentoml.com/en/latest/) | 📚 Documentation | Model serving framework |
 | [Seldon Documentation](https://docs.seldon.ai/) | 📚 Documentation | ML model deployment platform |
+| [Flyte Docs](https://docs.flyte.org/) | 📚 Documentation | Kubernetes-native workflow orchestration for data and ML |
+| [ZenML Docs](https://docs.zenml.io/) | 📚 Documentation | Extensible MLOps framework for reproducible pipelines |
+| [ClearML Docs](https://clear.ml/docs) | 📚 Documentation | Open-source MLOps suite for experiment tracking and orchestration |
+| [Neptune Docs](https://docs.neptune.ai/) | 📚 Documentation | Experiment tracking and model registry for ML teams |
+| [Comet Docs](https://www.comet.com/docs/) | 📚 Documentation | Experiment management and model monitoring platform |
 
 ### 🆓 Free AI Development Platforms
 | Resource | Type | Description |
@@ -1467,6 +1521,8 @@ flowchart LR
 | [React Developer Roadmap](https://roadmap.sh/react) | 🗺️ Interactive Guide | React ecosystem learning path |
 | [Node.js Developer Roadmap](https://roadmap.sh/nodejs) | 🗺️ Interactive Guide | Backend development with Node.js |
 | [DevOps Roadmap](https://roadmap.sh/devops) | 🗺️ Interactive Guide | DevOps engineer learning path |
+| [Backend Roadmap](https://roadmap.sh/backend) | 🗺️ Interactive Guide | Backend developer learning path |
+| [Cyber Security Roadmap](https://roadmap.sh/cyber-security) | 🗺️ Interactive Guide | Cybersecurity skills roadmap |
 | [AI/ML Engineer Roadmap](https://roadmap.sh/ai-data-scientist) | 🗺️ Interactive Guide | AI and Machine Learning career path |
 
 ### 📈 Technology Stack Visualizations
@@ -1595,6 +1651,7 @@ flowchart LR
 | [NativeWind](https://www.nativewind.dev/) | 📚 Documentation | Tailwind CSS for React Native |
 | [Flutter Documentation](https://docs.flutter.dev/) | 📚 Documentation | Google's UI toolkit for mobile |
 | [Dart Overview](https://dart.dev/overview) | 📚 Documentation | Language powering Flutter and modern Dart apps |
+| [Dart Language Tour](https://dart.dev/language) | 📖 Guide | Official Dart language fundamentals |
 | [Flutter Get Started](https://docs.flutter.dev/get-started/install) | 📖 Tutorial | Install Flutter and create your first app |
 | [Ionic Framework](https://ionicframework.com/docs) | 📚 Documentation | Hybrid mobile app development |
 | [Capacitor Docs](https://capacitorjs.com/docs) | 📚 Documentation | Native runtime for web apps on iOS/Android |
@@ -1664,6 +1721,12 @@ flowchart LR
 | [Hacker News Jobs](https://news.ycombinator.com/jobs) | 💼 Jobs | Who is hiring posts and startup job board |
 | [Hashnode](https://hashnode.com/) | 👥 Community | Developer blogging platform and community |
 | [Smashing Magazine](https://www.smashingmagazine.com/) | 📰 Articles | High-quality web design and development articles |
+| [Smashing Magazine Guides](https://www.smashingmagazine.com/guides/) | 📖 Guides | Curated deep-dive guides on web design and development |
+| [MDN Blog](https://developer.mozilla.org/en-US/blog/) | 📰 Articles | Web platform news and deep dives from MDN |
+| [web.dev Blog](https://web.dev/blog/) | 📰 Articles | Performance, UX, and web platform updates from Google |
+| [CSS-Tricks Guides](https://css-tricks.com/guides/) | 📖 Guides | Long-form CSS and frontend guides |
+| [freeCodeCamp News](https://www.freecodecamp.org/news/) | 📰 Articles | Free programming tutorials and career advice |
+| [Web Status / Baseline](https://baseline.dev/) | 🛠️ Tool | Track which web features are Baseline-ready |
 | [Chrome for Developers](https://developer.chrome.com/) | 📚 Documentation | Docs, blogs, and tools from the Chrome team |
 | [Microsoft Edge Learn](https://learn.microsoft.com/en-us/microsoft-edge/) | 📚 Documentation | Edge browser docs and developer resources |
 | [Firefox Source Docs](https://firefox-source-docs.mozilla.org/) | 📚 Documentation | Documentation for Firefox and Mozilla platform |
@@ -1684,6 +1747,7 @@ flowchart LR
 | [Hugo Docs](https://gohugo.io/documentation/) | 📚 Documentation | Extremely fast static site generator |
 | [Eleventy Docs](https://www.11ty.dev/docs/) | 📚 Documentation | Simpler static site generator (11ty) |
 | [Jekyll Docs](https://jekyllrb.com/docs/) | 📚 Documentation | Blog-aware static site generator |
+| [Zola Docs](https://www.getzola.org/documentation/getting-started/overview/) | 📚 Documentation | Fast static site generator written in Rust |
 | [VitePress](https://vitepress.dev/) | 📚 Documentation | Vite & Vue powered static site generator |
 | [TinaCMS](https://tina.io/docs/) | 📚 Documentation | Git-based CMS (Forestry successor) |
 | [Payload CMS](https://payloadcms.com/docs) | 📚 Documentation | Code-first TypeScript headless CMS |
@@ -1947,6 +2011,7 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [Inclusive Components](https://inclusive-components.design/) | 📖 Guide | Accessible component design patterns |
 | [React Aria](https://react-spectrum.adobe.com/react-aria/) | 📚 Documentation | Accessible UI primitives for React |
 | [WCAG Overview](https://www.w3.org/WAI/standards-guidelines/wcag/) | 📋 Guidelines | Web Content Accessibility Guidelines (W3C) |
+| [a11ysupport.io](https://a11ysupport.io/) | 🛠️ Tool | Accessibility support tables for browsers and AT |
 
 <a id="browser--networking"></a>
 ## <img src="https://img.shields.io/badge/HTTP-8A2BE2?style=for-the-badge&logo=firefox&logoColor=white" /> Browser & Networking
@@ -1992,6 +2057,11 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [DNS over HTTPS (RFC 8484)](https://datatracker.ietf.org/doc/html/rfc8484) | 📋 Specification | DNS queries over HTTPS |
 | [WebSocket (RFC 6455)](https://datatracker.ietf.org/doc/html/rfc6455) | 📋 Specification | Bidirectional communication protocol for the web |
 | [HTTP Semantics (RFC 9110)](https://datatracker.ietf.org/doc/html/rfc9110) | 📋 Specification | Core HTTP semantics shared by HTTP/1.1, HTTP/2, and HTTP/3 |
+| [HTTP/2 (RFC 7540)](https://www.rfc-editor.org/rfc/rfc7540.html) | 📋 Specification | Hypertext Transfer Protocol Version 2 |
+| [HTTP/3 (RFC 9114)](https://www.rfc-editor.org/rfc/rfc9114) | 📋 Specification | HTTP over QUIC |
+| [QPACK (RFC 9204)](https://www.rfc-editor.org/rfc/rfc9204.html) | 📋 Specification | Field compression for HTTP/3 |
+| [QUIC Working Group](https://quicwg.org/) | 🌐 Website | Specs and resources for the QUIC protocol |
+| [HTTP Working Group Specs](https://httpwg.org/specs/) | 📋 Specification | Active HTTP protocol specifications |
 
 <a id="design-patterns"></a>
 ## <img src="https://img.shields.io/badge/Patterns-222222?style=for-the-badge&logo=pattern&logoColor=white" /> Design Patterns

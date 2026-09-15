@@ -33,7 +33,7 @@
 
 A curated collection of **100% FREE** courses, docs, tutorials, and projects to go from zero → full-stack developer (with DevOps skills). Built for self-taught learners, career switchers, and anyone who wants a clear path without paywalls.
 
-> **Last refreshed:** September 15, 2026 (early-morning maintenance) — full link audit (1,621 unique URLs); added Karapace/Apicurio/Kafka Connect+Streams, Gravitino/Kyuubi/Impala/Ozone/Ranger/Knox/BookKeeper/Unity Catalog/Polaris, rqlite/Dolt/TypeDB/XTDB/etcd, Teleport/Pomerium/Oathkeeper/WebAuthn.io, Plaid/Adyen/Braintree/Square/PayPal, Loops/Customer.io/Knock/Vonage/PubNub, JSR/Adonis/Feathers/Sails/LoopBack/Moleculer/Objection/Typegoose, sqlc/SQLx/Diesel/GORM/SeaORM/jOOQ/MyBatis, Liquibase/Sqitch/dbmate/Alembic/Atlas, Pothos/Strawberry/Ariadne/Protovalidate, Camunda/Kestra/Windmill/Activepieces/Node-RED/MassTransit/NServiceBus/Rebus/Wolverine/MediatR, Hookdeck/Svix, security & SRE frameworks, Argo Events/Image Updater/Pulumi ESC/Terramate, Cloudflare Tunnel & local emulators, WireGuard/Tailscale/Headscale/NetBird/ngrok/mkcert/step-ca/CrowdSec, age/1Password Connect, SDK/build/env/version managers and terminal monitors, API/doc/data CLI tools, Faiss/sqlite-vec, games/realtime extras, motion/media APIs, TypeScript Deep Dive/Astro Tutorial/D2, and career/community resources. Nothing previously listed was removed.
+> **Last refreshed:** September 15, 2026 (morning maintenance) — full link audit (1,719 unique URLs); retargeted Protovalidate, NServiceBus, LM Studio, V, and Square docs for stronger link health; added HBase/Ignite/Geode/Infinispan, Memgraph/FalkorDB/ArcadeDB, OpenSearch Dashboards, Sedona/Spark Connect/Delta Sharing, GeoPandas, MQTT/STOMP, ClojureScript/Reagent/re-frame/Fulcro, Elm/ReasonML/V/Odin/Carbon/Chapel, Plotly.js/Bokeh/Altair/Vega-Lite/ECharts/visx/nivo/Recharts/shadcn charts, kepler.gl/deck.gl/MapLibre/Protomaps/LearnOSM/Turf, R4DS/tidyverse/Shiny/plumber, Mage/Luigi, Temporal TS SDK/Cadence/Conductor/Zeebe/Flowable/jBPM, Babylon.js/PlayCanvas/A-Frame/WebXR/model-viewer/glTF/Filament, TLS/QUIC/ACME/DoH/WebSocket/HTTP Semantics RFCs, Defold/Love2D/raylib/SDL/MonoGame/libGDX/Haxe, Wizer/wit-bindgen/cargo-component, SheetJS/PapaParse/JSZip/PDFKit/pdf-lib/WeasyPrint/Stirling PDF, Nextcloud/Syncthing/rclone/restic/Borg/OpenEBS/JuiceFS/Alluxio, DMARC, and Home Assistant/ESPHome/PlatformIO/Arduino/Zephyr/FreeRTOS/MicroPython/CircuitPython/TinyGo. Nothing previously listed was removed.
 
 ### Why this repo?
 | | |
@@ -409,6 +409,9 @@ flowchart LR
 | [WasmEdge](https://wasmedge.org/docs/) | 📚 Documentation | Cloud-native Wasm runtime for edge and servers |
 | [Spin](https://developer.fermyon.com/spin/v3/index) | 📚 Documentation | Developer tool for building Wasm microservices |
 | [Extism](https://extism.org/) | 📚 Documentation | Make any software programmable with Wasm plugins |
+| [Wizer](https://github.com/bytecodealliance/wizer) | 🛠️ Tool | WebAssembly pre-initializer for faster cold starts |
+| [wit-bindgen](https://github.com/bytecodealliance/wit-bindgen) | 🛠️ Tool | Language bindings generator for WIT / component model |
+| [cargo-component](https://github.com/bytecodealliance/cargo-component) | 🛠️ Tool | Cargo subcommand for creating Wasm components |
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg" width="20" height="20" /> UI/UX Design
 | Resource | Type | Description |
@@ -555,12 +558,22 @@ flowchart LR
 | [Crystal Docs](https://crystal-lang.org/reference/) | 📚 Documentation | Ruby-inspired language with static typing and native speed |
 | [Haskell Documentation](https://www.haskell.org/documentation/) | 📚 Documentation | Official Haskell language documentation and guides |
 | [Livebook](https://livebook.dev/) | 🛠️ Tool | Interactive Elixir notebooks for learning and data apps |
+| [Elm Guide](https://guide.elm-lang.org/) | 📖 Guide | Friendly functional language that compiles to JavaScript |
+| [ReasonML](https://reasonml.github.io/) | 📚 Documentation | Syntax and toolchain for OCaml focused on JavaScript |
+| [V Language](https://docs.vlang.io/) | 📚 Documentation | Simple, fast, safe compiled language for maintainable software |
+| [Odin](https://odin-lang.org/) | 📚 Documentation | Systems programming language focused on simplicity and performance |
+| [Carbon Language](https://github.com/carbon-language/carbon-lang) | 📚 Documentation | Experimental successor language for C++ interop (Google) |
+| [Chapel](https://chapel-lang.org/) | 📚 Documentation | Parallel programming language for high-productivity HPC |
 
 ### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/clojure/clojure-original.svg" width="20" height="20" /> Clojure
 | Resource | Type | Description |
 |----------|------|-------------|
 | [Clojure Guides](https://clojure.org/guides/getting_started) | 📖 Guide | Official Clojure getting started guides |
 | [ClojureDocs](https://clojuredocs.org/) | 📚 Documentation | Community-powered Clojure documentation and examples |
+| [ClojureScript](https://clojurescript.org/) | 📚 Documentation | Compile Clojure to JavaScript for browsers and Node |
+| [Reagent](https://reagent-project.github.io/) | 📚 Documentation | Minimalistic React interface for ClojureScript |
+| [re-frame](https://day8.github.io/re-frame/) | 📚 Documentation | Reagent framework for SPAs (events, subscriptions, effects) |
+| [Fulcro](https://fulcro.fulcrologic.com/) | 📚 Documentation | Full-stack, data-driven web framework for Clojure(Script) |
 
 ### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" width="20" height="20" /> Elixir & Phoenix
 | Resource | Type | Description |
@@ -769,6 +782,7 @@ flowchart LR
 | [Evidence Docs](https://docs.evidence.dev/) | 📚 Documentation | Business intelligence as code with Markdown/SQL |
 | [Neo4j Graph Academy](https://graphacademy.neo4j.com/) | 🎓 Courses | Free interactive graph database courses |
 | [Neo4j Docs](https://neo4j.com/docs/) | 📚 Documentation | Official Neo4j graph database documentation |
+| [GeoPandas](https://geopandas.org/) | 📚 Documentation | Geospatial data analysis in Python on top of pandas |
 | [PostGIS Docs](https://postgis.net/documentation/) | 📚 Documentation | Spatial and geographic objects for PostgreSQL |
 | [Flyway Docs](https://documentation.red-gate.com/flyway) | 📚 Documentation | Database migration tooling |
 | [Liquibase Get Started](https://www.liquibase.org/get-started) | 📚 Documentation | Database schema change management |
@@ -785,6 +799,17 @@ flowchart LR
 | [Gel Docs](https://docs.geldata.com/) | 📚 Documentation | Next-gen graph-relational database (formerly EdgeDB) |
 | [Apache Cassandra Docs](https://cassandra.apache.org/doc/latest/) | 📚 Documentation | Highly scalable distributed NoSQL database |
 | [ScyllaDB Docs](https://docs.scylladb.com/) | 📚 Documentation | High-performance Cassandra-compatible NoSQL database |
+| [Apache HBase](https://hbase.apache.org/) | 📚 Documentation | Distributed, scalable big data store modeled after Bigtable |
+| [Apache Ignite](https://ignite.apache.org/) | 📚 Documentation | Distributed database, caching, and compute platform |
+| [Apache Geode](https://geode.apache.org/) | 📚 Documentation | In-memory data management and distributed caching |
+| [Infinispan](https://infinispan.org/) | 📚 Documentation | Open-source in-memory data grid |
+| [Memgraph Docs](https://memgraph.com/docs) | 📚 Documentation | High-performance, open-source graph database |
+| [FalkorDB Docs](https://docs.falkordb.com/) | 📚 Documentation | Graph database optimized for GraphRAG and knowledge graphs |
+| [ArcadeDB Docs](https://docs.arcadedb.com/) | 📚 Documentation | Multi-model DBMS (graph, document, key-value, search) |
+| [OpenSearch Dashboards](https://opensearch.org/docs/latest/dashboards/) | 📚 Documentation | Visualization and exploration UI for OpenSearch |
+| [Apache Sedona](https://sedona.apache.org/) | 📚 Documentation | Cluster computing system for processing large-scale spatial data |
+| [Spark Connect](https://spark.apache.org/docs/latest/spark-connect-overview.html) | 📚 Documentation | Decoupled client architecture for Apache Spark |
+| [Delta Sharing](https://delta.io/sharing/) | 📚 Documentation | Open protocol for secure data sharing across platforms |
 | [PlanetScale Docs](https://planetscale.com/docs) | 📚 Documentation | Serverless MySQL platform with branching workflows |
 
 ## <img src="https://img.shields.io/badge/APIs-02569B?style=for-the-badge&logo=rest&logoColor=white" /> APIs & Integration
@@ -800,7 +825,9 @@ flowchart LR
 | [JSON:API](https://jsonapi.org/) | 📋 Specification | Convention for building JSON APIs |
 | [OpenAPI Generator](https://openapi-generator.tech/docs/installation) | 🛠️ Tool | Generate clients, servers, and docs from OpenAPI |
 | [Buf Docs](https://github.com/bufbuild/buf) | 📚 Documentation | Protobuf tooling, linting, and schema registry (buf.build docs block some bots) |
-| [Protovalidate Quickstart](https://buf.build/docs/protovalidate/quickstart/) | 📖 Tutorial | Protobuf validation with CEL-based rules |
+| [Protovalidate Docs](https://buf.build/docs/protovalidate/) | 📖 Tutorial | Protobuf validation with CEL-based rules |
+| [MQTT](https://mqtt.org/) | 📋 Specification | Lightweight pub/sub messaging protocol for IoT and devices |
+| [STOMP](https://stomp.github.io/) | 📋 Specification | Simple Text Oriented Messaging Protocol |
 | [Speakeasy Docs](https://www.speakeasy.com/docs) | 📚 Documentation | Generate type-safe SDKs from OpenAPI |
 | [Fern Docs](https://www.buildwithfern.com/learn) | 📚 Documentation | Define APIs and generate SDKs/docs |
 | [webhooks.fyi](https://webhooks.fyi/) | 📖 Guide | Complete guide to webhooks |
@@ -1203,6 +1230,21 @@ flowchart LR
 | [Plotly Dash Tutorial](https://dash.plotly.com/tutorial) | 📖 Tutorial | Build analytical web applications |
 | [Apache Superset](https://superset.apache.org/) | 🛠️ Tool | Modern data exploration platform |
 | [Grafana Fundamentals](https://grafana.com/docs/grafana/latest/getting-started/) | 🎓 Course | Official Grafana getting-started path (tutorials hub may block some networks) |
+| [Plotly.js](https://plotly.com/javascript/) | 📚 Documentation | Interactive charting library for the browser |
+| [Bokeh Docs](https://docs.bokeh.org/) | 📚 Documentation | Interactive visualization library for Python |
+| [Altair](https://altair-viz.github.io/) | 📚 Documentation | Declarative statistical visualization in Python |
+| [Vega-Lite](https://vega.github.io/vega-lite/) | 📚 Documentation | High-level grammar of interactive graphics |
+| [Apache ECharts](https://echarts.apache.org/) | 📚 Documentation | Powerful, interactive charting and visualization library |
+| [visx](https://airbnb.io/visx/) | 📚 Documentation | Low-level visualization primitives for React |
+| [nivo](https://nivo.rocks/) | 📚 Documentation | Rich dataviz components built on D3 for React |
+| [Recharts](https://recharts.org/) | 📚 Documentation | Composable charting library built with React and D3 |
+| [shadcn/ui Charts](https://ui.shadcn.com/charts) | 📚 Documentation | Composable chart components built with Recharts |
+| [kepler.gl](https://kepler.gl/) | 🛠️ Tool | High-performance geospatial analysis in the browser |
+| [deck.gl](https://deck.gl/) | 📚 Documentation | WebGL-powered framework for large-scale data visualization |
+| [MapLibre GL](https://maplibre.org/) | 📚 Documentation | Open-source map rendering libraries (Mapbox GL fork) |
+| [Protomaps](https://protomaps.com/) | 📚 Documentation | Open-source map stacks and PMTiles for self-hosted maps |
+| [LearnOSM](https://learnosm.org/) | 📖 Tutorial | Learn OpenStreetMap editing and mapping |
+| [Turf.js](https://turfjs.org/) | 📚 Documentation | Advanced geospatial analysis for browsers and Node |
 
 ## <img src="https://img.shields.io/badge/AI%2FML-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" /> AI & Machine Learning
 
@@ -1266,7 +1308,7 @@ flowchart LR
 | [Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/overview/) | 📚 Documentation | Microsoft SDK for AI agents and orchestration |
 | [AutoGen](https://microsoft.github.io/autogen/stable/) | 📚 Documentation | Multi-agent AI application framework |
 | [smolagents](https://huggingface.co/docs/smolagents) | 📚 Documentation | Tiny agent framework from Hugging Face |
-| [LM Studio](https://lmstudio.ai/docs) | 🛠️ Tool | Run local LLMs with a desktop UI and local server |
+| [LM Studio](https://lmstudio.ai/docs/app/basics) | 🛠️ Tool | Run local LLMs with a desktop UI and local server |
 | [Jan](https://jan.ai/docs) | 🛠️ Tool | Open-source ChatGPT alternative that runs offline |
 | [Pydantic AI](https://ai.pydantic.dev/) | 📚 Documentation | Type-safe agent framework built on Pydantic |
 | [Open WebUI](https://docs.openwebui.com/) | 📚 Documentation | Self-hosted web UI for local and remote LLMs |
@@ -1298,6 +1340,12 @@ flowchart LR
 | [Apache Spark Documentation](https://spark.apache.org/docs/latest/) | 📚 Documentation | Large-scale data processing |
 | [Dask Documentation](https://docs.dask.org/) | 📚 Documentation | Parallel computing with Python |
 | [Apache Airflow Tutorial](https://airflow.apache.org/docs/apache-airflow/stable/tutorial/) | 📖 Tutorial | Workflow orchestration platform |
+| [R for Data Science](https://r4ds.hadley.nz/) | 📚 Book | Free Hadley Wickham book on importing, wrangling, and visualizing data in R |
+| [tidyverse](https://www.tidyverse.org/) | 📚 Documentation | Opinionated collection of R packages for data science |
+| [Shiny](https://shiny.posit.co/) | 📚 Documentation | Build interactive web apps with R |
+| [plumber](https://www.rplumber.io/) | 📚 Documentation | Create REST APIs from R |
+| [Mage Docs](https://docs.mage.ai/) | 📚 Documentation | Modern data pipeline tool for transforming and integrating data |
+| [Luigi](https://luigi.readthedocs.io/) | 📚 Documentation | Python package for building complex pipelines of batch jobs |
 
 ### 🗣️ Natural Language Processing
 | Resource | Type | Description |
@@ -1562,7 +1610,23 @@ flowchart LR
 | [Godot Docs](https://docs.godotengine.org/en/stable/) | 📚 Documentation | Free and open-source game engine (also great for interactive apps) |
 | [Bevy Quick Start](https://bevy.org/learn/quick-start/getting-started/) | 📖 Tutorial | Data-driven game engine built in Rust |
 | [Phaser Learn](https://phaser.io/learn) | 🎓 Tutorials | Popular 2D HTML5 game framework |
+| [Defold](https://defold.com/) | 📚 Documentation | Free cross-platform game engine used in production |
+| [LÖVE (Love2D)](https://love2d.org/) | 📚 Documentation | Free 2D game framework for Lua |
+| [raylib](https://www.raylib.com/) | 📚 Documentation | Simple and easy-to-use library to enjoy videogames programming |
+| [SDL](https://www.libsdl.org/) | 📚 Documentation | Cross-platform low-level access to audio, keyboard, mouse, and graphics |
+| [MonoGame](https://www.monogame.net/) | 📚 Documentation | Free, open-source, cross-platform C# game framework |
+| [libGDX](https://libgdx.com/) | 📚 Documentation | Cross-platform Java game development framework |
+| [Haxe](https://haxe.org/) | 📚 Documentation | Cross-platform toolkit and language for games and apps |
 | [Godot Docs](https://docs.godotengine.org/en/stable/getting_started/introduction/index.html) | 📚 Documentation | Free and open-source game engine |
+| [Home Assistant](https://www.home-assistant.io/) | 📚 Documentation | Open-source home automation that puts local control first |
+| [ESPHome](https://esphome.io/) | 📚 Documentation | Control ESP8266/ESP32 devices with simple YAML configs |
+| [PlatformIO](https://platformio.org/) | 📚 Documentation | Professional collaborative platform for embedded development |
+| [Arduino Docs](https://www.arduino.cc/) | 📚 Documentation | Open-source electronics platform and learning resources |
+| [Zephyr Project](https://www.zephyrproject.org/) | 📚 Documentation | Scalable real-time OS for connected, resource-constrained devices |
+| [FreeRTOS](https://www.freertos.org/) | 📚 Documentation | Real-time operating system for microcontrollers |
+| [MicroPython](https://micropython.org/) | 📚 Documentation | Lean Python implementation for microcontrollers |
+| [CircuitPython](https://circuitpython.org/) | 📚 Documentation | Adafruit's beginner-friendly MicroPython fork |
+| [TinyGo](https://tinygo.org/) | 📚 Documentation | Go compiler for small places (microcontrollers and Wasm) |
 
 ## <img src="https://img.shields.io/badge/Web3-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white" /> Web3 & Blockchain
 
@@ -1895,6 +1959,13 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [Can I Use](https://www.caniuse.com/) | 🛠️ Tool | Feature support across browsers |
 | [Chrome DevTools](https://developer.chrome.com/docs/devtools) | 📚 Documentation | Network, performance, and debugging panels |
 | [Three.js Manual](https://threejs.org/manual/) | 📖 Tutorial | 3D graphics on the web with Three.js |
+| [Babylon.js Docs](https://www.babylonjs.com/) | 📚 Documentation | Powerful, beautiful, simple 3D engine for the web |
+| [PlayCanvas](https://playcanvas.com/) | 📚 Documentation | WebGL game engine and collaborative editor |
+| [A-Frame](https://aframe.io/) | 📚 Documentation | Web framework for building VR experiences |
+| [Immersive Web](https://immersiveweb.dev/) | 📚 Documentation | WebXR Device API resources and demos |
+| [model-viewer](https://modelviewer.dev/) | 📚 Documentation | Embed interactive 3D models on the web easily |
+| [glTF](https://www.khronos.org/gltf/) | 📋 Specification | Runtime 3D asset delivery format |
+| [Filament](https://google.github.io/filament/) | 📚 Documentation | Real-time physically based rendering engine |
 | [WebGPU Fundamentals](https://webgpufundamentals.org/) | 📖 Tutorial | Next-generation GPU graphics/compute on the web |
 | [WebGPU API (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API) | 📚 Documentation | Modern GPU access for graphics and compute |
 | [WebNN](https://webmachinelearning.github.io/webnn/) | 📚 Documentation | Hardware-accelerated neural networks in the browser |
@@ -1915,6 +1986,12 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [File System Access / OPFS](https://developer.mozilla.org/en-US/docs/Web/API/File_System_API) | 📚 Documentation | Local and origin-private file access |
 | [Trusted Types](https://web.dev/articles/trusted-types) | 📖 Guide | DOM XSS mitigation with Trusted Types |
 | [Lighthouse CI](https://github.com/GoogleChrome/lighthouse-ci) | 🛠️ Tool | Automate Lighthouse checks in CI |
+| [TLS 1.3 (RFC 8446)](https://datatracker.ietf.org/doc/html/rfc8446) | 📋 Specification | Modern Transport Layer Security protocol |
+| [QUIC (RFC 9000)](https://datatracker.ietf.org/doc/html/rfc9000) | 📋 Specification | UDP-based multiplexed and secure transport |
+| [ACME (RFC 8555)](https://datatracker.ietf.org/doc/html/rfc8555) | 📋 Specification | Automated Certificate Management Environment |
+| [DNS over HTTPS (RFC 8484)](https://datatracker.ietf.org/doc/html/rfc8484) | 📋 Specification | DNS queries over HTTPS |
+| [WebSocket (RFC 6455)](https://datatracker.ietf.org/doc/html/rfc6455) | 📋 Specification | Bidirectional communication protocol for the web |
+| [HTTP Semantics (RFC 9110)](https://datatracker.ietf.org/doc/html/rfc9110) | 📋 Specification | Core HTTP semantics shared by HTTP/1.1, HTTP/2, and HTTP/3 |
 
 <a id="design-patterns"></a>
 ## <img src="https://img.shields.io/badge/Patterns-222222?style=for-the-badge&logo=pattern&logoColor=white" /> Design Patterns
@@ -1987,13 +2064,19 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [Restate Docs](https://docs.restate.dev/) | 📚 Documentation | Durable execution platform for reliable distributed apps |
 | [Trigger.dev Docs](https://trigger.dev/docs) | 📚 Documentation | Background jobs for TypeScript apps |
 | [Temporal Docs](https://docs.temporal.io/) | 📚 Documentation | Durable workflow execution platform |
+| [Temporal TypeScript SDK](https://docs.temporal.io/develop/typescript) | 📚 Documentation | Build durable workflows and activities in TypeScript |
+| [Cadence Docs](https://cadenceworkflow.io/docs/) | 📚 Documentation | Distributed, scalable, durable, and highly available workflow orchestration (Uber) |
+| [Conductor OSS](https://conductor-oss.github.io/conductor/) | 📚 Documentation | Microservice orchestration engine (Netflix Conductor fork) |
+| [Zeebe Docs](https://docs.camunda.io/) | 📚 Documentation | Cloud-native workflow engine for microservices orchestration |
+| [Flowable Docs](https://www.flowable.com/open-source/docs) | 📚 Documentation | Open-source BPMN, CMMN, and DMN engines |
+| [jBPM Docs](https://docs.jbpm.org/) | 📚 Documentation | Flexible Business Process Management suite |
 | [Camunda Docs](https://docs.camunda.io/) | 📚 Documentation | Process orchestration and workflow automation platform |
 | [Kestra Docs](https://kestra.io/docs) | 📚 Documentation | Infinitely scalable, event-driven, language-agnostic orchestration |
 | [Windmill Docs](https://www.windmill.dev/docs) | 📚 Documentation | Open-source developer platform for scripts and workflows |
 | [Activepieces Docs](https://www.activepieces.com/docs) | 📚 Documentation | Open-source Zapier alternative for automation |
 | [Node-RED Docs](https://nodered.org/docs/) | 📚 Documentation | Low-code programming for event-driven applications |
 | [MassTransit Introduction](https://masstransit.io/introduction) | 📚 Documentation | Distributed application framework for .NET |
-| [NServiceBus Docs](https://docs.particular.net/nservicebus/) | 📚 Documentation | Messaging and workflow framework for .NET |
+| [NServiceBus Docs](https://docs.particular.net/) | 📚 Documentation | Messaging and workflow framework for .NET |
 | [Rebus](https://github.com/rebus-org/Rebus) | 📚 Documentation | Simple .NET service bus for messaging |
 | [Wolverine](https://wolverinefx.net/) | 📚 Documentation | Next-generation .NET messaging and command handling |
 | [MediatR](https://github.com/jbogard/MediatR) | 📚 Documentation | In-process messaging library for .NET |
@@ -2013,7 +2096,7 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [Plaid Docs](https://plaid.com/docs/) | 📚 Documentation | APIs for bank linking, payments, and financial data |
 | [Adyen Docs](https://docs.adyen.com/) | 📚 Documentation | Global payments platform developer documentation |
 | [Braintree Developers](https://www.braintreepayments.com/developers) | 📚 Documentation | PayPal-owned payments platform docs and SDKs |
-| [Square Developer Docs](https://developer.squareup.com/docs) | 📚 Documentation | Payments, commerce, and point-of-sale APIs |
+| [Square Developer Docs](https://developer.squareup.com/) | 📚 Documentation | Payments, commerce, and point-of-sale APIs |
 | [PayPal Developer Docs](https://developer.paypal.com/docs/) | 📚 Documentation | Checkout, subscriptions, and payouts APIs |
 | [Stripe Development Docs](https://stripe.com/docs/development) | 📚 Documentation | APIs, testing, and integration guides |
 | [Polar Docs](https://polar.sh/docs) | 📚 Documentation | Payments and monetization for open-source / indie hackers |
@@ -2044,6 +2127,21 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [UploadThing Docs](https://docs.uploadthing.com/) | 📚 Documentation | Type-safe file uploads for fullstack apps |
 | [Uppy Docs](https://uppy.io/docs/) | 📚 Documentation | Modular open-source file uploader for the web |
 | [FilePond Docs](https://pqina.nl/filepond/docs/) | 📚 Documentation | Accessible and flexible JavaScript file upload library |
+| [SheetJS](https://sheetjs.com/) | 📚 Documentation | Spreadsheet data toolkit for browsers and servers |
+| [Papa Parse](https://www.papaparse.com/) | 📚 Documentation | Fast in-browser CSV parser |
+| [JSZip](https://stuk.github.io/jszip/) | 📚 Documentation | Create, read, and edit .zip files with JavaScript |
+| [PDFKit](https://pdfkit.org/) | 📚 Documentation | PDF generation library for Node and the browser |
+| [pdf-lib](https://pdf-lib.js.org/) | 📚 Documentation | Create and modify PDF documents in any JavaScript environment |
+| [WeasyPrint](https://doc.courtbouillon.org/weasyprint/stable/) | 📚 Documentation | Convert HTML/CSS documents to PDF |
+| [Stirling PDF](https://stirlingpdf.io/) | 🛠️ Tool | Locally hosted web app for PDF manipulation |
+| [Nextcloud](https://nextcloud.com/) | 📚 Documentation | Self-hosted content collaboration and file sync platform |
+| [Syncthing](https://syncthing.net/) | 🛠️ Tool | Continuous file synchronization without a central server |
+| [rclone](https://rclone.org/) | 🛠️ Tool | rsync for cloud storage (S3, Drive, and dozens more) |
+| [restic](https://restic.net/) | 🛠️ Tool | Fast, secure, efficient backup program |
+| [BorgBackup](https://www.borgbackup.org/) | 🛠️ Tool | Deduplicating backup program with compression and encryption |
+| [OpenEBS](https://openebs.io/) | 📚 Documentation | Open-source container-attached storage for Kubernetes |
+| [JuiceFS](https://juicefs.com/docs/community/introduction/) | 📚 Documentation | Distributed POSIX file system built on object storage |
+| [Alluxio](https://www.alluxio.io/) | 📚 Documentation | Data orchestration for analytics and AI workloads |
 
 <a id="seo--discoverability"></a>
 ## <img src="https://img.shields.io/badge/SEO-0F9D58?style=for-the-badge&logo=google&logoColor=white" /> SEO & Discoverability
@@ -2059,6 +2157,7 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [Google Sitemaps Guide](https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview) | 📖 Guide | Create and submit XML sitemaps for search discovery |
 | [XML Sitemaps Protocol](https://www.sitemaps.org/protocol.html) | 📋 Specification | Sitemap format for search engine crawlers |
 | [robots.txt Specification](https://www.rfc-editor.org/rfc/rfc9309.html) | 📋 Specification | Robots Exclusion Protocol (RFC 9309) |
+| [DMARC](https://dmarc.org/) | 📋 Specification | Email authentication, policy, and reporting |
 
 <a id="i18n--feature-flags"></a>
 ## <img src="https://img.shields.io/badge/i18n-1D4ED8?style=for-the-badge" /> i18n & Feature Flags

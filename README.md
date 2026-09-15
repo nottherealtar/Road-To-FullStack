@@ -33,7 +33,7 @@
 
 A curated collection of **100% FREE** courses, docs, tutorials, and projects to go from zero → full-stack developer (with DevOps skills). Built for self-taught learners, career switchers, and anyone who wants a clear path without paywalls.
 
-> **Last refreshed:** September 15, 2026 (midday maintenance) — full link audit (1,789 unique URLs; only known hard fail remains DB-Engines SSL from this environment); added Roc/Go Learn/Dart Language Tour, Apache Hive/Kudu/Phoenix/Drill/Kylin/Atlas + Marquez, Soda/Elementary/whylogs/Evidently/Deepchecks, Flyte/ZenML/ClearML/Neptune/Comet, OWASP WSTG + web.dev Secure, OAuth/WebAuthn RFCs + SPIFFE/SPIRE, httpd/HAProxy + DNS stack (CoreDNS/Unbound/Pi-hole/DoH), Thanos/Mimir, JMeter, Killercoda/EduK8s/CNCF learning, Zola, Mockoon/Hoverfly/Prism/Bump/APIs.guru, HTTP/2–HTTP/3 RFCs, a11ysupport, roadmap.sh Backend/CyberSec, and MDN/web.dev/CSS-Tricks/Smashing/freeCodeCamp reading lists. Nothing previously listed was removed.
+> **Last refreshed:** September 15, 2026 (afternoon maintenance) — full link audit (1,859 unique URLs; DB-Engines SSL remains the only known hard fail from this environment); added HeroUI/Mantine/Ant/Chakra/React Spectrum/Untitled UI, web.dev Learn Performance/Images, F#/Racket/Lua/Erlang, MariaDB/TigerBeetle/Couchbase/RavenDB/RethinkDB/InfluxDB, Artemis, OWASP API/Mobile/K8s Top 10 + cheat sheets, CISA KEV/NVD/CVE/CVSS, GTFOBins/LOLBAS, Cryptopals/CTF101/HackSplaining/Bandit, OTel JS/Python/Go, NixOS Learn/Zero to Nix, Parcel/Waku, MIT/Princeton algorithms, Divio docs model, MDN Curriculum + HTML/CSS/ECMA specs, and engineering blogs (Spotify/Shopify/Stripe/GitHub/Vercel/Cloudflare/AWS). Nothing previously listed was removed.
 
 ### Why this repo?
 | | |
@@ -323,6 +323,8 @@ flowchart LR
 | [Farm Docs](https://www.farmfe.org/docs/quick-start) | 📚 Documentation | Extremely fast Vite-compatible web build tool written in Rust |
 | [Rolldown](https://rolldown.rs/) | 📚 Documentation | Rust-based JavaScript bundler (Vite's future bundler) |
 | [Rspack](https://rspack.dev/guide/start/introduction) | 📚 Documentation | Fast Rust-based bundler compatible with the Webpack ecosystem |
+| [Parcel Docs](https://parceljs.org/docs/) | 📚 Documentation | Zero-config web application bundler |
+| [Waku](https://waku.gg/) | 📚 Documentation | Minimal React framework powered by RSC |
 | [esbuild](https://esbuild.github.io/) | 📚 Documentation | Extremely fast JavaScript bundler and minifier |
 | [SWC](https://swc.rs/docs/getting-started) | 📚 Documentation | Super-fast TypeScript/JavaScript compiler |
 | [Webpack Concepts](https://webpack.js.org/concepts/) | 📚 Documentation | Module bundler concepts still widely used in production |
@@ -333,6 +335,12 @@ flowchart LR
 | [daisyUI](https://daisyui.com/docs/) | 📚 Documentation | Tailwind CSS component library with semantic class names |
 | [Flowbite](https://flowbite.com/docs/getting-started/introduction/) | 📚 Documentation | Tailwind CSS component library and design system |
 | [Park UI](https://park-ui.com/docs) | 📚 Documentation | Beautifully designed components built with Ark UI and Panda CSS |
+| [HeroUI Docs](https://www.heroui.com/docs/guide/introduction) | 📚 Documentation | Beautiful, fast React UI library (NextUI successor) |
+| [Mantine Docs](https://mantine.dev/getting-started/) | 📚 Documentation | Full-featured React components and hooks library |
+| [Ant Design](https://ant.design/docs/react/introduce) | 📚 Documentation | Enterprise-class React UI design system |
+| [Chakra UI Docs](https://chakra-ui.com/docs) | 📚 Documentation | Accessible React component library with a great DX |
+| [React Spectrum](https://react-spectrum.adobe.com/react-spectrum/) | 📚 Documentation | Adobe's React implementation of Spectrum design system |
+| [Untitled UI](https://www.untitledui.com/) | 📚 Documentation | Largest free Figma UI kit and React component resources |
 | [TanStack Query](https://tanstack.com/query/latest/docs/framework/react/overview) | 📚 Documentation | Powerful async state management for React |
 | [TanStack Router](https://tanstack.com/router/latest) | 📚 Documentation | Type-safe routing for React and solid apps |
 | [TanStack Virtual](https://tanstack.com/virtual/latest) | 📚 Documentation | Headless UI for virtualizing large lists |
@@ -557,6 +565,12 @@ flowchart LR
 | [Julia Learning Resources](https://julialang.org/learning/) | 🎓 Courses | Official curated Julia learning resources |
 | [OCaml Learn](https://ocaml.org/docs) | 📚 Documentation | Official OCaml language learning docs |
 | [F# Documentation](https://learn.microsoft.com/en-us/dotnet/fsharp/) | 📚 Documentation | Functional-first language for .NET |
+| [F# Learn](https://fsharp.org/learn/) | 🎓 Courses | Curated F# learning path and community resources |
+| [Racket](https://racket-lang.org/) | 📚 Documentation | General-purpose programmable programming language |
+| [Racket Docs](https://docs.racket-lang.org/) | 📚 Documentation | Official Racket language and library documentation |
+| [Lua 5.4 Manual](https://www.lua.org/manual/5.4/) | 📚 Documentation | Official reference manual for Lua |
+| [Erlang Docs](https://www.erlang.org/docs) | 📚 Documentation | Official Erlang/OTP documentation |
+| [Learn You Some Erlang](https://learnyousomeerlang.com/) | 📚 Book | Friendly free book for learning Erlang |
 | [Crystal Docs](https://crystal-lang.org/reference/) | 📚 Documentation | Ruby-inspired language with static typing and native speed |
 | [Haskell Documentation](https://www.haskell.org/documentation/) | 📚 Documentation | Official Haskell language documentation and guides |
 | [Livebook](https://livebook.dev/) | 🛠️ Tool | Interactive Elixir notebooks for learning and data apps |
@@ -581,6 +595,7 @@ flowchart LR
 | Resource | Type | Description |
 |----------|------|-------------|
 | [Elixir Getting Started](https://elixir-lang.org/getting-started/introduction.html) | 📖 Tutorial | Official Elixir language introduction |
+| [Elixir Learning](https://elixir-lang.org/learning.html) | 🎓 Courses | Official curated Elixir learning resources |
 | [Phoenix Overview](https://hexdocs.pm/phoenix/overview.html) | 📚 Documentation | Productive web framework for Elixir |
 | [Phoenix Framework](https://www.phoenixframework.org/) | 🌐 Website | Guides and ecosystem for Phoenix |
 | [Phoenix LiveView](https://hexdocs.pm/phoenix_live_view/Phoenix.LiveView.html) | 📚 Documentation | Rich, real-time UIs with server-rendered HTML |
@@ -621,6 +636,9 @@ flowchart LR
 | [Official PostgreSQL Tutorial](https://www.postgresql.org/docs/current/tutorial.html) | 📖 Tutorial | Official Postgres getting-started tutorial |
 | [PostgreSQL EXPLAIN](https://www.postgresql.org/docs/current/using-explain.html) | 📖 Guide | Understand and tune query plans |
 | [SQLite Docs](https://sqlite.org/docs.html) | 📚 Documentation | Lightweight embedded SQL database |
+| [SQLite Language](https://www.sqlite.org/lang.html) | 📚 Documentation | SQL language reference for SQLite |
+| [MariaDB Docs](https://mariadb.com/kb/en/documentation/) | 📚 Documentation | Open-source MySQL-compatible relational database |
+| [TigerBeetle Docs](https://docs.tigerbeetle.com/) | 📚 Documentation | Financial transactions database built for safety and performance |
 | [Turso Docs](https://docs.turso.tech/introduction) | 📚 Documentation | Edge-hosted SQLite (libSQL) platform |
 | [Neon PostgreSQL Tutorial](https://neon.com/postgresql/tutorial) | 📖 Tutorial | Practical Postgres guide from Neon |
 | [MySQL Tutorial](https://dev.mysql.com/doc/mysql-tutorial-excerpt/8.0/en/) | 📖 Tutorial | Official MySQL tutorial |
@@ -636,6 +654,11 @@ flowchart LR
 | Resource | Type | Description |
 |----------|------|-------------|
 | [MongoDB Learn](https://learn.mongodb.com/) | 🎓 Courses | Free MongoDB courses and certification |
+| [MongoDB Getting Started](https://www.mongodb.com/docs/manual/tutorial/getting-started/) | 📖 Tutorial | Official MongoDB manual getting-started path |
+| [Couchbase Docs](https://docs.couchbase.com/) | 📚 Documentation | Distributed NoSQL document database platform |
+| [RavenDB Docs](https://docs.ravendb.net/) | 📚 Documentation | ACID document database with rich querying |
+| [RethinkDB Docs](https://www.rethinkdb.com/docs/) | 📚 Documentation | Realtime open-source database for the realtime web |
+| [InfluxDB Docs](https://docs.influxdata.com/) | 📚 Documentation | Time series data platform for metrics and events |
 | [Redis Get Started](https://redis.io/docs/latest/get-started/) | 📖 Tutorial | Official Redis getting started guide |
 | [Valkey](https://valkey.io/) | 📚 Documentation | Open-source Redis-compatible in-memory data store |
 | [KeyDB Docs](https://docs.keydb.dev/) | 📚 Documentation | High-performance fork of Redis with multithreading |
@@ -902,6 +925,7 @@ flowchart LR
 | [Hookdeck Docs](https://hookdeck.com/docs) | 📚 Documentation | Event gateway for inbound webhooks |
 | [Svix Docs](https://docs.svix.com/) | 📚 Documentation | Enterprise-ready webhook sending service |
 | [Apache ActiveMQ Docs](https://activemq.apache.org/components/classic/documentation/) | 📚 Documentation | Flexible open-source multi-protocol messaging |
+| [ActiveMQ Artemis Docs](https://activemq.apache.org/components/artemis/documentation/) | 📚 Documentation | Next-generation message broker (ActiveMQ successor) |
 | [Redpanda Connect](https://docs.redpanda.com/redpanda-connect/about/) | 📚 Documentation | Stream processing / ETL pipelines as declarative configs |
 
 ## <img src="https://img.shields.io/badge/Security-000000?style=for-the-badge&logo=owasp&logoColor=white" /> Security
@@ -937,6 +961,26 @@ flowchart LR
 | [Site Reliability Engineering Book](https://sre.google/sre-book/table-of-contents/) | 📚 Book | Free Google SRE book on running reliable systems |
 | [Principles of Chaos Engineering](https://principlesofchaos.org/) | 📋 Guide | Foundational principles for chaos experiments |
 | [Hack The Box](https://www.hackthebox.com/) | 🎮 Interactive | Hands-on hacking labs (free tier available) |
+| [OWASP API Security Top 10](https://owasp.org/www-project-api-security/) | 📋 Guide | Top API security risks and mitigations |
+| [OWASP Mobile Top 10](https://owasp.org/www-project-mobile-top-10/) | 📋 Guide | Top mobile application security risks |
+| [OWASP Kubernetes Top Ten](https://owasp.org/www-project-kubernetes-top-ten/) | 📋 Guide | Top Kubernetes security risks |
+| [Authentication Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html) | 📋 Cheat Sheet | OWASP guidance for authenticating users safely |
+| [REST Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/REST_Security_Cheat_Sheet.html) | 📋 Cheat Sheet | Secure REST API design practices |
+| [GraphQL Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Cheat_Sheet.html) | 📋 Cheat Sheet | Secure GraphQL API practices |
+| [Cryptographic Storage Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html) | 📋 Cheat Sheet | Storing secrets and sensitive data safely |
+| [ATT&CK Enterprise Matrix](https://attack.mitre.org/matrices/enterprise/) | 📋 Knowledge Base | Visual map of adversary tactics and techniques |
+| [CISA Known Exploited Vulnerabilities](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) | 🛠️ Tool | Catalog of vulnerabilities known to be exploited in the wild |
+| [NVD](https://nvd.nist.gov/) | 🛠️ Tool | U.S. National Vulnerability Database |
+| [CVE](https://cve.mitre.org/) | 🛠️ Tool | Common Vulnerabilities and Exposures dictionary |
+| [CVSS](https://www.first.org/cvss/) | 📋 Specification | Common Vulnerability Scoring System |
+| [GTFOBins](https://gtfobins.github.io/) | 🛠️ Tool | Unix binaries that can be abused for privilege escalation |
+| [LOLBAS](https://lolbas-project.github.io/) | 🛠️ Tool | Living-off-the-land binaries and scripts for Windows |
+| [Cryptopals](https://www.cryptopals.com/) | 🏆 Challenge | Hands-on cryptography challenges |
+| [CTF 101](https://ctf101.org/) | 📖 Guide | Introduction to Capture The Flag competitions |
+| [HackSplaining](https://www.hacksplaining.com/) | 🎓 Courses | Interactive lessons on common web vulnerabilities |
+| [OverTheWire Bandit](https://overthewire.org/wargames/bandit/) | 🎮 Interactive | Beginner Linux security wargame |
+| [PortSwigger Learning Path](https://portswigger.net/web-security/learning-path) | 🎓 Course | Structured Web Security Academy learning path |
+| [SRE Workbook](https://sre.google/workbook/table-of-contents/) | 📚 Book | Free companion workbook to Google's SRE book |
 
 
 <a id="auth--identity"></a>
@@ -999,6 +1043,8 @@ flowchart LR
 | [WebPageTest](https://www.webpagetest.org/) | 🛠️ Tool | Website performance testing |
 | [Critical Path CSS Generator](https://www.sitelocity.com/critical-path-css-generator) | 🛠️ Tool | Optimize CSS delivery |
 | [Web Vitals](https://web.dev/articles/vitals) | 📋 Guide | Core Web Vitals metrics every fullstack should know |
+| [web.dev Learn Performance](https://web.dev/learn/performance) | 🎓 Course | Core Web Vitals and performance fundamentals |
+| [web.dev Learn Images](https://web.dev/learn/images) | 🎓 Course | Modern responsive images and optimization |
 | [Interaction to Next Paint (INP)](https://web.dev/articles/inp) | 📖 Guide | Responsiveness metric guidance |
 | [Baseline](https://developer.mozilla.org/en-US/docs/Glossary/Baseline/Compatibility) | 📋 Reference | What web features are ready to use broadly |
 | [Web Platform Status](https://webstatus.dev/) | 🛠️ Tool | Track web feature availability across browsers |
@@ -1127,6 +1173,9 @@ flowchart LR
 | [Better Stack Docs](https://betterstack.com/docs) | 📚 Documentation | Logging, uptime, and incident management |
 | [ELK Stack Tutorial](https://www.elastic.co/guide/en/elastic-stack-get-started/current/get-started-elastic-stack.html) | 📖 Tutorial | Elasticsearch, Logstash, and Kibana |
 | [Jaeger Documentation](https://www.jaegertracing.io/docs/) | 📚 Documentation | Distributed tracing system |
+| [OpenTelemetry JavaScript](https://opentelemetry.io/docs/languages/js/) | 📚 Documentation | Instrument Node.js and browser apps with OpenTelemetry |
+| [OpenTelemetry Python](https://opentelemetry.io/docs/languages/python/) | 📚 Documentation | Instrument Python apps with OpenTelemetry |
+| [OpenTelemetry Go](https://opentelemetry.io/docs/languages/go/) | 📚 Documentation | Instrument Go apps with OpenTelemetry |
 | [OpenTelemetry Docs](https://opentelemetry.io/docs/) | 📚 Documentation | Vendor-neutral observability framework |
 | [Zipkin](https://zipkin.io/) | 📚 Documentation | Distributed tracing system |
 | [Apache SkyWalking Docs](https://skywalking.apache.org/docs/) | 📚 Documentation | Application performance monitor and observability platform |
@@ -1241,6 +1290,8 @@ flowchart LR
 | [CDK for Terraform](https://developer.hashicorp.com/terraform/cdktf) | 📚 Documentation | Define Terraform configs with TypeScript/Python/etc. |
 | [Checkov Docs](https://www.checkov.io/1.Welcome/What%20is%20Checkov.html) | 📚 Documentation | Static analysis for IaC misconfigurations |
 | [Nix Flakes](https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-flake.html) | 📚 Documentation | Reproducible, hermetic development and package management |
+| [NixOS Learn](https://nixos.org/learn/) | 🎓 Courses | Official Nix and NixOS learning resources |
+| [Zero to Nix](https://zero-to-nix.com/) | 📖 Tutorial | Friendly, up-to-date guide to getting started with Nix |
 | [AWS CDK](https://docs.aws.amazon.com/cdk/v2/guide/home.html) | 📚 Documentation | Define cloud infrastructure in code |
 | [AWS SAM](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html) | 📚 Documentation | Build serverless applications on AWS |
 | [Serverless Framework](https://www.serverless.com/framework/docs) | 📚 Documentation | Develop and deploy serverless apps across clouds |
@@ -1727,6 +1778,20 @@ flowchart LR
 | [CSS-Tricks Guides](https://css-tricks.com/guides/) | 📖 Guides | Long-form CSS and frontend guides |
 | [freeCodeCamp News](https://www.freecodecamp.org/news/) | 📰 Articles | Free programming tutorials and career advice |
 | [Web Status / Baseline](https://baseline.dev/) | 🛠️ Tool | Track which web features are Baseline-ready |
+| [MDN Curriculum](https://developer.mozilla.org/en-US/curriculum/) | 🗺️ Curriculum | Structured front-end developer learning curriculum from MDN |
+| [WHATWG HTML Living Standard](https://html.spec.whatwg.org/multipage/) | 📋 Specification | The HTML living standard |
+| [CSS Snapshot](https://www.w3.org/TR/css/) | 📋 Specification | W3C CSS Snapshot of stable CSS modules |
+| [ECMA-262](https://tc39.es/ecma262/) | 📋 Specification | ECMAScript language specification |
+| [TC39 Proposals](https://github.com/tc39/proposals) | 📋 Repository | Active ECMAScript language feature proposals |
+| [Staff Engineer Guides](https://staffeng.com/guides/) | 📖 Guide | Guides for operating as a staff+ engineer |
+| [Spotify Engineering](https://engineering.atspotify.com/) | 📰 Articles | Engineering blog from Spotify |
+| [Shopify Engineering](https://shopify.engineering/) | 📰 Articles | Engineering blog from Shopify |
+| [Stripe Engineering Blog](https://stripe.com/blog/engineering) | 📰 Articles | Engineering deep dives from Stripe |
+| [GitHub Engineering Blog](https://github.blog/engineering/) | 📰 Articles | Engineering posts from GitHub |
+| [Vercel Blog](https://vercel.com/blog) | 📰 Articles | Frontend/platform engineering posts from Vercel |
+| [Cloudflare Blog](https://blog.cloudflare.com/) | 📰 Articles | Networking, security, and edge computing deep dives |
+| [AWS Architecture Blog](https://aws.amazon.com/blogs/architecture/) | 📰 Articles | Cloud architecture patterns and case studies |
+| [Microservices (Martin Fowler)](https://martinfowler.com/articles/microservices.html) | 📰 Article | Classic definition and guidance on microservices |
 | [Chrome for Developers](https://developer.chrome.com/) | 📚 Documentation | Docs, blogs, and tools from the Chrome team |
 | [Microsoft Edge Learn](https://learn.microsoft.com/en-us/microsoft-edge/) | 📚 Documentation | Edge browser docs and developer resources |
 | [Firefox Source Docs](https://firefox-source-docs.mozilla.org/) | 📚 Documentation | Documentation for Firefox and Mozilla platform |
@@ -1867,6 +1932,10 @@ flowchart LR
 | [MIT Missing Semester](https://missing.csail.mit.edu/) | 🎓 Course | Tools and practices for programmers (shell, git, vim) |
 | [OSSU Computer Science](https://github.com/ossu/computer-science) | 🗺️ Curriculum | Free self-taught CS degree path |
 | [Teach Yourself CS](https://teachyourselfcs.com/) | 📋 Guide | Curated CS fundamentals reading list |
+| [MIT 6.006 Introduction to Algorithms](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/) | 🎓 Course | MIT OpenCourseWare algorithms course materials |
+| [Algorithms, Part I (Coursera)](https://www.coursera.org/learn/algorithms-part1) | 🎓 Course | Princeton algorithms course (audit for free) |
+| [Vim Golf](https://www.vimgolf.com/) | 🏆 Challenge | Practice Vim editing skills with real challenges |
+| [Learn Enough Command Line](https://www.learnenough.com/command-line-tutorial/basics) | 📖 Tutorial | Practical command-line basics tutorial |
 | [Nand2Tetris](https://www.nand2tetris.org/) | 🎓 Course | Build a computer from first principles |
 | [Command line for beginners](https://ubuntu.com/tutorials/command-line-for-beginners) | 📖 Tutorial | Practical Linux shell introduction |
 | [SS64 Command References](https://ss64.com/) | 📋 Reference | Command-line references across platforms |
@@ -1881,6 +1950,7 @@ flowchart LR
 | [Wiki.js Docs](https://docs.requarks.io/) | 📚 Documentation | Modern and powerful open-source wiki app |
 | [Matomo Docs](https://matomo.org/guide/) | 📚 Documentation | Open-source web analytics platform |
 | [Diátaxis Framework](https://diataxis.fr/) | 📋 Framework | Approach for structuring technical documentation |
+| [Divio Documentation System](https://documentation.divio.com/) | 📋 Framework | Four types of documentation: tutorials, how-tos, reference, explanation |
 | [Google Technical Writing Courses](https://developers.google.com/tech-writing) | 🎓 Courses | Free technical writing courses from Google |
 | [The Good Docs Project](https://www.thegooddocsproject.dev/) | 📋 Templates | Templates and guidance for project docs |
 | [Markdown Guide](https://www.markdownguide.org/) | 📖 Guide | Complete Markdown syntax and best practices |

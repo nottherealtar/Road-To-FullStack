@@ -33,7 +33,7 @@
 
 A curated collection of **100% FREE** courses, docs, tutorials, and projects to go from zero → full-stack developer (with DevOps skills). Built for self-taught learners, career switchers, and anyone who wants a clear path without paywalls.
 
-> **Last refreshed:** September 14, 2026 (evening maintenance) — full link audit (1,512 unique URLs); added Debezium/Flink CDC/SeaTunnel/Calcite/Arrow Flight/Materialize/RisingWave/Redpanda Console+Connect/Ibis/dlt/OpenLineage, SpiceDB/OpenFGA/Casbin/Cerbos/OPAL, ASVS/ATT&CK/ZAP/Nuclei/Hypothesis/CycloneDX/SPDX/SLSA/SRE Book/Chaos Principles, Beyla/Coroot/Uptrace, Drone/Woodpecker/Gitea Actions, Wrangler/Miniflare/Hyperdrive/Firebase Emulator/Supabase CLI, Hono RPC/Elysia Eden/tRPC OpenAPI, GSAP/Anime.js/Lottie/R3F/Web Audio/WebCodecs, Phaser/Godot, mediasoup/Matrix/Zulip/Mattermost, Starship/Zellij/tmux/WezTerm/Alacritty/Kitty and modern CLI utilities, Ethereal, Browser Use/Stagehand, MCP Inspector/Ray/BentoML, TypeScript Deep Dive, Astro Tutorial, and D2. Nothing previously listed was removed.
+> **Last refreshed:** September 15, 2026 (early-morning maintenance) — full link audit (1,621 unique URLs); added Karapace/Apicurio/Kafka Connect+Streams, Gravitino/Kyuubi/Impala/Ozone/Ranger/Knox/BookKeeper/Unity Catalog/Polaris, rqlite/Dolt/TypeDB/XTDB/etcd, Teleport/Pomerium/Oathkeeper/WebAuthn.io, Plaid/Adyen/Braintree/Square/PayPal, Loops/Customer.io/Knock/Vonage/PubNub, JSR/Adonis/Feathers/Sails/LoopBack/Moleculer/Objection/Typegoose, sqlc/SQLx/Diesel/GORM/SeaORM/jOOQ/MyBatis, Liquibase/Sqitch/dbmate/Alembic/Atlas, Pothos/Strawberry/Ariadne/Protovalidate, Camunda/Kestra/Windmill/Activepieces/Node-RED/MassTransit/NServiceBus/Rebus/Wolverine/MediatR, Hookdeck/Svix, security & SRE frameworks, Argo Events/Image Updater/Pulumi ESC/Terramate, Cloudflare Tunnel & local emulators, WireGuard/Tailscale/Headscale/NetBird/ngrok/mkcert/step-ca/CrowdSec, age/1Password Connect, SDK/build/env/version managers and terminal monitors, API/doc/data CLI tools, Faiss/sqlite-vec, games/realtime extras, motion/media APIs, TypeScript Deep Dive/Astro Tutorial/D2, and career/community resources. Nothing previously listed was removed.
 
 ### Why this repo?
 | | |
@@ -452,6 +452,14 @@ flowchart LR
 | [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices) | 📋 Guide | Comprehensive Node.js best practices |
 | [The Odin Project - NodeJS](https://www.theodinproject.com/paths/full-stack-javascript) | 🎓 Course | Full-stack JavaScript path including Node |
 | [Bun Docs](https://bun.sh/docs) | 📚 Documentation | Fast all-in-one JavaScript runtime and toolkit |
+| [JSR Docs](https://jsr.io/docs/introduction) | 📚 Documentation | Modern JavaScript registry with TypeScript-first packages |
+| [AdonisJS Docs](https://docs.adonisjs.com/) | 📚 Documentation | TypeScript-first Node.js web framework |
+| [Feathers Guides](https://feathersjs.com/guides/) | 📖 Guides | Realtime, service-oriented API framework for Node.js |
+| [Sails Concepts](https://sailsjs.com/documentation/concepts) | 📚 Documentation | MVC framework for Node.js |
+| [LoopBack Docs](https://loopback.io/doc/en/lb4/) | 📚 Documentation | Highly extensible Node.js API framework |
+| [Moleculer Docs](https://moleculer.services/docs/) | 📚 Documentation | Progressive microservices framework for Node.js |
+| [Objection.js](https://vincit.github.io/objection.js/) | 📚 Documentation | SQL-friendly ORM built on Knex |
+| [Typegoose](https://typegoose.github.io/typegoose/) | 📚 Documentation | Define Mongoose models with TypeScript classes |
 | [Deno Docs](https://docs.deno.com/) | 📚 Documentation | Modern secure TypeScript-first runtime |
 | [Deno Deploy](https://docs.deno.com/deploy/manual/) | ☁️ Platform | Globally distributed TypeScript serverless |
 | [pnpm Installation](https://pnpm.io/installation) | 📚 Documentation | Fast, disk-efficient package manager |
@@ -629,6 +637,13 @@ flowchart LR
 | [Supabase Realtime](https://supabase.com/docs/guides/realtime) | 📚 Documentation | Broadcast, presence, and postgres changes |
 | [Supabase Storage](https://supabase.com/docs/guides/storage) | 📚 Documentation | Object storage with access policies |
 | [Prisma Docs](https://www.prisma.io/docs) | 📚 Documentation | Next-generation Node.js / TypeScript ORM |
+| [sqlc Docs](https://docs.sqlc.dev/en/latest/) | 📚 Documentation | Generate type-safe Go code from SQL |
+| [SQLx](https://docs.rs/sqlx/latest/sqlx/) | 📚 Documentation | Async SQL toolkit for Rust |
+| [Diesel Guides](https://diesel.rs/guides/getting-started/) | 📖 Guides | Safe, extensible ORM and query builder for Rust |
+| [GORM Docs](https://gorm.io/docs/) | 📚 Documentation | Popular ORM library for Golang |
+| [SeaORM](https://www.sea-ql.org/SeaORM/) | 📚 Documentation | Async & dynamic ORM for Rust |
+| [jOOQ Manual](https://www.jooq.org/doc/latest/manual/) | 📚 Documentation | Type-safe SQL query builder for Java |
+| [MyBatis Getting Started](https://mybatis.org/mybatis-3/getting-started.html) | 📚 Documentation | SQL mapping framework for Java |
 | [Prisma Studio](https://www.prisma.io/docs/orm/tools/prisma-studio) | 🛠️ Tool | Visual editor for Prisma data |
 | [Drizzle ORM Docs](https://orm.drizzle.team/docs/overview) | 📚 Documentation | Lightweight TypeScript ORM |
 | [Drizzle Studio](https://orm.drizzle.team/drizzle-studio/overview) | 🛠️ Tool | Browse and edit Drizzle database data |
@@ -649,6 +664,10 @@ flowchart LR
 | [Kafka Streams Documentation](https://kafka.apache.org/documentation/streams/) | 📚 Documentation | Stream processing with Kafka Streams |
 | [Apache Kafka Course](https://developer.confluent.io/learn-kafka/) | 🎓 Course | Free comprehensive Kafka course |
 | [Kafka Schema Registry](https://docs.confluent.io/platform/current/schema-registry/index.html) | 📚 Documentation | Schema evolution and compatibility |
+| [Karapace](https://github.com/aiven/karapace) | 📚 Documentation | Open-source Kafka Schema Registry compatible API |
+| [Apicurio Registry](https://www.apicur.io/registry/docs/) | 📚 Documentation | Open API and schema registry for event-driven systems |
+| [Kafka Connect Docs](https://docs.confluent.io/platform/current/connect/index.html) | 📚 Documentation | Connect Kafka to external systems with connectors |
+| [Kafka Streams Docs](https://docs.confluent.io/platform/current/streams/index.html) | 📚 Documentation | Client library for building stream processing applications |
 | [ksqlDB Documentation](https://docs.ksqldb.io/) | 📚 Documentation | Official ksqlDB documentation and tutorials |
 | [ksqlDB Course](https://developer.confluent.io/courses/ksqldb/intro/) | 🎓 Course | Free Confluent Developer ksqlDB course |
 | [Confluent Developer](https://developer.confluent.io/courses/) | 🎓 Courses | Free Apache Kafka and ksqlDB courses |
@@ -695,6 +714,11 @@ flowchart LR
 | [DataHub Docs](https://datahubproject.io/docs/) | 📚 Documentation | Open-source metadata platform for data discovery |
 | [ClickHouse Docs](https://clickhouse.com/docs) | 📚 Documentation | Fast open-source OLAP database |
 | [Apache Iceberg Docs](https://iceberg.apache.org/docs/latest/) | 📚 Documentation | Open table format for huge analytic datasets |
+| [rqlite](https://github.com/rqlite/rqlite) | 📚 Documentation | Lightweight, distributed relational database built on SQLite |
+| [Dolt Docs](https://docs.dolthub.com/) | 📚 Documentation | SQL database with Git-style versioning and branching |
+| [TypeDB Docs](https://typedb.com/docs/) | 📚 Documentation | Strongly-typed database for complex, interconnected data |
+| [XTDB Docs](https://docs.xtdb.com/) | 📚 Documentation | Immutable database with bitemporal queries |
+| [etcd Docs](https://etcd.io/docs/) | 📚 Documentation | Distributed reliable key-value store for critical data |
 | [Apache Paimon Docs](https://paimon.apache.org/) | 📚 Documentation | Streaming data lakehouse storage for real-time analytics |
 | [Project Nessie](https://projectnessie.org/) | 📚 Documentation | Git-like transactions and catalog for data lakes |
 | [QuestDB Docs](https://questdb.com/docs/) | 📚 Documentation | High-performance open-source time-series database |
@@ -702,6 +726,15 @@ flowchart LR
 | [Apache Parquet Docs](https://parquet.apache.org/docs/) | 📚 Documentation | Columnar storage format for analytics workloads |
 | [Apache Beam Quickstart](https://beam.apache.org/get-started/quickstart-java/) | 📖 Tutorial | Unified batch and streaming data processing |
 | [Apache NiFi Docs](https://nifi.apache.org/documentation/v2/) | 📚 Documentation | Visual dataflow system for routing and transformation |
+| [Apache Gravitino Docs](https://gravitino.apache.org/docs/latest/) | 📚 Documentation | Unified metadata lake for multi-engine data platforms |
+| [Apache Kyuubi](https://kyuubi.apache.org/) | 📚 Documentation | Distributed and multi-tenant gateway for serverless SQL |
+| [Apache Impala Docs](https://impala.apache.org/docs/) | 📚 Documentation | Massively parallel SQL query engine for Hadoop |
+| [Apache Ozone Docs](https://ozone.apache.org/docs/) | 📚 Documentation | Scalable distributed object store for Hadoop |
+| [Apache Ranger](https://ranger.apache.org/) | 📚 Documentation | Framework for enabling data security across Hadoop stack |
+| [Apache Knox Guide](https://knox.apache.org/books/knox-2-0-0/user-guide.html) | 📚 Documentation | Gateway for securing access to Hadoop clusters |
+| [Apache BookKeeper Docs](https://bookkeeper.apache.org/docs/overview/) | 📚 Documentation | Scalable, fault-tolerant, and low-latency storage service |
+| [Unity Catalog Docs](https://docs.unitycatalog.io/) | 📚 Documentation | Open source universal catalog for data and AI assets |
+| [Apache Polaris](https://polaris.apache.org/) | 📚 Documentation | Open source catalog for Apache Iceberg |
 | [Debezium Documentation](https://debezium.io/documentation/) | 📚 Documentation | Change data capture for databases into event streams |
 | [Apache Flink CDC](https://nightlies.apache.org/flink/flink-cdc-docs-stable/) | 📚 Documentation | Real-time CDC connectors and pipelines on Flink |
 | [Apache SeaTunnel Docs](https://seatunnel.apache.org/docs/2.3.8/about/) | 📚 Documentation | High-performance distributed data integration platform |
@@ -738,6 +771,11 @@ flowchart LR
 | [Neo4j Docs](https://neo4j.com/docs/) | 📚 Documentation | Official Neo4j graph database documentation |
 | [PostGIS Docs](https://postgis.net/documentation/) | 📚 Documentation | Spatial and geographic objects for PostgreSQL |
 | [Flyway Docs](https://documentation.red-gate.com/flyway) | 📚 Documentation | Database migration tooling |
+| [Liquibase Get Started](https://www.liquibase.org/get-started) | 📚 Documentation | Database schema change management |
+| [Sqitch](https://sqitch.org/) | 📚 Documentation | Sensible database change management without ORM magic |
+| [dbmate](https://github.com/amacneil/dbmate) | 🛠️ Tool | Lightweight, framework-agnostic database migration tool |
+| [Alembic](https://alembic.sqlalchemy.org/) | 📚 Documentation | Database migration tool for SQLAlchemy |
+| [Atlas Docs](https://atlasgo.io/docs) | 📚 Documentation | Manage database schemas as code |
 | [golang-migrate](https://github.com/golang-migrate/migrate) | 🛠️ Tool | Database migrations written in Go |
 | [Airbyte Docs](https://docs.airbyte.com/) | 📚 Documentation | Open-source data integration / ELT platform |
 | [Dagster Docs](https://docs.dagster.io/) | 📚 Documentation | Data orchestration for analytics and ML |
@@ -762,6 +800,7 @@ flowchart LR
 | [JSON:API](https://jsonapi.org/) | 📋 Specification | Convention for building JSON APIs |
 | [OpenAPI Generator](https://openapi-generator.tech/docs/installation) | 🛠️ Tool | Generate clients, servers, and docs from OpenAPI |
 | [Buf Docs](https://github.com/bufbuild/buf) | 📚 Documentation | Protobuf tooling, linting, and schema registry (buf.build docs block some bots) |
+| [Protovalidate Quickstart](https://buf.build/docs/protovalidate/quickstart/) | 📖 Tutorial | Protobuf validation with CEL-based rules |
 | [Speakeasy Docs](https://www.speakeasy.com/docs) | 📚 Documentation | Generate type-safe SDKs from OpenAPI |
 | [Fern Docs](https://www.buildwithfern.com/learn) | 📚 Documentation | Define APIs and generate SDKs/docs |
 | [webhooks.fyi](https://webhooks.fyi/) | 📖 Guide | Complete guide to webhooks |
@@ -780,6 +819,9 @@ flowchart LR
 | [neverthrow](https://github.com/supermacro/neverthrow) | 📚 Documentation | Type-safe Result errors for TypeScript without exceptions |
 | [Apollo Client Get Started](https://www.apollographql.com/docs/react/get-started) | 📖 Tutorial | GraphQL client setup for React |
 | [GraphQL Yoga](https://the-guild.dev/graphql/yoga-server/docs) | 📚 Documentation | Soft, batteries-included GraphQL server |
+| [Pothos Docs](https://pothos-graphql.dev/docs/) | 📚 Documentation | Plugin-based GraphQL schema builder for TypeScript |
+| [Strawberry Docs](https://strawberry.rocks/docs) | 📚 Documentation | GraphQL library for Python based on dataclasses |
+| [Ariadne](https://ariadnegraphql.org/) | 📚 Documentation | Schema-first Python GraphQL library |
 | [Socket.IO Docs](https://socket.io/docs/v4/) | 📚 Documentation | Real-time bidirectional event-based communication |
 | [Server-Sent Events (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events) | 📚 Documentation | One-way server-to-client streaming over HTTP |
 | [EventSource (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/EventSource) | 📚 Documentation | Browser API for consuming SSE streams |
@@ -788,6 +830,7 @@ flowchart LR
 | [Soketi](https://github.com/soketi/soketi) | 📚 Documentation | Free Pusher protocol-compatible WebSocket server |
 | [Pusher Docs](https://pusher.com/docs) | 📚 Documentation | Hosted realtime channels and APIs |
 | [Ably Docs](https://ably.com/docs) | 📚 Documentation | Realtime infrastructure and messaging platform |
+| [PubNub Docs](https://www.pubnub.com/docs/) | 📚 Documentation | Realtime messaging and presence APIs |
 | [MDN WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API) | 📚 Documentation | Browser WebSocket API reference |
 | [JSONPlaceholder](https://jsonplaceholder.typicode.com/) | 🛠️ Tool | Free fake REST API for practice |
 | [DummyJSON](https://dummyjson.com/) | 🛠️ Tool | Fake REST/GraphQL-like data for prototyping |
@@ -809,6 +852,8 @@ flowchart LR
 | [Apache RocketMQ Docs](https://rocketmq.apache.org/docs/quick-start/) | 📚 Documentation | Cloud-native distributed messaging and streaming |
 | [Apache Pulsar Concepts](https://pulsar.apache.org/docs/4.0.x/concepts-overview/) | 📚 Documentation | Multi-tenant pub-sub messaging and streaming |
 | [Apache Camel Manual](https://camel.apache.org/manual/index.html) | 📚 Documentation | Integration framework with hundreds of connectors |
+| [Hookdeck Docs](https://hookdeck.com/docs) | 📚 Documentation | Event gateway for inbound webhooks |
+| [Svix Docs](https://docs.svix.com/) | 📚 Documentation | Enterprise-ready webhook sending service |
 | [Apache ActiveMQ Docs](https://activemq.apache.org/components/classic/documentation/) | 📚 Documentation | Flexible open-source multi-protocol messaging |
 | [Redpanda Connect](https://docs.redpanda.com/redpanda-connect/about/) | 📚 Documentation | Stream processing / ETL pipelines as declarative configs |
 
@@ -1044,6 +1089,14 @@ flowchart LR
 | [Highlight Docs](https://www.highlight.io/docs) | 📚 Documentation | Open-source session replay, error monitoring, and logging |
 | [Pino](https://github.com/pinojs/pino) | 📚 Documentation | Extremely fast Node.js logger |
 | [Caddy Getting Started](https://caddyserver.com/docs/getting-started) | 📚 Documentation | Automatic HTTPS web server |
+| [WireGuard](https://www.wireguard.com/) | 📚 Documentation | Fast, modern, secure VPN tunnel |
+| [Tailscale Install](https://tailscale.com/kb/1017/install) | 📖 Guide | Zero-config mesh VPN built on WireGuard |
+| [Headscale](https://headscale.net/) | 📚 Documentation | Open-source, self-hosted Tailscale control server |
+| [NetBird Docs](https://docs.netbird.io/) | 📚 Documentation | Open-source WireGuard-based zero-trust networking |
+| [ngrok Docs](https://ngrok.com/docs) | 📚 Documentation | Secure tunnels to localhost for demos and webhooks |
+| [mkcert](https://mkcert.dev/) | 🛠️ Tool | Make locally trusted development certificates |
+| [step-ca Docs](https://smallstep.com/docs/step-ca/) | 📚 Documentation | Private certificate authority and ACME server |
+| [CrowdSec Docs](https://docs.crowdsec.net/) | 📚 Documentation | Collaborative, open-source IPS / security engine |
 | [Nginx Docs](https://nginx.org/en/docs/) | 📚 Documentation | High-performance reverse proxy and web server |
 | [Let's Encrypt Getting Started](https://letsencrypt.org/getting-started/) | 📖 Guide | Free TLS certificates for your sites |
 | [Certbot](https://certbot.eff.org/) | 🛠️ Tool | Automate Let's Encrypt certificate issuance |
@@ -1075,6 +1128,13 @@ flowchart LR
 | [ExternalDNS](https://kubernetes-sigs.github.io/external-dns/) | 📚 Documentation | Configure external DNS providers from Kubernetes resources |
 | [Longhorn Docs](https://longhorn.io/docs/) | 📚 Documentation | Cloud-native distributed block storage for Kubernetes |
 | [Cluster API](https://cluster-api.sigs.k8s.io/) | 📚 Documentation | Declarative Kubernetes cluster lifecycle management |
+| [Argo Events](https://github.com/argoproj/argo-events) | 📚 Documentation | Event-driven workflow automation for Kubernetes |
+| [Argo CD Image Updater](https://github.com/argoproj-labs/argocd-image-updater) | 🛠️ Tool | Automatically update container images in Argo CD |
+| [Drone CI Docs](https://docs.drone.io/) | 📚 Documentation | Container-native continuous delivery platform |
+| [Woodpecker CI Docs](https://woodpecker-ci.org/docs/intro) | 📚 Documentation | Simple, ethical CI/CD engine (Drone fork) |
+| [Gitea Actions](https://docs.gitea.com/usage/actions/overview) | 📚 Documentation | GitHub Actions-compatible CI on self-hosted Gitea |
+| [Pulumi ESC](https://www.pulumi.com/docs/esc/) | 📚 Documentation | Environments, secrets, and configuration for cloud apps |
+| [Terramate Docs](https://terramate.io/docs/) | 📚 Documentation | Orchestration and code generation for Terraform stacks |
 | [Drone CI Docs](https://docs.drone.io/) | 📚 Documentation | Container-native continuous delivery platform |
 | [Woodpecker CI Docs](https://woodpecker-ci.org/docs/intro) | 📚 Documentation | Simple, ethical CI/CD engine (Drone fork) |
 | [Gitea Actions](https://docs.gitea.com/usage/actions/overview) | 📚 Documentation | GitHub Actions-compatible CI on self-hosted Gitea |
@@ -1118,6 +1178,8 @@ flowchart LR
 | [Sealed Secrets](https://github.com/bitnami-labs/sealed-secrets) | 🛠️ Tool | Encrypt Kubernetes secrets into safe-to-commit SealedSecrets |
 | [Quickwit](https://github.com/quickwit-oss/quickwit) | 📚 Documentation | Cloud-native search engine for logs and traces |
 | [SOPS](https://github.com/getsops/sops) | 🛠️ Tool | Encrypt secrets in YAML/JSON/ENV files |
+| [age](https://age-encryption.org/) | 🛠️ Tool | Simple, modern, and secure file encryption tool |
+| [1Password Connect](https://developer.1password.com/docs/connect/) | 📚 Documentation | Access 1Password vaults from your apps and infra |
 | [Vault Docs](https://developer.hashicorp.com/vault/docs) | 📚 Documentation | Secrets management and encryption as a service |
 | [Consul Docs](https://developer.hashicorp.com/consul/docs) | 📚 Documentation | Service networking, discovery, and mesh |
 | [Nomad Docs](https://developer.hashicorp.com/nomad/docs) | 📚 Documentation | Simple and flexible workload orchestrator |
@@ -1533,6 +1595,14 @@ flowchart LR
 | [Khan Academy - Algorithms](https://www.khanacademy.org/computing/computer-science/algorithms) | 🎓 Course | Introduction to algorithms |
 | [MIT OpenCourseWare - Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/) | 🎓 Course | MIT's Introduction to Algorithms |
 | [NeetCode](https://neetcode.io/) | 💻 Practice | Curated coding interview roadmap and explanations |
+| [NeetCode Roadmap](https://neetcode.io/roadmap) | 🗺️ Roadmap | Structured coding interview preparation path |
+| [Hello Interview](https://www.hellointerview.com/) | 📖 Guide | Practical system design interview preparation |
+| [Hacker News Jobs](https://news.ycombinator.com/jobs) | 💼 Jobs | Who is hiring posts and startup job board |
+| [Hashnode](https://hashnode.com/) | 👥 Community | Developer blogging platform and community |
+| [Smashing Magazine](https://www.smashingmagazine.com/) | 📰 Articles | High-quality web design and development articles |
+| [Chrome for Developers](https://developer.chrome.com/) | 📚 Documentation | Docs, blogs, and tools from the Chrome team |
+| [Microsoft Edge Learn](https://learn.microsoft.com/en-us/microsoft-edge/) | 📚 Documentation | Edge browser docs and developer resources |
+| [Firefox Source Docs](https://firefox-source-docs.mozilla.org/) | 📚 Documentation | Documentation for Firefox and Mozilla platform |
 | [Exercism](https://exercism.org/) | 💻 Practice | Mentored coding practice across dozens of languages |
 | [Advent of Code](https://adventofcode.com/) | 🏆 Challenge | Seasonal algorithmic puzzles loved by developers |
 
@@ -1720,6 +1790,20 @@ flowchart LR
 | [Plausible Docs](https://plausible.io/docs) | 📚 Documentation | Privacy-friendly web analytics |
 | [Umami Docs](https://umami.is/docs) | 📚 Documentation | Simple, self-hosted web analytics |
 | [Homebrew](https://brew.sh/) | 🛠️ Tool | Package manager for macOS (and Linux) |
+| [SDKMAN!](https://sdkman.io/) | 🛠️ Tool | Manage multiple SDKs on Unix systems |
+| [Gradle Docs](https://docs.gradle.org/) | 📚 Documentation | Flexible build automation for JVM projects |
+| [Maven Guides](https://maven.apache.org/guides/) | 📚 Documentation | Project management and comprehension tool for Java |
+| [devenv](https://devenv.sh/) | 📚 Documentation | Fast, declarative, reproducible developer environments |
+| [Flox Docs](https://flox.dev/docs/) | 📚 Documentation | Developer environments powered by Nix |
+| [asdf](https://asdf-vm.com/) | 🛠️ Tool | Manage multiple runtime versions with a single CLI |
+| [nvm](https://github.com/nvm-sh/nvm) | 🛠️ Tool | Node Version Manager |
+| [pyenv](https://github.com/pyenv/pyenv) | 🛠️ Tool | Simple Python version management |
+| [rbenv](https://github.com/rbenv/rbenv) | 🛠️ Tool | Manage multiple Ruby versions |
+| [atuin](https://github.com/atuinsh/atuin) | 🛠️ Tool | Magical shell history with sync and search |
+| [delta](https://dandavison.github.io/delta/) | 🛠️ Tool | Syntax-highlighting pager for git and diffs |
+| [Glow](https://github.com/charmbracelet/glow) | 🛠️ Tool | Render Markdown in the terminal |
+| [htop](https://github.com/htop-dev/htop) | 🛠️ Tool | Interactive process viewer |
+| [btop](https://github.com/aristocratos/btop) | 🛠️ Tool | Resource monitor with a beautiful TUI |
 | [mise](https://mise.jdx.dev/) | 🛠️ Tool | Polyglot runtime version manager (asdf-compatible) |
 | [Volta](https://volta.sh/) | 🛠️ Tool | Hassle-free JavaScript tool manager |
 | [fnm](https://github.com/Schniz/fnm) | 🛠️ Tool | Fast Node.js version manager |
@@ -1741,6 +1825,17 @@ flowchart LR
 | [mirrord](https://mirrord.dev/docs/) | 📚 Documentation | Run local processes in the context of a cloud env |
 | [Hoppscotch](https://hoppscotch.io/) | 🛠️ Tool | Open-source API development ecosystem |
 | [Bruno](https://docs.usebruno.com/introduction) | 📚 Documentation | Git-friendly, offline-first API client |
+| [Insomnia Docs](https://docs.insomnia.rest/) | 📚 Documentation | Collaborative API client for REST, GraphQL, and gRPC |
+| [HTTPie Docs](https://httpie.io/docs) | 📚 Documentation | Human-friendly HTTP client for the API era |
+| [jq](https://jqlang.org/) | 🛠️ Tool | Lightweight and flexible command-line JSON processor |
+| [yq](https://mikefarah.gitbook.io/yq/) | 🛠️ Tool | Portable command-line YAML, JSON, and XML processor |
+| [Datasette](https://datasette.io/) | 🛠️ Tool | Explore and publish data with a lightweight web UI |
+| [sqlite-utils](https://sqlite-utils.datasette.io/) | 🛠️ Tool | Python CLI/library for manipulating SQLite databases |
+| [Pandoc](https://pandoc.org/) | 🛠️ Tool | Universal document converter |
+| [Typst Docs](https://typst.app/docs/) | 📚 Documentation | Modern markup-based typesetting system |
+| [Sphinx](https://www.sphinx-doc.org/) | 📚 Documentation | Python documentation generator |
+| [AsciiDoctor Docs](https://asciidoctor.org/docs/) | 📚 Documentation | Fast text processor for converting AsciiDoc to HTML/PDF |
+| [Antora Docs](https://docs.antora.org/antora/latest/) | 📚 Documentation | Multi-repository documentation site generator |
 | [xh](https://github.com/ducaale/xh) | 🛠️ Tool | Friendly and fast HTTP client (HTTPie-compatible, Rust) |
 | [HTTPie](https://httpie.io/docs/cli) | 📚 Documentation | Human-friendly HTTP client for the terminal |
 | [Testcontainers](https://www.testcontainers.org/) | 📚 Documentation | Throwaway Docker containers for integration tests |
@@ -1892,6 +1987,16 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [Restate Docs](https://docs.restate.dev/) | 📚 Documentation | Durable execution platform for reliable distributed apps |
 | [Trigger.dev Docs](https://trigger.dev/docs) | 📚 Documentation | Background jobs for TypeScript apps |
 | [Temporal Docs](https://docs.temporal.io/) | 📚 Documentation | Durable workflow execution platform |
+| [Camunda Docs](https://docs.camunda.io/) | 📚 Documentation | Process orchestration and workflow automation platform |
+| [Kestra Docs](https://kestra.io/docs) | 📚 Documentation | Infinitely scalable, event-driven, language-agnostic orchestration |
+| [Windmill Docs](https://www.windmill.dev/docs) | 📚 Documentation | Open-source developer platform for scripts and workflows |
+| [Activepieces Docs](https://www.activepieces.com/docs) | 📚 Documentation | Open-source Zapier alternative for automation |
+| [Node-RED Docs](https://nodered.org/docs/) | 📚 Documentation | Low-code programming for event-driven applications |
+| [MassTransit Introduction](https://masstransit.io/introduction) | 📚 Documentation | Distributed application framework for .NET |
+| [NServiceBus Docs](https://docs.particular.net/nservicebus/) | 📚 Documentation | Messaging and workflow framework for .NET |
+| [Rebus](https://github.com/rebus-org/Rebus) | 📚 Documentation | Simple .NET service bus for messaging |
+| [Wolverine](https://wolverinefx.net/) | 📚 Documentation | Next-generation .NET messaging and command handling |
+| [MediatR](https://github.com/jbogard/MediatR) | 📚 Documentation | In-process messaging library for .NET |
 | [Azure Circuit Breaker Pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/circuit-breaker) | 📋 Pattern | Stop cascading failures in distributed systems |
 | [Azure Rate Limiting Pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/rate-limiting-pattern) | 📋 Pattern | Protect services from overload |
 | [Unkey Docs](https://www.unkey.com/docs) | 📚 Documentation | API key management and rate limiting |
@@ -1905,11 +2010,20 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | Resource | Type | Description |
 |----------|------|-------------|
 | [Stripe Get Started](https://docs.stripe.com/get-started) | 📚 Documentation | Accept payments and build billing flows |
+| [Plaid Docs](https://plaid.com/docs/) | 📚 Documentation | APIs for bank linking, payments, and financial data |
+| [Adyen Docs](https://docs.adyen.com/) | 📚 Documentation | Global payments platform developer documentation |
+| [Braintree Developers](https://www.braintreepayments.com/developers) | 📚 Documentation | PayPal-owned payments platform docs and SDKs |
+| [Square Developer Docs](https://developer.squareup.com/docs) | 📚 Documentation | Payments, commerce, and point-of-sale APIs |
+| [PayPal Developer Docs](https://developer.paypal.com/docs/) | 📚 Documentation | Checkout, subscriptions, and payouts APIs |
 | [Stripe Development Docs](https://stripe.com/docs/development) | 📚 Documentation | APIs, testing, and integration guides |
 | [Polar Docs](https://polar.sh/docs) | 📚 Documentation | Payments and monetization for open-source / indie hackers |
 | [Lemon Squeezy Docs](https://docs.lemonsqueezy.com/) | 📚 Documentation | Payments, tax, and subscriptions for digital products |
 | [Paddle Billing Docs](https://developer.paddle.com/) | 📚 Documentation | Merchant-of-record billing APIs for SaaS |
 | [Resend Docs](https://resend.com/docs/introduction) | 📚 Documentation | Modern transactional email for developers |
+| [Loops Docs](https://loops.so/docs) | 📚 Documentation | Email platform for SaaS product and transactional mail |
+| [Customer.io Docs](https://docs.customer.io/) | 📚 Documentation | Automated messaging based on customer behavior |
+| [Knock Docs](https://docs.knock.app/) | 📚 Documentation | Notification infrastructure for product messaging |
+| [Vonage Developer Docs](https://developer.vonage.com/) | 📚 Documentation | Communications APIs for SMS, voice, and video |
 | [Mailgun Docs](https://documentation.mailgun.com/docs/mailgun/) | 📚 Documentation | Email API for sending, receiving, and tracking |
 | [Twilio Docs](https://www.twilio.com/docs) | 📚 Documentation | SMS, voice, WhatsApp, and communications APIs |
 | [Backblaze B2 Docs](https://www.backblaze.com/docs/cloud-storage) | 📚 Documentation | Affordable S3-compatible cloud object storage |

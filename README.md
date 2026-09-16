@@ -33,7 +33,7 @@
 
 A curated collection of **100% FREE** courses, docs, tutorials, and projects to go from zero → full-stack developer (with DevOps skills). Built for self-taught learners, career switchers, and anyone who wants a clear path without paywalls.
 
-> **Last refreshed:** September 16, 2026 (midday maintenance) — full link audit (2,115 unique URLs; only known hard fail remains DB-Engines SSL from this environment); added TypeScript Playground/narrowing/generics, JavaScript.info + MDN language deep dives, a11y checklist/APG/WebAIM/contrast tools, Postgres SQL/PL/pgSQL/backup + psycopg3/node-postgres, Kafka/Confluent/RabbitMQ/Redis patterns, Kubernetes Deployments/Services/probes, Helm/Docker/Actions refs, 12-factor chapters + CI/CD essays, OpenTelemetry signals, Prometheus/Grafana practices, OpenAPI/JSON:API/Problem Details RFCs, Core Web Vitals optimization, more OWASP cheat sheets, Diátaxis chapters, and free CS50/MIT/Khan/Coursera learning paths. Nothing previously listed was removed.
+> **Last refreshed:** September 16, 2026 (evening maintenance) — full link audit (2172 unique URLs; only known hard fail remains DB-Engines SSL from this environment); retargeted Effective Go and A Tour of Go to go.dev; added View Transitions/dialog/popover/template, Fetch/Streams/AbortController, Service Worker/PWA/push, htmx essays, Next.js routing/data-fetching/caching, Express performance + Node API, Python asyncio/typing/mypy/logging/WSGI, Django async, Go modules tutorials, Cargo Book, Postgres constraints + Select Star SQL, Redis transactions/pipelining/keyspace, Kubernetes Jobs/CronJobs, eBPF intro, more 12-factor chapters, Temporal Learn/workflows, OpenAPI/Swagger/openapi-ts tooling, and monorepo/workspace package-manager docs. Nothing previously listed was removed.
 
 ### Why this repo?
 | | |
@@ -253,6 +253,11 @@ flowchart LR
 | [CSS Subgrid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Subgrid) | 📚 Documentation | Nested grids that inherit parent track sizing |
 | [Baseline (web platform)](https://web.dev/baseline) | 📋 Reference | Which web features are ready to use across browsers |
 | [View Transitions API](https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API) | 📚 Documentation | Animated transitions between DOM states/pages |
+| [Using View Transitions (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API/Using) | 📖 Guide | Practical guide to the View Transitions API |
+| [Chrome View Transitions](https://developer.chrome.com/docs/web-platform/view-transitions) | 📖 Guide | Same-document and cross-document view transitions |
+| [`<dialog>` element (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog) | 📚 Documentation | Native modal and non-modal dialogs |
+| [Popover API notes (web.dev)](https://web.dev/blog/popover-api) | 📰 Article | Native popovers on the web platform |
+| [`<template>` element (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template) | 📚 Documentation | Declare HTML fragments for reuse |
 | [Navigation API](https://developer.mozilla.org/en-US/docs/Web/API/Navigation_API) | 📚 Documentation | Modern API for app navigations |
 | [Speculation Rules API](https://developer.mozilla.org/en-US/docs/Web/API/Speculation_Rules_API) | 📚 Documentation | Declarative prefetch/prerender for faster navigations |
 | [103 Early Hints](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/103) | 📚 Documentation | Warm connections/caches before the final response |
@@ -336,6 +341,9 @@ flowchart LR
 | [Svelte $state](https://svelte.dev/docs/svelte/$state) | 📚 Documentation | Reactive state rune in Svelte 5 |
 | [Next.js Learn](https://nextjs.org/learn) | 🎓 Course | Complete Next.js course by Vercel |
 | [Next.js App Router](https://nextjs.org/docs/app) | 📚 Documentation | Modern Next.js routing, layouts, and rendering |
+| [Next.js Routing](https://nextjs.org/docs/app/building-your-application/routing) | 📚 Documentation | App Router file-system routing fundamentals |
+| [Next.js Data Fetching](https://nextjs.org/docs/app/building-your-application/data-fetching) | 📚 Documentation | Fetching, caching, and revalidating data |
+| [Next.js Caching](https://nextjs.org/docs/app/building-your-application/caching) | 📚 Documentation | Request Memoization, Data Cache, Full Route Cache, and Router Cache |
 | [Next.js after()](https://nextjs.org/docs/app/api-reference/functions/after) | 📚 Documentation | Schedule work after a response finishes streaming |
 | [Turbopack](https://nextjs.org/docs/app/api-reference/turbopack) | 📚 Documentation | Incremental bundler integrated with Next.js |
 | [Astro Docs](https://docs.astro.build/) | 📚 Documentation | Content-focused web framework with islands architecture |
@@ -354,6 +362,11 @@ flowchart LR
 | [Mintlify](https://mintlify.com/docs) | 📚 Documentation | Beautiful documentation platform for developers |
 | [Scalar](https://scalar.com/) | 🛠️ Tool | Modern OpenAPI documentation and API client |
 | [Redocly Docs](https://redocly.com/docs) | 📚 Documentation | OpenAPI docs, linting, and API governance |
+| [Redocly CLI](https://redocly.com/docs/cli) | 🛠️ Tool | Lint, bundle, and manage OpenAPI descriptions |
+| [OpenAPI Initiative](https://www.openapis.org/) | 📋 Specification | Home of the OpenAPI Specification |
+| [Swagger Editor](https://editor.swagger.io/) | 🛠️ Tool | Browser-based OpenAPI editor |
+| [openapi-typescript](https://openapi-ts.dev/) | 📚 Documentation | Generate TypeScript types from OpenAPI schemas |
+| [Hey API openapi-ts](https://github.com/hey-api/openapi-ts) | 🛠️ Tool | OpenAPI to TypeScript codegen ecosystem |
 | [Swagger UI](https://github.com/swagger-api/swagger-ui) | 🛠️ Tool | Interactive OpenAPI/Swagger documentation UI |
 | [Vite Guide](https://vite.dev/guide/) | 📖 Guide | Next-generation frontend build tool |
 | [Farm Docs](https://www.farmfe.org/docs/quick-start) | 📚 Documentation | Extremely fast Vite-compatible web build tool written in Rust |
@@ -394,6 +407,7 @@ flowchart LR
 | [Relay](https://relay.dev/docs/) | 📚 Documentation | GraphQL client for React from Meta |
 | [TanStack Table](https://tanstack.com/table/latest) | 📚 Documentation | Headless UI for building powerful tables |
 | [htmx Docs](https://htmx.org/docs/) | 📚 Documentation | High-power HTML attributes for modern UIs |
+| [htmx Essays](https://htmx.org/essays/) | 📰 Essays | Hypermedia-driven application design essays |
 | [Hotwire Handbook](https://hotwired.dev/) | 📚 Documentation | HTML-over-the-wire approach (Turbo + Stimulus) |
 | [Turbo Handbook](https://turbo.hotwired.dev/handbook/introduction) | 📚 Documentation | Drive pages with HTML instead of heavy SPA JS |
 | [Stimulus Handbook](https://stimulus.hotwired.dev/handbook/introduction) | 📚 Documentation | Modest JavaScript framework for the HTML you have |
@@ -490,6 +504,8 @@ flowchart LR
 | [freeCodeCamp - Back End Development and APIs](https://www.freecodecamp.org/learn/back-end-development-and-apis/) | 🎓 Course | Backend development with Node.js and Express |
 | [Express.js Guide](https://expressjs.com/en/guide/routing.html) | 📚 Documentation | Complete Express.js framework guide |
 | [Express Security Best Practices](https://expressjs.com/en/advanced/best-practice-security/) | 📋 Guide | Harden Express apps against common threats |
+| [Express Performance Best Practices](https://expressjs.com/en/advanced/best-practice-performance.html) | 📋 Guide | Production performance tips for Express |
+| [Node.js API Docs](https://nodejs.org/docs/latest/api/) | 📚 Documentation | Complete Node.js core API reference |
 | [Fastify Getting Started](https://fastify.dev/docs/latest/Guides/Getting-Started/) | 📚 Documentation | Fast and low-overhead Node.js web framework |
 | [NestJS Docs](https://docs.nestjs.com/) | 📚 Documentation | Progressive Node.js framework for scalable server apps |
 | [NestJS Controllers](https://docs.nestjs.com/controllers) | 📚 Documentation | Routing and request handling in NestJS |
@@ -521,10 +537,19 @@ flowchart LR
 | Resource | Type | Description |
 |----------|------|-------------|
 | [Python.org Tutorial](https://docs.python.org/3/tutorial/) | 📖 Tutorial | Official Python tutorial |
+| [Python Classes Tutorial](https://docs.python.org/3/tutorial/classes.html) | 📖 Tutorial | Classes, instances, and inheritance |
+| [asyncio](https://docs.python.org/3/library/asyncio.html) | 📚 Documentation | Concurrent code using async/await |
+| [asyncio Tasks](https://docs.python.org/3/library/asyncio-task.html) | 📚 Documentation | Coroutines, tasks, and awaiting |
+| [Python typing](https://docs.python.org/3/library/typing.html) | 📚 Documentation | Support for type hints |
+| [Python Typing Spec](https://typing.python.org/en/latest/) | 📋 Specification | Official Python typing specification |
+| [mypy Docs](https://mypy.readthedocs.io/en/stable/) | 📚 Documentation | Optional static type checker for Python |
+| [Logging HOWTO](https://docs.python.org/3/howto/logging.html) | 📖 Guide | Application logging best practices |
+| [PEP 3333 (WSGI)](https://peps.python.org/pep-3333/) | 📋 Specification | Python Web Server Gateway Interface |
 | [Django Tutorial](https://docs.djangoproject.com/en/stable/intro/tutorial01/) | 📖 Tutorial | Official Django web framework tutorial |
 | [Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) | 📖 Tutorial Series | Comprehensive Flask tutorial |
 | [Flask Official Tutorial](https://flask.palletsprojects.com/en/stable/tutorial/) | 📖 Tutorial | Official Flask tutorial from the docs |
 | [Django Queries](https://docs.djangoproject.com/en/stable/topics/db/queries/) | 📚 Documentation | Making queries with the Django ORM |
+| [Django Async Support](https://docs.djangoproject.com/en/stable/topics/async/) | 📚 Documentation | Asynchronous views, middleware, and ORM usage |
 | [FastAPI Tutorial](https://fastapi.tiangolo.com/tutorial/) | 📖 Tutorial | Modern Python API development |
 | [Django Ninja](https://django-ninja.dev/) | 📚 Documentation | Fast Django REST framework inspired by FastAPI |
 | [Litestar Docs](https://docs.litestar.dev/latest/) | 📚 Documentation | High-performance ASGI API framework for Python |
@@ -570,6 +595,7 @@ flowchart LR
 | [Gleam Book](https://gleam.run/book/) | 📚 Book | Type-safe language for the Erlang VM |
 | [Gleam Documentation](https://gleam.run/documentation/) | 📚 Documentation | Official Gleam language and tooling docs |
 | [Rust by Example](https://doc.rust-lang.org/rust-by-example/) | 📖 Examples | Learn Rust through annotated examples |
+| [The Cargo Book](https://doc.rust-lang.org/cargo/guide/) | 📚 Documentation | Build, package, and share Rust projects with Cargo |
 | [Rustlings](https://github.com/rust-lang/rustlings) | 🏆 Exercises | Small exercises to get you used to Rust |
 | [Actix Web Guide](https://actix.rs/docs/) | 📖 Tutorial | Web framework for Rust |
 | [Axum](https://docs.rs/axum/latest/axum/) | 📚 Documentation | Ergonomic web framework built with Tokio and Tower |
@@ -587,10 +613,12 @@ flowchart LR
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" width="20" height="20" /> Go
 | Resource | Type | Description |
 |----------|------|-------------|
-| [A Tour of Go](https://tour.golang.org/) | 🎮 Interactive Tutorial | Official interactive Go tutorial |
+| [A Tour of Go](https://go.dev/tour/) | 🎮 Interactive Tutorial | Official interactive Go tutorial |
 | [Go by Example](https://gobyexample.com/) | 📖 Examples | Hands-on introduction to Go |
 | [Go Learn](https://go.dev/learn/) | 🎓 Courses | Official curated Go learning paths and tutorials |
-| [Effective Go](https://golang.org/doc/effective_go.html) | 📋 Guide | Tips for writing clear Go code |
+| [Effective Go](https://go.dev/doc/effective_go) | 📋 Guide | Tips for writing clear Go code |
+| [Go Getting Started](https://go.dev/doc/tutorial/getting-started) | 🚀 Quick Start | Install Go and write a first module |
+| [Managing Go Dependencies](https://go.dev/doc/modules/managing-dependencies) | 📖 Guide | Add, upgrade, and tidy module dependencies |
 | [Chi Docs](https://go-chi.io/#/pages/intro) | 📚 Documentation | Lightweight, idiomatic Go HTTP router |
 | [Echo Docs](https://echo.labstack.com/docs/) | 📚 Documentation | High-performance Go web framework |
 | [Fiber Docs](https://docs.gofiber.io/) | 📚 Documentation | Express-inspired web framework for Go |
@@ -698,6 +726,7 @@ flowchart LR
 | [Crunchy Data Playground](https://www.crunchydata.com/developers/playground) | 🎮 Interactive | Browser-based PostgreSQL playground and lessons |
 | [PostgreSQL EXPLAIN](https://www.postgresql.org/docs/current/using-explain.html) | 📖 Guide | Understand and tune query plans |
 | [PostgreSQL Indexes](https://www.postgresql.org/docs/current/indexes.html) | 📚 Documentation | Official Postgres index types and usage |
+| [PostgreSQL Constraints](https://www.postgresql.org/docs/current/ddl-constraints.html) | 📚 Documentation | Primary keys, foreign keys, checks, and more |
 | [explain.depesz](https://explain.depesz.com/) | 🛠️ Tool | Beautify and share PostgreSQL EXPLAIN plans |
 | [Use The Index, Luke](https://use-the-index-luke.com/) | 📖 Guide | The practical guide to SQL indexing across engines |
 | [Prisma Data Guide](https://www.prisma.io/dataguide) | 📖 Guide | Practical database concepts for application developers |
@@ -710,6 +739,7 @@ flowchart LR
 | [MySQL Tutorial](https://dev.mysql.com/doc/mysql-tutorial-excerpt/8.0/en/) | 📖 Tutorial | Official MySQL tutorial |
 | [MySQL Getting Started](https://dev.mysql.com/doc/refman/8.4/en/tutorial.html) | 📖 Tutorial | Official MySQL reference manual tutorial (companion to excerpt) |
 | [SQLBolt](https://sqlbolt.com/) | 🎮 Interactive Lessons | Learn SQL with interactive exercises |
+| [Select Star SQL](https://selectstarsql.com/) | 🎮 Interactive | Free interactive SQL textbook with murder-mystery style lessons |
 | [TSQL Tutorial](https://www.tsql.info/) | 📖 Tutorial | Complete T-SQL (Transact-SQL) tutorial |
 | [Microsoft SQL Server Learning](https://learn.microsoft.com/en-us/sql/sql-server/) | 📚 Documentation | Official SQL Server documentation |
 | [T-SQL Language Reference](https://learn.microsoft.com/en-us/sql/t-sql/language-reference) | 📚 Documentation | Official Transact-SQL language reference |
@@ -740,6 +770,9 @@ flowchart LR
 | [Redis Query Engine](https://redis.io/docs/latest/develop/interact/search-and-query/) | 📚 Documentation | Search and query capabilities in Redis |
 | [Redis University](https://redis.io/university/) | 🎓 Courses | Free Redis courses and certifications |
 | [Redis Streams](https://redis.io/docs/latest/develop/data-types/streams/) | 📚 Documentation | Stream processing data type in Redis |
+| [Redis Transactions](https://redis.io/docs/latest/develop/interact/transactions/) | 📚 Documentation | MULTI/EXEC transactions and optimistic locking |
+| [Redis Pipelining](https://redis.io/docs/latest/develop/use/pipelining/) | 📖 Guide | Batch commands to reduce round trips |
+| [Redis Keyspace Notifications](https://redis.io/docs/latest/develop/use/keyspace-notifications/) | 📚 Documentation | Pub/Sub notifications for key events |
 | [Firebase Documentation](https://firebase.google.com/docs) | 📚 Documentation | Complete Firebase/Firestore guide |
 | [Supabase Docs](https://supabase.com/docs) | 📚 Documentation | Open-source Firebase alternative with Postgres |
 | [Supabase Database Guide](https://supabase.com/docs/guides/database/overview) | 📚 Documentation | Postgres features and patterns on Supabase |
@@ -1225,6 +1258,8 @@ flowchart LR
 | [ConfigMaps](https://kubernetes.io/docs/concepts/configuration/configmap/) | 📚 Documentation | Inject non-sensitive configuration into pods |
 | [Secrets](https://kubernetes.io/docs/concepts/configuration/secret/) | 📚 Documentation | Manage sensitive configuration in Kubernetes |
 | [Probes](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/) | 📖 Guide | Liveness, readiness, and startup probes |
+| [Jobs](https://kubernetes.io/docs/concepts/workloads/controllers/job/) | 📚 Documentation | Run finite batch workloads to completion |
+| [CronJobs](https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/) | 📚 Documentation | Schedule Jobs on a time-based calendar |
 | [Kubernetes Tasks](https://kubernetes.io/docs/tasks/) | 📖 Guide | How to accomplish common Kubernetes tasks |
 | [Kubernetes Reference](https://kubernetes.io/docs/reference/) | 📚 Documentation | Official Kubernetes API and CLI reference |
 | [CKA Certification](https://www.cncf.io/training/certification/cka/) | 🎓 Courses | Certified Kubernetes Administrator program overview |
@@ -1348,6 +1383,7 @@ flowchart LR
 | [Coroot Docs](https://docs.coroot.com/) | 📚 Documentation | Open-source eBPF-based observability platform |
 | [Uptrace Docs](https://uptrace.dev/get/) | 📚 Documentation | Open-source APM and distributed tracing with OpenTelemetry |
 | [bpftrace](https://bpftrace.org/) | 📚 Documentation | High-level eBPF tracing language for Linux |
+| [What is eBPF?](https://ebpf.io/what-is-ebpf/) | 📖 Guide | Conceptual introduction to eBPF |
 | [Tetragon Docs](https://tetragon.io/docs/getting-started/) | 📚 Documentation | eBPF-based security observability and runtime enforcement |
 | [Pixie](https://px.dev/) | 📚 Documentation | Instant Kubernetes observability with eBPF |
 | [OpenCost Docs](https://www.opencost.io/docs/) | 📚 Documentation | Open-source Kubernetes cost monitoring |
@@ -1362,6 +1398,9 @@ flowchart LR
 | [12-Factor Config](https://12factor.net/config) | 📋 Guide | Store config in the environment |
 | [12-Factor Processes](https://12factor.net/processes) | 📋 Guide | Execute the app as one or more stateless processes |
 | [12-Factor Disposability](https://12factor.net/disposability) | 📋 Guide | Fast startup and graceful shutdown |
+| [12-Factor Backing Services](https://12factor.net/backing-services) | 📋 Guide | Treat backing services as attached resources |
+| [12-Factor Build, Release, Run](https://12factor.net/build-release-run) | 📋 Guide | Strictly separate build and run stages |
+| [12-Factor Dev/Prod Parity](https://12factor.net/dev-prod-parity) | 📋 Guide | Keep development, staging, and production similar |
 | [Continuous Integration (Fowler)](https://martinfowler.com/articles/continuousIntegration.html) | 📰 Article | Classic essay defining continuous integration |
 | [Continuous Delivery (Fowler)](https://martinfowler.com/bliki/ContinuousDelivery.html) | 📰 Article | Continuous delivery explained |
 | [Feature Toggles (Fowler)](https://martinfowler.com/articles/feature-toggles.html) | 📰 Article | Feature flag patterns and trade-offs |
@@ -2102,6 +2141,11 @@ flowchart LR
 | [actionlint](https://github.com/rhysd/actionlint) | 🛠️ Tool | Static checker for GitHub Actions workflows |
 | [Vale](https://vale.sh/) | 📚 Documentation | Syntax-aware prose linter for docs and blogs |
 | [Turborepo Handbook](https://turbo.build/repo/docs/handbook) | 📚 Documentation | High-performance monorepo build system |
+| [Turborepo Docs](https://turborepo.com/docs) | 📚 Documentation | Official Turborepo documentation |
+| [pnpm Motivation](https://pnpm.io/motivation) | 📖 Guide | Why pnpm uses a content-addressable store |
+| [npm Workspaces](https://docs.npmjs.com/cli/v10/using-npm/workspaces) | 📚 Documentation | Manage multiple packages in one repo with npm |
+| [Yarn Workspaces](https://yarnpkg.com/features/workspaces) | 📚 Documentation | Install and link packages across a monorepo |
+| [Bun Workspaces](https://bun.sh/docs/install/workspaces) | 📚 Documentation | Workspace support in the Bun package manager |
 | [Moonrepo Docs](https://moonrepo.dev/docs) | 📚 Documentation | Fast, developer-friendly monorepo build system |
 | [Bazel Docs](https://bazel.build/start) | 📚 Documentation | Fast, scalable multi-language build system |
 | [Nx Intro](https://nx.dev/getting-started/intro) | 📚 Documentation | Smart monorepos and AI-assisted tooling |
@@ -2333,6 +2377,17 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [HTTP Core (httpwg)](https://httpwg.org/http-core/) | 📋 Specification | HTTP/1.1 core specs maintained by the HTTP WG |
 | [http.dev](https://http.dev/) | 🛠️ Tool | Human-friendly HTTP status code and header reference |
 | [MDN Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) | 📖 Tutorial | Modern browser networking with fetch |
+| [Fetch Living Standard](https://fetch.spec.whatwg.org/) | 📋 Specification | WHATWG Fetch standard |
+| [AbortController (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/AbortController) | 📚 Documentation | Cancel fetch and other async operations |
+| [Streams API (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/Streams_API) | 📚 Documentation | Readable/writable streams in the browser |
+| [Streams on web.dev](https://web.dev/articles/streams) | 📖 Article | Working with the Streams API |
+| [Service Worker API (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API) | 📚 Documentation | Background scripts for offline and caching |
+| [Service Worker lifecycle](https://web.dev/articles/service-worker-lifecycle) | 📖 Article | Install, activate, and update service workers |
+| [PWA service workers (web.dev)](https://web.dev/learn/pwa/service-workers) | 📖 Guide | Service workers in Progressive Web Apps |
+| [MDN Progressive Web Apps](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps) | 📚 Documentation | Installable, offline-capable web apps |
+| [Push notifications overview](https://web.dev/articles/push-notifications-overview) | 📖 Article | Web push notification fundamentals |
+| [HTML forms (MDN Learn)](https://developer.mozilla.org/en-US/docs/Learn/Forms) | 🎓 Tutorials | Building and validating web forms |
+| [CustomElementRegistry (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/CustomElementRegistry) | 📚 Documentation | Register and upgrade custom elements |
 | [web.dev Learn PWA](https://web.dev/learn/pwa) | 🎓 Course | Progressive Web Apps fundamentals |
 | [Can I Use](https://www.caniuse.com/) | 🛠️ Tool | Feature support across browsers |
 | [Chrome DevTools](https://developer.chrome.com/docs/devtools) | 📚 Documentation | Network, performance, and debugging panels |
@@ -2457,6 +2512,8 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [Trigger.dev Docs](https://trigger.dev/docs) | 📚 Documentation | Background jobs for TypeScript apps |
 | [Temporal Docs](https://docs.temporal.io/) | 📚 Documentation | Durable workflow execution platform |
 | [Temporal TypeScript SDK](https://docs.temporal.io/develop/typescript) | 📚 Documentation | Build durable workflows and activities in TypeScript |
+| [Temporal Workflows](https://docs.temporal.io/workflows) | 📚 Documentation | Durable workflow execution model |
+| [Temporal Learn](https://learn.temporal.io/) | 🎓 Courses | Free Temporal courses and learning paths |
 | [Cadence Docs](https://cadenceworkflow.io/docs/) | 📚 Documentation | Distributed, scalable, durable, and highly available workflow orchestration (Uber) |
 | [Conductor OSS](https://conductor-oss.github.io/conductor/) | 📚 Documentation | Microservice orchestration engine (Netflix Conductor fork) |
 | [Zeebe Docs](https://docs.camunda.io/) | 📚 Documentation | Cloud-native workflow engine for microservices orchestration |

@@ -33,7 +33,7 @@
 
 A curated collection of **100% FREE** courses, docs, tutorials, and projects to go from zero → full-stack developer (with DevOps skills). Built for self-taught learners, career switchers, and anyone who wants a clear path without paywalls.
 
-> **Last refreshed:** September 16, 2026 (evening maintenance) — full link audit (2172 unique URLs; only known hard fail remains DB-Engines SSL from this environment); retargeted Effective Go and A Tour of Go to go.dev; added View Transitions/dialog/popover/template, Fetch/Streams/AbortController, Service Worker/PWA/push, htmx essays, Next.js routing/data-fetching/caching, Express performance + Node API, Python asyncio/typing/mypy/logging/WSGI, Django async, Go modules tutorials, Cargo Book, Postgres constraints + Select Star SQL, Redis transactions/pipelining/keyspace, Kubernetes Jobs/CronJobs, eBPF intro, more 12-factor chapters, Temporal Learn/workflows, OpenAPI/Swagger/openapi-ts tooling, and monorepo/workspace package-manager docs. Nothing previously listed was removed.
+> **Last refreshed:** September 16, 2026 (late-evening maintenance) — full link audit (2212 unique URLs; only known hard fail remains DB-Engines SSL from this environment); added MDN JS language deep dives (promises/async, destructuring/rest/spread, iterators, Map/Set/WeakMap/Proxy), You Might Not Need an Effect, Vue performance, GraphQL mutations/execution, Postgres SELECT/INSERT/UPDATE/DELETE + CTEs/isolation/locking, Docker volumes/networking, Terraform AWS get-started + resources/variables/outputs, OWASP REST assessment cheat sheet, Playwright best practices/trace viewer, Testing Library queries, The Algorithms, Intersection/Resize/Mutation observers + Performance API, cubic-bezier tool, and Bash/SS64/ABS shell references. Nothing previously listed was removed.
 
 ### Why this repo?
 | | |
@@ -269,6 +269,7 @@ flowchart LR
 | [CSS Modules](https://github.com/css-modules/css-modules) | 📚 Documentation | Locally scoped CSS by default |
 | [Radix Themes](https://www.radix-ui.com/themes/docs/overview/getting-started) | 📚 Documentation | Pre-styled accessible components built on Radix |
 | [web.dev Learn Design](https://web.dev/learn/design) | 🎓 Course | Responsive and intrinsic design course |
+| [cubic-bezier.com](https://cubic-bezier.com/) | 🛠️ Tool | Visual cubic-bezier easing curve editor |
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="20" height="20" /> JavaScript
 | Resource | Type | Description |
@@ -279,6 +280,16 @@ flowchart LR
 | [JavaScript.info — Network](https://javascript.info/network) | 📖 Tutorial | Fetch, forms, and networking in the browser |
 | [MDN JavaScript Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide) | 📚 Documentation | Official language guide covering core JS concepts |
 | [MDN Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) | 📚 Documentation | Promise API reference and patterns |
+| [Using promises (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises) | 📖 Guide | Promises composition, chaining, and error handling |
+| [async function (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function) | 📚 Documentation | Declare asynchronous functions that return promises |
+| [Destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) | 📚 Documentation | Unpack values from arrays or properties from objects |
+| [Rest parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters) | 📚 Documentation | Represent an indefinite number of arguments as an array |
+| [Spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) | 📚 Documentation | Expand iterables in array/object literals and calls |
+| [Iterators and generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_generators) | 📖 Guide | Custom iteration protocols and generator functions |
+| [Map (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) | 📚 Documentation | Keyed collections that remember insertion order |
+| [Set (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set) | 📚 Documentation | Collections of unique values |
+| [WeakMap (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap) | 📚 Documentation | Weakly held object keys for memory-safe metadata |
+| [Proxy (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy) | 📚 Documentation | Intercept and customize object operations |
 | [MDN Modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) | 📖 Guide | Using JavaScript modules in the browser |
 | [Optional chaining (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining) | 📚 Documentation | Safely access nested properties with `?.` |
 | [Nullish coalescing (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing) | 📚 Documentation | Default values with `??` without treating 0/'' as missing |
@@ -318,6 +329,7 @@ flowchart LR
 | [Thinking in React](https://react.dev/learn/thinking-in-react) | 📖 Tutorial | Official mental model for building React UIs |
 | [Managing State](https://react.dev/learn/managing-state) | 📖 Tutorial | Official guide to React state management patterns |
 | [Escape Hatches](https://react.dev/learn/escape-hatches) | 📖 Tutorial | Effects, refs, and when to step outside React |
+| [You Might Not Need an Effect](https://react.dev/learn/you-might-not-need-an-effect) | 📖 Guide | When Effects are unnecessary and what to do instead |
 | [useOptimistic](https://react.dev/reference/react/useOptimistic) | 📚 Documentation | Optimistic UI updates during async transitions |
 | [useActionState](https://react.dev/reference/react/useActionState) | 📚 Documentation | Manage form/action state with React Actions |
 | [use](https://react.dev/reference/react/use) | 📚 Documentation | Read resources (promises/context) in render |
@@ -329,6 +341,7 @@ flowchart LR
 | [Vue.js Guide](https://vuejs.org/guide/) | 📚 Documentation | Complete Vue.js learning guide |
 | [Vue Tutorial](https://vuejs.org/tutorial/) | 🎮 Interactive | Official interactive Vue.js tutorial |
 | [Vue Reactivity in Depth](https://vuejs.org/guide/extras/reactivity-in-depth.html) | 📖 Guide | How Vue's reactivity system works under the hood |
+| [Vue Performance](https://vuejs.org/guide/best-practices/performance.html) | 📋 Guide | Official Vue performance best practices |
 | [Pinia Docs](https://pinia.vuejs.org/) | 📚 Documentation | Official state management library for Vue |
 | [VueUse](https://vueuse.org/) | 📚 Documentation | Collection of essential Vue Composition utilities |
 | [Nuxt UI](https://ui.nuxt.com/getting-started) | 📚 Documentation | Fully styled and customizable Vue component library |
@@ -715,6 +728,13 @@ flowchart LR
 | [PostgreSQL WAL](https://www.postgresql.org/docs/current/wal.html) | 📚 Documentation | Write-Ahead Logging for durability and replication |
 | [PostgreSQL High Availability](https://www.postgresql.org/docs/current/high-availability.html) | 📚 Documentation | Replication, failover, and HA options |
 | [PostgreSQL SQL Commands](https://www.postgresql.org/docs/current/sql.html) | 📚 Documentation | Complete SQL command reference |
+| [SELECT](https://www.postgresql.org/docs/current/sql-select.html) | 📚 Documentation | PostgreSQL SELECT command reference |
+| [INSERT](https://www.postgresql.org/docs/current/sql-insert.html) | 📚 Documentation | PostgreSQL INSERT command reference |
+| [UPDATE](https://www.postgresql.org/docs/current/sql-update.html) | 📚 Documentation | PostgreSQL UPDATE command reference |
+| [DELETE](https://www.postgresql.org/docs/current/sql-delete.html) | 📚 Documentation | PostgreSQL DELETE command reference |
+| [Table Expressions (CTEs)](https://www.postgresql.org/docs/current/queries-table-expressions.html) | 📚 Documentation | WITH queries, subqueries, and table expressions |
+| [Transaction Isolation](https://www.postgresql.org/docs/current/transaction-iso.html) | 📚 Documentation | Isolation levels and concurrency anomalies |
+| [Explicit Locking](https://www.postgresql.org/docs/current/explicit-locking.html) | 📚 Documentation | Table- and row-level locks in PostgreSQL |
 | [PL/pgSQL](https://www.postgresql.org/docs/current/plpgsql.html) | 📚 Documentation | Procedural language for Postgres functions and triggers |
 | [PostgreSQL Functions](https://www.postgresql.org/docs/current/functions.html) | 📚 Documentation | Built-in functions and operators |
 | [PostgreSQL Performance Tips](https://www.postgresql.org/docs/current/performance-tips.html) | 📖 Guide | Official performance tuning tips |
@@ -967,6 +987,8 @@ flowchart LR
 | [GraphQL Introduction](https://graphql.org/learn/) | 📖 Tutorial | Complete GraphQL learning guide |
 | [GraphQL Queries](https://graphql.org/learn/queries/) | 📖 Tutorial | Official GraphQL query language tutorial |
 | [GraphQL Schemas](https://graphql.org/learn/schema/) | 📖 Tutorial | Official GraphQL schema and types tutorial |
+| [GraphQL Mutations](https://graphql.org/learn/mutations/) | 📖 Tutorial | Write GraphQL mutations for creating and updating data |
+| [GraphQL Execution](https://graphql.org/learn/execution/) | 📖 Tutorial | How GraphQL executes queries and resolves fields |
 | [Apollo Server Docs](https://www.apollographql.com/docs/apollo-server) | 📚 Documentation | Spec-compliant GraphQL server for Node.js |
 | [Apollo GraphQL Tutorials](https://www.apollographql.com/tutorials/) | 🎓 Courses | Free interactive GraphQL courses |
 | [Hasura Learn](https://hasura.io/learn/) | 🎓 Courses | Free GraphQL and Hasura learning courses |
@@ -1111,6 +1133,7 @@ flowchart LR
 | [Logging Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html) | 📋 Cheat Sheet | Secure application logging practices |
 | [Docker Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html) | 📋 Cheat Sheet | Harden Docker containers and hosts |
 | [Kubernetes Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Kubernetes_Security_Cheat_Sheet.html) | 📋 Cheat Sheet | Secure Kubernetes clusters and workloads |
+| [REST Assessment Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/REST_Assessment_Cheat_Sheet.html) | 📋 Cheat Sheet | Checklist for assessing REST API security |
 | [MDN XSS](https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/XSS) | 📚 Documentation | Cross-site scripting attacks explained |
 | [MDN CSRF](https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/CSRF) | 📚 Documentation | Cross-site request forgery attacks explained |
 | [MDN Clickjacking](https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/Clickjacking) | 📚 Documentation | UI redress / clickjacking attacks explained |
@@ -1242,6 +1265,8 @@ flowchart LR
 | [Compose file reference](https://docs.docker.com/reference/compose-file/) | 📚 Documentation | Compose file format specification |
 | [Dockerfile reference](https://docs.docker.com/reference/dockerfile) | 📚 Documentation | Official Dockerfile instruction reference |
 | [Multi-stage builds](https://docs.docker.com/build/building/multi-stage/) | 📖 Guide | Smaller, safer images with multi-stage Docker builds |
+| [Docker Volumes](https://docs.docker.com/engine/storage/volumes/) | 📚 Documentation | Persist and share container data with volumes |
+| [Docker Networking](https://docs.docker.com/engine/network/) | 📚 Documentation | Bridge, host, overlay, and custom networks |
 | [Docker 101 Tutorial](https://www.docker.com/101-tutorial/) | 🎓 Tutorial | Official beginner-friendly Docker tutorial |
 | [What is a container?](https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-a-container/) | 📖 Guide | Core container concepts from Docker docs |
 | [containerd Docs](https://containerd.io/docs/) | 📚 Documentation | Industry-standard container runtime |
@@ -1484,6 +1509,10 @@ flowchart LR
 | [OpenTofu Docs](https://opentofu.org/docs/) | 📚 Documentation | Open-source Terraform-compatible IaC tool |
 | [OpenTofu Intro](https://opentofu.org/docs/intro/) | 📖 Guide | What OpenTofu is and how it relates to Terraform |
 | [Terraform Tutorials (HashiCorp)](https://developer.hashicorp.com/terraform/tutorials) | 🎓 Tutorials | Official HashiCorp Terraform tutorial library |
+| [Terraform AWS Get Started](https://developer.hashicorp.com/terraform/tutorials/aws-get-started) | 🚀 Quick Start | Provision AWS infrastructure with Terraform |
+| [Terraform Resources](https://developer.hashicorp.com/terraform/language/resources/syntax) | 📚 Documentation | Resource blocks and configuration syntax |
+| [Terraform Variables](https://developer.hashicorp.com/terraform/language/values/variables) | 📚 Documentation | Input variables for reusable modules |
+| [Terraform Outputs](https://developer.hashicorp.com/terraform/language/values/outputs) | 📚 Documentation | Export values from modules and root configs |
 | [Dagger Docs](https://docs.dagger.io/) | 📚 Documentation | Programmable CI/CD pipelines as code |
 | [Earthly Docs](https://docs.earthly.dev/) | 📚 Documentation | Repeatable builds with Dockerfile-like syntax |
 | [Helmfile](https://helmfile.readthedocs.io/) | 📚 Documentation | Declarative spec for deploying Helm charts |
@@ -1893,9 +1922,12 @@ flowchart LR
 |----------|------|-------------|
 | [Jest Documentation](https://jestjs.io/docs/getting-started) | 📚 Documentation | JavaScript testing framework |
 | [Testing Library](https://testing-library.com/docs/) | 📚 Documentation | Simple and complete testing utilities |
+| [Testing Library Queries](https://testing-library.com/docs/queries/about) | 📖 Guide | Which queries to use and in which priority |
 | [Cypress Documentation](https://docs.cypress.io/) | 📚 Documentation | End-to-end testing framework |
 | [Postman Learning Center](https://learning.postman.com/) | 🎓 Courses | API testing with Postman |
 | [Playwright Docs](https://playwright.dev/docs/intro) | 📚 Documentation | Reliable end-to-end testing for modern web apps |
+| [Playwright Best Practices](https://playwright.dev/docs/best-practices) | 📋 Guide | Reliable selectors, isolation, and assertions |
+| [Playwright Trace Viewer](https://playwright.dev/docs/trace-viewer) | 🛠️ Tool | Time-travel debugging for failed Playwright runs |
 | [Vitest Guide](https://vitest.dev/guide/) | 📚 Documentation | Fast Vite-native unit testing framework |
 | [Why Cypress](https://docs.cypress.io/app/get-started/why-cypress) | 📖 Guide | When and why to use Cypress for E2E testing |
 | [Jest](https://jestjs.io/) | 📚 Documentation | Delightful JavaScript testing framework homepage and docs |
@@ -2004,6 +2036,7 @@ flowchart LR
 |----------|------|-------------|
 | [Algorithm Visualizer](https://github.com/algorithm-visualizer/algorithm-visualizer) | 🎮 Interactive | Visualize algorithms in action (open-source project) |
 | [VisuAlgo](https://visualgo.net/) | 🎮 Interactive | Algorithm and data structure visualizations |
+| [The Algorithms](https://the-algorithms.com/) | 💻 Examples | Open-source algorithm implementations in many languages |
 | [Big-O Cheat Sheet](https://www.bigocheatsheet.com/) | 📋 Reference | Time and space complexity reference |
 | [GeeksforGeeks](https://www.geeksforgeeks.org/) | 📖 Articles | Comprehensive algorithm tutorials |
 | [Khan Academy - Algorithms](https://www.khanacademy.org/computing/computer-science/algorithms) | 🎓 Course | Introduction to algorithms |
@@ -2203,6 +2236,9 @@ flowchart LR
 | [Nand2Tetris](https://www.nand2tetris.org/) | 🎓 Course | Build a computer from first principles |
 | [Command line for beginners](https://ubuntu.com/tutorials/command-line-for-beginners) | 📖 Tutorial | Practical Linux shell introduction |
 | [SS64 Command References](https://ss64.com/) | 📋 Reference | Command-line references across platforms |
+| [SS64 Bash](https://ss64.com/bash/) | 📋 Reference | Bash builtin and common Unix command reference |
+| [GNU Bash Manual](https://www.gnu.org/software/bash/manual/) | 📚 Documentation | Official Bash reference manual |
+| [Advanced Bash-Scripting Guide](https://tldp.org/LDP/abs/html/) | 📚 Book | Classic free guide to Bash scripting |
 
 ## <img src="https://img.shields.io/badge/Documentation-4B8BBE?style=for-the-badge&logo=read%20the%20docs&logoColor=white" /> Documentation & Communication
 
@@ -2381,6 +2417,10 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [AbortController (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/AbortController) | 📚 Documentation | Cancel fetch and other async operations |
 | [Streams API (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/Streams_API) | 📚 Documentation | Readable/writable streams in the browser |
 | [Streams on web.dev](https://web.dev/articles/streams) | 📖 Article | Working with the Streams API |
+| [Intersection Observer (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API) | 📚 Documentation | Asynchronously observe element visibility |
+| [Resize Observer (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/Resize_Observer_API) | 📚 Documentation | Observe element size changes |
+| [MutationObserver (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver) | 📚 Documentation | Watch for DOM tree mutations |
+| [Performance API (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/Performance_API) | 📚 Documentation | High-resolution timing and performance metrics |
 | [Service Worker API (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API) | 📚 Documentation | Background scripts for offline and caching |
 | [Service Worker lifecycle](https://web.dev/articles/service-worker-lifecycle) | 📖 Article | Install, activate, and update service workers |
 | [PWA service workers (web.dev)](https://web.dev/learn/pwa/service-workers) | 📖 Guide | Service workers in Progressive Web Apps |

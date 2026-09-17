@@ -33,7 +33,7 @@
 
 A curated collection of **100% FREE** courses, docs, tutorials, and projects to go from zero → full-stack developer (with DevOps skills). Built for self-taught learners, career switchers, and anyone who wants a clear path without paywalls.
 
-> **Last refreshed:** September 16, 2026 (late-evening maintenance) — full link audit (2212 unique URLs; only known hard fail remains DB-Engines SSL from this environment); added MDN JS language deep dives (promises/async, destructuring/rest/spread, iterators, Map/Set/WeakMap/Proxy), You Might Not Need an Effect, Vue performance, GraphQL mutations/execution, Postgres SELECT/INSERT/UPDATE/DELETE + CTEs/isolation/locking, Docker volumes/networking, Terraform AWS get-started + resources/variables/outputs, OWASP REST assessment cheat sheet, Playwright best practices/trace viewer, Testing Library queries, The Algorithms, Intersection/Resize/Mutation observers + Performance API, cubic-bezier tool, and Bash/SS64/ABS shell references. Nothing previously listed was removed.
+> **Last refreshed:** September 17, 2026 (early-morning maintenance) — full link audit (2258 unique URLs; only known hard fail remains DB-Engines SSL from this environment); retargeted FormatJS docs to formatjs.github.io after formatjs.io SSL timeouts; added CSS Flex/animations/transitions/clamp + details/summary, TypeScript handbook chapters, Node async/fs/stream/events/workers, security header refs, Redis caching/Sentinel + BullMQ, Kubernetes Pods/StatefulSets/DaemonSets/Ingress/PVs, Pro Git branching/history/hooks, HTTP/2–3 RFCs + HPBN, Stripe Payments, JSON/YAML/TOML + RegexOne, and Hugging Face Learn. Nothing previously listed was removed.
 
 ### Why this repo?
 | | |
@@ -250,6 +250,11 @@ flowchart LR
 | [Popover API](https://developer.mozilla.org/en-US/docs/Web/API/Popover_API) | 📚 Documentation | Native top-layer popovers without custom JS plumbing |
 | [Scroll-driven Animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scroll-driven_animations) | 📚 Documentation | Tie CSS animations to scroll progress |
 | [color-mix()](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/color-mix) | 📚 Documentation | Mix colors in a given color space in CSS |
+| [`<details>` / `<summary>` (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details) | 📚 Documentation | Native disclosure widgets without JavaScript |
+| [CSS Flexible Box Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Flexible_box_layout) | 📚 Documentation | Official Flexbox layout guide on MDN |
+| [CSS Animations](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Animations) | 📚 Documentation | Keyframe animations and animation properties |
+| [CSS Transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Transitions) | 📚 Documentation | Smooth property transitions on state changes |
+| [clamp() (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/clamp) | 📚 Documentation | Responsive values with min/preferred/max bounds |
 | [CSS Subgrid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Subgrid) | 📚 Documentation | Nested grids that inherit parent track sizing |
 | [Baseline (web platform)](https://web.dev/baseline) | 📋 Reference | Which web features are ready to use across browsers |
 | [View Transitions API](https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API) | 📚 Documentation | Animated transitions between DOM states/pages |
@@ -319,6 +324,13 @@ flowchart LR
 | [TypeScript Playground](https://www.typescriptlang.org/play) | 🎮 Interactive | Try TypeScript in the browser with shareable links |
 | [TSConfig Reference](https://www.typescriptlang.org/tsconfig) | 📚 Documentation | Every compiler option explained |
 | [TypeScript Narrowing](https://www.typescriptlang.org/docs/handbook/2/narrowing.html) | 📖 Tutorial | How TypeScript narrows types for safer code |
+| [Everyday Types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html) | 📖 Tutorial | Primitives, arrays, unions, and type aliases |
+| [More on Functions](https://www.typescriptlang.org/docs/handbook/2/functions.html) | 📖 Tutorial | Call signatures, generics in functions, and overloads |
+| [Object Types](https://www.typescriptlang.org/docs/handbook/2/objects.html) | 📖 Tutorial | Property modifiers, index signatures, and excess property checks |
+| [Classes](https://www.typescriptlang.org/docs/handbook/2/classes.html) | 📖 Tutorial | TypeScript class fields, members, and heritage |
+| [Mapped Types](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html) | 📖 Tutorial | Transform existing types with mapped type syntax |
+| [Conditional Types](https://www.typescriptlang.org/docs/handbook/2/conditional-types.html) | 📖 Tutorial | Types that select from alternatives based on conditions |
+| [Declaration Do's and Don'ts](https://www.typescriptlang.org/docs/handbook/declaration-files/do-s-and-don-ts.html) | 📋 Guide | Common pitfalls when writing `.d.ts` files |
 | [TypeScript Generics](https://www.typescriptlang.org/docs/handbook/2/generics.html) | 📖 Tutorial | Write reusable, type-safe components and functions |
 | [Declaration Files](https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html) | 📖 Tutorial | Authoring `.d.ts` files for JavaScript libraries |
 
@@ -508,6 +520,12 @@ flowchart LR
 | Resource | Type | Description |
 |----------|------|-------------|
 | [Node.js Learn](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs) | 📚 Documentation | Official Node.js learning guides |
+| [Blocking vs non-blocking](https://nodejs.org/learn/asynchronous-work/overview-of-blocking-vs-non-blocking) | 📖 Guide | Understand the Node.js event loop trade-offs |
+| [Async programming & callbacks](https://nodejs.org/learn/asynchronous-work/javascript-asynchronous-programming-and-callbacks) | 📖 Guide | Callbacks, promises, and async patterns in Node |
+| [Node.js File System](https://nodejs.org/api/fs.html) | 📚 Documentation | `fs` module for file I/O |
+| [Node.js Stream](https://nodejs.org/api/stream.html) | 📚 Documentation | Readable/writable streams in Node.js |
+| [Node.js Events](https://nodejs.org/api/events.html) | 📚 Documentation | EventEmitter and the events module |
+| [Worker Threads](https://nodejs.org/api/worker_threads.html) | 📚 Documentation | Parallel JavaScript execution in Node.js |
 | [Node.js Test Runner](https://nodejs.org/api/test.html) | 📚 Documentation | Built-in `node:test` module |
 | [Single Executable Apps](https://nodejs.org/api/single-executable-applications.html) | 📚 Documentation | Bundle Node apps into a single binary |
 | [Permission Model](https://nodejs.org/api/permissions.html) | 📚 Documentation | Restrict runtime access to FS/network/etc. |
@@ -779,6 +797,9 @@ flowchart LR
 | [Redis Get Started](https://redis.io/docs/latest/get-started/) | 📖 Tutorial | Official Redis getting started guide |
 | [Redis Data Types](https://redis.io/docs/latest/develop/data-types/) | 📚 Documentation | Strings, hashes, lists, sets, streams, and more |
 | [Redis Patterns](https://redis.io/docs/latest/develop/use/patterns/) | 📖 Guide | Common Redis usage patterns and recipes |
+| [Redis Caching Tutorial](https://redis.io/tutorials/how-to-cache-rest-api-responses-using-redis-and-nodejs/) | 📖 Tutorial | Cache REST API responses with Redis and Node.js |
+| [Redis Sentinel](https://redis.io/docs/latest/operate/oss_and_stack/management/sentinel/) | 📚 Documentation | High availability with Redis Sentinel |
+| [BullMQ Guide](https://docs.bullmq.io/guide/introduction) | 📚 Documentation | Redis-backed Node.js job queues and workers |
 | [Redis Clients](https://redis.io/docs/latest/develop/clients/) | 📚 Documentation | Official and community Redis client libraries |
 | [Install Redis](https://redis.io/docs/latest/operate/oss_and_stack/install/install-redis/) | 📖 Guide | Official Redis installation instructions |
 | [Valkey](https://valkey.io/) | 📚 Documentation | Open-source Redis-compatible in-memory data store |
@@ -1095,6 +1116,9 @@ flowchart LR
 | [MDN Subresource Integrity](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) | 📚 Documentation | Verify third-party scripts/styles are untampered |
 | [web.dev Secure Cookies](https://web.dev/articles/samesite-cookies-explained) | 📖 Article | SameSite cookies and cross-site request risks |
 | [Permissions Policy (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy) | 📚 Documentation | Control browser features available to a document |
+| [Referrer-Policy (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Referrer-Policy) | 📚 Documentation | Control referrer information sent with requests |
+| [X-Content-Type-Options (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/X-Content-Type-Options) | 📚 Documentation | Block MIME sniffing with `nosniff` |
+| [X-Frame-Options (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/X-Frame-Options) | 📚 Documentation | Clickjacking defense via frame ancestors |
 | [picoCTF](https://picoctf.org/) | 🎮 Interactive | Free beginner-friendly cybersecurity CTF practice |
 | [OWASP ASVS](https://owasp.org/projects/asvs) | 📋 Standard | Application Security Verification Standard |
 | [MITRE ATT&CK](https://attack.mitre.org/) | 📋 Knowledge Base | Adversary tactics and techniques knowledge base |
@@ -1279,6 +1303,11 @@ flowchart LR
 | [Kubernetes Basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/) | 📖 Tutorial | Official Kubernetes tutorial |
 | [Kubernetes Concepts](https://kubernetes.io/docs/concepts/) | 📚 Documentation | Core Kubernetes concepts and architecture |
 | [Deployments](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/) | 📚 Documentation | Declarative updates for Pods and ReplicaSets |
+| [Pods](https://kubernetes.io/docs/concepts/workloads/pods/) | 📚 Documentation | Smallest deployable units in Kubernetes |
+| [StatefulSets](https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/) | 📚 Documentation | Manage stateful applications with stable identities |
+| [DaemonSets](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/) | 📚 Documentation | Run a pod on all (or some) nodes |
+| [Ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/) | 📚 Documentation | HTTP(S) routing into the cluster |
+| [Persistent Volumes](https://kubernetes.io/docs/concepts/storage/persistent-volumes/) | 📚 Documentation | Cluster storage abstraction for pods |
 | [Services](https://kubernetes.io/docs/concepts/services-networking/service/) | 📚 Documentation | Expose applications inside and outside the cluster |
 | [ConfigMaps](https://kubernetes.io/docs/concepts/configuration/configmap/) | 📚 Documentation | Inject non-sensitive configuration into pods |
 | [Secrets](https://kubernetes.io/docs/concepts/configuration/secret/) | 📚 Documentation | Manage sensitive configuration in Kubernetes |
@@ -1698,6 +1727,7 @@ flowchart LR
 | [spaCy Course](https://course.spacy.io/) | 🎓 Course | Advanced NLP with spaCy |
 | [NLTK Book](https://www.nltk.org/book/) | 📚 Book | Natural Language Processing with Python |
 | [Hugging Face NLP Course](https://huggingface.co/course/chapter1/1) | 🎓 Course | Complete NLP course using Transformers |
+| [Hugging Face Learn](https://huggingface.co/learn) | 🎓 Courses | Free ML courses and learning tracks from Hugging Face |
 | [CS224n Stanford NLP](http://web.stanford.edu/class/cs224n/) | 🎓 Course | Natural Language Processing with Deep Learning |
 | [OpenNMT Documentation](https://opennmt.net/) | 📚 Documentation | Neural machine translation |
 
@@ -1880,6 +1910,10 @@ flowchart LR
 | [Programming Language Performance](https://benchmarksgame-team.pages.debian.net/benchmarksgame/) | 📊 Benchmarks | Language performance comparisons |
 | [Flexbox Froggy](https://flexboxfroggy.com/) | 🎮 Interactive | Visual CSS Flexbox learning game |
 | [Regex101](https://regex101.com/) | 🛠️ Visual Tool | Regular expression visualization and testing |
+| [RegexOne](https://regexone.com/) | 🎓 Interactive | Learn regular expressions with short lessons |
+| [JSON.org](https://www.json.org/json-en.html) | 📋 Reference | Intro to JSON syntax and data model |
+| [YAML.org](https://yaml.org/) | 📋 Reference | Official YAML specification and resources |
+| [TOML](https://toml.io/en/) | 📋 Specification | Minimal, unambiguous config file format |
 | [JSON Crack](https://jsoncrack.com/) | 📊 Visualizer | JSON data structure visualization |
 | [Git Visualizer](https://git-school.github.io/visualizing-git/) | 🔄 Interactive | Git commands visualization |
 
@@ -1899,6 +1933,10 @@ flowchart LR
 | [GitHub Skills](https://skills.github.com/) | 🎮 Interactive Courses | GitHub-specific skills and workflows |
 | [Atlassian Git Tutorials](https://www.atlassian.com/git/tutorials) | 📖 Tutorials | Comprehensive Git tutorials |
 | [Learn Git Branching](https://learngitbranching.js.org/) | 🎮 Interactive Tutorial | Visual Git branching tutorial |
+| [Git Branching (Pro Git)](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell) | 📚 Book | Branches in a nutshell from Pro Git |
+| [Rewriting History (Pro Git)](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History) | 📚 Book | Amend, rebase, filter-branch, and reset carefully |
+| [gitignore](https://git-scm.com/docs/gitignore) | 📚 Documentation | Patterns for ignoring untracked files |
+| [githooks](https://git-scm.com/docs/githooks) | 📚 Documentation | Client- and server-side Git hook reference |
 | [Conventional Commits](https://www.conventionalcommits.org/) | 📋 Spec | Standard for clear, automated-friendly commit messages |
 | [Semantic Versioning](https://semver.org/) | 📋 Spec | How to version releases properly |
 | [Keep a Changelog](https://keepachangelog.com/) | 📋 Guide | Write changelogs humans and tools can trust |
@@ -2465,6 +2503,11 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [DNS over HTTPS (RFC 8484)](https://datatracker.ietf.org/doc/html/rfc8484) | 📋 Specification | DNS queries over HTTPS |
 | [WebSocket (RFC 6455)](https://datatracker.ietf.org/doc/html/rfc6455) | 📋 Specification | Bidirectional communication protocol for the web |
 | [HTTP Semantics (RFC 9110)](https://datatracker.ietf.org/doc/html/rfc9110) | 📋 Specification | Core HTTP semantics shared by HTTP/1.1, HTTP/2, and HTTP/3 |
+| [HTTP/2 glossary (MDN)](https://developer.mozilla.org/en-US/docs/Glossary/HTTP_2) | 📋 Glossary | What HTTP/2 is and why it matters |
+| [HTTP/3 glossary (MDN)](https://developer.mozilla.org/en-US/docs/Glossary/HTTP_3) | 📋 Glossary | HTTP over QUIC overview |
+| [HTTP/2 (RFC 9113)](https://www.rfc-editor.org/rfc/rfc9113.html) | 📋 Specification | Current HTTP/2 protocol specification |
+| [HTTP/3 (RFC 9114)](https://www.rfc-editor.org/rfc/rfc9114.html) | 📋 Specification | HTTP semantics mapped onto QUIC |
+| [High Performance Browser Networking — HTTP/2](https://hpbn.co/http2/) | 📚 Book | Deep dive into HTTP/2 (free online book chapter) |
 | [HTTP/2 (RFC 7540)](https://www.rfc-editor.org/rfc/rfc7540.html) | 📋 Specification | Hypertext Transfer Protocol Version 2 |
 | [HTTP/3 (RFC 9114)](https://www.rfc-editor.org/rfc/rfc9114) | 📋 Specification | HTTP over QUIC |
 | [QPACK (RFC 9204)](https://www.rfc-editor.org/rfc/rfc9204.html) | 📋 Specification | Field compression for HTTP/3 |
@@ -2582,6 +2625,7 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | Resource | Type | Description |
 |----------|------|-------------|
 | [Stripe Get Started](https://docs.stripe.com/get-started) | 📚 Documentation | Accept payments and build billing flows |
+| [Stripe Payments](https://docs.stripe.com/payments) | 📚 Documentation | Accept online payments with Stripe |
 | [Plaid Docs](https://plaid.com/docs/) | 📚 Documentation | APIs for bank linking, payments, and financial data |
 | [Adyen Docs](https://docs.adyen.com/) | 📚 Documentation | Global payments platform developer documentation |
 | [Braintree Developers](https://www.braintreepayments.com/developers) | 📚 Documentation | PayPal-owned payments platform docs and SDKs |
@@ -2657,8 +2701,10 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [next-intl](https://next-intl.dev/docs/getting-started) | 📚 Documentation | Internationalization for Next.js apps |
 | [Unleash Docs](https://docs.getunleash.io/) | 📚 Documentation | Open-source feature flag platform |
 | [Flagsmith Docs](https://docs.flagsmith.com/) | 📚 Documentation | Feature flags and remote config |
-| [FormatJS](https://formatjs.io/docs/getting-started/installation/) | 📚 Documentation | Internationalization libraries and tools (ICU message format) |
-| [ICU MessageFormat](https://formatjs.io/docs/getting-started/message-format/) | 📖 Guide | MessageFormat syntax for pluralization and gender |
+| [FormatJS](https://formatjs.github.io/docs/getting-started/installation/) | 📚 Documentation | Internationalization libraries and tools (ICU message format) |
+| [ICU MessageFormat](https://formatjs.github.io/docs/core-concepts/icu-syntax/) | 📖 Guide | MessageFormat syntax for pluralization and gender |
+| [FormatJS React Intl](https://formatjs.github.io/docs/react-intl/) | 📚 Documentation | React bindings for FormatJS internationalization |
+| [ICU Messages (Unicode)](https://unicode-org.github.io/icu/userguide/format_parse/messages/) | 📚 Documentation | Unicode ICU message formatting user guide |
 | [Unicode Locale Data (CLDR)](https://cldr.unicode.org/) | 📚 Documentation | Common Locale Data Repository for languages and locales |
 | [Unicode Locale Data Markup (TR35)](https://unicode.org/reports/tr35/) | 📋 Specification | LDML standard behind CLDR |
 | [Declaring language in HTML](https://www.w3.org/International/questions/qa-html-language-declarations) | 📖 Guide | Correct lang attributes for internationalized pages |

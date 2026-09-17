@@ -33,7 +33,7 @@
 
 A curated collection of **100% FREE** courses, docs, tutorials, and projects to go from zero → full-stack developer (with DevOps skills). Built for self-taught learners, career switchers, and anyone who wants a clear path without paywalls.
 
-> **Last refreshed:** September 2026 — links verified, outdated destinations updated, and new learning resources added. Nothing previously listed was removed.
+> **Last refreshed:** September 17, 2026 (early-morning maintenance) — full link audit (2258 unique URLs; only known hard fail remains DB-Engines SSL from this environment); retargeted FormatJS docs to formatjs.github.io after formatjs.io SSL timeouts; added CSS Flex/animations/transitions/clamp + details/summary, TypeScript handbook chapters, Node async/fs/stream/events/workers, security header refs, Redis caching/Sentinel + BullMQ, Kubernetes Pods/StatefulSets/DaemonSets/Ingress/PVs, Pro Git branching/history/hooks, HTTP/2–3 RFCs + HPBN, Stripe Payments, JSON/YAML/TOML + RegexOne, and Hugging Face Learn. Nothing previously listed was removed.
 
 ### Why this repo?
 | | |
@@ -116,6 +116,12 @@ flowchart LR
   - [<img src="https://img.shields.io/badge/Ruby-CC342D?style=flat&logo=ruby&logoColor=white" /> Ruby](#-ruby)
   - [<img src="https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white" /> Rust](#-rust)
   - [<img src="https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white" /> Go](#-go)
+  - [<img src="https://img.shields.io/badge/Scala-DC322F?style=flat&logo=scala&logoColor=white" /> Scala](#-scala)
+  - [<img src="https://img.shields.io/badge/Julia-9558B2?style=flat&logo=julia&logoColor=white" /> Julia](#-julia)
+  - [<img src="https://img.shields.io/badge/Clojure-5881D8?style=flat&logo=clojure&logoColor=white" /> Clojure](#-clojure)
+  - [<img src="https://img.shields.io/badge/Elixir-4B275F?style=flat&logo=elixir&logoColor=white" /> Elixir](#-elixir--phoenix)
+  - [<img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white" /> PHP](#-php)
+  - [<img src="https://img.shields.io/badge/.NET-512BD4?style=flat&logo=dotnet&logoColor=white" /> C# / .NET](#-c--net)
 
 ### 🗄️ **Database Technologies**
 - **Relational Databases**
@@ -130,6 +136,7 @@ flowchart LR
 
 ### 🛡️ **Security & Performance**
 - [<img src="https://img.shields.io/badge/OWASP-000000?style=flat&logo=owasp&logoColor=white" /> Security](#-security)
+- [<img src="https://img.shields.io/badge/Auth-4B5563?style=flat&logo=auth0&logoColor=white" /> Auth & Identity](#auth--identity)
 - [<img src="https://img.shields.io/badge/Lighthouse-F44B21?style=flat&logo=lighthouse&logoColor=white" /> Performance & Optimization](#-performance--optimization)
 
 ### ☁️ **DevOps & Cloud Infrastructure**
@@ -151,6 +158,8 @@ flowchart LR
 ### 🧠 **AI & Machine Learning**
 - [<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white" /> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white" /> <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white" /> AI & Machine Learning](#-ai--machine-learning)
 - [<img src="https://img.shields.io/badge/AI%20SDK-000000?style=flat&logo=vercel&logoColor=white" /> AI for Developers](#-ai-for-developers)
+- [<img src="https://img.shields.io/badge/Scraping-0F766E?style=flat" /> Scraping & Extraction](#scraping--extraction)
+- [<img src="https://img.shields.io/badge/MCP-111827?style=flat&logo=openai&logoColor=white" /> MCP & Coding Agents](#mcp--coding-agents)
 
 ### 🖥️ **Content & Development Tools**
 - [<img src="https://img.shields.io/badge/Sanity-F03E2F?style=flat&logo=sanity&logoColor=white" /> <img src="https://img.shields.io/badge/Strapi-2F2E8B?style=flat&logo=strapi&logoColor=white" /> Content Management](#-content-management)
@@ -184,6 +193,17 @@ flowchart LR
 - [<img src="https://img.shields.io/badge/Patterns-222222?style=flat" /> Design Patterns](#design-patterns)
 - [<img src="https://img.shields.io/badge/Community-5865F2?style=flat&logo=discord&logoColor=white" /> Communities & Open Source](#communities--open-source)
 
+### 📡 **Realtime & Media**
+- [<img src="https://img.shields.io/badge/Realtime-0EA5E9?style=flat&logo=webrtc&logoColor=white" /> Realtime & Media](#realtime--media)
+
+### ⏱️ **Jobs & Reliability**
+- [<img src="https://img.shields.io/badge/Jobs-111827?style=flat&logo=redis&logoColor=white" /> Background Jobs & Queues](#background-jobs--queues)
+
+### 🛒 **Product Essentials**
+- [<img src="https://img.shields.io/badge/Payments-635BFF?style=flat&logo=stripe&logoColor=white" /> Payments, Email & Files](#payments-email--files)
+- [<img src="https://img.shields.io/badge/SEO-0F9D58?style=flat&logo=google&logoColor=white" /> SEO & Discoverability](#seo--discoverability)
+- [<img src="https://img.shields.io/badge/i18n-1D4ED8?style=flat" /> i18n & Feature Flags](#i18n--feature-flags)
+
 ### 🎯 **Learning Paths & Roadmaps**
 - [<img src="https://img.shields.io/badge/Learning%20Path-9B59B6?style=flat&logo=roadmap&logoColor=white" /> Structured Learning Paths](#learning-paths)
 
@@ -202,14 +222,85 @@ flowchart LR
 | [web.dev Learn HTML](https://web.dev/learn/html) | 📖 Course | Modern HTML course by Google |
 | [MDN Learn Web Development](https://developer.mozilla.org/en-US/docs/Learn_web_development) | 🎓 Curriculum | Structured front-end learning path from MDN |
 | [web.dev Learn CSS](https://web.dev/learn/css) | 🎓 Course | Modern CSS course by Google |
+| [web.dev Learn Flexbox](https://web.dev/learn/css/flexbox) | 🎓 Course | Flexbox module inside web.dev Learn CSS |
+| [web.dev Learn Grid](https://web.dev/learn/css/grid) | 🎓 Course | CSS Grid module inside web.dev Learn CSS |
+| [MDN CSS Layout](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout) | 📖 Tutorial | Core CSS layout learning module from MDN |
+| [Josh Comeau CSS](https://www.joshwcomeau.com/css/) | 📰 Articles | Interactive, high-signal CSS deep dives |
+| [Josh Comeau React](https://www.joshwcomeau.com/react/) | 📰 Articles | Practical React performance and patterns articles |
+| [Ahmad Shadeed](https://ishadeed.com/) | 📰 Articles | Modern CSS layout and component writing |
+| [OKLCH Color Picker](https://oklch.com/) | 🛠️ Tool | Interactive OKLCH color picker for modern CSS |
+| [CSS Specificity (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_cascade/Specificity) | 📚 Documentation | How the cascade decides which styles win |
+| [CSS Custom Properties (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) | 📚 Documentation | Using CSS variables effectively |
 | [Josh Comeau — Interactive Flexbox](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/) | 🎮 Interactive | Exceptional visual Flexbox deep dive |
 | [Frontend Mentor](https://www.frontendmentor.io/) | 💻 Practice | Real UI challenges to build your portfolio |
 | [Can I Use](https://www.caniuse.com/) | 🛠️ Tool | Browser support tables for web features |
+| [CSS Tricks — Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) | 📋 Guide | The classic Flexbox reference |
+| [CSS Tricks — Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) | 📋 Guide | The classic CSS Grid reference |
+| [Every Layout](https://every-layout.dev/) | 📖 Guide | Compositional layout patterns that scale |
+| [Sass Guide](https://sass-lang.com/guide/) | 📖 Guide | CSS with variables, nesting, and mixins |
+| [PostCSS](https://postcss.org/) | 📚 Documentation | Transform CSS with JavaScript plugins |
+| [Lightning CSS](https://lightningcss.dev/) | 📚 Documentation | Extremely fast CSS parser, transformer, and minifier |
+| [Open Props](https://open-props.style/) | 📚 Documentation | Supercharged CSS variables |
+| [CSS Nesting](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting) | 📚 Documentation | Native nested style rules in CSS |
+| [Cascade layers (@layer)](https://developer.mozilla.org/en-US/docs/Web/CSS/@layer) | 📚 Documentation | Explicit cascade control for large stylesheets |
+| [:has() selector](https://developer.mozilla.org/en-US/docs/Web/CSS/:has) | 📚 Documentation | Parent/relational selectors in CSS |
+| [oklch()](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/oklch) | 📚 Documentation | Perceptually uniform CSS color functions |
+| [CSS Anchor Positioning](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_anchor_positioning) | 📚 Documentation | Position elements relative to anchor elements |
+| [CSS Container Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Container_queries) | 📚 Documentation | Style components based on their container size |
+| [Popover API](https://developer.mozilla.org/en-US/docs/Web/API/Popover_API) | 📚 Documentation | Native top-layer popovers without custom JS plumbing |
+| [Scroll-driven Animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scroll-driven_animations) | 📚 Documentation | Tie CSS animations to scroll progress |
+| [color-mix()](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/color-mix) | 📚 Documentation | Mix colors in a given color space in CSS |
+| [`<details>` / `<summary>` (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details) | 📚 Documentation | Native disclosure widgets without JavaScript |
+| [CSS Flexible Box Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Flexible_box_layout) | 📚 Documentation | Official Flexbox layout guide on MDN |
+| [CSS Animations](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Animations) | 📚 Documentation | Keyframe animations and animation properties |
+| [CSS Transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Transitions) | 📚 Documentation | Smooth property transitions on state changes |
+| [clamp() (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/clamp) | 📚 Documentation | Responsive values with min/preferred/max bounds |
+| [CSS Subgrid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Subgrid) | 📚 Documentation | Nested grids that inherit parent track sizing |
+| [Baseline (web platform)](https://web.dev/baseline) | 📋 Reference | Which web features are ready to use across browsers |
+| [View Transitions API](https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API) | 📚 Documentation | Animated transitions between DOM states/pages |
+| [Using View Transitions (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API/Using) | 📖 Guide | Practical guide to the View Transitions API |
+| [Chrome View Transitions](https://developer.chrome.com/docs/web-platform/view-transitions) | 📖 Guide | Same-document and cross-document view transitions |
+| [`<dialog>` element (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog) | 📚 Documentation | Native modal and non-modal dialogs |
+| [Popover API notes (web.dev)](https://web.dev/blog/popover-api) | 📰 Article | Native popovers on the web platform |
+| [`<template>` element (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template) | 📚 Documentation | Declare HTML fragments for reuse |
+| [Navigation API](https://developer.mozilla.org/en-US/docs/Web/API/Navigation_API) | 📚 Documentation | Modern API for app navigations |
+| [Speculation Rules API](https://developer.mozilla.org/en-US/docs/Web/API/Speculation_Rules_API) | 📚 Documentation | Declarative prefetch/prerender for faster navigations |
+| [103 Early Hints](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/103) | 📚 Documentation | Warm connections/caches before the final response |
+| [modulepreload](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes/rel/modulepreload) | 📚 Documentation | Preload module scripts and their dependencies |
+| [UnoCSS](https://unocss.dev/) | 📚 Documentation | Instant atomic CSS engine |
+| [Panda CSS](https://panda-css.com/docs/overview/getting-started) | 📚 Documentation | CSS-in-JS with build-time extraction |
+| [Vanilla Extract](https://vanilla-extract.style/) | 📚 Documentation | Zero-runtime stylesheets in TypeScript |
+| [StyleX](https://stylexjs.com/docs/learn/) | 📚 Documentation | Scalable styling system from Meta |
+| [CSS Modules](https://github.com/css-modules/css-modules) | 📚 Documentation | Locally scoped CSS by default |
+| [Radix Themes](https://www.radix-ui.com/themes/docs/overview/getting-started) | 📚 Documentation | Pre-styled accessible components built on Radix |
+| [web.dev Learn Design](https://web.dev/learn/design) | 🎓 Course | Responsive and intrinsic design course |
+| [cubic-bezier.com](https://cubic-bezier.com/) | 🛠️ Tool | Visual cubic-bezier easing curve editor |
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="20" height="20" /> JavaScript
 | Resource | Type | Description |
 |----------|------|-------------|
 | [JavaScript.info](https://javascript.info/) | 📖 Tutorial | Modern JavaScript tutorial from basics to advanced |
+| [JavaScript.info — Async](https://javascript.info/async) | 📖 Tutorial | Promises, async/await, and microtasks |
+| [JavaScript.info — Modules](https://javascript.info/modules) | 📖 Tutorial | ES modules in depth |
+| [JavaScript.info — Network](https://javascript.info/network) | 📖 Tutorial | Fetch, forms, and networking in the browser |
+| [MDN JavaScript Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide) | 📚 Documentation | Official language guide covering core JS concepts |
+| [MDN Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) | 📚 Documentation | Promise API reference and patterns |
+| [Using promises (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises) | 📖 Guide | Promises composition, chaining, and error handling |
+| [async function (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function) | 📚 Documentation | Declare asynchronous functions that return promises |
+| [Destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) | 📚 Documentation | Unpack values from arrays or properties from objects |
+| [Rest parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters) | 📚 Documentation | Represent an indefinite number of arguments as an array |
+| [Spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) | 📚 Documentation | Expand iterables in array/object literals and calls |
+| [Iterators and generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_generators) | 📖 Guide | Custom iteration protocols and generator functions |
+| [Map (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) | 📚 Documentation | Keyed collections that remember insertion order |
+| [Set (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set) | 📚 Documentation | Collections of unique values |
+| [WeakMap (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap) | 📚 Documentation | Weakly held object keys for memory-safe metadata |
+| [Proxy (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy) | 📚 Documentation | Intercept and customize object operations |
+| [MDN Modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) | 📖 Guide | Using JavaScript modules in the browser |
+| [Optional chaining (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining) | 📚 Documentation | Safely access nested properties with `?.` |
+| [Nullish coalescing (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing) | 📚 Documentation | Default values with `??` without treating 0/'' as missing |
+| [Publish modern JavaScript](https://web.dev/articles/publish-modern-javascript) | 📖 Article | Ship modern JS to evergreen browsers safely |
+| [Temporal (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal) | 📚 Documentation | Modern dates and times API for JavaScript |
+| [Explicit Resource Management](https://github.com/tc39/proposal-explicit-resource-management) | 📋 Proposal | `using` / `await using` for deterministic cleanup |
 | [freeCodeCamp - JavaScript Algorithms (v8)](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/) | 🎓 Course | Modern JavaScript fundamentals and algorithms |
 | [Eloquent JavaScript](https://eloquentjavascript.net/) | 📚 Book | Free online book about JavaScript programming |
 | [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS) | 📚 Book Series | Deep dive into JavaScript concepts |
@@ -217,33 +308,194 @@ flowchart LR
 | [JavaScript30](https://javascript30.com/) | 🎓 Course | 30 free vanilla JS build projects by Wes Bos |
 | [web.dev Learn JavaScript](https://web.dev/learn/javascript) | 🎓 Course | Modern JavaScript course by Google |
 | [Patterns.dev](https://www.patterns.dev/) | 📚 Guide | Modern web app design and rendering patterns |
+| [React Server Components (Patterns.dev)](https://www.patterns.dev/react/react-server-components) | 📖 Guide | RSC mental model and patterns |
+| [33 JS Concepts](https://github.com/leonardomso/33-js-concepts) | 📋 Guide | 33 concepts every JavaScript developer should know |
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="20" height="20" /> TypeScript
 | Resource | Type | Description |
 |----------|------|-------------|
 | [TypeScript Official Docs](https://www.typescriptlang.org/docs/) | 📚 Documentation | Complete TypeScript language documentation |
 | [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html) | 📚 Book | Official handbook covering types, modules, and tooling |
+| [TypeScript Deep Dive](https://basarat.gitbook.io/typescript/) | 📚 Book | Community-loved deep dive into TypeScript |
 | [TypeScript for JavaScript Programmers](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html) | 📖 Tutorial | Fast on-ramp if you already know JavaScript |
 | [Total TypeScript Tutorials](https://www.totaltypescript.com/tutorials) | 🎓 Tutorials | Free practical TypeScript tutorials |
 | [React TypeScript Cheatsheet](https://react-typescript-cheatsheet.netlify.app/) | 📋 Cheatsheet | Patterns for using TypeScript with React |
 | [TypeScript Roadmap](https://roadmap.sh/typescript) | 🗺️ Roadmap | Interactive TypeScript developer roadmap |
+| [TypeScript Playground](https://www.typescriptlang.org/play) | 🎮 Interactive | Try TypeScript in the browser with shareable links |
+| [TSConfig Reference](https://www.typescriptlang.org/tsconfig) | 📚 Documentation | Every compiler option explained |
+| [TypeScript Narrowing](https://www.typescriptlang.org/docs/handbook/2/narrowing.html) | 📖 Tutorial | How TypeScript narrows types for safer code |
+| [Everyday Types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html) | 📖 Tutorial | Primitives, arrays, unions, and type aliases |
+| [More on Functions](https://www.typescriptlang.org/docs/handbook/2/functions.html) | 📖 Tutorial | Call signatures, generics in functions, and overloads |
+| [Object Types](https://www.typescriptlang.org/docs/handbook/2/objects.html) | 📖 Tutorial | Property modifiers, index signatures, and excess property checks |
+| [Classes](https://www.typescriptlang.org/docs/handbook/2/classes.html) | 📖 Tutorial | TypeScript class fields, members, and heritage |
+| [Mapped Types](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html) | 📖 Tutorial | Transform existing types with mapped type syntax |
+| [Conditional Types](https://www.typescriptlang.org/docs/handbook/2/conditional-types.html) | 📖 Tutorial | Types that select from alternatives based on conditions |
+| [Declaration Do's and Don'ts](https://www.typescriptlang.org/docs/handbook/declaration-files/do-s-and-don-ts.html) | 📋 Guide | Common pitfalls when writing `.d.ts` files |
+| [TypeScript Generics](https://www.typescriptlang.org/docs/handbook/2/generics.html) | 📖 Tutorial | Write reusable, type-safe components and functions |
+| [Declaration Files](https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html) | 📖 Tutorial | Authoring `.d.ts` files for JavaScript libraries |
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="20" height="20" /> Frontend Frameworks
 | Resource | Type | Description |
 |----------|------|-------------|
 | [React Official Docs](https://react.dev/learn) | 📖 Tutorial | Official React learning guide (react.dev) |
+| [Thinking in React](https://react.dev/learn/thinking-in-react) | 📖 Tutorial | Official mental model for building React UIs |
+| [Managing State](https://react.dev/learn/managing-state) | 📖 Tutorial | Official guide to React state management patterns |
+| [Escape Hatches](https://react.dev/learn/escape-hatches) | 📖 Tutorial | Effects, refs, and when to step outside React |
+| [You Might Not Need an Effect](https://react.dev/learn/you-might-not-need-an-effect) | 📖 Guide | When Effects are unnecessary and what to do instead |
+| [useOptimistic](https://react.dev/reference/react/useOptimistic) | 📚 Documentation | Optimistic UI updates during async transitions |
+| [useActionState](https://react.dev/reference/react/useActionState) | 📚 Documentation | Manage form/action state with React Actions |
+| [use](https://react.dev/reference/react/use) | 📚 Documentation | Read resources (promises/context) in render |
+| [Activity](https://react.dev/reference/react/Activity) | 📚 Documentation | Hide and restore UI state without unmounting |
+| [React 19 Blog](https://react.dev/blog/2024/12/05/react-19) | 📰 Article | What's new in React 19 |
+| [React Server Components](https://react.dev/reference/rsc/server-components) | 📚 Documentation | Components that render on the server |
+| [React Server Functions](https://react.dev/reference/rsc/server-functions) | 📚 Documentation | Call server-side functions from the client |
+| [React Compiler](https://react.dev/learn/react-compiler) | 📚 Documentation | Automatic memoization compiler for React |
 | [Vue.js Guide](https://vuejs.org/guide/) | 📚 Documentation | Complete Vue.js learning guide |
+| [Vue Tutorial](https://vuejs.org/tutorial/) | 🎮 Interactive | Official interactive Vue.js tutorial |
+| [Vue Reactivity in Depth](https://vuejs.org/guide/extras/reactivity-in-depth.html) | 📖 Guide | How Vue's reactivity system works under the hood |
+| [Vue Performance](https://vuejs.org/guide/best-practices/performance.html) | 📋 Guide | Official Vue performance best practices |
+| [Pinia Docs](https://pinia.vuejs.org/) | 📚 Documentation | Official state management library for Vue |
+| [VueUse](https://vueuse.org/) | 📚 Documentation | Collection of essential Vue Composition utilities |
+| [Nuxt UI](https://ui.nuxt.com/getting-started) | 📚 Documentation | Fully styled and customizable Vue component library |
+| [Nuxt Hub](https://hub.nuxt.com/docs/getting-started) | 📚 Documentation | Full-stack Nuxt platform features (storage, KV, AI, DB) |
 | [Angular Tutorial](https://angular.dev/tutorials/learn-angular) | 📖 Tutorial | Official Angular framework tutorial |
+| [Angular Essentials](https://angular.dev/essentials) | 📖 Guide | Core Angular concepts for modern apps |
+| [Angular Signals](https://angular.dev/guide/signals) | 📚 Documentation | Fine-grained reactivity with Angular Signals |
 | [Svelte Tutorial](https://svelte.dev/tutorial) | 🎮 Interactive Tutorial | Learn Svelte with hands-on examples |
+| [Svelte 5 Overview](https://svelte.dev/docs/svelte/overview) | 📚 Documentation | Svelte 5 language and runes overview |
+| [Svelte $state](https://svelte.dev/docs/svelte/$state) | 📚 Documentation | Reactive state rune in Svelte 5 |
 | [Next.js Learn](https://nextjs.org/learn) | 🎓 Course | Complete Next.js course by Vercel |
+| [Next.js App Router](https://nextjs.org/docs/app) | 📚 Documentation | Modern Next.js routing, layouts, and rendering |
+| [Next.js Routing](https://nextjs.org/docs/app/building-your-application/routing) | 📚 Documentation | App Router file-system routing fundamentals |
+| [Next.js Data Fetching](https://nextjs.org/docs/app/building-your-application/data-fetching) | 📚 Documentation | Fetching, caching, and revalidating data |
+| [Next.js Caching](https://nextjs.org/docs/app/building-your-application/caching) | 📚 Documentation | Request Memoization, Data Cache, Full Route Cache, and Router Cache |
+| [Next.js after()](https://nextjs.org/docs/app/api-reference/functions/after) | 📚 Documentation | Schedule work after a response finishes streaming |
+| [Turbopack](https://nextjs.org/docs/app/api-reference/turbopack) | 📚 Documentation | Incremental bundler integrated with Next.js |
 | [Astro Docs](https://docs.astro.build/) | 📚 Documentation | Content-focused web framework with islands architecture |
+| [Astro Tutorial](https://docs.astro.build/en/tutorial/0-introduction/) | 🎓 Tutorial | Official hands-on Astro tutorial |
+| [Astro DB](https://docs.astro.build/en/guides/astro-db/) | 📚 Documentation | Fully managed SQL database designed for Astro |
+| [Astro Actions](https://docs.astro.build/en/guides/actions/) | 📚 Documentation | Type-safe backend functions from Astro frontends |
+| [Astro Content Collections](https://docs.astro.build/en/guides/content-collections/) | 📚 Documentation | Typed Markdown/MDX content pipelines |
+| [Starlight](https://starlight.astro.build/) | 📚 Documentation | Documentation website framework built on Astro |
+| [Fumadocs](https://fumadocs.dev/docs) | 📚 Documentation | Docs framework for Next.js |
+| [Nextra](https://nextra.site/) | 📚 Documentation | Next.js-based documentation/static site toolkit |
+| [Docusaurus](https://docusaurus.io/docs) | 📚 Documentation | Easy-to-maintain open-source documentation sites |
+| [VitePress](https://vitepress.dev/) | 📚 Documentation | Vite & Vue powered static site generator |
+| [MkDocs](https://www.mkdocs.org/) | 📚 Documentation | Project documentation with Markdown |
+| [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) | 📚 Documentation | Beautiful MkDocs theme |
+| [mdBook](https://rust-lang.github.io/mdBook/) | 📚 Documentation | Create books from Markdown (Rust tooling) |
+| [Mintlify](https://mintlify.com/docs) | 📚 Documentation | Beautiful documentation platform for developers |
+| [Scalar](https://scalar.com/) | 🛠️ Tool | Modern OpenAPI documentation and API client |
+| [Redocly Docs](https://redocly.com/docs) | 📚 Documentation | OpenAPI docs, linting, and API governance |
+| [Redocly CLI](https://redocly.com/docs/cli) | 🛠️ Tool | Lint, bundle, and manage OpenAPI descriptions |
+| [OpenAPI Initiative](https://www.openapis.org/) | 📋 Specification | Home of the OpenAPI Specification |
+| [Swagger Editor](https://editor.swagger.io/) | 🛠️ Tool | Browser-based OpenAPI editor |
+| [openapi-typescript](https://openapi-ts.dev/) | 📚 Documentation | Generate TypeScript types from OpenAPI schemas |
+| [Hey API openapi-ts](https://github.com/hey-api/openapi-ts) | 🛠️ Tool | OpenAPI to TypeScript codegen ecosystem |
+| [Swagger UI](https://github.com/swagger-api/swagger-ui) | 🛠️ Tool | Interactive OpenAPI/Swagger documentation UI |
 | [Vite Guide](https://vite.dev/guide/) | 📖 Guide | Next-generation frontend build tool |
+| [Farm Docs](https://www.farmfe.org/docs/quick-start) | 📚 Documentation | Extremely fast Vite-compatible web build tool written in Rust |
+| [Rolldown](https://rolldown.rs/) | 📚 Documentation | Rust-based JavaScript bundler (Vite's future bundler) |
+| [Rspack](https://rspack.dev/guide/start/introduction) | 📚 Documentation | Fast Rust-based bundler compatible with the Webpack ecosystem |
+| [Parcel Docs](https://parceljs.org/docs/) | 📚 Documentation | Zero-config web application bundler |
+| [Waku](https://waku.gg/) | 📚 Documentation | Minimal React framework powered by RSC |
+| [esbuild](https://esbuild.github.io/) | 📚 Documentation | Extremely fast JavaScript bundler and minifier |
+| [SWC](https://swc.rs/docs/getting-started) | 📚 Documentation | Super-fast TypeScript/JavaScript compiler |
+| [Webpack Concepts](https://webpack.js.org/concepts/) | 📚 Documentation | Module bundler concepts still widely used in production |
+| [Module Federation](https://module-federation.io/) | 📚 Documentation | Share code between independently deployed apps |
+| [Import maps (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/script/type/importmap) | 📚 Documentation | Control browser module resolution without a bundler |
 | [Tailwind CSS Docs](https://tailwindcss.com/docs) | 📚 Documentation | Utility-first CSS framework |
 | [shadcn/ui Docs](https://ui.shadcn.com/docs) | 📚 Documentation | Accessible component patterns built with Radix and Tailwind |
+| [daisyUI](https://daisyui.com/docs/) | 📚 Documentation | Tailwind CSS component library with semantic class names |
+| [Flowbite](https://flowbite.com/docs/getting-started/introduction/) | 📚 Documentation | Tailwind CSS component library and design system |
+| [Park UI](https://park-ui.com/docs) | 📚 Documentation | Beautifully designed components built with Ark UI and Panda CSS |
+| [HeroUI Docs](https://www.heroui.com/docs/guide/introduction) | 📚 Documentation | Beautiful, fast React UI library (NextUI successor) |
+| [Mantine Docs](https://mantine.dev/getting-started/) | 📚 Documentation | Full-featured React components and hooks library |
+| [Ant Design](https://ant.design/docs/react/introduce) | 📚 Documentation | Enterprise-class React UI design system |
+| [Chakra UI Docs](https://chakra-ui.com/docs) | 📚 Documentation | Accessible React component library with a great DX |
+| [React Spectrum](https://react-spectrum.adobe.com/react-spectrum/) | 📚 Documentation | Adobe's React implementation of Spectrum design system |
+| [Untitled UI](https://www.untitledui.com/) | 📚 Documentation | Largest free Figma UI kit and React component resources |
 | [TanStack Query](https://tanstack.com/query/latest/docs/framework/react/overview) | 📚 Documentation | Powerful async state management for React |
+| [TanStack Router](https://tanstack.com/router/latest) | 📚 Documentation | Type-safe routing for React and solid apps |
+| [TanStack Virtual](https://tanstack.com/virtual/latest) | 📚 Documentation | Headless UI for virtualizing large lists |
+| [Zustand](https://github.com/pmndrs/zustand) | 📚 Documentation | Small, fast React state management |
+| [Jotai](https://jotai.org/) | 📚 Documentation | Primitive and flexible React state management |
+| [Redux Toolkit](https://redux-toolkit.js.org/introduction/getting-started) | 📚 Documentation | Official, opinionated Redux toolset |
+| [MobX](https://mobx.js.org/README.html) | 📚 Documentation | Simple, scalable state management |
+| [XState](https://stately.ai/docs/xstate) | 📚 Documentation | State machines and statecharts for modern apps |
+| [Valtio](https://valtio.pmnd.rs/) | 📚 Documentation | Proxy-based mutable state for React and vanilla |
+| [Immer](https://immerjs.github.io/immer/) | 📚 Documentation | Work with immutable state as if it were mutable |
+| [Preact Signals](https://preactjs.com/guide/v10/signals/) | 📚 Documentation | Fine-grained reactive state with Signals |
+| [Nano Stores](https://github.com/nanostores/nanostores) | 📚 Documentation | Tiny state managers for React/Vue/Svelte/Solid |
+| [SWR](https://swr.vercel.app/) | 📚 Documentation | React Hooks for data fetching |
+| [urql](https://commerce.nearform.com/open-source/urql/docs/) | 📚 Documentation | Highly customizable GraphQL client |
+| [Relay](https://relay.dev/docs/) | 📚 Documentation | GraphQL client for React from Meta |
+| [TanStack Table](https://tanstack.com/table/latest) | 📚 Documentation | Headless UI for building powerful tables |
 | [htmx Docs](https://htmx.org/docs/) | 📚 Documentation | High-power HTML attributes for modern UIs |
+| [htmx Essays](https://htmx.org/essays/) | 📰 Essays | Hypermedia-driven application design essays |
+| [Hotwire Handbook](https://hotwired.dev/) | 📚 Documentation | HTML-over-the-wire approach (Turbo + Stimulus) |
+| [Turbo Handbook](https://turbo.hotwired.dev/handbook/introduction) | 📚 Documentation | Drive pages with HTML instead of heavy SPA JS |
+| [Stimulus Handbook](https://stimulus.hotwired.dev/handbook/introduction) | 📚 Documentation | Modest JavaScript framework for the HTML you have |
+| [Inertia.js Docs](https://inertiajs.com/) | 📚 Documentation | Build SPAs using classic server-side routing |
+| [Laravel Livewire](https://livewire.laravel.com/docs) | 📚 Documentation | Dynamic interfaces powered by Laravel |
+| [Lit Docs](https://lit.dev/docs/) | 📚 Documentation | Simple, fast web components library |
+| [MDN Custom Elements](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements) | 📚 Documentation | Native Web Components custom elements API |
+| [Shoelace](https://shoelace.style/) | 📚 Documentation | Forward-thinking library of web components |
+| [Open Web Components](https://open-wc.org/) | 📚 Documentation | Guides and tools for web components |
 | [Full Stack Open](https://fullstackopen.com/en/) | 🎓 Course | Deep React/Node/GraphQL fullstack curriculum |
 | [30 Days of React](https://github.com/Asabeneh/30-Days-Of-React) | 🏆 Challenge | Hands-on React practice over 30 days |
+| [React Router](https://reactrouter.com/home) | 📚 Documentation | Declarative routing for React apps |
+| [TanStack Router](https://tanstack.com/router/latest/docs/framework/react/overview) | 📚 Documentation | Type-safe routing for React |
+| [Zustand](https://zustand.docs.pmnd.rs/) | 📚 Documentation | Small, fast React state management |
+| [Radix Primitives](https://www.radix-ui.com/primitives/docs/overview/introduction) | 📚 Documentation | Unstyled accessible UI primitives |
+| [Storybook](https://storybook.js.org/docs) | 📚 Documentation | Build and test UI components in isolation |
+| [Storybook Test](https://storybook.js.org/docs/writing-tests) | 📚 Documentation | Component, interaction, and accessibility tests in Storybook |
+| [Chromatic Docs](https://www.chromatic.com/docs/) | 📚 Documentation | Visual testing and review for Storybook |
+| [Percy Docs](https://www.browserstack.com/docs/percy) | 📚 Documentation | Visual testing and review platform |
+| [Playwright Component Testing](https://playwright.dev/docs/test-components) | 📚 Documentation | Test components with Playwright |
+| [Vitest Browser Mode](https://vitest.dev/guide/browser/) | 📚 Documentation | Run Vitest tests in real browsers |
+| [Ladle](https://ladle.dev/) | 📚 Documentation | Fast Storybook alternative powered by Vite |
+| [Histoire](https://histoire.dev/) | 📚 Documentation | Vite-native component workshop |
+| [Motion](https://motion.dev/docs) | 📚 Documentation | Modern animation library for the web |
+| [GSAP Docs](https://gsap.com/docs/v3/) | 📚 Documentation | Professional-grade JavaScript animation library |
+| [Anime.js Docs](https://animejs.com/documentation/) | 📚 Documentation | Lightweight JavaScript animation library |
+| [Lottie](https://airbnb.io/lottie/#/) | 📚 Documentation | Render After Effects animations on the web and mobile |
+| [React Three Fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction) | 📚 Documentation | React renderer for Three.js |
+| [Web Audio API (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API) | 📚 Documentation | Process and synthesize audio in the browser |
+| [WebCodecs API (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/WebCodecs_API) | 📚 Documentation | Low-level access to media encoders/decoders |
+| [Remix Docs](https://remix.run/docs/en/main) | 📚 Documentation | Full-stack web framework focused on web standards |
+| [Nuxt Docs](https://nuxt.com/docs/getting-started/introduction) | 📚 Documentation | The Intuitive Vue Framework |
+| [SvelteKit Docs](https://kit.svelte.dev/docs/introduction) | 📚 Documentation | Full-stack Svelte application framework |
+| [SvelteKit Load](https://svelte.dev/docs/kit/load) | 📚 Documentation | Data loading for pages and layouts in SvelteKit |
+| [Qwik Getting Started](https://qwik.dev/docs/getting-started/) | 📚 Documentation | Resumable framework for instant-loading apps |
+| [Qwik City](https://qwik.dev/docs/qwikcity/) | 📚 Documentation | Meta-framework for Qwik apps (routing, data loading) |
+| [SolidStart](https://github.com/solidjs/solid-start) | 📚 Documentation | Full-stack meta-framework for SolidJS (official docs often bot-block; GitHub repo) |
+| [SolidJS](https://github.com/solidjs/solid) | 📚 Documentation | Fine-grained reactive UI library (official site often bot-blocks; GitHub source/docs) |
+| [Fresh](https://fresh.deno.dev/docs/introduction) | 📚 Documentation | Next-gen web framework for Deno with islands |
+| [Analog](https://analogjs.org/docs) | 📚 Documentation | Fullstack meta-framework for Angular |
+| [TanStack Start](https://tanstack.com/start/latest) | 📚 Documentation | Full-stack framework powered by TanStack Router |
+| [RedwoodJS Docs](https://docs.redwoodjs.com/) | 📚 Documentation | Full-stack, Jamstack-oriented React framework |
+| [Bulletproof React](https://github.com/alan2207/bulletproof-react) | 📋 Guide | Opinionated React architecture best practices |
+| [Alpine.js](https://alpinejs.dev/start-here) | 📖 Tutorial | Lightweight JavaScript framework for HTML-first UIs |
+| [Lit](https://lit.dev/docs/) | 📚 Documentation | Simple, fast web components |
+| [useHooks](https://usehooks.com/) | 💻 Collection | High-quality React hooks recipes |
+| [useHooks-ts](https://usehooks-ts.com/) | 💻 Collection | TypeScript-ready React hooks |
+| [MDN WebAssembly](https://developer.mozilla.org/en-US/docs/WebAssembly) | 📚 Documentation | Run high-performance Wasm modules in the browser |
+| [WebAssembly Developer Guide](https://webassembly.org/getting-started/developers-guide/) | 📖 Guide | Official Wasm getting-started path |
+| [Bytecode Alliance](https://bytecodealliance.org/) | 🌐 Organization | Open-source Wasm runtime and standards community |
+| [Wasm Component Model](https://component-model.bytecodealliance.org/) | 📚 Documentation | Compose Wasm modules across languages |
+| [Wasmtime](https://wasmtime.dev/) | 📚 Documentation | Fast and secure WebAssembly runtime |
+| [Spin Docs](https://developer.fermyon.com/spin/v3/index) | 📚 Documentation | Developer tool for building and running Wasm microservices |
+| [WasmCloud Docs](https://wasmcloud.com/docs/intro/) | 📚 Documentation | Distributed Wasm application platform |
+| [Dapr Docs](https://docs.dapr.io/) | 📚 Documentation | APIs for building portable, resilient microservices |
+| [KEDA Docs](https://keda.sh/docs/) | 📚 Documentation | Kubernetes event-driven autoscaling |
+| [Wasmer](https://wasmer.io/) | 📚 Documentation | Universal Wasm runtime for servers and browsers |
+| [WasmEdge](https://wasmedge.org/docs/) | 📚 Documentation | Cloud-native Wasm runtime for edge and servers |
+| [Spin](https://developer.fermyon.com/spin/v3/index) | 📚 Documentation | Developer tool for building Wasm microservices |
+| [Extism](https://extism.org/) | 📚 Documentation | Make any software programmable with Wasm plugins |
+| [Wizer](https://github.com/bytecodealliance/wizer) | 🛠️ Tool | WebAssembly pre-initializer for faster cold starts |
+| [wit-bindgen](https://github.com/bytecodealliance/wit-bindgen) | 🛠️ Tool | Language bindings generator for WIT / component model |
+| [cargo-component](https://github.com/bytecodealliance/cargo-component) | 🛠️ Tool | Cargo subcommand for creating Wasm components |
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg" width="20" height="20" /> UI/UX Design
 | Resource | Type | Description |
@@ -254,6 +506,13 @@ flowchart LR
 | [Adobe XD Community](https://community.adobe.com/t5/adobe-xd/ct-p/ct-adobe-xd) | 👥 Community | Adobe XD community hub (product discontinued; useful for existing projects) |
 | [The Design of Everyday Things](https://www.basicbooks.com/titles/don-norman/the-design-of-everyday-things/9780465050659/) | 📚 Book | Essential UX design principles |
 | [Can't Unsee](https://cantunsee.space/) | 🎮 Game | Design eye training game |
+| [Heroicons](https://heroicons.com/) | 🎨 Icons | Beautiful hand-crafted SVG icons by the Tailwind team |
+| [Lucide](https://lucide.dev/guide/packages/lucide-react) | 🎨 Icons | Consistent open-source icon set |
+| [Phosphor Icons](https://phosphoricons.com/) | 🎨 Icons | Flexible icon family for interfaces |
+| [unDraw](https://undraw.co/) | 🎨 Illustrations | Free open-source illustrations for projects |
+| [Coolors](https://coolors.co/) | 🛠️ Tool | Fast color palette generator |
+| [Happy Hues](https://www.happyhues.co/) | 🎨 Inspiration | Curated color palette moods for UI |
+| [Google Fonts Knowledge](https://fonts.google.com/knowledge) | 📖 Guide | Free typography learning resources from Google Fonts |
 
 ## <img src="https://img.shields.io/badge/Backend-339933?style=for-the-badge&logo=node.js&logoColor=white" /> Backend Development
 
@@ -261,20 +520,72 @@ flowchart LR
 | Resource | Type | Description |
 |----------|------|-------------|
 | [Node.js Learn](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs) | 📚 Documentation | Official Node.js learning guides |
+| [Blocking vs non-blocking](https://nodejs.org/learn/asynchronous-work/overview-of-blocking-vs-non-blocking) | 📖 Guide | Understand the Node.js event loop trade-offs |
+| [Async programming & callbacks](https://nodejs.org/learn/asynchronous-work/javascript-asynchronous-programming-and-callbacks) | 📖 Guide | Callbacks, promises, and async patterns in Node |
+| [Node.js File System](https://nodejs.org/api/fs.html) | 📚 Documentation | `fs` module for file I/O |
+| [Node.js Stream](https://nodejs.org/api/stream.html) | 📚 Documentation | Readable/writable streams in Node.js |
+| [Node.js Events](https://nodejs.org/api/events.html) | 📚 Documentation | EventEmitter and the events module |
+| [Worker Threads](https://nodejs.org/api/worker_threads.html) | 📚 Documentation | Parallel JavaScript execution in Node.js |
+| [Node.js Test Runner](https://nodejs.org/api/test.html) | 📚 Documentation | Built-in `node:test` module |
+| [Single Executable Apps](https://nodejs.org/api/single-executable-applications.html) | 📚 Documentation | Bundle Node apps into a single binary |
+| [Permission Model](https://nodejs.org/api/permissions.html) | 📚 Documentation | Restrict runtime access to FS/network/etc. |
+| [Undici](https://undici.nodejs.org/) | 📚 Documentation | Node's modern HTTP client and fetch implementation |
+| [Package exports](https://nodejs.org/api/packages.html) | 📚 Documentation | Dual ESM/CJS packages and export maps |
+| [create-t3-app](https://create.t3.gg/) | 🛠️ Tool | Scaffold a typesafe Next.js fullstack app |
 | [freeCodeCamp - Back End Development and APIs](https://www.freecodecamp.org/learn/back-end-development-and-apis/) | 🎓 Course | Backend development with Node.js and Express |
 | [Express.js Guide](https://expressjs.com/en/guide/routing.html) | 📚 Documentation | Complete Express.js framework guide |
+| [Express Security Best Practices](https://expressjs.com/en/advanced/best-practice-security/) | 📋 Guide | Harden Express apps against common threats |
+| [Express Performance Best Practices](https://expressjs.com/en/advanced/best-practice-performance.html) | 📋 Guide | Production performance tips for Express |
+| [Node.js API Docs](https://nodejs.org/docs/latest/api/) | 📚 Documentation | Complete Node.js core API reference |
+| [Fastify Getting Started](https://fastify.dev/docs/latest/Guides/Getting-Started/) | 📚 Documentation | Fast and low-overhead Node.js web framework |
+| [NestJS Docs](https://docs.nestjs.com/) | 📚 Documentation | Progressive Node.js framework for scalable server apps |
+| [NestJS Controllers](https://docs.nestjs.com/controllers) | 📚 Documentation | Routing and request handling in NestJS |
+| [NestJS Providers](https://docs.nestjs.com/providers) | 📚 Documentation | Dependency injection and services in NestJS |
+| [Hono Docs](https://hono.dev/docs/) | 📚 Documentation | Ultrafast web framework for the Edges |
+| [Hono RPC](https://hono.dev/docs/guides/rpc) | 📚 Documentation | End-to-end type-safe client for Hono APIs |
+| [Elysia](https://elysiajs.com/quick-start.html) | 📚 Documentation | Ergonomic TypeScript framework for Bun |
+| [Elysia Eden](https://elysiajs.com/eden/overview.html) | 📚 Documentation | End-to-end type-safe client for Elysia |
+| [tRPC OpenAPI](https://trpc.io/docs/openapi) | 📚 Documentation | Generate OpenAPI specs from tRPC routers |
+| [Nitro Guide](https://nitro.build/guide) | 📚 Documentation | Next-generation server toolkit |
 | [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices) | 📋 Guide | Comprehensive Node.js best practices |
 | [The Odin Project - NodeJS](https://www.theodinproject.com/paths/full-stack-javascript) | 🎓 Course | Full-stack JavaScript path including Node |
 | [Bun Docs](https://bun.sh/docs) | 📚 Documentation | Fast all-in-one JavaScript runtime and toolkit |
+| [Bun Runtime](https://bun.com/docs/runtime) | 📚 Documentation | Bun runtime APIs and Node.js compatibility |
+| [JSR Docs](https://jsr.io/docs/introduction) | 📚 Documentation | Modern JavaScript registry with TypeScript-first packages |
+| [AdonisJS Docs](https://docs.adonisjs.com/) | 📚 Documentation | TypeScript-first Node.js web framework |
+| [Feathers Guides](https://feathersjs.com/guides/) | 📖 Guides | Realtime, service-oriented API framework for Node.js |
+| [Sails Concepts](https://sailsjs.com/documentation/concepts) | 📚 Documentation | MVC framework for Node.js |
+| [LoopBack Docs](https://loopback.io/doc/en/lb4/) | 📚 Documentation | Highly extensible Node.js API framework |
+| [Moleculer Docs](https://moleculer.services/docs/) | 📚 Documentation | Progressive microservices framework for Node.js |
+| [Objection.js](https://vincit.github.io/objection.js/) | 📚 Documentation | SQL-friendly ORM built on Knex |
+| [Typegoose](https://typegoose.github.io/typegoose/) | 📚 Documentation | Define Mongoose models with TypeScript classes |
 | [Deno Docs](https://docs.deno.com/) | 📚 Documentation | Modern secure TypeScript-first runtime |
+| [Deno Learn](https://deno.com/learn) | 🎓 Courses | Official Deno learning resources and tutorials |
+| [Deno Deploy](https://docs.deno.com/deploy/manual/) | ☁️ Platform | Globally distributed TypeScript serverless |
+| [pnpm Installation](https://pnpm.io/installation) | 📚 Documentation | Fast, disk-efficient package manager |
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="20" height="20" /> Python
 | Resource | Type | Description |
 |----------|------|-------------|
 | [Python.org Tutorial](https://docs.python.org/3/tutorial/) | 📖 Tutorial | Official Python tutorial |
+| [Python Classes Tutorial](https://docs.python.org/3/tutorial/classes.html) | 📖 Tutorial | Classes, instances, and inheritance |
+| [asyncio](https://docs.python.org/3/library/asyncio.html) | 📚 Documentation | Concurrent code using async/await |
+| [asyncio Tasks](https://docs.python.org/3/library/asyncio-task.html) | 📚 Documentation | Coroutines, tasks, and awaiting |
+| [Python typing](https://docs.python.org/3/library/typing.html) | 📚 Documentation | Support for type hints |
+| [Python Typing Spec](https://typing.python.org/en/latest/) | 📋 Specification | Official Python typing specification |
+| [mypy Docs](https://mypy.readthedocs.io/en/stable/) | 📚 Documentation | Optional static type checker for Python |
+| [Logging HOWTO](https://docs.python.org/3/howto/logging.html) | 📖 Guide | Application logging best practices |
+| [PEP 3333 (WSGI)](https://peps.python.org/pep-3333/) | 📋 Specification | Python Web Server Gateway Interface |
 | [Django Tutorial](https://docs.djangoproject.com/en/stable/intro/tutorial01/) | 📖 Tutorial | Official Django web framework tutorial |
 | [Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) | 📖 Tutorial Series | Comprehensive Flask tutorial |
+| [Flask Official Tutorial](https://flask.palletsprojects.com/en/stable/tutorial/) | 📖 Tutorial | Official Flask tutorial from the docs |
+| [Django Queries](https://docs.djangoproject.com/en/stable/topics/db/queries/) | 📚 Documentation | Making queries with the Django ORM |
+| [Django Async Support](https://docs.djangoproject.com/en/stable/topics/async/) | 📚 Documentation | Asynchronous views, middleware, and ORM usage |
 | [FastAPI Tutorial](https://fastapi.tiangolo.com/tutorial/) | 📖 Tutorial | Modern Python API development |
+| [Django Ninja](https://django-ninja.dev/) | 📚 Documentation | Fast Django REST framework inspired by FastAPI |
+| [Litestar Docs](https://docs.litestar.dev/latest/) | 📚 Documentation | High-performance ASGI API framework for Python |
+| [NiceGUI Docs](https://nicegui.io/documentation) | 📚 Documentation | Build web UIs in Python with minimal effort |
+| [Reflex Docs](https://reflex.dev/docs/getting-started/introduction/) | 📚 Documentation | Build web apps in pure Python |
 | [Mega Tutorial](https://github.com/getvmio/free-python-resources) | 📖 Knowledge Repo | Modern Python development |
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="20" height="20" /> Java
@@ -282,7 +593,20 @@ flowchart LR
 |----------|------|-------------|
 | [Oracle Java Tutorials](https://docs.oracle.com/javase/tutorial/) | 📖 Tutorial | Official Java programming tutorials |
 | [Spring Boot Guides](https://spring.io/guides) | 📖 Tutorials | Spring Boot framework tutorials |
+| [Spring REST Service](https://spring.io/guides/gs/rest-service/) | 📖 Tutorial | Build a RESTful web service with Spring |
+| [Micrometer Docs](https://docs.micrometer.io/) | 📚 Documentation | Application metrics facade for JVM apps |
+| [Resilience4j Docs](https://resilience4j.readme.io/) | 📚 Documentation | Lightweight fault-tolerance library for Java |
+| [Spring Modulith](https://docs.spring.io/spring-modulith/reference/) | 📚 Documentation | Modular monoliths with Spring Boot |
+| [Spring WebFlux](https://docs.spring.io/spring-framework/reference/web/webflux.html) | 📚 Documentation | Reactive web stack for Spring |
+| [Quarkus Guides](https://quarkus.io/guides/) | 📚 Documentation | Supersonic Subatomic Java framework |
+| [Micronaut Docs](https://docs.micronaut.io/latest/guide/) | 📚 Documentation | Modern JVM framework for microservices and serverless |
+| [Ktor Docs](https://ktor.io/docs/welcome.html) | 📚 Documentation | Asynchronous Kotlin framework for connected applications |
 | [Java Code Geeks](https://www.javacodegeeks.com/) | 📰 Articles | Java development articles and tutorials |
+| [Groovy Documentation](https://docs.groovy-lang.org/latest/html/documentation/) | 📚 Documentation | Dynamic JVM language that complements Java |
+| [Ballerina Learn](https://ballerina.io/learn/) | 📚 Documentation | Cloud-native language designed for network services and APIs |
+| [Helidon Docs](https://helidon.io/docs/latest/) | 📚 Documentation | Cloud-native Java microservices framework from Oracle |
+| [Vert.x Docs](https://vertx.io/docs/) | 📚 Documentation | Reactive toolkit for building JVM networked apps |
+| [Javalin Docs](https://javalin.io/documentation) | 📚 Documentation | Lightweight web framework for Java and Kotlin |
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg" width="20" height="20" /> Ruby
 | Resource | Type | Description |
@@ -291,22 +615,121 @@ flowchart LR
 | [Ruby on Rails Guides](https://guides.rubyonrails.org/) | 📖 Tutorial | Complete Rails framework guides |
 | [The Odin Project - Ruby](https://www.theodinproject.com/paths/full-stack-ruby-on-rails) | 🎓 Course | Full-stack Ruby on Rails curriculum |
 | [Ruby Koans](http://rubykoans.com/) | 🧘 Interactive | Learn Ruby through test-driven development |
+| [Hanami Guides](https://hanamirb.org/) | 📚 Documentation | Modern, maintainable Ruby web framework |
+| [Sinatra Intro](https://sinatrarb.com/intro.html) | 📖 Tutorial | Lightweight DSL for Ruby web apps |
 
-### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" width="20" height="20" /> Rust
+### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-original.svg" width="20" height="20" /> Rust
 | Resource | Type | Description |
 |----------|------|-------------|
 | [The Rust Programming Language](https://doc.rust-lang.org/book/) | 📚 Book | Official Rust book (free online) |
+| [Zig Learn](https://ziglang.org/learn/) | 📚 Documentation | Simple language for maintaining robust software |
+| [Gleam Book](https://gleam.run/book/) | 📚 Book | Type-safe language for the Erlang VM |
+| [Gleam Documentation](https://gleam.run/documentation/) | 📚 Documentation | Official Gleam language and tooling docs |
 | [Rust by Example](https://doc.rust-lang.org/rust-by-example/) | 📖 Examples | Learn Rust through annotated examples |
+| [The Cargo Book](https://doc.rust-lang.org/cargo/guide/) | 📚 Documentation | Build, package, and share Rust projects with Cargo |
 | [Rustlings](https://github.com/rust-lang/rustlings) | 🏆 Exercises | Small exercises to get you used to Rust |
 | [Actix Web Guide](https://actix.rs/docs/) | 📖 Tutorial | Web framework for Rust |
+| [Axum](https://docs.rs/axum/latest/axum/) | 📚 Documentation | Ergonomic web framework built with Tokio and Tower |
+| [Rocket Guide](https://rocket.rs/guide/v0.5/) | 📚 Documentation | Type-safe, async web framework for Rust |
+| [Leptos](https://leptos.dev/) | 📚 Documentation | Full-stack, isomorphic web framework for Rust |
+| [Dioxus Learn](https://dioxuslabs.com/learn/0.6/) | 📖 Tutorial | Cross-platform Rust UI framework for web, desktop, and mobile |
+| [Yew Docs](https://yew.rs/docs/getting-started/introduction) | 📚 Documentation | Modern Rust framework for creating multi-threaded front-end web apps |
+| [Nim Tutorial](https://nim-lang.org/docs/tut1.html) | 📖 Tutorial | Efficient, expressive systems programming language |
+| [Mojo Manual](https://docs.modular.com/mojo/manual/) | 📚 Documentation | Python-compatible language for AI systems programming |
+| [Raku Docs](https://docs.raku.org/) | 📚 Documentation | Multi-paradigm language (formerly Perl 6) |
+| [PureScript Book](https://book.purescript.org/) | 📚 Book | Strongly-typed functional programming for the web |
+| [ReScript Docs](https://rescript-lang.org/docs/manual/latest/introduction) | 📚 Documentation | Fast, typed language that compiles to readable JavaScript |
+| [Roc Tutorial](https://www.roc-lang.org/tutorial) | 📖 Tutorial | Friendly functional language for building fast, reliable software |
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" width="20" height="20" /> Go
 | Resource | Type | Description |
 |----------|------|-------------|
-| [A Tour of Go](https://tour.golang.org/) | 🎮 Interactive Tutorial | Official interactive Go tutorial |
+| [A Tour of Go](https://go.dev/tour/) | 🎮 Interactive Tutorial | Official interactive Go tutorial |
 | [Go by Example](https://gobyexample.com/) | 📖 Examples | Hands-on introduction to Go |
-| [Effective Go](https://golang.org/doc/effective_go.html) | 📋 Guide | Tips for writing clear Go code |
+| [Go Learn](https://go.dev/learn/) | 🎓 Courses | Official curated Go learning paths and tutorials |
+| [Effective Go](https://go.dev/doc/effective_go) | 📋 Guide | Tips for writing clear Go code |
+| [Go Getting Started](https://go.dev/doc/tutorial/getting-started) | 🚀 Quick Start | Install Go and write a first module |
+| [Managing Go Dependencies](https://go.dev/doc/modules/managing-dependencies) | 📖 Guide | Add, upgrade, and tidy module dependencies |
+| [Chi Docs](https://go-chi.io/#/pages/intro) | 📚 Documentation | Lightweight, idiomatic Go HTTP router |
+| [Echo Docs](https://echo.labstack.com/docs/) | 📚 Documentation | High-performance Go web framework |
+| [Fiber Docs](https://docs.gofiber.io/) | 📚 Documentation | Express-inspired web framework for Go |
 | [Go Web Examples](https://gowebexamples.com/) | 📖 Examples | Web development examples in Go |
+
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" width="20" height="20" /> Scala
+| Resource | Type | Description |
+|----------|------|-------------|
+| [Scala Documentation](https://docs.scala-lang.org/) | 📚 Documentation | Official Scala language documentation |
+| [ZIO Docs](https://zio.dev/guides/quickstarts/hello-world) | 📚 Documentation | Type-safe, composable asynchronous and concurrent Scala library |
+| [Play Framework Docs](https://www.playframework.com/documentation/latest/Home) | 📚 Documentation | High-productivity web framework for Java and Scala |
+
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/julia/julia-original.svg" width="20" height="20" /> Julia
+| Resource | Type | Description |
+|----------|------|-------------|
+| [Julia Documentation](https://docs.julialang.org/) | 📚 Documentation | Official Julia language documentation |
+| [Julia Learning Resources](https://julialang.org/learning/) | 🎓 Courses | Official curated Julia learning resources |
+| [OCaml Learn](https://ocaml.org/docs) | 📚 Documentation | Official OCaml language learning docs |
+| [F# Documentation](https://learn.microsoft.com/en-us/dotnet/fsharp/) | 📚 Documentation | Functional-first language for .NET |
+| [F# Learn](https://fsharp.org/learn/) | 🎓 Courses | Curated F# learning path and community resources |
+| [Racket](https://racket-lang.org/) | 📚 Documentation | General-purpose programmable programming language |
+| [Racket Docs](https://docs.racket-lang.org/) | 📚 Documentation | Official Racket language and library documentation |
+| [Lua 5.4 Manual](https://www.lua.org/manual/5.4/) | 📚 Documentation | Official reference manual for Lua |
+| [Erlang Docs](https://www.erlang.org/docs) | 📚 Documentation | Official Erlang/OTP documentation |
+| [Learn You Some Erlang](https://learnyousomeerlang.com/) | 📚 Book | Friendly free book for learning Erlang |
+| [Crystal Docs](https://crystal-lang.org/reference/) | 📚 Documentation | Ruby-inspired language with static typing and native speed |
+| [Haskell Documentation](https://www.haskell.org/documentation/) | 📚 Documentation | Official Haskell language documentation and guides |
+| [Livebook](https://livebook.dev/) | 🛠️ Tool | Interactive Elixir notebooks for learning and data apps |
+| [Elm Guide](https://guide.elm-lang.org/) | 📖 Guide | Friendly functional language that compiles to JavaScript |
+| [ReasonML](https://reasonml.github.io/) | 📚 Documentation | Syntax and toolchain for OCaml focused on JavaScript |
+| [V Language](https://docs.vlang.io/) | 📚 Documentation | Simple, fast, safe compiled language for maintainable software |
+| [Odin](https://odin-lang.org/) | 📚 Documentation | Systems programming language focused on simplicity and performance |
+| [Carbon Language](https://github.com/carbon-language/carbon-lang) | 📚 Documentation | Experimental successor language for C++ interop (Google) |
+| [Chapel](https://chapel-lang.org/) | 📚 Documentation | Parallel programming language for high-productivity HPC |
+
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/clojure/clojure-original.svg" width="20" height="20" /> Clojure
+| Resource | Type | Description |
+|----------|------|-------------|
+| [Clojure Guides](https://clojure.org/guides/getting_started) | 📖 Guide | Official Clojure getting started guides |
+| [ClojureDocs](https://clojuredocs.org/) | 📚 Documentation | Community-powered Clojure documentation and examples |
+| [ClojureScript](https://clojurescript.org/) | 📚 Documentation | Compile Clojure to JavaScript for browsers and Node |
+| [Reagent](https://reagent-project.github.io/) | 📚 Documentation | Minimalistic React interface for ClojureScript |
+| [re-frame](https://day8.github.io/re-frame/) | 📚 Documentation | Reagent framework for SPAs (events, subscriptions, effects) |
+| [Fulcro](https://fulcro.fulcrologic.com/) | 📚 Documentation | Full-stack, data-driven web framework for Clojure(Script) |
+
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" width="20" height="20" /> Elixir & Phoenix
+| Resource | Type | Description |
+|----------|------|-------------|
+| [Elixir Getting Started](https://elixir-lang.org/getting-started/introduction.html) | 📖 Tutorial | Official Elixir language introduction |
+| [Elixir Learning](https://elixir-lang.org/learning.html) | 🎓 Courses | Official curated Elixir learning resources |
+| [Phoenix Overview](https://hexdocs.pm/phoenix/overview.html) | 📚 Documentation | Productive web framework for Elixir |
+| [Phoenix Framework](https://www.phoenixframework.org/) | 🌐 Website | Guides and ecosystem for Phoenix |
+| [Phoenix LiveView](https://hexdocs.pm/phoenix_live_view/Phoenix.LiveView.html) | 📚 Documentation | Rich, real-time UIs with server-rendered HTML |
+| [Phoenix LiveView Guides](https://hexdocs.pm/phoenix_live_view/welcome.html) | 📖 Guide | Official LiveView getting-started path |
+| [Ash Framework](https://ash.hexdocs.pm/get-started.html) | 📚 Documentation | Declarative, resource-oriented framework for Elixir |
+
+### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" width="20" height="20" /> PHP
+| Resource | Type | Description |
+|----------|------|-------------|
+| [PHP Manual](https://www.php.net/manual/en/) | 📚 Documentation | Official PHP language reference |
+| [PHP The Right Way](https://phptherightway.com/) | 📖 Guide | Modern PHP best practices |
+| [Laravel Docs](https://laravel.com/docs) | 📚 Documentation | Popular PHP web application framework |
+| [Laravel Bootcamp](https://bootcamp.laravel.com/) | 🎓 Course | Official hands-on Laravel tutorial |
+| [Symfony Docs](https://symfony.com/doc/current/index.html) | 📚 Documentation | Reusable PHP components and full-stack framework |
+| [Create your own PHP framework (Symfony)](https://symfony.com/doc/current/create_framework/index.html) | 📖 Tutorial | Learn PHP frameworks by building one with Symfony components |
+| [Laravel Installation](https://laravel.com/docs/installation) | 📖 Guide | Official Laravel installation and first-project setup |
+| [Composer Docs](https://getcomposer.org/doc/) | 📚 Documentation | Dependency manager for PHP |
+| [Slim Framework](https://www.slimframework.com/) | 📚 Documentation | Micro-framework for PHP APIs and services |
+
+### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="20" height="20" /> C# / .NET
+| Resource | Type | Description |
+|----------|------|-------------|
+| [C# Documentation](https://learn.microsoft.com/en-us/dotnet/csharp/) | 📚 Documentation | Official C# language docs on Microsoft Learn |
+| [.NET Docs](https://learn.microsoft.com/en-us/dotnet/) | 📚 Documentation | Build apps with .NET across web, cloud, and desktop |
+| [ASP.NET Core Tutorials](https://learn.microsoft.com/en-us/aspnet/core/tutorials/) | 📖 Tutorials | Build web apps and APIs with ASP.NET Core |
+| [Minimal APIs overview](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis) | 📚 Documentation | Lightweight HTTP APIs in ASP.NET Core |
+| [Entity Framework Core](https://learn.microsoft.com/en-us/ef/core/) | 📚 Documentation | Modern object-database mapper for .NET |
+| [Blazor](https://learn.microsoft.com/en-us/aspnet/core/blazor/) | 📚 Documentation | Build interactive web UIs with C# |
+| [Vapor Docs](https://docs.vapor.codes/) | 📚 Documentation | Server-side Swift web framework |
+| [Hummingbird Docs](https://docs.hummingbird.codes/) | 📚 Documentation | Lightweight, flexible HTTP server framework for Swift |
 
 ## <img src="https://img.shields.io/badge/Database-336791?style=for-the-badge&logo=postgresql&logoColor=white" /> Databases
 
@@ -314,35 +737,123 @@ flowchart LR
 | Resource | Type | Description |
 |----------|------|-------------|
 | [W3Schools SQL Tutorial](https://www.w3schools.com/sql/) | 📖 Tutorial | Complete SQL tutorial with examples |
+| [Mode SQL Tutorial](https://mode.com/sql-tutorial/) | 📖 Tutorial | Practical SQL tutorial for analysts and developers |
 | [PostgreSQL Tutorial](https://www.postgresqltutorial.com/) | 📖 Tutorial | Comprehensive PostgreSQL guide |
+| [Official PostgreSQL Tutorial](https://www.postgresql.org/docs/current/tutorial.html) | 📖 Tutorial | Official Postgres getting-started tutorial |
+| [PostgreSQL DDL](https://www.postgresql.org/docs/current/ddl.html) | 📚 Documentation | Data definition: tables, constraints, and schema |
+| [PostgreSQL Queries](https://www.postgresql.org/docs/current/queries.html) | 📚 Documentation | Official SQL query syntax reference |
+| [PostgreSQL MVCC](https://www.postgresql.org/docs/current/mvcc.html) | 📚 Documentation | Concurrency control and transaction isolation |
+| [PostgreSQL WAL](https://www.postgresql.org/docs/current/wal.html) | 📚 Documentation | Write-Ahead Logging for durability and replication |
+| [PostgreSQL High Availability](https://www.postgresql.org/docs/current/high-availability.html) | 📚 Documentation | Replication, failover, and HA options |
+| [PostgreSQL SQL Commands](https://www.postgresql.org/docs/current/sql.html) | 📚 Documentation | Complete SQL command reference |
+| [SELECT](https://www.postgresql.org/docs/current/sql-select.html) | 📚 Documentation | PostgreSQL SELECT command reference |
+| [INSERT](https://www.postgresql.org/docs/current/sql-insert.html) | 📚 Documentation | PostgreSQL INSERT command reference |
+| [UPDATE](https://www.postgresql.org/docs/current/sql-update.html) | 📚 Documentation | PostgreSQL UPDATE command reference |
+| [DELETE](https://www.postgresql.org/docs/current/sql-delete.html) | 📚 Documentation | PostgreSQL DELETE command reference |
+| [Table Expressions (CTEs)](https://www.postgresql.org/docs/current/queries-table-expressions.html) | 📚 Documentation | WITH queries, subqueries, and table expressions |
+| [Transaction Isolation](https://www.postgresql.org/docs/current/transaction-iso.html) | 📚 Documentation | Isolation levels and concurrency anomalies |
+| [Explicit Locking](https://www.postgresql.org/docs/current/explicit-locking.html) | 📚 Documentation | Table- and row-level locks in PostgreSQL |
+| [PL/pgSQL](https://www.postgresql.org/docs/current/plpgsql.html) | 📚 Documentation | Procedural language for Postgres functions and triggers |
+| [PostgreSQL Functions](https://www.postgresql.org/docs/current/functions.html) | 📚 Documentation | Built-in functions and operators |
+| [PostgreSQL Performance Tips](https://www.postgresql.org/docs/current/performance-tips.html) | 📖 Guide | Official performance tuning tips |
+| [PostgreSQL Backup](https://www.postgresql.org/docs/current/backup.html) | 📚 Documentation | Backup and restore strategies |
+| [SQL Style Guide](https://www.sqlstyle.guide/) | 📋 Guide | Consistent, readable SQL style conventions |
+| [psycopg3 Docs](https://www.psycopg.org/psycopg3/docs/) | 📚 Documentation | Modern PostgreSQL adapter for Python |
+| [node-postgres](https://node-postgres.com/) | 📚 Documentation | Non-blocking PostgreSQL client for Node.js |
+| [Postgres Don't Do This](https://wiki.postgresql.org/wiki/Don%27t_Do_This) | 📋 Guide | Common Postgres anti-patterns to avoid |
+| [Crunchy Data Playground](https://www.crunchydata.com/developers/playground) | 🎮 Interactive | Browser-based PostgreSQL playground and lessons |
+| [PostgreSQL EXPLAIN](https://www.postgresql.org/docs/current/using-explain.html) | 📖 Guide | Understand and tune query plans |
+| [PostgreSQL Indexes](https://www.postgresql.org/docs/current/indexes.html) | 📚 Documentation | Official Postgres index types and usage |
+| [PostgreSQL Constraints](https://www.postgresql.org/docs/current/ddl-constraints.html) | 📚 Documentation | Primary keys, foreign keys, checks, and more |
+| [explain.depesz](https://explain.depesz.com/) | 🛠️ Tool | Beautify and share PostgreSQL EXPLAIN plans |
+| [Use The Index, Luke](https://use-the-index-luke.com/) | 📖 Guide | The practical guide to SQL indexing across engines |
+| [Prisma Data Guide](https://www.prisma.io/dataguide) | 📖 Guide | Practical database concepts for application developers |
+| [SQLite Docs](https://sqlite.org/docs.html) | 📚 Documentation | Lightweight embedded SQL database |
+| [SQLite Language](https://www.sqlite.org/lang.html) | 📚 Documentation | SQL language reference for SQLite |
+| [MariaDB Docs](https://mariadb.com/kb/en/documentation/) | 📚 Documentation | Open-source MySQL-compatible relational database |
+| [TigerBeetle Docs](https://docs.tigerbeetle.com/) | 📚 Documentation | Financial transactions database built for safety and performance |
+| [Turso Docs](https://docs.turso.tech/introduction) | 📚 Documentation | Edge-hosted SQLite (libSQL) platform |
+| [Neon PostgreSQL Tutorial](https://neon.com/postgresql/tutorial) | 📖 Tutorial | Practical Postgres guide from Neon |
 | [MySQL Tutorial](https://dev.mysql.com/doc/mysql-tutorial-excerpt/8.0/en/) | 📖 Tutorial | Official MySQL tutorial |
+| [MySQL Getting Started](https://dev.mysql.com/doc/refman/8.4/en/tutorial.html) | 📖 Tutorial | Official MySQL reference manual tutorial (companion to excerpt) |
 | [SQLBolt](https://sqlbolt.com/) | 🎮 Interactive Lessons | Learn SQL with interactive exercises |
+| [Select Star SQL](https://selectstarsql.com/) | 🎮 Interactive | Free interactive SQL textbook with murder-mystery style lessons |
 | [TSQL Tutorial](https://www.tsql.info/) | 📖 Tutorial | Complete T-SQL (Transact-SQL) tutorial |
 | [Microsoft SQL Server Learning](https://learn.microsoft.com/en-us/sql/sql-server/) | 📚 Documentation | Official SQL Server documentation |
 | [T-SQL Language Reference](https://learn.microsoft.com/en-us/sql/t-sql/language-reference) | 📚 Documentation | Official Transact-SQL language reference |
-| [SQLServerTutorial.net](https://www.sqlservertutorial.net/) | 📖 Tutorial | SQL Server and T-SQL tutorials |
+| [T-SQL Tutorial (Microsoft Learn)](https://learn.microsoft.com/en-us/sql/t-sql/tutorial-writing-transact-sql-statements) | 📖 Tutorial | Official Transact-SQL writing tutorial |
 | [TSQL Code Snippets](https://github.com/Microsoft/sql-server-samples) | 💻 Examples | Microsoft SQL Server code samples |
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="20" height="20" /> NoSQL Databases
 | Resource | Type | Description |
 |----------|------|-------------|
 | [MongoDB Learn](https://learn.mongodb.com/) | 🎓 Courses | Free MongoDB courses and certification |
+| [MongoDB Getting Started](https://www.mongodb.com/docs/manual/tutorial/getting-started/) | 📖 Tutorial | Official MongoDB manual getting-started path |
+| [MongoDB Documents](https://www.mongodb.com/docs/manual/core/document/) | 📚 Documentation | BSON document model fundamentals |
+| [Couchbase Docs](https://docs.couchbase.com/) | 📚 Documentation | Distributed NoSQL document database platform |
+| [RavenDB Docs](https://docs.ravendb.net/) | 📚 Documentation | ACID document database with rich querying |
+| [RethinkDB Docs](https://www.rethinkdb.com/docs/) | 📚 Documentation | Realtime open-source database for the realtime web |
+| [InfluxDB Docs](https://docs.influxdata.com/) | 📚 Documentation | Time series data platform for metrics and events |
 | [Redis Get Started](https://redis.io/docs/latest/get-started/) | 📖 Tutorial | Official Redis getting started guide |
+| [Redis Data Types](https://redis.io/docs/latest/develop/data-types/) | 📚 Documentation | Strings, hashes, lists, sets, streams, and more |
+| [Redis Patterns](https://redis.io/docs/latest/develop/use/patterns/) | 📖 Guide | Common Redis usage patterns and recipes |
+| [Redis Caching Tutorial](https://redis.io/tutorials/how-to-cache-rest-api-responses-using-redis-and-nodejs/) | 📖 Tutorial | Cache REST API responses with Redis and Node.js |
+| [Redis Sentinel](https://redis.io/docs/latest/operate/oss_and_stack/management/sentinel/) | 📚 Documentation | High availability with Redis Sentinel |
+| [BullMQ Guide](https://docs.bullmq.io/guide/introduction) | 📚 Documentation | Redis-backed Node.js job queues and workers |
+| [Redis Clients](https://redis.io/docs/latest/develop/clients/) | 📚 Documentation | Official and community Redis client libraries |
+| [Install Redis](https://redis.io/docs/latest/operate/oss_and_stack/install/install-redis/) | 📖 Guide | Official Redis installation instructions |
+| [Valkey](https://valkey.io/) | 📚 Documentation | Open-source Redis-compatible in-memory data store |
+| [KeyDB Docs](https://docs.keydb.dev/) | 📚 Documentation | High-performance fork of Redis with multithreading |
+| [Hazelcast Docs](https://docs.hazelcast.com/hazelcast/latest/) | 📚 Documentation | Distributed in-memory data grid and compute platform |
+| [Dragonfly Docs](https://www.dragonflydb.io/docs) | 📚 Documentation | High-performance Redis-compatible datastore |
+| [Garnet](https://github.com/microsoft/garnet) | 📚 Documentation | Remote cache-store from Microsoft Research |
+| [Memcached](https://memcached.org/) | 📚 Documentation | High-performance distributed memory object caching |
+| [Redis Query Engine](https://redis.io/docs/latest/develop/interact/search-and-query/) | 📚 Documentation | Search and query capabilities in Redis |
+| [Redis University](https://redis.io/university/) | 🎓 Courses | Free Redis courses and certifications |
+| [Redis Streams](https://redis.io/docs/latest/develop/data-types/streams/) | 📚 Documentation | Stream processing data type in Redis |
+| [Redis Transactions](https://redis.io/docs/latest/develop/interact/transactions/) | 📚 Documentation | MULTI/EXEC transactions and optimistic locking |
+| [Redis Pipelining](https://redis.io/docs/latest/develop/use/pipelining/) | 📖 Guide | Batch commands to reduce round trips |
+| [Redis Keyspace Notifications](https://redis.io/docs/latest/develop/use/keyspace-notifications/) | 📚 Documentation | Pub/Sub notifications for key events |
 | [Firebase Documentation](https://firebase.google.com/docs) | 📚 Documentation | Complete Firebase/Firestore guide |
 | [Supabase Docs](https://supabase.com/docs) | 📚 Documentation | Open-source Firebase alternative with Postgres |
+| [Supabase Database Guide](https://supabase.com/docs/guides/database/overview) | 📚 Documentation | Postgres features and patterns on Supabase |
+| [Supabase Edge Functions](https://supabase.com/docs/guides/functions) | 📚 Documentation | Deno-based serverless functions on Supabase |
+| [Supabase Realtime](https://supabase.com/docs/guides/realtime) | 📚 Documentation | Broadcast, presence, and postgres changes |
+| [Supabase Storage](https://supabase.com/docs/guides/storage) | 📚 Documentation | Object storage with access policies |
 | [Prisma Docs](https://www.prisma.io/docs) | 📚 Documentation | Next-generation Node.js / TypeScript ORM |
+| [sqlc Docs](https://docs.sqlc.dev/en/latest/) | 📚 Documentation | Generate type-safe Go code from SQL |
+| [SQLx](https://docs.rs/sqlx/latest/sqlx/) | 📚 Documentation | Async SQL toolkit for Rust |
+| [Diesel Guides](https://diesel.rs/guides/getting-started/) | 📖 Guides | Safe, extensible ORM and query builder for Rust |
+| [GORM Docs](https://gorm.io/docs/) | 📚 Documentation | Popular ORM library for Golang |
+| [SeaORM](https://www.sea-ql.org/SeaORM/) | 📚 Documentation | Async & dynamic ORM for Rust |
+| [jOOQ Manual](https://www.jooq.org/doc/latest/manual/) | 📚 Documentation | Type-safe SQL query builder for Java |
+| [MyBatis Getting Started](https://mybatis.org/mybatis-3/getting-started.html) | 📚 Documentation | SQL mapping framework for Java |
+| [Prisma Studio](https://www.prisma.io/docs/orm/tools/prisma-studio) | 🛠️ Tool | Visual editor for Prisma data |
 | [Drizzle ORM Docs](https://orm.drizzle.team/docs/overview) | 📚 Documentation | Lightweight TypeScript ORM |
+| [Drizzle Studio](https://orm.drizzle.team/drizzle-studio/overview) | 🛠️ Tool | Browse and edit Drizzle database data |
+| [Kysely](https://kysely.dev/) | 📚 Documentation | Type-safe SQL query builder for TypeScript |
+| [TypeORM](https://typeorm.io/) | 📚 Documentation | ORM for TypeScript and JavaScript |
+| [MikroORM](https://mikro-orm.io/docs) | 📚 Documentation | TypeScript ORM for Node.js based on Data Mapper |
+| [Sequelize](https://sequelize.org/docs/v6/getting-started/) | 📚 Documentation | Promise-based Node.js ORM |
+| [Knex.js](https://knexjs.org/guide/) | 📚 Documentation | SQL query builder for multiple dialects |
+| [SQLAlchemy](https://docs.sqlalchemy.org/) | 📚 Documentation | Python SQL toolkit and ORM |
 | [Neon Docs](https://neon.com/docs/introduction) | 📚 Documentation | Serverless Postgres platform |
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apache/apache-original.svg" width="20" height="20" /> Stream Processing & Real-time Databases
 | Resource | Type | Description |
 |----------|------|-------------|
 | [Apache Kafka Documentation](https://kafka.apache.org/documentation/) | 📚 Documentation | Official Apache Kafka documentation |
+| [Apache Kafka Introduction](https://kafka.apache.org/intro) | 📖 Guide | High-level introduction to Kafka concepts |
+| [Confluent Learn](https://www.confluent.io/learn/) | 🎓 Courses | Free Kafka and event streaming learning hub |
 | [Kafka Tutorials](https://kafka-tutorials.confluent.io/) | 📖 Tutorials | Step-by-step Kafka tutorials by Confluent |
 | [Kafka Connect Documentation](https://docs.confluent.io/platform/current/connect/index.html) | 📚 Documentation | Kafka Connect for data integration |
 | [Kafka Streams Documentation](https://kafka.apache.org/documentation/streams/) | 📚 Documentation | Stream processing with Kafka Streams |
 | [Apache Kafka Course](https://developer.confluent.io/learn-kafka/) | 🎓 Course | Free comprehensive Kafka course |
 | [Kafka Schema Registry](https://docs.confluent.io/platform/current/schema-registry/index.html) | 📚 Documentation | Schema evolution and compatibility |
+| [Karapace](https://github.com/aiven/karapace) | 📚 Documentation | Open-source Kafka Schema Registry compatible API |
+| [Apicurio Registry](https://www.apicur.io/registry/docs/) | 📚 Documentation | Open API and schema registry for event-driven systems |
+| [Kafka Connect Docs](https://docs.confluent.io/platform/current/connect/index.html) | 📚 Documentation | Connect Kafka to external systems with connectors |
+| [Kafka Streams Docs](https://docs.confluent.io/platform/current/streams/index.html) | 📚 Documentation | Client library for building stream processing applications |
 | [ksqlDB Documentation](https://docs.ksqldb.io/) | 📚 Documentation | Official ksqlDB documentation and tutorials |
 | [ksqlDB Course](https://developer.confluent.io/courses/ksqldb/intro/) | 🎓 Course | Free Confluent Developer ksqlDB course |
 | [Confluent Developer](https://developer.confluent.io/courses/) | 🎓 Courses | Free Apache Kafka and ksqlDB courses |
@@ -362,6 +873,132 @@ flowchart LR
 | [Building Real-time Applications](https://www.youtube.com/playlist?list=PLa7VYi0yPIH2eX8qfmPL7R9LgQwgaHUNh) | 🎥 Video Series | YouTube series on stream processing |
 | [Kafka Performance Testing](https://kafka.apache.org/documentation/#performance) | 📖 Guide | Performance testing and tuning |
 | [Event Sourcing with Kafka](https://www.confluent.io/blog/event-sourcing-cqrs-stream-processing-apache-kafka-whats-connection/) | 📰 Article | Event-driven architecture patterns |
+| [RabbitMQ Tutorials](https://www.rabbitmq.com/tutorials) | 📖 Tutorials | Hands-on messaging tutorials |
+| [RabbitMQ Python Tutorial One](https://www.rabbitmq.com/tutorials/tutorial-one-python) | 📖 Tutorial | Hello World messaging with RabbitMQ and Python |
+| [Elasticsearch Getting Started](https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html) | 📚 Documentation | Search and analytics engine basics |
+| [Meilisearch Docs](https://www.meilisearch.com/docs/learn/getting_started/installation) | 📚 Documentation | Fast, easy open-source search |
+| [ZincSearch](https://github.com/zincsearch/zincsearch) | 📚 Documentation | Lightweight Elasticsearch alternative for full-text search |
+| [Typesense Docs](https://typesense.org/docs/) | 📚 Documentation | Typo-tolerant open-source search engine |
+| [OpenSearch Docs](https://opensearch.org/docs/latest/) | 📚 Documentation | Community-driven Elasticsearch fork |
+| [pgvector](https://github.com/pgvector/pgvector) | 📚 Documentation | Vector similarity search for Postgres |
+| [Qdrant Docs](https://qdrant.tech/documentation/) | 📚 Documentation | High-performance vector database |
+| [Weaviate Docs](https://weaviate.io/developers/weaviate) | 📚 Documentation | Open-source vector database |
+| [Chroma Docs](https://docs.trychroma.com/docs/overview/introduction) | 📚 Documentation | AI-native embedding database |
+| [Timescale Docs](https://docs.timescale.com/) | 📚 Documentation | Postgres for time-series and analytics |
+| [Vitess Docs](https://vitess.io/docs/) | 📚 Documentation | Horizontally scalable MySQL clustering system |
+| [Citus Docs](https://docs.citusdata.com/) | 📚 Documentation | Distributed Postgres for multi-tenant and real-time analytics |
+| [Apache Hudi Docs](https://hudi.apache.org/docs/overview/) | 📚 Documentation | Transactional data lake platform |
+| [OpenMetadata Docs](https://docs.open-metadata.org/) | 📚 Documentation | Unified metadata platform for data discovery and governance |
+| [CockroachDB Docs](https://www.cockroachlabs.com/docs/) | 📚 Documentation | Distributed SQL database |
+| [Cloudflare D1](https://developers.cloudflare.com/d1/) | 📚 Documentation | Serverless SQL database on Cloudflare |
+| [Typesense Guide](https://typesense.org/docs/guide/) | 📚 Documentation | Typo-tolerant open-source search engine |
+| [DuckDB Docs](https://duckdb.org/docs/) | 📚 Documentation | In-process analytical SQL database |
+| [DuckDB Wasm](https://duckdb.org/docs/stable/clients/wasm/overview.html) | 📚 Documentation | Run DuckDB entirely in the browser via WebAssembly |
+| [MotherDuck Docs](https://motherduck.com/docs/) | 📚 Documentation | Serverless DuckDB cloud analytics platform |
+| [Polars Docs](https://docs.pola.rs/) | 📚 Documentation | Fast DataFrame library for Python/Rust |
+| [Apache Arrow Docs](https://arrow.apache.org/docs/) | 📚 Documentation | Columnar in-memory analytics foundation |
+| [LakeFS Docs](https://docs.lakefs.io/) | 📚 Documentation | Git-like version control for data lakes |
+| [DataHub Docs](https://datahubproject.io/docs/) | 📚 Documentation | Open-source metadata platform for data discovery |
+| [ClickHouse Docs](https://clickhouse.com/docs) | 📚 Documentation | Fast open-source OLAP database |
+| [ClickHouse Quick Start](https://docs.clickhouse.com/en/getting-started/quick-start) | 🚀 Quick Start | Official ClickHouse getting-started path |
+| [Apache Iceberg Docs](https://iceberg.apache.org/docs/latest/) | 📚 Documentation | Open table format for huge analytic datasets |
+| [rqlite](https://github.com/rqlite/rqlite) | 📚 Documentation | Lightweight, distributed relational database built on SQLite |
+| [Dolt Docs](https://docs.dolthub.com/) | 📚 Documentation | SQL database with Git-style versioning and branching |
+| [TypeDB Docs](https://typedb.com/docs/) | 📚 Documentation | Strongly-typed database for complex, interconnected data |
+| [XTDB Docs](https://docs.xtdb.com/) | 📚 Documentation | Immutable database with bitemporal queries |
+| [etcd Docs](https://etcd.io/docs/) | 📚 Documentation | Distributed reliable key-value store for critical data |
+| [Apache Paimon Docs](https://paimon.apache.org/) | 📚 Documentation | Streaming data lakehouse storage for real-time analytics |
+| [Project Nessie](https://projectnessie.org/) | 📚 Documentation | Git-like transactions and catalog for data lakes |
+| [QuestDB Docs](https://questdb.com/docs/) | 📚 Documentation | High-performance open-source time-series database |
+| [Milvus](https://github.com/milvus-io/milvus) | 📚 Documentation | Open-source vector database for embedding search |
+| [Apache Parquet Docs](https://parquet.apache.org/docs/) | 📚 Documentation | Columnar storage format for analytics workloads |
+| [Apache Beam Quickstart](https://beam.apache.org/get-started/quickstart-java/) | 📖 Tutorial | Unified batch and streaming data processing |
+| [Apache NiFi Docs](https://nifi.apache.org/documentation/v2/) | 📚 Documentation | Visual dataflow system for routing and transformation |
+| [Apache Gravitino Docs](https://gravitino.apache.org/docs/latest/) | 📚 Documentation | Unified metadata lake for multi-engine data platforms |
+| [Apache Kyuubi](https://kyuubi.apache.org/) | 📚 Documentation | Distributed and multi-tenant gateway for serverless SQL |
+| [Apache Impala Docs](https://impala.apache.org/docs/) | 📚 Documentation | Massively parallel SQL query engine for Hadoop |
+| [Apache Ozone Docs](https://ozone.apache.org/docs/) | 📚 Documentation | Scalable distributed object store for Hadoop |
+| [Apache Ranger](https://ranger.apache.org/) | 📚 Documentation | Framework for enabling data security across Hadoop stack |
+| [Apache Knox Guide](https://knox.apache.org/books/knox-2-0-0/user-guide.html) | 📚 Documentation | Gateway for securing access to Hadoop clusters |
+| [Apache BookKeeper Docs](https://bookkeeper.apache.org/docs/overview/) | 📚 Documentation | Scalable, fault-tolerant, and low-latency storage service |
+| [Unity Catalog Docs](https://docs.unitycatalog.io/) | 📚 Documentation | Open source universal catalog for data and AI assets |
+| [Apache Polaris](https://polaris.apache.org/) | 📚 Documentation | Open source catalog for Apache Iceberg |
+| [Debezium Documentation](https://debezium.io/documentation/) | 📚 Documentation | Change data capture for databases into event streams |
+| [Apache Flink CDC](https://nightlies.apache.org/flink/flink-cdc-docs-stable/) | 📚 Documentation | Real-time CDC connectors and pipelines on Flink |
+| [Apache SeaTunnel Docs](https://seatunnel.apache.org/docs/2.3.8/about/) | 📚 Documentation | High-performance distributed data integration platform |
+| [Apache Calcite Docs](https://calcite.apache.org/docs/) | 📚 Documentation | Dynamic data management framework and SQL parser/optimizer |
+| [Apache Arrow Flight](https://arrow.apache.org/docs/format/Flight.html) | 📚 Documentation | High-performance language-agnostic data transport |
+| [Apache Arrow Flight SQL](https://arrow.apache.org/docs/format/FlightSql.html) | 📚 Documentation | Wire protocol for JDBC/ODBC-like access over Flight |
+| [Materialize Docs](https://materialize.com/docs/) | 📚 Documentation | Streaming SQL database for real-time applications |
+| [RisingWave Docs](https://docs.risingwave.com/) | 📚 Documentation | Distributed SQL streaming database |
+| [Ibis Docs](https://ibis-project.org/docs/) | 📚 Documentation | Portable Python dataframe API across many backends |
+| [dlt Docs](https://dlthub.com/docs/intro) | 📚 Documentation | Open-source Python library for reliable data loading |
+| [OpenLineage Docs](https://openlineage.io/docs/) | 📚 Documentation | Open standard for data lineage collection |
+| [StarRocks Docs](https://docs.starrocks.io/docs/introduction/StarRocks_intro/) | 📚 Documentation | High-performance analytical database for real-time analytics |
+| [Apache Doris Quick Start](https://doris.apache.org/docs/3.0/gettingStarted/quick-start/) | 📚 Documentation | Real-time analytical database for reporting and BI |
+| [TiDB Quick Start](https://docs.pingcap.com/tidb/stable/quick-start-with-tidb/) | 📚 Documentation | Distributed SQL database compatible with MySQL |
+| [YugabyteDB Docs](https://docs.yugabyte.com/) | 📚 Documentation | Distributed SQL database compatible with Postgres and Cassandra APIs |
+| [FoundationDB Docs](https://apple.github.io/foundationdb/index.html) | 📚 Documentation | Distributed transactional key-value store |
+| [LanceDB Docs](https://lancedb.github.io/lancedb/) | 📚 Documentation | Developer-friendly embedded vector database |
+| [Apache Solr Guide](https://solr.apache.org/guide/solr/latest/) | 📚 Documentation | Battle-tested open-source search platform |
+| [Vespa Docs](https://docs.vespa.ai/) | 📚 Documentation | Open-source big data serving and search engine |
+| [Apache DataFusion](https://datafusion.apache.org/user-guide/introduction.html) | 📚 Documentation | Extensible query engine written in Rust |
+| [Apache Avro Docs](https://avro.apache.org/docs/) | 📚 Documentation | Compact binary data serialization with schemas |
+| [Apache Thrift Docs](https://thrift.apache.org/docs/) | 📚 Documentation | Cross-language RPC and serialization framework |
+| [Delta Lake Docs](https://docs.delta.io/latest/index.html) | 📚 Documentation | Reliable open-source storage layer for data lakes |
+| [Trino Docs](https://trino.io/docs/current/) | 📚 Documentation | Distributed SQL query engine for data lakes |
+| [Apache Pinot Docs](https://docs.pinot.apache.org/) | 📚 Documentation | Realtime distributed OLAP datastore |
+| [Apache Druid Docs](https://druid.apache.org/docs/latest/design/) | 📚 Documentation | Real-time analytics database |
+| [Great Expectations](https://docs.greatexpectations.io/) | 📚 Documentation | Data quality / validation framework |
+| [dbt Docs](https://docs.getdbt.com/docs/introduction) | 📚 Documentation | Analytics engineering / SQL transformations |
+| [Metabase Docs](https://www.metabase.com/docs/latest/) | 📚 Documentation | Open-source business intelligence |
+| [Cube Docs](https://cube.dev/docs) | 📚 Documentation | Semantic layer and headless BI for data apps |
+| [Apache Superset Docs](https://superset.apache.org/docs/intro/) | 📚 Documentation | Modern data exploration and visualization platform |
+| [Evidence Docs](https://docs.evidence.dev/) | 📚 Documentation | Business intelligence as code with Markdown/SQL |
+| [Neo4j Graph Academy](https://graphacademy.neo4j.com/) | 🎓 Courses | Free interactive graph database courses |
+| [Neo4j Docs](https://neo4j.com/docs/) | 📚 Documentation | Official Neo4j graph database documentation |
+| [GeoPandas](https://geopandas.org/) | 📚 Documentation | Geospatial data analysis in Python on top of pandas |
+| [PostGIS Docs](https://postgis.net/documentation/) | 📚 Documentation | Spatial and geographic objects for PostgreSQL |
+| [Flyway Docs](https://documentation.red-gate.com/flyway) | 📚 Documentation | Database migration tooling |
+| [Liquibase Get Started](https://www.liquibase.org/get-started) | 📚 Documentation | Database schema change management |
+| [Sqitch](https://sqitch.org/) | 📚 Documentation | Sensible database change management without ORM magic |
+| [dbmate](https://github.com/amacneil/dbmate) | 🛠️ Tool | Lightweight, framework-agnostic database migration tool |
+| [Alembic](https://alembic.sqlalchemy.org/) | 📚 Documentation | Database migration tool for SQLAlchemy |
+| [Atlas Docs](https://atlasgo.io/docs) | 📚 Documentation | Manage database schemas as code |
+| [golang-migrate](https://github.com/golang-migrate/migrate) | 🛠️ Tool | Database migrations written in Go |
+| [Airbyte Docs](https://docs.airbyte.com/) | 📚 Documentation | Open-source data integration / ELT platform |
+| [Dagster Docs](https://docs.dagster.io/) | 📚 Documentation | Data orchestration for analytics and ML |
+| [Prefect Docs](https://docs.prefect.io/) | 📚 Documentation | Modern workflow orchestration for data pipelines |
+| [Meltano Docs](https://docs.meltano.com/) | 📚 Documentation | Open-source DataOps / ELT framework |
+| [SurrealDB Docs](https://surrealdb.com/docs) | 📚 Documentation | Multi-model database (document, graph, relational) |
+| [Gel Docs](https://docs.geldata.com/) | 📚 Documentation | Next-gen graph-relational database (formerly EdgeDB) |
+| [Apache Cassandra Docs](https://cassandra.apache.org/doc/latest/) | 📚 Documentation | Highly scalable distributed NoSQL database |
+| [ScyllaDB Docs](https://docs.scylladb.com/) | 📚 Documentation | High-performance Cassandra-compatible NoSQL database |
+| [Apache HBase](https://hbase.apache.org/) | 📚 Documentation | Distributed, scalable big data store modeled after Bigtable |
+| [Apache Ignite](https://ignite.apache.org/) | 📚 Documentation | Distributed database, caching, and compute platform |
+| [Apache Geode](https://geode.apache.org/) | 📚 Documentation | In-memory data management and distributed caching |
+| [Infinispan](https://infinispan.org/) | 📚 Documentation | Open-source in-memory data grid |
+| [Memgraph Docs](https://memgraph.com/docs) | 📚 Documentation | High-performance, open-source graph database |
+| [FalkorDB Docs](https://docs.falkordb.com/) | 📚 Documentation | Graph database optimized for GraphRAG and knowledge graphs |
+| [ArcadeDB Docs](https://docs.arcadedb.com/) | 📚 Documentation | Multi-model DBMS (graph, document, key-value, search) |
+| [OpenSearch Dashboards](https://opensearch.org/docs/latest/dashboards/) | 📚 Documentation | Visualization and exploration UI for OpenSearch |
+| [Apache Sedona](https://sedona.apache.org/) | 📚 Documentation | Cluster computing system for processing large-scale spatial data |
+| [Spark Connect](https://spark.apache.org/docs/latest/spark-connect-overview.html) | 📚 Documentation | Decoupled client architecture for Apache Spark |
+| [Delta Sharing](https://delta.io/sharing/) | 📚 Documentation | Open protocol for secure data sharing across platforms |
+| [Apache Hive](https://hive.apache.org/) | 📚 Documentation | Data warehouse software for reading, writing, and managing large datasets |
+| [Apache Kudu](https://kudu.apache.org/) | 📚 Documentation | Columnar storage manager for the Hadoop ecosystem |
+| [Apache Phoenix](https://phoenix.apache.org/) | 📚 Documentation | OLTP and operational analytics for Hadoop via SQL |
+| [Apache Drill](https://drill.apache.org/) | 📚 Documentation | Schema-free SQL query engine for Hadoop, NoSQL, and cloud storage |
+| [Apache Kylin](https://kylin.apache.org/) | 📚 Documentation | Extreme OLAP engine for big data analytics |
+| [Apache Atlas](https://atlas.apache.org/) | 📚 Documentation | Metadata management and data governance for Hadoop |
+| [Marquez](https://marquezproject.github.io/marquez/) | 📚 Documentation | Open-source metadata service for data lineage collection |
+| [Soda CL](https://docs.soda.io/soda-cl/soda-cl-overview.html) | 📚 Documentation | Data quality checks as code for pipelines and warehouses |
+| [Elementary Docs](https://docs.elementary-data.com/) | 📚 Documentation | Data observability for dbt projects |
+| [whylogs](https://whylogs.readthedocs.io/) | 📚 Documentation | Open-source data logging for ML and data quality |
+| [Evidently Docs](https://docs.evidentlyai.com/) | 📚 Documentation | Open-source ML and data quality monitoring |
+| [Deepchecks Docs](https://docs.deepchecks.com/) | 📚 Documentation | Continuous validation for ML data and models |
+| [PlanetScale Docs](https://planetscale.com/docs) | 📚 Documentation | Serverless MySQL platform with branching workflows |
+| [PlanetScale Learn](https://planetscale.com/learn) | 🎓 Courses | Free database and MySQL learning content |
 
 ## <img src="https://img.shields.io/badge/APIs-02569B?style=for-the-badge&logo=rest&logoColor=white" /> APIs & Integration
 
@@ -369,26 +1006,231 @@ flowchart LR
 |----------|------|-------------|
 | [RESTful API Design](https://restfulapi.net/) | 📋 Guide | Best practices for REST API design |
 | [GraphQL Introduction](https://graphql.org/learn/) | 📖 Tutorial | Complete GraphQL learning guide |
+| [GraphQL Queries](https://graphql.org/learn/queries/) | 📖 Tutorial | Official GraphQL query language tutorial |
+| [GraphQL Schemas](https://graphql.org/learn/schema/) | 📖 Tutorial | Official GraphQL schema and types tutorial |
+| [GraphQL Mutations](https://graphql.org/learn/mutations/) | 📖 Tutorial | Write GraphQL mutations for creating and updating data |
+| [GraphQL Execution](https://graphql.org/learn/execution/) | 📖 Tutorial | How GraphQL executes queries and resolves fields |
+| [Apollo Server Docs](https://www.apollographql.com/docs/apollo-server) | 📚 Documentation | Spec-compliant GraphQL server for Node.js |
+| [Apollo GraphQL Tutorials](https://www.apollographql.com/tutorials/) | 🎓 Courses | Free interactive GraphQL courses |
+| [Hasura Learn](https://hasura.io/learn/) | 🎓 Courses | Free GraphQL and Hasura learning courses |
+| [GraphQL Hive](https://the-guild.dev/graphql/hive) | 📚 Documentation | Schema registry and analytics for GraphQL APIs |
+| [Envelop](https://the-guild.dev/graphql/envelop) | 📚 Documentation | Plugin system for GraphQL servers |
+| [GraphQL Modules](https://the-guild.dev/graphql/modules) | 📚 Documentation | Modular enterprise GraphQL schema patterns |
 | [Postman API Learning Center](https://learning.postman.com/docs/getting-started/introduction/) | 🎓 Course | API development and testing |
 | [Public APIs List](https://github.com/public-apis/public-apis) | 📋 Repository | Huge list of free APIs for practice |
 | [JSON API Specification](https://jsonapi.org/) | 📋 Specification | Building APIs in JSON |
 | [OpenAPI Specification](https://swagger.io/specification/) | 📋 Specification | API documentation standard |
+| [JSON:API](https://jsonapi.org/) | 📋 Specification | Convention for building JSON APIs |
+| [OpenAPI Generator](https://openapi-generator.tech/docs/installation) | 🛠️ Tool | Generate clients, servers, and docs from OpenAPI |
+| [Buf Docs](https://github.com/bufbuild/buf) | 📚 Documentation | Protobuf tooling, linting, and schema registry (buf.build docs block some bots) |
+| [Protovalidate Docs](https://buf.build/docs/protovalidate/) | 📖 Tutorial | Protobuf validation with CEL-based rules |
+| [MQTT](https://mqtt.org/) | 📋 Specification | Lightweight pub/sub messaging protocol for IoT and devices |
+| [STOMP](https://stomp.github.io/) | 📋 Specification | Simple Text Oriented Messaging Protocol |
+| [Speakeasy Docs](https://www.speakeasy.com/docs) | 📚 Documentation | Generate type-safe SDKs from OpenAPI |
+| [Fern Docs](https://www.buildwithfern.com/learn) | 📚 Documentation | Define APIs and generate SDKs/docs |
 | [webhooks.fyi](https://webhooks.fyi/) | 📖 Guide | Complete guide to webhooks |
 | [tRPC Docs](https://trpc.io/docs) | 📚 Documentation | End-to-end typesafe APIs for TypeScript |
 | [Zod Documentation](https://zod.dev/) | 📚 Documentation | TypeScript-first schema validation |
+| [Valibot](https://valibot.dev/guides/introduction/) | 📚 Documentation | Modular TypeScript schema library |
+| [ArkType](https://arktype.io/docs/intro) | 📚 Documentation | TypeScript's 1:1 validator |
+| [TypeBox](https://github.com/sinclairzx81/typebox) | 📚 Documentation | JSON Schema type builder for TypeScript |
+| [oRPC](https://orpc.unnoq.com/) | 📚 Documentation | End-to-end typesafe APIs with OpenAPI support |
+| [Effect Docs](https://effect.website/docs/getting-started/introduction/) | 📚 Documentation | TypeScript library for robust, typed programs |
+| [Effect Schema](https://effect.website/docs/schema/introduction/) | 📚 Documentation | Powerful schema definition and validation for Effect |
+| [Standard Schema](https://standardschema.dev/) | 📋 Specification | Common interface for TypeScript validation libraries |
 | [Learn OpenAPI](https://learn.openapis.org/) | 📖 Guide | Official OpenAPI learning resources |
+| [OpenAPI Paths](https://learn.openapis.org/specification/paths.html) | 📖 Guide | Defining paths and operations in OpenAPI |
+| [JSON:API Format](https://jsonapi.org/format/) | 📋 Specification | Full JSON:API media type specification |
+| [Problem Details (RFC 9457)](https://www.rfc-editor.org/rfc/rfc9457.html) | 📋 Specification | Machine-readable HTTP API error responses (replaces RFC 7807) |
+| [Problem Details legacy (RFC 7807)](https://www.rfc-editor.org/rfc/rfc7807.html) | 📋 Specification | Earlier problem details format still widely referenced |
+| [AsyncAPI Tutorials](https://www.asyncapi.com/docs/tutorials) | 🎓 Tutorials | Hands-on AsyncAPI learning tutorials |
+| [AsyncAPI Tools](https://www.asyncapi.com/tools) | 🛠️ Tool | Official and community AsyncAPI tooling |
+| [FlatBuffers Tutorial](https://flatbuffers.dev/flatbuffers_guide_tutorial.html) | 📖 Tutorial | Efficient cross-platform serialization |
+| [Cap'n Proto](https://capnproto.org/language.html) | 📚 Documentation | Extremely fast data interchange format and RPC |
+| [neverthrow](https://github.com/supermacro/neverthrow) | 📚 Documentation | Type-safe Result errors for TypeScript without exceptions |
+| [Apollo Client Get Started](https://www.apollographql.com/docs/react/get-started) | 📖 Tutorial | GraphQL client setup for React |
+| [GraphQL Yoga](https://the-guild.dev/graphql/yoga-server/docs) | 📚 Documentation | Soft, batteries-included GraphQL server |
+| [Pothos Docs](https://pothos-graphql.dev/docs/) | 📚 Documentation | Plugin-based GraphQL schema builder for TypeScript |
+| [Strawberry Docs](https://strawberry.rocks/docs) | 📚 Documentation | GraphQL library for Python based on dataclasses |
+| [Ariadne](https://ariadnegraphql.org/) | 📚 Documentation | Schema-first Python GraphQL library |
+| [Socket.IO Docs](https://socket.io/docs/v4/) | 📚 Documentation | Real-time bidirectional event-based communication |
+| [Server-Sent Events (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events) | 📚 Documentation | One-way server-to-client streaming over HTTP |
+| [EventSource (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/EventSource) | 📚 Documentation | Browser API for consuming SSE streams |
+| [Mercure](https://mercure.rocks/docs/) | 📚 Documentation | Publish-subscribe protocol for real-time web apps |
+| [Centrifugo](https://centrifugal.dev/docs/getting-started/introduction) | 📚 Documentation | Scalable real-time messaging server |
+| [Soketi](https://github.com/soketi/soketi) | 📚 Documentation | Free Pusher protocol-compatible WebSocket server |
+| [Pusher Docs](https://pusher.com/docs) | 📚 Documentation | Hosted realtime channels and APIs |
+| [Ably Docs](https://ably.com/docs) | 📚 Documentation | Realtime infrastructure and messaging platform |
+| [PubNub Docs](https://www.pubnub.com/docs/) | 📚 Documentation | Realtime messaging and presence APIs |
+| [MDN WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API) | 📚 Documentation | Browser WebSocket API reference |
+| [JSONPlaceholder](https://jsonplaceholder.typicode.com/) | 🛠️ Tool | Free fake REST API for practice |
+| [DummyJSON](https://dummyjson.com/) | 🛠️ Tool | Fake REST/GraphQL-like data for prototyping |
+| [httpbingo](https://httpbingo.org/) | 🛠️ Tool | HTTP request & response testing service (httpbin-compatible) |
+| [ReqRes](https://reqres.in/) | 🛠️ Tool | Hosted REST-API ready to respond to your AJAX requests |
+| [webhook.site](https://webhook.site/) | 🛠️ Tool | Inspect and debug webhooks live |
+| [Mockoon Docs](https://mockoon.com/docs/latest/about/) | 📚 Documentation | Desktop and CLI tool to mock APIs locally |
+| [Hoverfly](https://hoverfly.io/) | 🛠️ Tool | Lightweight service virtualization / API simulation |
+| [Stoplight Prism](https://stoplight.io/open-source/prism) | 🛠️ Tool | OpenAPI-driven mock servers and contract validation |
+| [Bump.sh Docs](https://docs.bump.sh/) | 📚 Documentation | API docs and change management from OpenAPI/AsyncAPI |
+| [APIs.guru](https://apis.guru/) | 🗺️ Directory | Wikipedia for Web APIs (OpenAPI directory) |
+| [APIs You Won't Hate](https://apisyouwonthate.com/) | 📰 Articles | Practical API design articles and community resources |
+| [MDN CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS) | 📚 Documentation | Cross-Origin Resource Sharing explained |
+| [gRPC Introduction](https://grpc.io/docs/what-is-grpc/introduction/) | 📚 Documentation | High-performance RPC framework |
+| [Connect RPC Docs](https://connectrpc.com/docs/introduction/) | 📚 Documentation | Protobuf RPC that works with browsers and gRPC |
+| [CloudEvents](https://cloudevents.io/) | 📋 Specification | Common event data format across services |
+| [JSON Schema](https://json-schema.org/learn/getting-started-step-by-step) | 📖 Guide | Annotate and validate JSON documents |
+| [Protocol Buffers](https://protobuf.dev/) | 📚 Documentation | Language-neutral data serialization |
+| [AsyncAPI Docs](https://www.asyncapi.com/docs) | 📚 Documentation | Spec for event-driven APIs |
+| [NATS Docs](https://docs.nats.io/) | 📚 Documentation | Lightweight cloud-native messaging |
+| [NATS JetStream](https://docs.nats.io/nats-concepts/jetstream) | 📚 Documentation | Persistent streaming and queues for NATS |
+| [Redpanda Docs](https://docs.redpanda.com/current/home/) | 📚 Documentation | Kafka-compatible streaming platform (no ZooKeeper) |
+| [Redpanda Console](https://docs.redpanda.com/current/console/) | 📚 Documentation | Web UI for exploring Kafka-compatible topics and messages |
+| [Redpanda Connect](https://docs.redpanda.com/redpanda-connect/about/) | 📚 Documentation | Declarative stream processing and ETL pipelines |
+| [Apache RocketMQ Docs](https://rocketmq.apache.org/docs/quick-start/) | 📚 Documentation | Cloud-native distributed messaging and streaming |
+| [Apache Pulsar Concepts](https://pulsar.apache.org/docs/4.0.x/concepts-overview/) | 📚 Documentation | Multi-tenant pub-sub messaging and streaming |
+| [Apache Camel Manual](https://camel.apache.org/manual/index.html) | 📚 Documentation | Integration framework with hundreds of connectors |
+| [Hookdeck Docs](https://hookdeck.com/docs) | 📚 Documentation | Event gateway for inbound webhooks |
+| [Svix Docs](https://docs.svix.com/) | 📚 Documentation | Enterprise-ready webhook sending service |
+| [Apache ActiveMQ Docs](https://activemq.apache.org/components/classic/documentation/) | 📚 Documentation | Flexible open-source multi-protocol messaging |
+| [ActiveMQ Artemis Docs](https://activemq.apache.org/components/artemis/documentation/) | 📚 Documentation | Next-generation message broker (ActiveMQ successor) |
+| [Redpanda Connect](https://docs.redpanda.com/redpanda-connect/about/) | 📚 Documentation | Stream processing / ETL pipelines as declarative configs |
 
 ## <img src="https://img.shields.io/badge/Security-000000?style=for-the-badge&logo=owasp&logoColor=white" /> Security
 
 | Resource | Type | Description |
 |----------|------|-------------|
 | [OWASP Top 10](https://owasp.org/projects/top-ten) | 📋 Guide | Top 10 web application security risks (official project) |
+| [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/) | 🎮 Interactive | Intentionally insecure web app for security practice |
+| [TryHackMe](https://tryhackme.com/) | 🎓 Courses | Hands-on cybersecurity learning paths (free rooms available) |
+| [OverTheWire](https://overthewire.org/wargames/) | 🎮 Interactive | Security wargames for learning through practice |
+| [Snyk Learn](https://learn.snyk.io/) | 🎓 Courses | Free interactive lessons on application security |
 | [Web Security Academy](https://portswigger.net/web-security) | 🎓 Course | Free web security learning platform |
 | [Cybrary](https://www.cybrary.it/) | 🎓 Courses | Free cybersecurity training |
 | [HackerOne University](https://www.hacker101.com/) | 🎓 Course | Bug bounty and security testing |
 | [SANS Reading Room](https://www.sans.org/white-papers/) | 📰 Articles | Security research papers and guides |
 | [Mozilla Web Security Guidelines](https://infosec.mozilla.org/guidelines/web_security) | 📋 Guidelines | Web security best practices |
 | [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/) | 📋 Cheat Sheets | Practical secure-coding cheat sheets |
+| [OWASP Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/) | 📋 Guide | Comprehensive manual for testing web application security |
+| [web.dev Explore Secure](https://web.dev/explore/secure) | 📖 Guide | Google's curated web security learning path |
+| [MDN Content Security Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP) | 📚 Documentation | Mitigate XSS and injection with CSP headers |
+| [MDN Subresource Integrity](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) | 📚 Documentation | Verify third-party scripts/styles are untampered |
+| [web.dev Secure Cookies](https://web.dev/articles/samesite-cookies-explained) | 📖 Article | SameSite cookies and cross-site request risks |
+| [Permissions Policy (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy) | 📚 Documentation | Control browser features available to a document |
+| [Referrer-Policy (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Referrer-Policy) | 📚 Documentation | Control referrer information sent with requests |
+| [X-Content-Type-Options (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/X-Content-Type-Options) | 📚 Documentation | Block MIME sniffing with `nosniff` |
+| [X-Frame-Options (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/X-Frame-Options) | 📚 Documentation | Clickjacking defense via frame ancestors |
+| [picoCTF](https://picoctf.org/) | 🎮 Interactive | Free beginner-friendly cybersecurity CTF practice |
+| [OWASP ASVS](https://owasp.org/projects/asvs) | 📋 Standard | Application Security Verification Standard |
+| [MITRE ATT&CK](https://attack.mitre.org/) | 📋 Knowledge Base | Adversary tactics and techniques knowledge base |
+| [OWASP ZAP Docs](https://www.zaproxy.org/docs/) | 📚 Documentation | Free web application security scanner |
+| [Nuclei Docs](https://docs.projectdiscovery.io/tools/nuclei/overview) | 📚 Documentation | Fast, template-based vulnerability scanner |
+| [Hypothesis Docs](https://hypothesis.readthedocs.io/) | 📚 Documentation | Property-based testing for Python |
+| [CycloneDX](https://cyclonedx.org/) | 📋 Specification | SBOM standard for application security |
+| [SPDX](https://spdx.dev/) | 📋 Specification | Open standard for software package data exchange / SBOMs |
+| [SLSA](https://slsa.dev/) | 📋 Framework | Supply-chain levels for software artifacts |
+| [Site Reliability Engineering Book](https://sre.google/sre-book/table-of-contents/) | 📚 Book | Free Google SRE book on running reliable systems |
+| [Principles of Chaos Engineering](https://principlesofchaos.org/) | 📋 Guide | Foundational principles for chaos experiments |
+| [Hack The Box](https://www.hackthebox.com/) | 🎮 Interactive | Hands-on hacking labs (free tier available) |
+| [OWASP API Security Top 10](https://api-security.owasp.org/) | 📋 Guide | Top API security risks and mitigations |
+| [OWASP Mobile Top 10](https://owasp.org/www-project-mobile-top-10/) | 📋 Guide | Top mobile application security risks |
+| [OWASP Kubernetes Top Ten](https://owasp.org/www-project-kubernetes-top-ten/) | 📋 Guide | Top Kubernetes security risks |
+| [Authentication Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html) | 📋 Cheat Sheet | OWASP guidance for authenticating users safely |
+| [REST Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/REST_Security_Cheat_Sheet.html) | 📋 Cheat Sheet | Secure REST API design practices |
+| [GraphQL Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Cheat_Sheet.html) | 📋 Cheat Sheet | Secure GraphQL API practices |
+| [Cryptographic Storage Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html) | 📋 Cheat Sheet | Storing secrets and sensitive data safely |
+| [SQL Injection Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html) | 📋 Cheat Sheet | Prevent SQL injection in applications |
+| [XSS Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html) | 📋 Cheat Sheet | Prevent cross-site scripting attacks |
+| [Session Management Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html) | 📋 Cheat Sheet | Secure session handling practices |
+| [Password Storage Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html) | 📋 Cheat Sheet | Hash and store passwords correctly |
+| [Input Validation Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html) | 📋 Cheat Sheet | Validate and sanitize untrusted input |
+| [File Upload Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/File_Upload_Cheat_Sheet.html) | 📋 Cheat Sheet | Secure file upload handling |
+| [HTML5 Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/HTML5_Security_Cheat_Sheet.html) | 📋 Cheat Sheet | Security considerations for modern web APIs |
+| [AJAX Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/AJAX_Security_Cheat_Sheet.html) | 📋 Cheat Sheet | Secure asynchronous web requests |
+| [Error Handling Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Error_Handling_Cheat_Sheet.html) | 📋 Cheat Sheet | Avoid leaking sensitive details in errors |
+| [Secrets Management Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html) | 📋 Cheat Sheet | Store and rotate application secrets safely |
+| [MFA Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html) | 📋 Cheat Sheet | Multi-factor authentication guidance |
+| [Same-site vs same-origin](https://web.dev/articles/same-site-same-origin) | 📖 Article | Understand site vs origin for cookies and security |
+| [Fetch Metadata](https://web.dev/articles/fetch-metadata) | 📖 Article | Defend against CSRF-like attacks with Fetch Metadata |
+| [Strict-Transport-Security (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Strict-Transport-Security) | 📚 Documentation | HSTS header reference |
+| [Content-Security-Policy (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy) | 📚 Documentation | CSP header reference and directives |
+| [Transport Layer Protection Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html) | 📋 Cheat Sheet | TLS and transport security guidance |
+| [Logging Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html) | 📋 Cheat Sheet | Secure application logging practices |
+| [Docker Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html) | 📋 Cheat Sheet | Harden Docker containers and hosts |
+| [Kubernetes Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Kubernetes_Security_Cheat_Sheet.html) | 📋 Cheat Sheet | Secure Kubernetes clusters and workloads |
+| [REST Assessment Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/REST_Assessment_Cheat_Sheet.html) | 📋 Cheat Sheet | Checklist for assessing REST API security |
+| [MDN XSS](https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/XSS) | 📚 Documentation | Cross-site scripting attacks explained |
+| [MDN CSRF](https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/CSRF) | 📚 Documentation | Cross-site request forgery attacks explained |
+| [MDN Clickjacking](https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/Clickjacking) | 📚 Documentation | UI redress / clickjacking attacks explained |
+| [ATT&CK Enterprise Matrix](https://attack.mitre.org/matrices/enterprise/) | 📋 Knowledge Base | Visual map of adversary tactics and techniques |
+| [CISA Known Exploited Vulnerabilities](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) | 🛠️ Tool | Catalog of vulnerabilities known to be exploited in the wild |
+| [NVD](https://nvd.nist.gov/) | 🛠️ Tool | U.S. National Vulnerability Database |
+| [CVE](https://cve.mitre.org/) | 🛠️ Tool | Common Vulnerabilities and Exposures dictionary |
+| [CVSS](https://www.first.org/cvss/) | 📋 Specification | Common Vulnerability Scoring System |
+| [GTFOBins](https://gtfobins.github.io/) | 🛠️ Tool | Unix binaries that can be abused for privilege escalation |
+| [LOLBAS](https://lolbas-project.github.io/) | 🛠️ Tool | Living-off-the-land binaries and scripts for Windows |
+| [Cryptopals](https://www.cryptopals.com/) | 🏆 Challenge | Hands-on cryptography challenges |
+| [CTF 101](https://ctf101.org/) | 📖 Guide | Introduction to Capture The Flag competitions |
+| [HackSplaining](https://www.hacksplaining.com/) | 🎓 Courses | Interactive lessons on common web vulnerabilities |
+| [OverTheWire Bandit](https://overthewire.org/wargames/bandit/) | 🎮 Interactive | Beginner Linux security wargame |
+| [PortSwigger Learning Path](https://portswigger.net/web-security/learning-path) | 🎓 Course | Structured Web Security Academy learning path |
+| [SRE Workbook](https://sre.google/workbook/table-of-contents/) | 📚 Book | Free companion workbook to Google's SRE book |
+| [Implementing SLOs](https://sre.google/workbook/implementing-slos/) | 📖 Guide | Practical SLO implementation from the SRE Workbook |
+| [Service Level Objectives](https://sre.google/sre-book/service-level-objectives/) | 📖 Guide | Defining SLIs/SLOs/SLAs from the SRE Book |
+| [Monitoring Distributed Systems](https://sre.google/sre-book/monitoring-distributed-systems/) | 📖 Guide | Monitoring philosophy from Google's SRE Book |
+| [Postmortem Culture](https://sre.google/sre-book/postmortem-culture/) | 📖 Guide | Blameless postmortems and learning from failure |
+| [PagerDuty Response Guides](https://response.pagerduty.com/) | 📖 Guide | Free incident response and on-call playbooks |
+| [incident.io Blog](https://incident.io/blog) | 📰 Articles | Modern incident management practices |
+| [CNCF Blog](https://www.cncf.io/blog/) | 📰 Articles | Cloud-native news and project updates |
+
+
+<a id="auth--identity"></a>
+## <img src="https://img.shields.io/badge/Auth-4B5563?style=for-the-badge&logo=auth0&logoColor=white" /> Auth & Identity
+
+| Resource | Type | Description |
+|----------|------|-------------|
+| [Auth.js](https://authjs.dev/getting-started) | 📚 Documentation | Authentication for the Web (NextAuth successor) |
+| [Better Auth](https://www.better-auth.com/docs/introduction) | 📚 Documentation | Framework-agnostic TypeScript auth framework |
+| [OAuth 2.0](https://oauth.net/2/) | 📋 Specification | Core OAuth 2.0 resources and guides |
+| [JWT Introduction](https://jwt.io/introduction) | 📖 Guide | How JSON Web Tokens work |
+| [Passkeys](https://passkeys.dev/) | 📚 Documentation | Modern passwordless authentication |
+| [WebAuthn Guide](https://webauthn.guide/) | 📖 Guide | Practical introduction to WebAuthn |
+| [OWASP Node.js Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Nodejs_Security_Cheat_Sheet.html) | 📋 Cheat Sheet | Secure Node.js application practices |
+| [MDN Web Security](https://developer.mozilla.org/en-US/docs/Web/Security) | 📚 Documentation | Browser security topics for web developers |
+| [web.dev Security Headers](https://web.dev/articles/security-headers) | 📖 Article | Important HTTP security headers explained |
+| [Clerk Docs](https://clerk.com/docs) | 📚 Documentation | Auth/user management platform with generous free tier docs |
+| [WorkOS Docs](https://workos.com/docs) | 📚 Documentation | Enterprise-ready auth and user management APIs |
+| [Kinde Docs](https://kinde.com/docs/) | 📚 Documentation | Modern authentication and user management |
+| [SuperTokens Docs](https://supertokens.com/docs/guides) | 📚 Documentation | Open-source user authentication |
+| [Ory Docs](https://www.ory.sh/docs/) | 📚 Documentation | Identity and access infrastructure (Kratos/Hydra/etc.) |
+| [SimpleWebAuthn](https://simplewebauthn.dev/) | 📚 Documentation | WebAuthn/passkeys helpers for Node and browsers |
+| [WebAuthn Guide](https://webauthn.guide/) | 📖 Guide | Practical introduction to WebAuthn |
+| [passkeys.dev](https://passkeys.dev/docs/) | 📚 Documentation | Implementation guidance for passkeys |
+| [Supabase Auth](https://supabase.com/docs/guides/auth) | 📚 Documentation | Open-source auth with social providers and RLS |
+| [Lucia](https://lucia-auth.com/) | 📚 Documentation | Learning resource for implementing sessions/auth |
+| [Keycloak Docs](https://www.keycloak.org/documentation) | 📚 Documentation | Open-source identity and access management |
+| [Logto Docs](https://docs.logto.io/) | 📚 Documentation | Open-source Auth0/Cognito alternative for modern apps |
+| [Zitadel Docs](https://zitadel.com/docs) | 📚 Documentation | Open-source identity infrastructure with CIAM features |
+| [Authentik Docs](https://docs.goauthentik.io/) | 📚 Documentation | Flexible open-source identity provider |
+| [OpenID Connect](https://openid.net/developers/how-connect-works/) | 📋 Guide | How OpenID Connect builds identity on OAuth 2.0 |
+| [Authelia Docs](https://www.authelia.com/overview/prologue/introduction/) | 📚 Documentation | Open-source authentication and authorization server |
+| [Open Policy Agent](https://www.openpolicyagent.org/docs/latest/) | 📚 Documentation | Policy-as-code for authorization decisions |
+| [SpiceDB Docs](https://authzed.com/docs/spicedb/getting-started/discovering-spicedb) | 📚 Documentation | Google Zanzibar-inspired permissions database |
+| [OpenFGA Docs](https://openfga.dev/docs) | 📚 Documentation | Fine-grained authorization inspired by Google Zanzibar |
+| [Casbin Docs](https://casbin.org/docs/overview) | 📚 Documentation | Authorization library supporting ACL, RBAC, ABAC, and more |
+| [Cerbos Docs](https://docs.cerbos.dev/) | 📚 Documentation | Self-hosted, policy-based access control for apps |
+| [OPAL](https://github.com/permitio/opal) | 📚 Documentation | Real-time policy and data sync layer for OPA/Cedar |
+| [OAuth 2.0 (RFC 6749)](https://datatracker.ietf.org/doc/html/rfc6749) | 📋 Specification | The OAuth 2.0 authorization framework |
+| [Bearer Token (RFC 6750)](https://datatracker.ietf.org/doc/html/rfc6750) | 📋 Specification | OAuth 2.0 bearer token usage |
+| [PKCE (RFC 7636)](https://datatracker.ietf.org/doc/html/rfc7636) | 📋 Specification | Proof Key for Code Exchange for public OAuth clients |
+| [Token Introspection (RFC 7662)](https://datatracker.ietf.org/doc/html/rfc7662) | 📋 Specification | OAuth 2.0 token introspection |
+| [Authorization Server Metadata (RFC 8414)](https://datatracker.ietf.org/doc/html/rfc8414) | 📋 Specification | OAuth 2.0 authorization server metadata |
+| [Token Exchange (RFC 8693)](https://datatracker.ietf.org/doc/html/rfc8693) | 📋 Specification | OAuth 2.0 token exchange |
+| [JWT Access Tokens (RFC 9068)](https://datatracker.ietf.org/doc/html/rfc9068) | 📋 Specification | JWT profile for OAuth 2.0 access tokens |
+| [DPoP (RFC 9449)](https://datatracker.ietf.org/doc/html/rfc9449) | 📋 Specification | Demonstrating Proof of Possession for OAuth access tokens |
+| [IANA JWT Claims](https://www.iana.org/assignments/jwt/jwt.xhtml) | 📋 Reference | Registered JSON Web Token claim names |
+| [WebAuthn Level 3](https://www.w3.org/TR/webauthn-3/) | 📋 Specification | W3C Web Authentication API (Level 3) |
+| [SPIFFE](https://spiffe.io/) | 📚 Documentation | Secure Production Identity Framework for Everyone |
+| [SPIRE](https://spire.dev/) | 📚 Documentation | SPIFFE Runtime Environment for issuing workload identities |
 
 ## <img src="https://img.shields.io/badge/Performance-F44B21?style=for-the-badge&logo=lighthouse&logoColor=white" /> Performance & Optimization
 
@@ -401,6 +1243,37 @@ flowchart LR
 | [WebPageTest](https://www.webpagetest.org/) | 🛠️ Tool | Website performance testing |
 | [Critical Path CSS Generator](https://www.sitelocity.com/critical-path-css-generator) | 🛠️ Tool | Optimize CSS delivery |
 | [Web Vitals](https://web.dev/articles/vitals) | 📋 Guide | Core Web Vitals metrics every fullstack should know |
+| [LCP](https://web.dev/articles/lcp) | 📖 Guide | Largest Contentful Paint metric deep dive |
+| [CLS](https://web.dev/articles/cls) | 📖 Guide | Cumulative Layout Shift metric deep dive |
+| [Optimize LCP](https://web.dev/articles/optimize-lcp) | 📖 Guide | Practical techniques to improve LCP |
+| [Optimize CLS](https://web.dev/articles/optimize-cls) | 📖 Guide | Practical techniques to improve CLS |
+| [Optimize INP](https://web.dev/articles/optimize-inp) | 📖 Guide | Practical techniques to improve Interaction to Next Paint |
+| [Field measurement best practices](https://web.dev/articles/vitals-field-measurement-best-practices) | 📖 Guide | Measure Core Web Vitals with real-user data |
+| [Chrome DevTools Performance reference](https://developer.chrome.com/docs/devtools/performance/reference) | 📚 Documentation | Performance panel features and workflows |
+| [Fix memory problems](https://developer.chrome.com/docs/devtools/memory-problems) | 📖 Guide | Find and fix JS memory leaks in Chrome DevTools |
+| [Network panel](https://developer.chrome.com/docs/devtools/network) | 📚 Documentation | Inspect network requests and waterfalls |
+| [web.dev Learn Performance](https://web.dev/learn/performance) | 🎓 Course | Core Web Vitals and performance fundamentals |
+| [web.dev Learn Images](https://web.dev/learn/images) | 🎓 Course | Modern responsive images and optimization |
+| [Interaction to Next Paint (INP)](https://web.dev/articles/inp) | 📖 Guide | Responsiveness metric guidance |
+| [Baseline](https://developer.mozilla.org/en-US/docs/Glossary/Baseline/Compatibility) | 📋 Reference | What web features are ready to use broadly |
+| [Web Platform Status](https://webstatus.dev/) | 🛠️ Tool | Track web feature availability across browsers |
+| [Fontsource](https://fontsource.org/) | 🛠️ Tool | Self-host open-source fonts via npm |
+| [Modern Font Stacks](https://modernfontstacks.com/) | 📋 Reference | System font stacks for fast, polished typography |
+| [Squoosh](https://squoosh.app/) | 🛠️ Tool | Compress and convert images in the browser |
+| [imgproxy](https://imgproxy.net/) | 📚 Documentation | Fast, secure standalone image processing server |
+| [MinIO Docs](https://min.io/docs/minio/linux/index.html) | 📚 Documentation | High-performance S3-compatible object storage |
+| [Garage Docs](https://garagehq.deuxfleurs.fr/documentation/) | 📚 Documentation | Lightweight geo-distributed S3-compatible storage |
+| [SeaweedFS](https://github.com/seaweedfs/seaweedfs) | 📚 Documentation | Fast distributed storage for blobs, objects, and files |
+| [Cloudflare R2](https://developers.cloudflare.com/r2/) | 📚 Documentation | Object storage without egress fees |
+| [NocoDB](https://nocodb.com/) | 🛠️ Tool | Open-source Airtable alternative on your database |
+| [Baserow](https://baserow.io/) | 🛠️ Tool | Open-source no-code database and application builder |
+| [Appsmith Docs](https://docs.appsmith.com/) | 📚 Documentation | Open-source platform for internal tools |
+| [ToolJet Docs](https://docs.tooljet.com/) | 📚 Documentation | Open-source low-code platform for building apps |
+| [Budibase Docs](https://docs.budibase.com/) | 📚 Documentation | Open-source low-code platform for business apps |
+| [Cal.com Docs](https://cal.com/docs) | 📚 Documentation | Open-source scheduling infrastructure |
+| [Twenty CRM Docs](https://docs.twenty.com/) | 📚 Documentation | Open-source CRM (Salesforce alternative) |
+| [Plane Docs](https://docs.plane.so/) | 📚 Documentation | Open-source project management (Jira alternative) |
+| [AppFlowy Docs](https://docs.appflowy.io/) | 📚 Documentation | Open-source Notion-style workspace |
 | [Chrome Performance DevTools](https://developer.chrome.com/docs/devtools/performance) | 📖 Tutorial | Profile runtime performance in the browser |
 
 ## <img src="https://img.shields.io/badge/DevOps-2496ED?style=for-the-badge&logo=docker&logoColor=white" /> DevOps & Cloud
@@ -409,18 +1282,82 @@ flowchart LR
 | Resource | Type | Description |
 |----------|------|-------------|
 | [Docker Get Started](https://docs.docker.com/get-started/) | 📖 Tutorial | Official Docker tutorial |
+| [Docker Guides](https://docs.docker.com/guides/) | 📖 Guides | Official Docker how-to guides by use case |
+| [Docker Workshop](https://docs.docker.com/get-started/workshop/) | 🎓 Tutorial | Official hands-on Docker workshop path |
 | [Play with Docker](https://labs.play-with-docker.com/) | 🧪 Interactive Lab | Hands-on Docker learning environment |
+| [Docker Compose](https://docs.docker.com/compose/) | 📚 Documentation | Multi-container apps with Compose |
+| [Compose file reference](https://docs.docker.com/reference/compose-file/) | 📚 Documentation | Compose file format specification |
+| [Dockerfile reference](https://docs.docker.com/reference/dockerfile) | 📚 Documentation | Official Dockerfile instruction reference |
+| [Multi-stage builds](https://docs.docker.com/build/building/multi-stage/) | 📖 Guide | Smaller, safer images with multi-stage Docker builds |
+| [Docker Volumes](https://docs.docker.com/engine/storage/volumes/) | 📚 Documentation | Persist and share container data with volumes |
+| [Docker Networking](https://docs.docker.com/engine/network/) | 📚 Documentation | Bridge, host, overlay, and custom networks |
+| [Docker 101 Tutorial](https://www.docker.com/101-tutorial/) | 🎓 Tutorial | Official beginner-friendly Docker tutorial |
+| [What is a container?](https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-a-container/) | 📖 Guide | Core container concepts from Docker docs |
+| [containerd Docs](https://containerd.io/docs/) | 📚 Documentation | Industry-standard container runtime |
+| [nerdctl](https://github.com/containerd/nerdctl) | 🛠️ Tool | Docker-compatible CLI for containerd |
+| [Nixpacks Docs](https://nixpacks.com/docs/getting-started) | 📚 Documentation | App-to-image builds with Nix (used by Railway and others) |
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg" width="20" height="20" /> Kubernetes
 | Resource | Type | Description |
 |----------|------|-------------|
 | [Kubernetes Basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/) | 📖 Tutorial | Official Kubernetes tutorial |
+| [Kubernetes Concepts](https://kubernetes.io/docs/concepts/) | 📚 Documentation | Core Kubernetes concepts and architecture |
+| [Deployments](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/) | 📚 Documentation | Declarative updates for Pods and ReplicaSets |
+| [Pods](https://kubernetes.io/docs/concepts/workloads/pods/) | 📚 Documentation | Smallest deployable units in Kubernetes |
+| [StatefulSets](https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/) | 📚 Documentation | Manage stateful applications with stable identities |
+| [DaemonSets](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/) | 📚 Documentation | Run a pod on all (or some) nodes |
+| [Ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/) | 📚 Documentation | HTTP(S) routing into the cluster |
+| [Persistent Volumes](https://kubernetes.io/docs/concepts/storage/persistent-volumes/) | 📚 Documentation | Cluster storage abstraction for pods |
+| [Services](https://kubernetes.io/docs/concepts/services-networking/service/) | 📚 Documentation | Expose applications inside and outside the cluster |
+| [ConfigMaps](https://kubernetes.io/docs/concepts/configuration/configmap/) | 📚 Documentation | Inject non-sensitive configuration into pods |
+| [Secrets](https://kubernetes.io/docs/concepts/configuration/secret/) | 📚 Documentation | Manage sensitive configuration in Kubernetes |
+| [Probes](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/) | 📖 Guide | Liveness, readiness, and startup probes |
+| [Jobs](https://kubernetes.io/docs/concepts/workloads/controllers/job/) | 📚 Documentation | Run finite batch workloads to completion |
+| [CronJobs](https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/) | 📚 Documentation | Schedule Jobs on a time-based calendar |
+| [Kubernetes Tasks](https://kubernetes.io/docs/tasks/) | 📖 Guide | How to accomplish common Kubernetes tasks |
+| [Kubernetes Reference](https://kubernetes.io/docs/reference/) | 📚 Documentation | Official Kubernetes API and CLI reference |
+| [CKA Certification](https://www.cncf.io/training/certification/cka/) | 🎓 Courses | Certified Kubernetes Administrator program overview |
+| [CKAD Certification](https://www.cncf.io/certification/ckad/) | 🎓 Courses | Certified Kubernetes Application Developer program |
+| [CKS Certification](https://www.cncf.io/certification/cks/) | 🎓 Courses | Certified Kubernetes Security Specialist program |
 | [Kubernetes Tutorials](https://kubernetes.io/docs/tutorials/) | 🎓 Course | Official Kubernetes tutorials and learning paths |
 | [Kubernetes the Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way) | 📖 Tutorial | Bootstrap Kubernetes the hard way on Google Cloud Platform |
 | [Killercoda Kubernetes](https://killercoda.com/course/kubernetes) | 🎮 Interactive | Hands-on Kubernetes scenarios (Katacoda successor) |
+| [Killercoda](https://killercoda.com/) | 🎮 Interactive | Browser-based interactive labs for cloud-native tools |
+| [Killercoda Helm](https://killercoda.com/helm) | 🎮 Interactive | Hands-on Helm package manager scenarios |
+| [Killercoda Cilium](https://killercoda.com/cilium) | 🎮 Interactive | Hands-on Cilium networking and security labs |
+| [EduK8s](https://eduk8s.io/) | 📚 Documentation | Framework for building interactive Kubernetes workshops |
+| [CNCF Online Programs](https://www.cncf.io/online-programs/) | 🎓 Courses | Free CNCF webinars, office hours, and learning programs |
+| [LF Training Resources](https://training.linuxfoundation.org/resources/) | 🎓 Courses | Free Linux Foundation training resources and courses |
+| [CNCF Tag Security](https://tag-security.cncf.io/) | 📋 Guide | Cloud-native security best practices and assessments |
 | [CNCF Kubernetes Training](https://www.cncf.io/certification/training/) | 🎓 Training | Cloud Native Computing Foundation training resources |
-| [Kubernetes Academy](https://kube.academy/) | 🎓 Course | Free Kubernetes courses by VMware |
+| [Kubernetes Training](https://kubernetes.io/training/) | 🎓 Course | Official curated Kubernetes training resources |
 | [Play with Kubernetes](https://labs.play-with-k8s.com/) | 🧪 Interactive Lab | Hands-on Kubernetes playground |
+| [Hello Minikube](https://kubernetes.io/docs/tutorials/hello-minikube/) | 📖 Tutorial | Run a first cluster locally with Minikube |
+| [Helm Docs](https://helm.sh/docs/) | 📚 Documentation | Kubernetes package manager |
+| [Helm Quickstart](https://helm.sh/docs/intro/quickstart/) | 🚀 Quick Start | Install Helm and deploy your first chart |
+| [Helm Chart Template Guide](https://helm.sh/docs/chart_template_guide/getting_started/) | 📖 Guide | Author Helm chart templates |
+| [Kustomize](https://kubectl.docs.kubernetes.io/references/kustomize/) | 📚 Documentation | Kubernetes native configuration management |
+| [Argo CD](https://argo-cd.readthedocs.io/en/stable/) | 📚 Documentation | Declarative GitOps continuous delivery |
+| [Flux Docs](https://fluxcd.io/flux/) | 📚 Documentation | GitOps toolkit for Kubernetes continuous delivery |
+| [Argo Workflows](https://argo-workflows.readthedocs.io/en/latest/) | 📚 Documentation | Kubernetes-native workflow engine |
+| [Tekton Docs](https://tekton.dev/docs/) | 📚 Documentation | Cloud-native CI/CD building blocks on Kubernetes |
+| [Cloud Native Buildpacks](https://buildpacks.io/docs/) | 📚 Documentation | Transform source code into OCI images |
+| [Kaniko](https://github.com/GoogleContainerTools/kaniko) | 🛠️ Tool | Build container images inside Kubernetes without a Docker daemon |
+| [Falco Docs](https://falco.org/docs/) | 📚 Documentation | Cloud-native runtime security with eBPF/syscalls |
+| [Flux](https://fluxcd.io/flux/get-started/) | 📚 Documentation | GitOps toolkit for Kubernetes |
+| [Podman Docs](https://docs.podman.io/) | 📚 Documentation | Daemonless container engine |
+| [BuildKit](https://docs.docker.com/build/buildkit/) | 📚 Documentation | Next-generation Docker/OCI image builder |
+| [Buildah Docs](https://buildah.io/) | 📚 Documentation | Build OCI container images without a daemon |
+| [DevSpace Docs](https://www.devspace.sh/docs/getting-started/installation) | 📚 Documentation | Fast Kubernetes development workflow tool |
+| [Knative Docs](https://knative.dev/docs/) | 📚 Documentation | Kubernetes-based platform for serverless workloads |
+| [OpenFaaS Docs](https://docs.openfaas.com/) | 📚 Documentation | Open-source functions-as-a-service framework |
+| [Harbor](https://goharbor.io/) | 📚 Documentation | Cloud-native container registry with security scanning |
+| [Velero Docs](https://velero.io/docs/main/) | 📚 Documentation | Backup and disaster recovery for Kubernetes |
+| [Chaos Mesh Docs](https://chaos-mesh.org/docs/) | 📚 Documentation | Chaos engineering platform for Kubernetes |
+| [LitmusChaos](https://litmuschaos.io/) | 📚 Documentation | Cloud-native chaos engineering toolkit |
+| [MetalLB](https://metallb.io/) | 📚 Documentation | Load-balancer for bare-metal Kubernetes clusters |
+| [Rook Docs](https://rook.io/docs/rook/latest-release/Getting-Started/quickstart/) | 📚 Documentation | Cloud-native storage orchestrator for Kubernetes |
+| [Zot](https://zotregistry.dev/) | 📚 Documentation | OCI-native container image registry |
 
 ### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="20" height="20" /> Cloud Platforms
 | Resource | Type | Description |
@@ -429,18 +1366,24 @@ flowchart LR
 | [AWS Training and Certification](https://aws.amazon.com/training/) | 🎓 Courses | Free AWS digital training courses |
 | [AWS Well-Architected](https://aws.amazon.com/architecture/well-architected/) | 📋 Framework | AWS architecture best practices |
 | [AWS Workshops](https://workshops.aws/) | 🧪 Workshops | Hands-on AWS learning workshops |
-| [Google Skills](https://www.skills.google/) | 🎓 Courses | Free Google Cloud and cloud skills courses |
+| [Google Cloud Training](https://cloud.google.com/learn/training) | 🎓 Courses | Free and paid Google Cloud learning resources |
 | [Google Cloud Architecture Center](https://cloud.google.com/architecture) | 📋 Guides | Cloud architecture patterns and guides |
 | [Azure Learning Paths](https://learn.microsoft.com/en-us/training/azure/) | 🎓 Courses | Microsoft Azure learning resources |
 | [Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/) | 📋 Guides | Azure architecture best practices |
 | [Azure Free Account](https://azure.microsoft.com/en-us/free/) | ☁️ Platform | Free Azure services and credits |
 | [Azure Fundamentals](https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts/) | 🎓 Course | Complete Azure fundamentals learning path |
 | [Heroku Dev Center](https://devcenter.heroku.com/) | 📚 Documentation | Heroku deployment guides |
+| [AWS CLI Getting Started](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html) | 📖 Tutorial | Work with AWS from the terminal |
+| [Azure CLI Get Started](https://learn.microsoft.com/en-us/cli/azure/get-started-with-azure-cli) | 📖 Tutorial | Manage Azure resources from the CLI |
+| [Google Cloud SDK](https://cloud.google.com/sdk/docs/install-sdk) | 📚 Documentation | Install and use gcloud |
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" width="20" height="20" /> CI/CD
 | Resource | Type | Description |
 |----------|------|-------------|
 | [GitHub Actions Documentation](https://docs.github.com/en/actions) | 📚 Documentation | Learn GitHub Actions for CI/CD |
+| [Workflow syntax](https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax) | 📚 Documentation | Full GitHub Actions workflow YAML reference |
+| [Security hardening for Actions](https://docs.github.com/en/actions/reference/security/secure-use) | 📋 Guide | Harden GitHub Actions against supply-chain risks |
+| [Continuous deployment with Actions](https://docs.github.com/en/actions/get-started/continuous-deployment) | 📖 Guide | CD patterns using GitHub Actions |
 | [GitLab CI/CD Tutorial](https://docs.gitlab.com/ee/ci/quick_start/) | 📖 Tutorial | GitLab CI/CD pipeline tutorial |
 | [Jenkins User Documentation](https://www.jenkins.io/doc/) | 📚 Documentation | Complete Jenkins automation guide |
 
@@ -448,11 +1391,136 @@ flowchart LR
 | Resource | Type | Description |
 |----------|------|-------------|
 | [Prometheus Documentation](https://prometheus.io/docs/) | 📚 Documentation | Open-source monitoring system |
+| [Prometheus Metric Naming](https://prometheus.io/docs/practices/naming/) | 📋 Guide | Best practices for metric and label names |
+| [Prometheus Alerting](https://prometheus.io/docs/practices/alerting/) | 📋 Guide | Alerting practices and antipatterns |
+| [VictoriaMetrics Docs](https://docs.victoriametrics.com/) | 📚 Documentation | Fast, cost-efficient time series database and monitoring |
+| [Thanos](https://thanos.io/) | 📚 Documentation | Highly available Prometheus setup with long-term storage |
+| [Grafana Mimir](https://grafana.com/docs/mimir/latest/) | 📚 Documentation | Horizontally scalable, multi-tenant Prometheus-compatible TSDB |
+| [Pyroscope Docs](https://grafana.com/docs/pyroscope/latest/) | 📚 Documentation | Continuous profiling for every application |
+| [OpenObserve Docs](https://openobserve.ai/docs/) | 📚 Documentation | Open-source observability platform (logs/metrics/traces) |
+| [Parca Docs](https://www.parca.dev/docs/) | 📚 Documentation | Continuous profiling with eBPF |
 | [Grafana Tutorials](https://grafana.com/tutorials/) | 📖 Tutorials | Data visualization and monitoring |
+| [Grafana Getting Started](https://grafana.com/docs/grafana/latest/getting-started/) | 📚 Documentation | Official Grafana getting-started docs |
+| [Grafana Loki](https://grafana.com/docs/loki/latest/) | 📚 Documentation | Log aggregation inspired by Prometheus |
+| [Grafana Tempo](https://grafana.com/docs/tempo/latest/) | 📚 Documentation | Distributed tracing backend |
+| [k6 Docs](https://k6.io/docs/) | 📚 Documentation | Modern load testing for APIs and websites |
+| [Gatling Docs](https://docs.gatling.io/) | 📚 Documentation | High-performance load testing framework |
+| [Artillery Docs](https://www.artillery.io/docs) | 📚 Documentation | Cloud-scale load testing toolkit |
+| [WireMock Docs](https://wiremock.org/docs/) | 📚 Documentation | API mocking for integration tests |
+| [REST Assured](https://rest-assured.io/) | 📚 Documentation | Java DSL for testing REST services |
+| [Spectral Docs](https://github.com/stoplightio/spectral) | 📚 Documentation | OpenAPI/AsyncAPI linting and style rules |
+| [Schemathesis](https://schemathesis.readthedocs.io/) | 📚 Documentation | Property-based API testing from OpenAPI schemas |
+| [SigNoz Docs](https://signoz.io/docs/) | 📚 Documentation | Open-source observability alternative to Datadog |
+| [Uptime Kuma](https://github.com/louislam/uptime-kuma) | 🛠️ Tool | Self-hosted uptime monitoring |
+| [Checkly Docs](https://www.checklyhq.com/docs/) | 📚 Documentation | API and browser synthetic monitoring |
+| [Better Stack Docs](https://betterstack.com/docs) | 📚 Documentation | Logging, uptime, and incident management |
 | [ELK Stack Tutorial](https://www.elastic.co/guide/en/elastic-stack-get-started/current/get-started-elastic-stack.html) | 📖 Tutorial | Elasticsearch, Logstash, and Kibana |
 | [Jaeger Documentation](https://www.jaegertracing.io/docs/) | 📚 Documentation | Distributed tracing system |
+| [OpenTelemetry JavaScript](https://opentelemetry.io/docs/languages/js/) | 📚 Documentation | Instrument Node.js and browser apps with OpenTelemetry |
+| [OpenTelemetry Python](https://opentelemetry.io/docs/languages/python/) | 📚 Documentation | Instrument Python apps with OpenTelemetry |
+| [OpenTelemetry Go](https://opentelemetry.io/docs/languages/go/) | 📚 Documentation | Instrument Go apps with OpenTelemetry |
 | [OpenTelemetry Docs](https://opentelemetry.io/docs/) | 📚 Documentation | Vendor-neutral observability framework |
+| [Zipkin](https://zipkin.io/) | 📚 Documentation | Distributed tracing system |
+| [Apache SkyWalking Docs](https://skywalking.apache.org/docs/) | 📚 Documentation | Application performance monitor and observability platform |
+| [VictoriaLogs Docs](https://docs.victoriametrics.com/victorialogs/) | 📚 Documentation | Fast, resource-efficient log database |
+| [Grafana OnCall](https://grafana.com/docs/oncall/latest/) | 📚 Documentation | Open-source on-call and incident response |
+| [PagerDuty Docs](https://developer.pagerduty.com/docs/) | 📚 Documentation | Incident management and on-call APIs |
+| [Opsgenie Docs](https://support.atlassian.com/opsgenie/) | 📚 Documentation | Alerting and on-call management |
+| [Atlassian Statuspage](https://support.atlassian.com/statuspage/) | 📚 Documentation | Public status pages for service communication |
+| [Keep Docs](https://docs.keephq.dev/) | 📚 Documentation | Open-source AIOps / alert management platform |
+| [Honeycomb Docs](https://docs.honeycomb.io/) | 📚 Documentation | Observability platform for high-cardinality data |
+| [New Relic APM Intro](https://docs.newrelic.com/docs/apm/new-relic-apm/getting-started/introduction-apm/) | 📚 Documentation | Application performance monitoring concepts (free tier docs) |
+| [Elastic APM](https://www.elastic.co/docs/solutions/observability/apm) | 📚 Documentation | Application performance monitoring in the Elastic Stack |
+| [Grafana Faro](https://grafana.com/docs/grafana-cloud/observe-and-act/monitor-applications/frontend-observability/) | 📚 Documentation | Frontend application observability |
+| [Faro Web SDK](https://github.com/grafana/faro-web-sdk) | 🛠️ Tool | Open-source web SDK for Grafana Faro |
+| [Grafana Beyla](https://grafana.com/docs/beyla/latest/) | 📚 Documentation | eBPF auto-instrumentation for application observability |
+| [Coroot Docs](https://docs.coroot.com/) | 📚 Documentation | Open-source eBPF-based observability platform |
+| [Uptrace Docs](https://uptrace.dev/get/) | 📚 Documentation | Open-source APM and distributed tracing with OpenTelemetry |
+| [bpftrace](https://bpftrace.org/) | 📚 Documentation | High-level eBPF tracing language for Linux |
+| [What is eBPF?](https://ebpf.io/what-is-ebpf/) | 📖 Guide | Conceptual introduction to eBPF |
+| [Tetragon Docs](https://tetragon.io/docs/getting-started/) | 📚 Documentation | eBPF-based security observability and runtime enforcement |
+| [Pixie](https://px.dev/) | 📚 Documentation | Instant Kubernetes observability with eBPF |
+| [OpenCost Docs](https://www.opencost.io/docs/) | 📚 Documentation | Open-source Kubernetes cost monitoring |
+| [OpenTelemetry Collector](https://opentelemetry.io/docs/collector/) | 📚 Documentation | Vendor-agnostic way to receive, process, and export telemetry |
+| [OpenTelemetry Traces](https://opentelemetry.io/docs/concepts/signals/traces/) | 📚 Documentation | Distributed tracing concepts in OpenTelemetry |
+| [OpenTelemetry Metrics](https://opentelemetry.io/docs/concepts/signals/metrics/) | 📚 Documentation | Metrics signals and instruments |
+| [OpenTelemetry Logs](https://opentelemetry.io/docs/concepts/signals/logs/) | 📚 Documentation | Logging signals in OpenTelemetry |
+| [OpenTelemetry Zero-code](https://opentelemetry.io/docs/zero-code/) | 📖 Guide | Auto-instrument applications with little to no code changes |
+| [Grafana Alloy](https://grafana.com/docs/alloy/latest/) | 📚 Documentation | OpenTelemetry Collector distribution with Prometheus pipelines |
+| [Prometheus Operator](https://prometheus-operator.dev/) | 📚 Documentation | Manage Prometheus monitoring stacks on Kubernetes |
 | [The Twelve-Factor App](https://12factor.net/) | 📋 Guide | Methodology for building SaaS apps |
+| [12-Factor Config](https://12factor.net/config) | 📋 Guide | Store config in the environment |
+| [12-Factor Processes](https://12factor.net/processes) | 📋 Guide | Execute the app as one or more stateless processes |
+| [12-Factor Disposability](https://12factor.net/disposability) | 📋 Guide | Fast startup and graceful shutdown |
+| [12-Factor Backing Services](https://12factor.net/backing-services) | 📋 Guide | Treat backing services as attached resources |
+| [12-Factor Build, Release, Run](https://12factor.net/build-release-run) | 📋 Guide | Strictly separate build and run stages |
+| [12-Factor Dev/Prod Parity](https://12factor.net/dev-prod-parity) | 📋 Guide | Keep development, staging, and production similar |
+| [Continuous Integration (Fowler)](https://martinfowler.com/articles/continuousIntegration.html) | 📰 Article | Classic essay defining continuous integration |
+| [Continuous Delivery (Fowler)](https://martinfowler.com/bliki/ContinuousDelivery.html) | 📰 Article | Continuous delivery explained |
+| [Feature Toggles (Fowler)](https://martinfowler.com/articles/feature-toggles.html) | 📰 Article | Feature flag patterns and trade-offs |
+| [Trunk Based Development](https://trunkbaseddevelopment.com/) | 📋 Guide | Source-control branching model for continuous delivery |
+| [Sentry JS Docs](https://docs.sentry.io/platforms/javascript/) | 📚 Documentation | Error monitoring for JavaScript apps |
+| [GlitchTip Docs](https://glitchtip.com/documentation) | 📚 Documentation | Open-source error tracking (Sentry-compatible) |
+| [Highlight Docs](https://www.highlight.io/docs) | 📚 Documentation | Open-source session replay, error monitoring, and logging |
+| [Pino](https://github.com/pinojs/pino) | 📚 Documentation | Extremely fast Node.js logger |
+| [Caddy Getting Started](https://caddyserver.com/docs/getting-started) | 📚 Documentation | Automatic HTTPS web server |
+| [WireGuard](https://www.wireguard.com/) | 📚 Documentation | Fast, modern, secure VPN tunnel |
+| [Tailscale Install](https://tailscale.com/kb/1017/install) | 📖 Guide | Zero-config mesh VPN built on WireGuard |
+| [Headscale](https://headscale.net/) | 📚 Documentation | Open-source, self-hosted Tailscale control server |
+| [NetBird Docs](https://docs.netbird.io/) | 📚 Documentation | Open-source WireGuard-based zero-trust networking |
+| [ngrok Docs](https://ngrok.com/docs) | 📚 Documentation | Secure tunnels to localhost for demos and webhooks |
+| [mkcert](https://mkcert.dev/) | 🛠️ Tool | Make locally trusted development certificates |
+| [step-ca Docs](https://smallstep.com/docs/step-ca/) | 📚 Documentation | Private certificate authority and ACME server |
+| [CrowdSec Docs](https://docs.crowdsec.net/) | 📚 Documentation | Collaborative, open-source IPS / security engine |
+| [Nginx Docs](https://nginx.org/en/docs/) | 📚 Documentation | High-performance reverse proxy and web server |
+| [Apache HTTP Server Docs](https://httpd.apache.org/docs/current/) | 📚 Documentation | The classic open-source HTTP server |
+| [HAProxy Docs](https://www.haproxy.com/documentation/haproxy-configuration-tutorials/core-concepts/) | 📚 Documentation | High-performance TCP/HTTP load balancer |
+| [CoreDNS Manual](https://coredns.io/manual/toc/) | 📚 Documentation | DNS server that chains plugins (Kubernetes default DNS) |
+| [Unbound](https://unbound.docs.nlnetlabs.nl/) | 📚 Documentation | Validating, recursive, caching DNS resolver |
+| [Pi-hole](https://pi-hole.net/) | 🛠️ Tool | Network-wide ad blocking via DNS |
+| [DNS Privacy Project](https://dnsprivacy.org/) | 📚 Documentation | Encrypting DNS (DoT/DoH) resources and deployments |
+| [Cloudflare 1.1.1.1](https://developers.cloudflare.com/1.1.1.1/) | 📚 Documentation | Public DNS resolver and privacy-focused DNS docs |
+| [Let's Encrypt Getting Started](https://letsencrypt.org/getting-started/) | 📖 Guide | Free TLS certificates for your sites |
+| [Certbot](https://certbot.eff.org/) | 🛠️ Tool | Automate Let's Encrypt certificate issuance |
+| [MDN DNS](https://developer.mozilla.org/en-US/docs/Glossary/DNS) | 📋 Reference | Domain Name System basics |
+| [MDN TLS](https://developer.mozilla.org/en-US/docs/Glossary/TLS) | 📋 Reference | Transport Layer Security basics |
+| [Traefik Quick Start](https://doc.traefik.io/traefik/getting-started/quick-start/) | 📚 Documentation | Cloud-native application proxy |
+| [Kong Gateway Docs](https://docs.konghq.com/gateway/latest/) | 📚 Documentation | API gateway and microservices connectivity |
+| [Envoy Proxy Docs](https://www.envoyproxy.io/docs/envoy/latest/) | 📚 Documentation | Cloud-native high-performance proxy |
+| [Linkerd Docs](https://linkerd.io/2/overview/) | 📚 Documentation | Ultralight service mesh for Kubernetes |
+| [Istio Docs](https://istio.io/latest/docs/) | 📚 Documentation | Service mesh for traffic, security, and observability |
+| [Envoy Gateway Docs](https://gateway.envoyproxy.io/docs/) | 📚 Documentation | Kubernetes-native API gateway built on Envoy |
+| [Cilium Hubble](https://docs.cilium.io/en/latest/hubble/) | 📚 Documentation | Network observability for Kubernetes with eBPF |
+| [Argo Rollouts](https://argo-rollouts.readthedocs.io/en/stable/) | 📚 Documentation | Progressive delivery controller for Kubernetes |
+| [Flagger Docs](https://docs.flagger.app/) | 📚 Documentation | Progressive delivery operator with metrics-driven canaries |
+| [Ceph Docs](https://docs.ceph.com/en/latest/) | 📚 Documentation | Distributed storage system for object, block, and file |
+| [Kopia Docs](https://kopia.io/docs/) | 📚 Documentation | Fast, secure open-source backup tool |
+| [Vegeta](https://github.com/tsenart/vegeta) | 🛠️ Tool | HTTP load testing tool written in Go |
+| [Locust Docs](https://docs.locust.io/) | 📚 Documentation | Scalable Python-based load testing |
+| [Apache JMeter](https://jmeter.apache.org/usermanual/get-started.html) | 📖 Tutorial | Load test functional behavior and measure performance |
+| [Trivy Docs](https://trivy.dev/docs/) | 📚 Documentation | Vulnerability scanner for containers and code |
+| [Gitleaks](https://github.com/gitleaks/gitleaks) | 🛠️ Tool | Detect secrets and credentials in git history |
+| [OWASP Dependency-Check](https://owasp.org/www-project-dependency-check/) | 🛠️ Tool | Identify known vulnerable dependencies |
+| [Cosign Docs](https://docs.sigstore.dev/cosign/system_config/installation/) | 📚 Documentation | Sign and verify container images with Sigstore |
+| [Syft](https://github.com/anchore/syft) | 🛠️ Tool | Generate Software Bill of Materials (SBOM) |
+| [Grype](https://github.com/anchore/grype) | 🛠️ Tool | Vulnerability scanner for container images and filesystems |
+| [Kyverno Docs](https://kyverno.io/docs/) | 📚 Documentation | Kubernetes-native policy management |
+| [OPA / Gatekeeper](https://open-policy-agent.github.io/gatekeeper/website/docs/) | 📚 Documentation | Policy controller for Kubernetes admission |
+| [Cilium Docs](https://docs.cilium.io/) | 📚 Documentation | eBPF-based networking, security, and observability |
+| [ingress-nginx](https://kubernetes.github.io/ingress-nginx/) | 📚 Documentation | Ingress controller for Kubernetes using NGINX |
+| [ExternalDNS](https://kubernetes-sigs.github.io/external-dns/) | 📚 Documentation | Configure external DNS providers from Kubernetes resources |
+| [Longhorn Docs](https://longhorn.io/docs/) | 📚 Documentation | Cloud-native distributed block storage for Kubernetes |
+| [Cluster API](https://cluster-api.sigs.k8s.io/) | 📚 Documentation | Declarative Kubernetes cluster lifecycle management |
+| [Argo Events](https://github.com/argoproj/argo-events) | 📚 Documentation | Event-driven workflow automation for Kubernetes |
+| [Argo CD Image Updater](https://github.com/argoproj-labs/argocd-image-updater) | 🛠️ Tool | Automatically update container images in Argo CD |
+| [Drone CI Docs](https://docs.drone.io/) | 📚 Documentation | Container-native continuous delivery platform |
+| [Woodpecker CI Docs](https://woodpecker-ci.org/docs/intro) | 📚 Documentation | Simple, ethical CI/CD engine (Drone fork) |
+| [Gitea Actions](https://docs.gitea.com/usage/actions/overview) | 📚 Documentation | GitHub Actions-compatible CI on self-hosted Gitea |
+| [Pulumi ESC](https://www.pulumi.com/docs/esc/) | 📚 Documentation | Environments, secrets, and configuration for cloud apps |
+| [Terramate Docs](https://terramate.io/docs/) | 📚 Documentation | Orchestration and code generation for Terraform stacks |
+| [Drone CI Docs](https://docs.drone.io/) | 📚 Documentation | Container-native continuous delivery platform |
+| [Woodpecker CI Docs](https://woodpecker-ci.org/docs/intro) | 📚 Documentation | Simple, ethical CI/CD engine (Drone fork) |
+| [Gitea Actions](https://docs.gitea.com/usage/actions/overview) | 📚 Documentation | GitHub Actions-compatible CI on self-hosted Gitea |
 
 ## <img src="https://img.shields.io/badge/Automation-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" /> Automation & Workflows
 
@@ -467,6 +1535,50 @@ flowchart LR
 | [GitHub Actions Workflow Examples](https://github.com/actions/starter-workflows) | 💻 Templates | Pre-built GitHub Actions workflows |
 | [Ansible Getting Started](https://docs.ansible.com/ansible/latest/getting_started/index.html) | 📖 Tutorial | IT automation with Ansible |
 | [Terraform Tutorials](https://learn.hashicorp.com/terraform) | 📖 Tutorials | Infrastructure as Code with Terraform |
+| [OpenTofu Docs](https://opentofu.org/docs/) | 📚 Documentation | Open-source Terraform-compatible IaC tool |
+| [OpenTofu Intro](https://opentofu.org/docs/intro/) | 📖 Guide | What OpenTofu is and how it relates to Terraform |
+| [Terraform Tutorials (HashiCorp)](https://developer.hashicorp.com/terraform/tutorials) | 🎓 Tutorials | Official HashiCorp Terraform tutorial library |
+| [Terraform AWS Get Started](https://developer.hashicorp.com/terraform/tutorials/aws-get-started) | 🚀 Quick Start | Provision AWS infrastructure with Terraform |
+| [Terraform Resources](https://developer.hashicorp.com/terraform/language/resources/syntax) | 📚 Documentation | Resource blocks and configuration syntax |
+| [Terraform Variables](https://developer.hashicorp.com/terraform/language/values/variables) | 📚 Documentation | Input variables for reusable modules |
+| [Terraform Outputs](https://developer.hashicorp.com/terraform/language/values/outputs) | 📚 Documentation | Export values from modules and root configs |
+| [Dagger Docs](https://docs.dagger.io/) | 📚 Documentation | Programmable CI/CD pipelines as code |
+| [Earthly Docs](https://docs.earthly.dev/) | 📚 Documentation | Repeatable builds with Dockerfile-like syntax |
+| [Helmfile](https://helmfile.readthedocs.io/) | 📚 Documentation | Declarative spec for deploying Helm charts |
+| [Pulumi Docs](https://www.pulumi.com/docs/) | 📚 Documentation | Infrastructure as code using familiar languages |
+| [Pulumi Tutorials](https://www.pulumi.com/learn/) | 🎓 Courses | Hands-on Pulumi learning tutorials |
+| [Terragrunt Docs](https://terragrunt.gruntwork.io/docs/) | 📚 Documentation | Thin wrapper for keeping Terraform DRY and maintainable |
+| [Atlantis Docs](https://www.runatlantis.io/docs/) | 📚 Documentation | Terraform pull-request automation |
+| [Boundary Docs](https://developer.hashicorp.com/boundary/docs) | 📚 Documentation | Secure remote access to hosts and services |
+| [Molecule Docs](https://github.com/ansible/molecule) | 📚 Documentation | Testing framework for Ansible roles |
+| [Backstage Docs](https://backstage.io/docs) | 📚 Documentation | Open platform for building developer portals |
+| [CDK for Terraform](https://developer.hashicorp.com/terraform/cdktf) | 📚 Documentation | Define Terraform configs with TypeScript/Python/etc. |
+| [Checkov Docs](https://www.checkov.io/1.Welcome/What%20is%20Checkov.html) | 📚 Documentation | Static analysis for IaC misconfigurations |
+| [Nix Flakes](https://nix.dev/manual/nix/stable/command-ref/new-cli/nix3-flake.html) | 📚 Documentation | Reproducible, hermetic development and package management |
+| [NixOS Learn](https://nixos.org/learn/) | 🎓 Courses | Official Nix and NixOS learning resources |
+| [Zero to Nix](https://zero-to-nix.com/) | 📖 Tutorial | Friendly, up-to-date guide to getting started with Nix |
+| [AWS CDK](https://docs.aws.amazon.com/cdk/v2/guide/home.html) | 📚 Documentation | Define cloud infrastructure in code |
+| [AWS SAM](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html) | 📚 Documentation | Build serverless applications on AWS |
+| [Serverless Framework](https://www.serverless.com/framework/docs) | 📚 Documentation | Develop and deploy serverless apps across clouds |
+| [SST Docs](https://sst.dev/docs) | 📚 Documentation | Build full-stack apps on your own infrastructure |
+| [Crossplane Docs](https://www.crossplane.io/docs) | 📚 Documentation | Control plane for cloud infrastructure via Kubernetes |
+| [CNCF Landscape](https://landscape.cncf.io/) | 🗺️ Map | Map of cloud-native projects and products |
+| [OpenTelemetry Demo](https://opentelemetry.io/docs/demo/) | 💻 Demo | End-to-end observability demo application |
+| [Kubernetes Gateway API](https://gateway-api.sigs.k8s.io/) | 📚 Documentation | Next-generation Kubernetes service networking |
+| [cert-manager](https://cert-manager.io/docs/) | 📚 Documentation | Automated TLS certificates for Kubernetes |
+| [External Secrets](https://external-secrets.io/) | 📚 Documentation | Sync secrets from external providers into Kubernetes |
+| [Sealed Secrets](https://github.com/bitnami-labs/sealed-secrets) | 🛠️ Tool | Encrypt Kubernetes secrets into safe-to-commit SealedSecrets |
+| [Quickwit](https://github.com/quickwit-oss/quickwit) | 📚 Documentation | Cloud-native search engine for logs and traces |
+| [SOPS](https://github.com/getsops/sops) | 🛠️ Tool | Encrypt secrets in YAML/JSON/ENV files |
+| [age](https://age-encryption.org/) | 🛠️ Tool | Simple, modern, and secure file encryption tool |
+| [1Password Connect](https://developer.1password.com/docs/connect/) | 📚 Documentation | Access 1Password vaults from your apps and infra |
+| [Vault Docs](https://developer.hashicorp.com/vault/docs) | 📚 Documentation | Secrets management and encryption as a service |
+| [Consul Docs](https://developer.hashicorp.com/consul/docs) | 📚 Documentation | Service networking, discovery, and mesh |
+| [Nomad Docs](https://developer.hashicorp.com/nomad/docs) | 📚 Documentation | Simple and flexible workload orchestrator |
+| [Packer Docs](https://developer.hashicorp.com/packer/docs) | 📚 Documentation | Automated machine image builds |
+| [Vagrant Docs](https://developer.hashicorp.com/vagrant/docs) | 📚 Documentation | Reproducible development environments |
+| [Infisical Docs](https://infisical.com/docs/documentation/getting-started/introduction) | 📚 Documentation | Open-source secrets management platform |
+| [Doppler Docs](https://docs.doppler.com/) | 📚 Documentation | Secrets management for developers and DevOps |
 | [Puppet Learning VM](https://puppet.com/try-puppet/puppet-learning-vm/) | 🧪 Interactive | Learn Puppet configuration management |
 
 ## <img src="https://img.shields.io/badge/Data%20Analytics-E97627?style=for-the-badge&logo=tableau&logoColor=white" /> Data Visualization & Analytics
@@ -482,7 +1594,24 @@ flowchart LR
 | [Chart.js Documentation](https://www.chartjs.org/docs/latest/) | 📚 Documentation | Simple yet flexible JavaScript charting |
 | [Plotly Dash Tutorial](https://dash.plotly.com/tutorial) | 📖 Tutorial | Build analytical web applications |
 | [Apache Superset](https://superset.apache.org/) | 🛠️ Tool | Modern data exploration platform |
-| [Grafana Fundamentals](https://grafana.com/tutorials/grafana-fundamentals/) | 🎓 Course | Data visualization and monitoring |
+| [Grafana Fundamentals](https://grafana.com/docs/grafana/latest/getting-started/) | 🎓 Course | Official Grafana getting-started path (tutorials hub may block some networks) |
+| [Grafana Dashboards](https://grafana.com/docs/grafana/latest/visualizations/dashboards/) | 📚 Documentation | Build and manage Grafana dashboards |
+| [Grafana Alerting](https://grafana.com/docs/grafana/latest/alerting/) | 📚 Documentation | Unified alerting in Grafana |
+| [Plotly.js](https://plotly.com/javascript/) | 📚 Documentation | Interactive charting library for the browser |
+| [Bokeh Docs](https://docs.bokeh.org/) | 📚 Documentation | Interactive visualization library for Python |
+| [Altair](https://altair-viz.github.io/) | 📚 Documentation | Declarative statistical visualization in Python |
+| [Vega-Lite](https://vega.github.io/vega-lite/) | 📚 Documentation | High-level grammar of interactive graphics |
+| [Apache ECharts](https://echarts.apache.org/) | 📚 Documentation | Powerful, interactive charting and visualization library |
+| [visx](https://airbnb.io/visx/) | 📚 Documentation | Low-level visualization primitives for React |
+| [nivo](https://nivo.rocks/) | 📚 Documentation | Rich dataviz components built on D3 for React |
+| [Recharts](https://recharts.org/) | 📚 Documentation | Composable charting library built with React and D3 |
+| [shadcn/ui Charts](https://ui.shadcn.com/charts) | 📚 Documentation | Composable chart components built with Recharts |
+| [kepler.gl](https://kepler.gl/) | 🛠️ Tool | High-performance geospatial analysis in the browser |
+| [deck.gl](https://deck.gl/) | 📚 Documentation | WebGL-powered framework for large-scale data visualization |
+| [MapLibre GL](https://maplibre.org/) | 📚 Documentation | Open-source map rendering libraries (Mapbox GL fork) |
+| [Protomaps](https://protomaps.com/) | 📚 Documentation | Open-source map stacks and PMTiles for self-hosted maps |
+| [LearnOSM](https://learnosm.org/) | 📖 Tutorial | Learn OpenStreetMap editing and mapping |
+| [Turf.js](https://turfjs.org/) | 📚 Documentation | Advanced geospatial analysis for browsers and Node |
 
 ## <img src="https://img.shields.io/badge/AI%2FML-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" /> AI & Machine Learning
 
@@ -524,22 +1653,73 @@ flowchart LR
 | [Hugging Face Transformers](https://huggingface.co/docs/transformers/index) | 📚 Documentation | State-of-the-art NLP models |
 | [OpenAI API Documentation](https://platform.openai.com/docs) | 📚 Documentation | GPT and other AI model APIs |
 | [LangChain Documentation](https://docs.langchain.com/oss/python/langchain/overview) | 📚 Documentation | Build applications with LLMs (LangChain) |
+| [LangGraph](https://langchain-ai.github.io/langgraph/) | 📚 Documentation | Build stateful, multi-actor AI agent workflows |
+| [LlamaIndex Docs](https://docs.llamaindex.ai/en/stable/) | 📚 Documentation | Framework for LLM-powered data agents and RAG |
+| [Haystack](https://docs.haystack.deepset.ai/docs/intro) | 📚 Documentation | LLM orchestration framework for production NLP |
+| [Ollama](https://ollama.com/) | 🛠️ Tool | Run open LLMs locally with a simple CLI/API |
+| [LocalAI Getting Started](https://localai.io/basics/getting_started/) | 📚 Documentation | Self-hosted OpenAI-compatible local AI API |
+| [PrivateGPT Docs](https://docs.privategpt.dev/) | 📚 Documentation | Private document Q&A with local LLMs |
+| [GPT4All Docs](https://docs.gpt4all.io/) | 📚 Documentation | Run local LLMs on desktops with a free open-source chat client |
+| [AnythingLLM Docs](https://docs.anythingllm.com/) | 📚 Documentation | All-in-one desktop/server app for private AI |
+| [MLX](https://ml-explore.github.io/mlx/build/html/index.html) | 📚 Documentation | Array framework for ML on Apple silicon |
+| [GGUF](https://github.com/ggerganov/ggml/blob/master/docs/gguf.md) | 📋 Spec | Quantized model file format used by llama.cpp |
+| [llama.cpp](https://github.com/ggerganov/llama.cpp) | 📚 Documentation | Efficient LLM inference in C/C++ |
+| [vLLM Docs](https://docs.vllm.ai/) | 📚 Documentation | High-throughput LLM serving engine |
+| [Langfuse Docs](https://langfuse.com/docs) | 📚 Documentation | Open-source LLM observability and analytics |
+| [OpenRouter Docs](https://openrouter.ai/docs) | 📚 Documentation | Unified API across many LLM providers |
+| [Gemini API Docs](https://ai.google.dev/gemini-api/docs) | 📚 Documentation | Google Gemini models for developers |
+| [Anthropic Docs](https://docs.anthropic.com/) | 📚 Documentation | Claude API documentation |
+| [Mistral Docs](https://docs.mistral.ai/) | 📚 Documentation | Mistral AI platform and model APIs |
+| [Mastra Docs](https://mastra.ai/en/docs) | 📚 Documentation | TypeScript framework for AI agents and workflows |
+| [CrewAI Docs](https://docs.crewai.com/) | 📚 Documentation | Framework for orchestrating role-playing AI agents |
+| [Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/overview/) | 📚 Documentation | Microsoft SDK for AI agents and orchestration |
+| [AutoGen](https://microsoft.github.io/autogen/stable/) | 📚 Documentation | Multi-agent AI application framework |
+| [smolagents](https://huggingface.co/docs/smolagents) | 📚 Documentation | Tiny agent framework from Hugging Face |
+| [LM Studio](https://lmstudio.ai/docs/app/basics) | 🛠️ Tool | Run local LLMs with a desktop UI and local server |
+| [Jan](https://jan.ai/docs) | 🛠️ Tool | Open-source ChatGPT alternative that runs offline |
+| [Pydantic AI](https://ai.pydantic.dev/) | 📚 Documentation | Type-safe agent framework built on Pydantic |
+| [Open WebUI](https://docs.openwebui.com/) | 📚 Documentation | Self-hosted web UI for local and remote LLMs |
+| [Dify Docs](https://docs.dify.ai/) | 📚 Documentation | Open-source LLM app development platform |
+| [Flowise Docs](https://docs.flowiseai.com/) | 📚 Documentation | Drag-and-drop UI to build LLM flows |
+| [Instructor](https://python.useinstructor.com/) | 📚 Documentation | Structured LLM outputs with Pydantic/Zod-like schemas |
+| [DSPy](https://dspy.ai/) | 📚 Documentation | Programmatic prompting and optimizer framework |
+| [Transformers.js](https://huggingface.co/docs/transformers.js) | 📚 Documentation | Run Hugging Face transformers in the browser |
+| [WebLLM](https://webllm.mlc.ai/) | 🛠️ Tool | High-performance in-browser LLM inference via WebGPU |
+| [WASI Preview](https://wasi.dev/) | 📚 Documentation | System interface for running Wasm outside the browser |
+| [Bytecode Alliance](https://bytecodealliance.org/) | 🌐 Website | Secure Wasm/WASI runtime ecosystem |
 | [Gradio Documentation](https://gradio.app/docs/) | 📚 Documentation | Build ML web apps quickly |
 | [Streamlit Documentation](https://docs.streamlit.io/) | 📚 Documentation | Build data apps in Python |
 | [MLflow Documentation](https://mlflow.org/docs/latest/index.html) | 📚 Documentation | ML lifecycle management |
 | [Weights & Biases](https://docs.wandb.ai/) | 📚 Documentation | Experiment tracking and visualization |
 | [Vercel AI SDK](https://ai-sdk.dev/docs/introduction) | 📚 Documentation | TypeScript toolkit for building AI-powered apps |
 | [Prompt Engineering Guide](https://www.promptingguide.ai/) | 📖 Guide | Free comprehensive prompt engineering resource |
+| [Prompting Techniques](https://www.promptingguide.ai/techniques) | 📖 Guide | Chain-of-thought, ReAct, RAG, and other prompting patterns |
+| [OpenAI Prompt Engineering](https://platform.openai.com/docs/guides/prompt-engineering) | 📖 Guide | Official OpenAI prompting strategies |
+| [Anthropic Prompt Engineering](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview) | 📖 Guide | Official Claude prompting guidance |
+| [Gemini Prompting Strategies](https://ai.google.dev/gemini-api/docs/prompting-strategies) | 📖 Guide | Official Gemini API prompting strategies |
+| [DeepLearning.AI Short Courses](https://www.deeplearning.ai/short-courses/) | 🎓 Courses | Free short courses on LLMs and AI engineering |
+| [Prompt Injection (Simon Willison)](https://simonwillison.net/series/prompt-injection/) | 📰 Articles | Essential reading on LLM security / prompt injection |
+| [llm CLI](https://llm.datasette.io/en/stable/) | 🛠️ Tool | Command-line tool for interacting with LLMs by Simon Willison |
 
 ### 📊 Data Science & Analytics
 | Resource | Type | Description |
 |----------|------|-------------|
 | [Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) | 📚 Book | Free Python Data Science Handbook |
 | [Jupyter Notebook Documentation](https://jupyter-notebook.readthedocs.io/) | 📚 Documentation | Interactive computing environment |
+| [Quarto Docs](https://quarto.org/docs/guide/) | 📚 Documentation | Scientific and technical publishing system |
+| [Marimo Docs](https://docs.marimo.io/) | 📚 Documentation | Reactive Python notebook as a reusable app |
+| [Jupyter Book](https://jupyterbook.org/en/stable/intro.html) | 📚 Documentation | Build books and documentation from Jupyter notebooks |
+| [Observable Framework](https://github.com/observablehq/framework) | 📚 Documentation | Static site generator for data apps |
 | [Google Colab](https://colab.research.google.com/) | 🛠️ Tool | Free GPU/TPU Jupyter notebooks |
 | [Apache Spark Documentation](https://spark.apache.org/docs/latest/) | 📚 Documentation | Large-scale data processing |
 | [Dask Documentation](https://docs.dask.org/) | 📚 Documentation | Parallel computing with Python |
 | [Apache Airflow Tutorial](https://airflow.apache.org/docs/apache-airflow/stable/tutorial/) | 📖 Tutorial | Workflow orchestration platform |
+| [R for Data Science](https://r4ds.hadley.nz/) | 📚 Book | Free Hadley Wickham book on importing, wrangling, and visualizing data in R |
+| [tidyverse](https://www.tidyverse.org/) | 📚 Documentation | Opinionated collection of R packages for data science |
+| [Shiny](https://shiny.posit.co/) | 📚 Documentation | Build interactive web apps with R |
+| [plumber](https://www.rplumber.io/) | 📚 Documentation | Create REST APIs from R |
+| [Mage Docs](https://docs.mage.ai/) | 📚 Documentation | Modern data pipeline tool for transforming and integrating data |
+| [Luigi](https://luigi.readthedocs.io/) | 📚 Documentation | Python package for building complex pipelines of batch jobs |
 
 ### 🗣️ Natural Language Processing
 | Resource | Type | Description |
@@ -547,6 +1727,7 @@ flowchart LR
 | [spaCy Course](https://course.spacy.io/) | 🎓 Course | Advanced NLP with spaCy |
 | [NLTK Book](https://www.nltk.org/book/) | 📚 Book | Natural Language Processing with Python |
 | [Hugging Face NLP Course](https://huggingface.co/course/chapter1/1) | 🎓 Course | Complete NLP course using Transformers |
+| [Hugging Face Learn](https://huggingface.co/learn) | 🎓 Courses | Free ML courses and learning tracks from Hugging Face |
 | [CS224n Stanford NLP](http://web.stanford.edu/class/cs224n/) | 🎓 Course | Natural Language Processing with Deep Learning |
 | [OpenNMT Documentation](https://opennmt.net/) | 📚 Documentation | Neural machine translation |
 
@@ -564,7 +1745,7 @@ flowchart LR
 |----------|------|-------------|
 | [Gymnasium](https://gymnasium.farama.org/) | 📚 Documentation | RL environment toolkit (OpenAI Gym successor) |
 | [Stable Baselines3](https://stable-baselines3.readthedocs.io/) | 📚 Documentation | RL algorithms implementation |
-| [CS285 Berkeley Deep RL](http://rail.eecs.berkeley.edu/deeprlcourse/) | 🎓 Course | Deep Reinforcement Learning |
+| [CS285 Berkeley Deep RL](https://github.com/berkeleydeeprlcourse/homework) | 🎓 Course | Berkeley Deep RL course materials and homework |
 | [Spinning Up in Deep RL](https://spinningup.openai.com/) | 📚 Guide | OpenAI's deep RL educational resource |
 
 ### 🔧 MLOps & Production
@@ -573,8 +1754,13 @@ flowchart LR
 | [MLOps Specialization](https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops) | 🎓 Course | DeepLearning.AI MLOps course (audit for free) |
 | [DVC Documentation](https://dvc.org/doc) | 📚 Documentation | Data version control for ML |
 | [Kubeflow Documentation](https://www.kubeflow.org/docs/) | 📚 Documentation | ML workflows on Kubernetes |
-| [BentoML Documentation](https://docs.bentoml.org/) | 📚 Documentation | Model serving framework |
+| [BentoML Documentation](https://docs.bentoml.com/en/latest/) | 📚 Documentation | Model serving framework |
 | [Seldon Documentation](https://docs.seldon.ai/) | 📚 Documentation | ML model deployment platform |
+| [Flyte Docs](https://docs.flyte.org/) | 📚 Documentation | Kubernetes-native workflow orchestration for data and ML |
+| [ZenML Docs](https://docs.zenml.io/) | 📚 Documentation | Extensible MLOps framework for reproducible pipelines |
+| [ClearML Docs](https://clear.ml/docs) | 📚 Documentation | Open-source MLOps suite for experiment tracking and orchestration |
+| [Neptune Docs](https://docs.neptune.ai/) | 📚 Documentation | Experiment tracking and model registry for ML teams |
+| [Comet Docs](https://www.comet.com/docs/) | 📚 Documentation | Experiment management and model monitoring platform |
 
 ### 🆓 Free AI Development Platforms
 | Resource | Type | Description |
@@ -585,7 +1771,59 @@ flowchart LR
 | [Replit AI](https://replit.com/) | ☁️ Platform | AI-powered coding environment |
 | [GitHub Copilot](https://github.com/features/copilot) | 🤖 Tool | AI pair programmer (free for students) |
 | [Papers with Code](https://paperswithcode.com/) | 📰 Repository | Latest ML research with code |
-| [Model Zoo](https://modelzoo.co/) | 🏪 Repository | Pre-trained models repository |
+| [Hugging Face Models](https://huggingface.co/models) | 🏪 Repository | Huge catalog of pre-trained ML models (Model Zoo destination timed out) |
+
+
+
+<a id="scraping--extraction"></a>
+## <img src="https://img.shields.io/badge/Scraping-0F766E?style=for-the-badge&logo=crawl4ai&logoColor=white" /> Scraping & Extraction
+
+| Resource | Type | Description |
+|----------|------|-------------|
+| [Firecrawl Docs](https://docs.firecrawl.dev/) | 📚 Documentation | Crawl websites into clean LLM-ready data |
+| [Crawl4AI](https://github.com/unclecode/crawl4ai) | 📚 Documentation | Open-source LLM-friendly web crawler |
+| [Browser Use Docs](https://docs.browser-use.com/) | 📚 Documentation | Make AI agents control a browser |
+| [Stagehand Docs](https://docs.stagehand.dev/) | 📚 Documentation | Browser automation framework designed for AI agents |
+| [Scrapy Docs](https://docs.scrapy.org/) | 📚 Documentation | Fast high-level web crawling & scraping framework |
+| [Cheerio](https://cheerio.js.org/docs/intro) | 📚 Documentation | Fast, flexible HTML parsing for the server |
+| [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) | 📚 Documentation | Python library for pulling data out of HTML/XML |
+| [Playwright Docs](https://playwright.dev/docs/intro) | 📚 Documentation | Browser automation for scraping and E2E testing |
+| [Puppeteer Docs](https://pptr.dev/) | 📚 Documentation | Headless Chrome automation for Node.js |
+| [Selenium Docs](https://www.selenium.dev/documentation/) | 📚 Documentation | Cross-browser browser automation suite |
+| [Robots Exclusion Protocol](https://developers.google.com/search/docs/crawling-indexing/robots/intro) | 📋 Guide | Respect robots.txt when crawling sites |
+| [HTTP Archive](https://httparchive.org/) | 📊 Dataset | Public web performance and technology trends |
+
+<a id="mcp--coding-agents"></a>
+## <img src="https://img.shields.io/badge/MCP-111827?style=for-the-badge&logo=openai&logoColor=white" /> MCP & Coding Agents
+
+| Resource | Type | Description |
+|----------|------|-------------|
+| [Model Context Protocol](https://modelcontextprotocol.io/) | 📚 Documentation | Open standard for connecting AI assistants to tools and data |
+| [MCP Servers](https://github.com/modelcontextprotocol/servers) | 📋 Repository | Reference and community MCP server implementations |
+| [MCP Inspector](https://github.com/modelcontextprotocol/inspector) | 🛠️ Tool | Visual debugger for MCP servers |
+| [AGENTS.md](https://agents.md/) | 📋 Guide | Open format for guiding coding agents in repositories |
+| [Cursor Rules](https://cursor.com/docs/context/rules) | 📚 Documentation | Persist project-specific guidance for Cursor Agent |
+| [Claude Code Docs](https://code.claude.com/docs/en/overview) | 📚 Documentation | Anthropic's agentic coding tool in the terminal |
+| [OpenAI Codex CLI](https://github.com/openai/codex) | 🛠️ Tool | Lightweight coding agent that runs in your terminal |
+| [Gemini CLI](https://github.com/google-gemini/gemini-cli) | 🛠️ Tool | Open-source AI agent for the command line |
+| [Aider](https://aider.chat/) | 🛠️ Tool | AI pair programming in your terminal |
+| [Continue Docs](https://docs.continue.dev/) | 📚 Documentation | Open-source AI code assistant for IDEs |
+| [MCP Inspector](https://modelcontextprotocol.io/docs/tools/inspector) | 🛠️ Tool | Interactive inspector for MCP servers |
+| [Ray Docs](https://docs.ray.io/en/latest/) | 📚 Documentation | Distributed computing framework for AI and Python workloads |
+| [BentoML Docs](https://docs.bentoml.com/en/latest/) | 📚 Documentation | Framework for serving and deploying ML models |
+| [Goose](https://block.github.io/goose/) | 🛠️ Tool | Local, extensible AI agent by Block |
+| [OpenHands](https://docs.openhands.dev/) | 📚 Documentation | Open platform for software development agents |
+| [GitHub Copilot Docs](https://docs.github.com/en/copilot) | 📚 Documentation | AI pair programmer integrated with GitHub |
+| [v0 Docs](https://v0.dev/docs) | 📚 Documentation | AI UI generation from Vercel |
+| [shadcn MCP](https://ui.shadcn.com/docs/mcp) | 📚 Documentation | MCP server for shadcn/ui components |
+| [Smithery](https://smithery.ai/) | 🗺️ Registry | Discover and connect MCP servers |
+| [Browserbase Docs](https://www.browserbase.com/docs) | 📚 Documentation | Headless browsers for AI agents |
+| [Firecrawl Docs](https://docs.firecrawl.dev/) | 📚 Documentation | Turn websites into LLM-ready markdown/data |
+| [Tavily Docs](https://docs.tavily.com/) | 📚 Documentation | Search API built for AI agents |
+| [Jina Reader](https://jina.ai/reader/) | 🛠️ Tool | Convert any URL into LLM-friendly text |
+| [MCP Specification](https://modelcontextprotocol.io/specification/latest) | 📋 Specification | Protocol details for building MCP clients and servers |
+| [Anthropic MCP Docs](https://docs.anthropic.com/en/docs/agents-and-tools/mcp) | 📚 Documentation | Using MCP with Claude and Anthropic tools |
+| [LangChain MCP Adapters](https://docs.langchain.com/oss/python/langchain/mcp) | 📚 Documentation | Connect LangChain agents to MCP tool servers |
 
 ## <img src="https://img.shields.io/badge/AI%20for%20Devs-000000?style=for-the-badge&logo=openai&logoColor=white" /> AI for Developers
 
@@ -609,6 +1847,8 @@ flowchart LR
 | [React Developer Roadmap](https://roadmap.sh/react) | 🗺️ Interactive Guide | React ecosystem learning path |
 | [Node.js Developer Roadmap](https://roadmap.sh/nodejs) | 🗺️ Interactive Guide | Backend development with Node.js |
 | [DevOps Roadmap](https://roadmap.sh/devops) | 🗺️ Interactive Guide | DevOps engineer learning path |
+| [Backend Roadmap](https://roadmap.sh/backend) | 🗺️ Interactive Guide | Backend developer learning path |
+| [Cyber Security Roadmap](https://roadmap.sh/cyber-security) | 🗺️ Interactive Guide | Cybersecurity skills roadmap |
 | [AI/ML Engineer Roadmap](https://roadmap.sh/ai-data-scientist) | 🗺️ Interactive Guide | AI and Machine Learning career path |
 
 ### 📈 Technology Stack Visualizations
@@ -619,13 +1859,13 @@ flowchart LR
 | [JavaScript Rising Stars](https://risingstars.js.org/) | 📊 Annual Report | JavaScript ecosystem trends |
 | [State of JS Survey](https://stateofjs.com/) | 📊 Annual Report | JavaScript framework and tool popularity |
 | [State of CSS Survey](https://stateofcss.com/) | 📊 Annual Report | CSS features and framework usage |
-| [NPM Trends](https://npmtrends.com/) | 📊 Tool | Compare package download statistics |
+| [Best of JS](https://bestofjs.org/) | 📊 Trends | Track popular open-source projects in the web ecosystem |
 
 ### 🎨 Cheat Sheets & Quick References
 | Resource | Type | Description |
 |----------|------|-------------|
 | [OverAPI.com](https://overapi.com/) | 📋 Cheat Sheets | Collecting all cheat sheets for developers |
-| [DevHints.io](https://devhints.io/) | 📋 Cheat Sheets | TL;DR for developer documentation |
+| [DevHints / rstacruz cheatsheets](https://github.com/rstacruz/cheatsheets) | 📋 Cheat Sheets | TL;DR developer cheatsheets (DevHints source) |
 | [QuickRef.ME](https://quickref.me/) | 📋 Cheat Sheets | Beautiful cheatsheets for popular technologies |
 | [Awesome Cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets) | 📋 Repository | Useful cheatsheets for popular technologies |
 | [HTML5 Cheat Sheet](https://websitesetup.org/html5-cheat-sheet/) | 📋 Visual Guide | HTML5 tags and attributes reference |
@@ -651,16 +1891,29 @@ flowchart LR
 | [Git Workflow Visualizations](https://www.atlassian.com/git/tutorials/comparing-workflows) | 🔄 Diagrams | Different Git workflow patterns |
 | [Docker Container Visualization](https://www.docker.com/resources/what-container) | 🐳 Diagrams | Container vs VM visual explanations |
 | [Kubernetes Architecture](https://kubernetes.io/docs/concepts/overview/components/) | ☸️ Diagrams | K8s cluster component visualizations |
+| [PlantUML Guide](https://plantuml.com/guide) | 📖 Guide | Text-based UML and architecture diagrams |
+| [C4 Model](https://c4model.com/) | 📋 Guide | Hierarchical software architecture diagramming approach |
+| [Structurizr Help](https://structurizr.com/help) | 📚 Documentation | C4-based architecture diagrams as code |
+| [D2 Tour](https://d2lang.com/tour/intro/) | 📖 Guide | Modern diagram-as-code language |
 
 ### 📱 Technology Comparison Charts
 | Resource | Type | Description |
 |----------|------|-------------|
-| [Frontend Framework Comparison](https://www.npmtrends.com/react-vs-vue-vs-angular) | 📊 Chart | React vs Vue vs Angular statistics |
-| [Database Comparison Guide](https://db-engines.com/en/ranking) | 📊 Rankings | Database popularity and feature comparison |
+| [Frontend Framework Comparison](https://bestofjs.org/projects?tags=framework) | 📊 Chart | React vs Vue vs Angular trends (Best of JS; npmtrends often rate-limits bots) |
+| [DB-Engines Ranking](https://db-engines.com/en/ranking) | 📊 Rankings | Database popularity ranking (SSL/network sensitive; see DBDB.io below) |
+| [DBDB.io](https://dbdb.io/) | 📊 Catalog | Encyclopedia of database management systems |
+| [DBeaver Docs](https://dbeaver.com/docs/) | 📚 Documentation | Universal database tool |
+| [pgAdmin Docs](https://www.pgadmin.org/docs/) | 📚 Documentation | PostgreSQL administration and development platform |
+| [Adminer](https://www.adminer.org/) | 🛠️ Tool | Lightweight single-file database management |
+| [Beekeeper Studio](https://www.beekeeperstudio.io/) | 🛠️ Tool | Modern, easy SQL editor and DB manager |
 | [Cloud Provider Comparison](https://comparecloud.in/) | 📊 Comparison | AWS vs Azure vs GCP feature comparison |
 | [Programming Language Performance](https://benchmarksgame-team.pages.debian.net/benchmarksgame/) | 📊 Benchmarks | Language performance comparisons |
 | [Flexbox Froggy](https://flexboxfroggy.com/) | 🎮 Interactive | Visual CSS Flexbox learning game |
 | [Regex101](https://regex101.com/) | 🛠️ Visual Tool | Regular expression visualization and testing |
+| [RegexOne](https://regexone.com/) | 🎓 Interactive | Learn regular expressions with short lessons |
+| [JSON.org](https://www.json.org/json-en.html) | 📋 Reference | Intro to JSON syntax and data model |
+| [YAML.org](https://yaml.org/) | 📋 Reference | Official YAML specification and resources |
+| [TOML](https://toml.io/en/) | 📋 Specification | Minimal, unambiguous config file format |
 | [JSON Crack](https://jsoncrack.com/) | 📊 Visualizer | JSON data structure visualization |
 | [Git Visualizer](https://git-school.github.io/visualizing-git/) | 🔄 Interactive | Git commands visualization |
 
@@ -668,13 +1921,38 @@ flowchart LR
 
 | Resource | Type | Description |
 |----------|------|-------------|
-| [Pro Git Book](https://git-scm.com/book) | 📚 Book | Complete Git version control book |
+| [Pro Git Book](https://git-scm.com/book/en/v2) | 📚 Book | Complete Git version control book (2nd edition) |
+| [Git Reference](https://git-scm.com/docs) | 📚 Documentation | Official Git command reference |
+| [Oh Shit, Git!?!](https://ohshitgit.com/) | 📖 Guide | Friendly fixes for common Git mistakes |
+| [GitHub CLI Manual](https://cli.github.com/manual/) | 📚 Documentation | Work with GitHub from the terminal |
+| [Collaborating with pull requests](https://docs.github.com/en/pull-requests) | 📖 Guide | GitHub PR workflow documentation |
+| [Writing on GitHub](https://docs.github.com/en/get-started/writing-on-github) | 📖 Guide | Markdown, issues, and communication on GitHub |
+| [GitHub Open Source Blog](https://github.blog/open-source/) | 📰 Articles | Open-source news and stories from GitHub |
+| [Jujutsu (jj)](https://jj-vcs.github.io/jj/latest/) | 📚 Documentation | Git-compatible version control with a simpler mental model |
+| [GitButler Docs](https://docs.gitbutler.com/) | 📚 Documentation | Git client for parallel branches and stacked workflows |
 | [GitHub Skills](https://skills.github.com/) | 🎮 Interactive Courses | GitHub-specific skills and workflows |
 | [Atlassian Git Tutorials](https://www.atlassian.com/git/tutorials) | 📖 Tutorials | Comprehensive Git tutorials |
 | [Learn Git Branching](https://learngitbranching.js.org/) | 🎮 Interactive Tutorial | Visual Git branching tutorial |
+| [Git Branching (Pro Git)](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell) | 📚 Book | Branches in a nutshell from Pro Git |
+| [Rewriting History (Pro Git)](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History) | 📚 Book | Amend, rebase, filter-branch, and reset carefully |
+| [gitignore](https://git-scm.com/docs/gitignore) | 📚 Documentation | Patterns for ignoring untracked files |
+| [githooks](https://git-scm.com/docs/githooks) | 📚 Documentation | Client- and server-side Git hook reference |
 | [Conventional Commits](https://www.conventionalcommits.org/) | 📋 Spec | Standard for clear, automated-friendly commit messages |
 | [Semantic Versioning](https://semver.org/) | 📋 Spec | How to version releases properly |
 | [Keep a Changelog](https://keepachangelog.com/) | 📋 Guide | Write changelogs humans and tools can trust |
+| [Conventional Commits](https://www.conventionalcommits.org/) | 📋 Spec | Structured commit messages for automation |
+| [Changesets](https://github.com/changesets/changesets) | 🛠️ Tool | Versioning and changelog workflow for monorepos |
+| [semantic-release](https://semantic-release.gitbook.io/semantic-release/) | 🛠️ Tool | Fully automated version management and package publishing |
+| [EditorConfig](https://editorconfig.org/) | 🛠️ Tool | Maintain consistent coding styles across editors |
+| [Lefthook](https://lefthook.dev/) | 🛠️ Tool | Fast polyglot git hooks manager |
+| [Husky](https://typicode.github.io/husky/) | 🛠️ Tool | Modern native Git hooks made easy |
+| [lint-staged](https://github.com/lint-staged/lint-staged) | 🛠️ Tool | Run linters on staged git files only |
+| [Commitlint](https://commitlint.js.org/) | 🛠️ Tool | Lint commit messages against Conventional Commits |
+| [Dependabot docs](https://docs.github.com/en/code-security/dependabot) | 📚 Documentation | Automated dependency updates on GitHub |
+| [Renovate Docs](https://docs.renovatebot.com/) | 📚 Documentation | Automated dependency updates across platforms |
+| [OSV](https://osv.dev/) | 🛠️ Tool | Open source vulnerability database and API |
+| [Semgrep Docs](https://semgrep.dev/docs/) | 📚 Documentation | Static analysis for finding bugs and vulnerabilities |
+| [CodeQL Docs](https://codeql.github.com/docs/) | 📚 Documentation | Semantic code analysis engine from GitHub |
 
 ## <img src="https://img.shields.io/badge/Testing-C21325?style=for-the-badge&logo=jest&logoColor=white" /> Testing
 
@@ -682,18 +1960,91 @@ flowchart LR
 |----------|------|-------------|
 | [Jest Documentation](https://jestjs.io/docs/getting-started) | 📚 Documentation | JavaScript testing framework |
 | [Testing Library](https://testing-library.com/docs/) | 📚 Documentation | Simple and complete testing utilities |
+| [Testing Library Queries](https://testing-library.com/docs/queries/about) | 📖 Guide | Which queries to use and in which priority |
 | [Cypress Documentation](https://docs.cypress.io/) | 📚 Documentation | End-to-end testing framework |
 | [Postman Learning Center](https://learning.postman.com/) | 🎓 Courses | API testing with Postman |
 | [Playwright Docs](https://playwright.dev/docs/intro) | 📚 Documentation | Reliable end-to-end testing for modern web apps |
+| [Playwright Best Practices](https://playwright.dev/docs/best-practices) | 📋 Guide | Reliable selectors, isolation, and assertions |
+| [Playwright Trace Viewer](https://playwright.dev/docs/trace-viewer) | 🛠️ Tool | Time-travel debugging for failed Playwright runs |
 | [Vitest Guide](https://vitest.dev/guide/) | 📚 Documentation | Fast Vite-native unit testing framework |
+| [Why Cypress](https://docs.cypress.io/app/get-started/why-cypress) | 📖 Guide | When and why to use Cypress for E2E testing |
+| [Jest](https://jestjs.io/) | 📚 Documentation | Delightful JavaScript testing framework homepage and docs |
+| [React Testing Library Intro](https://testing-library.com/docs/react-testing-library/intro/) | 📖 Tutorial | Test React components the way users use them |
+| [Mocha](https://mochajs.org/) | 📚 Documentation | Flexible JavaScript test framework running on Node and browsers |
+| [Chai](https://www.chaijs.com/) | 📚 Documentation | BDD/TDD assertion library for Node and browsers |
+| [Jasmine](https://jasmine.github.io/) | 📚 Documentation | Behavior-driven JavaScript testing framework |
+| [pytest Docs](https://docs.pytest.org/en/stable/) | 📚 Documentation | Popular Python testing framework |
+| [unittest (Python)](https://docs.python.org/3/library/unittest.html) | 📚 Documentation | Python's built-in unit testing framework |
+| [JUnit User Guide](https://docs.junit.org/current/user-guide/) | 📚 Documentation | Programmer-friendly testing framework for the JVM |
+| [TestNG](https://testng.org/) | 📚 Documentation | Testing framework inspired by JUnit and NUnit for Java |
+| [RSpec](https://rspec.info/) | 📚 Documentation | Behaviour-driven development for Ruby |
+| [PHPUnit](https://phpunit.de/documentation.html) | 📚 Documentation | Unit testing framework for PHP |
+| [Go testing package](https://pkg.go.dev/testing) | 📚 Documentation | Standard library testing support for Go |
+| [Rust Book — Testing](https://doc.rust-lang.org/book/ch11-00-testing.html) | 📖 Tutorial | How to write tests in Rust |
+| [Mock Service Worker](https://mswjs.io/docs) | 📚 Documentation | API mocking by intercepting requests |
+| [Cucumber Docs](https://cucumber.io/docs/cucumber/) | 📚 Documentation | Behavior-driven development for executable specifications |
+| [Faker](https://fakerjs.dev/guide/) | 📚 Documentation | Generate massive amounts of fake data |
+| [fast-check](https://fast-check.dev/) | 📚 Documentation | Property-based testing for JavaScript |
+| [Stryker Mutator](https://stryker-mutator.io/docs/) | 📚 Documentation | Mutation testing for JS/TS and more |
+| [c8](https://github.com/bcoe/c8) | 🛠️ Tool | Native V8 code coverage using Node.js |
+| [Codecov Docs](https://docs.codecov.com/) | 📚 Documentation | Coverage reporting and insights |
+| [React Hook Form](https://react-hook-form.com/get-started) | 📚 Documentation | Performant, flexible React forms |
+| [TanStack Form](https://tanstack.com/form/latest) | 📚 Documentation | Headless, framework-agnostic form state |
+| [Conform](https://conform.guide/) | 📚 Documentation | Progressive enhancement-friendly form validation |
+| [Embla Carousel](https://www.embla-carousel.com/) | 📚 Documentation | Lightweight carousel library with great a11y defaults |
+| [Base UI](https://base-ui.com/react/overview/quick-start) | 📚 Documentation | Unstyled accessible React components |
+| [Ark UI](https://ark-ui.com/) | 📚 Documentation | Headless component library powered by Zag.js |
 
 ## <img src="https://img.shields.io/badge/Mobile-61DAFB?style=for-the-badge&logo=react&logoColor=black" /> Mobile Development
 
 | Resource | Type | Description |
 |----------|------|-------------|
 | [React Native Tutorial](https://reactnative.dev/docs/tutorial) | 📖 Tutorial | Build mobile apps with React Native |
+| [Expo Docs](https://docs.expo.dev/) | 📚 Documentation | Fastest way to build React Native apps |
+| [Expo Tutorial](https://docs.expo.dev/tutorial/introduction/) | 🎓 Tutorial | Official Expo app-building tutorial |
+| [React Native Getting Started](https://reactnative.dev/docs/getting-started) | 📖 Tutorial | Official React Native environment setup guide |
+| [Apple App Dev Training](https://developer.apple.com/tutorials/app-dev-training) | 🎓 Tutorials | Free Apple app development training path |
+| [Android Developers Courses](https://developer.android.com/courses) | 🎓 Courses | Official Android learning pathways |
+| [Expo Router](https://docs.expo.dev/router/introduction/) | 📚 Documentation | File-based routing for universal React Native apps |
+| [Maestro Docs](https://docs.maestro.dev/) | 📚 Documentation | Simple, fast mobile UI testing framework |
+| [Detox Docs](https://wix.github.io/Detox/) | 📚 Documentation | Gray-box end-to-end testing for React Native |
+| [Appium Docs](https://appium.io/docs/en/latest/) | 📚 Documentation | Cross-platform mobile automation framework |
+| [NativeWind](https://www.nativewind.dev/) | 📚 Documentation | Tailwind CSS for React Native |
 | [Flutter Documentation](https://docs.flutter.dev/) | 📚 Documentation | Google's UI toolkit for mobile |
+| [Dart Overview](https://dart.dev/overview) | 📚 Documentation | Language powering Flutter and modern Dart apps |
+| [Dart Language Tour](https://dart.dev/language) | 📖 Guide | Official Dart language fundamentals |
+| [Flutter Get Started](https://docs.flutter.dev/get-started/install) | 📖 Tutorial | Install Flutter and create your first app |
 | [Ionic Framework](https://ionicframework.com/docs) | 📚 Documentation | Hybrid mobile app development |
+| [Capacitor Docs](https://capacitorjs.com/docs) | 📚 Documentation | Native runtime for web apps on iOS/Android |
+| [Tauri](https://tauri.app/start/) | 📚 Documentation | Build tiny, secure desktop apps with web frontends |
+| [Wails](https://github.com/wailsapp/wails) | 📚 Documentation | Build desktop apps with Go and web frontends |
+| [Neutralinojs Docs](https://neutralino.js.org/docs/) | 📚 Documentation | Lightweight cross-platform desktop apps with web tech |
+| [Electron Docs](https://www.electronjs.org/docs/latest/) | 📚 Documentation | Cross-platform desktop apps with Chromium + Node |
+| [SwiftUI Tutorials](https://developer.apple.com/tutorials/swiftui) | 🎓 Tutorials | Build native Apple apps with SwiftUI |
+| [Jetpack Compose Course](https://developer.android.com/courses/android-basics-compose/course) | 🎓 Course | Modern Android UI with Compose |
+| [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html) | 📚 Documentation | Share code across Android, iOS, and more |
+| [Kotlin Coroutines Guide](https://kotlinlang.org/docs/coroutines-guide.html) | 📚 Documentation | Structured concurrency for Kotlin |
+| [Compose Multiplatform](https://www.jetbrains.com/compose-multiplatform/) | 📚 Documentation | Declarative UI framework for Android, iOS, desktop, and web |
+| [Godot Docs](https://docs.godotengine.org/en/stable/) | 📚 Documentation | Free and open-source game engine (also great for interactive apps) |
+| [Bevy Quick Start](https://bevy.org/learn/quick-start/getting-started/) | 📖 Tutorial | Data-driven game engine built in Rust |
+| [Phaser Learn](https://phaser.io/learn) | 🎓 Tutorials | Popular 2D HTML5 game framework |
+| [Defold](https://defold.com/) | 📚 Documentation | Free cross-platform game engine used in production |
+| [LÖVE (Love2D)](https://love2d.org/) | 📚 Documentation | Free 2D game framework for Lua |
+| [raylib](https://www.raylib.com/) | 📚 Documentation | Simple and easy-to-use library to enjoy videogames programming |
+| [SDL](https://www.libsdl.org/) | 📚 Documentation | Cross-platform low-level access to audio, keyboard, mouse, and graphics |
+| [MonoGame](https://www.monogame.net/) | 📚 Documentation | Free, open-source, cross-platform C# game framework |
+| [libGDX](https://libgdx.com/) | 📚 Documentation | Cross-platform Java game development framework |
+| [Haxe](https://haxe.org/) | 📚 Documentation | Cross-platform toolkit and language for games and apps |
+| [Godot Docs](https://docs.godotengine.org/en/stable/getting_started/introduction/index.html) | 📚 Documentation | Free and open-source game engine |
+| [Home Assistant](https://www.home-assistant.io/) | 📚 Documentation | Open-source home automation that puts local control first |
+| [ESPHome](https://esphome.io/) | 📚 Documentation | Control ESP8266/ESP32 devices with simple YAML configs |
+| [PlatformIO](https://platformio.org/) | 📚 Documentation | Professional collaborative platform for embedded development |
+| [Arduino Docs](https://www.arduino.cc/) | 📚 Documentation | Open-source electronics platform and learning resources |
+| [Zephyr Project](https://www.zephyrproject.org/) | 📚 Documentation | Scalable real-time OS for connected, resource-constrained devices |
+| [FreeRTOS](https://www.freertos.org/) | 📚 Documentation | Real-time operating system for microcontrollers |
+| [MicroPython](https://micropython.org/) | 📚 Documentation | Lean Python implementation for microcontrollers |
+| [CircuitPython](https://circuitpython.org/) | 📚 Documentation | Adafruit's beginner-friendly MicroPython fork |
+| [TinyGo](https://tinygo.org/) | 📚 Documentation | Go compiler for small places (microcontrollers and Wasm) |
 
 ## <img src="https://img.shields.io/badge/Web3-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white" /> Web3 & Blockchain
 
@@ -709,6 +2060,8 @@ flowchart LR
 | Resource | Type | Description |
 |----------|------|-------------|
 | [System Design Primer](https://github.com/donnemartin/system-design-primer) | 📋 Guide | Learn how to design large-scale systems |
+| [System Design Primer README](https://github.com/donnemartin/system-design-primer/blob/master/README.md) | 📋 Guide | Direct README entry point for the primer |
+| [ByteByteGo](https://bytebytego.com/) | 📰 Articles | Visual system design explainers and newsletters |
 | [High Scalability](http://highscalability.com/) | 📰 Articles | Real-world architecture case studies |
 | [Microservices.io](https://microservices.io/) | 📋 Patterns | Microservices architecture patterns |
 | [ByteByteGo Blog](https://blog.bytebytego.com/) | 📰 Articles | Visual system design explainers |
@@ -721,11 +2074,43 @@ flowchart LR
 |----------|------|-------------|
 | [Algorithm Visualizer](https://github.com/algorithm-visualizer/algorithm-visualizer) | 🎮 Interactive | Visualize algorithms in action (open-source project) |
 | [VisuAlgo](https://visualgo.net/) | 🎮 Interactive | Algorithm and data structure visualizations |
+| [The Algorithms](https://the-algorithms.com/) | 💻 Examples | Open-source algorithm implementations in many languages |
 | [Big-O Cheat Sheet](https://www.bigocheatsheet.com/) | 📋 Reference | Time and space complexity reference |
 | [GeeksforGeeks](https://www.geeksforgeeks.org/) | 📖 Articles | Comprehensive algorithm tutorials |
 | [Khan Academy - Algorithms](https://www.khanacademy.org/computing/computer-science/algorithms) | 🎓 Course | Introduction to algorithms |
 | [MIT OpenCourseWare - Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/) | 🎓 Course | MIT's Introduction to Algorithms |
 | [NeetCode](https://neetcode.io/) | 💻 Practice | Curated coding interview roadmap and explanations |
+| [NeetCode Roadmap](https://neetcode.io/roadmap) | 🗺️ Roadmap | Structured coding interview preparation path |
+| [Hello Interview](https://www.hellointerview.com/) | 📖 Guide | Practical system design interview preparation |
+| [Hacker News Jobs](https://news.ycombinator.com/jobs) | 💼 Jobs | Who is hiring posts and startup job board |
+| [Hashnode](https://hashnode.com/) | 👥 Community | Developer blogging platform and community |
+| [Smashing Magazine](https://www.smashingmagazine.com/) | 📰 Articles | High-quality web design and development articles |
+| [Smashing Magazine Guides](https://www.smashingmagazine.com/guides/) | 📖 Guides | Curated deep-dive guides on web design and development |
+| [MDN Blog](https://developer.mozilla.org/en-US/blog/) | 📰 Articles | Web platform news and deep dives from MDN |
+| [web.dev Blog](https://web.dev/blog/) | 📰 Articles | Performance, UX, and web platform updates from Google |
+| [CSS-Tricks Guides](https://css-tricks.com/guides/) | 📖 Guides | Long-form CSS and frontend guides |
+| [freeCodeCamp News](https://www.freecodecamp.org/news/) | 📰 Articles | Free programming tutorials and career advice |
+| [Web Status / Baseline](https://baseline.dev/) | 🛠️ Tool | Track which web features are Baseline-ready |
+| [MDN Curriculum](https://developer.mozilla.org/en-US/curriculum/) | 🗺️ Curriculum | Structured front-end developer learning curriculum from MDN |
+| [WHATWG HTML Living Standard](https://html.spec.whatwg.org/multipage/) | 📋 Specification | The HTML living standard |
+| [CSS Snapshot](https://www.w3.org/TR/css/) | 📋 Specification | W3C CSS Snapshot of stable CSS modules |
+| [ECMA-262](https://tc39.es/ecma262/) | 📋 Specification | ECMAScript language specification |
+| [TC39 Proposals](https://github.com/tc39/proposals) | 📋 Repository | Active ECMAScript language feature proposals |
+| [Staff Engineer Guides](https://staffeng.com/guides/) | 📖 Guide | Guides for operating as a staff+ engineer |
+| [The Pragmatic Engineer Newsletter](https://newsletter.pragmaticengineer.com/) | 📰 Articles | High-signal software engineering career newsletter |
+| [How to Get a Developer Job](https://www.freecodecamp.org/news/how-to-get-a-developer-job/) | 📖 Guide | Practical freeCodeCamp guide to landing a first role |
+| [Software Engineer Career Path](https://www.coursera.org/articles/software-engineer-career-path) | 📖 Guide | Overview of software engineering career progression |
+| [Spotify Engineering](https://engineering.atspotify.com/) | 📰 Articles | Engineering blog from Spotify |
+| [Shopify Engineering](https://shopify.engineering/) | 📰 Articles | Engineering blog from Shopify |
+| [Stripe Engineering Blog](https://stripe.com/blog/engineering) | 📰 Articles | Engineering deep dives from Stripe |
+| [GitHub Engineering Blog](https://github.blog/engineering/) | 📰 Articles | Engineering posts from GitHub |
+| [Vercel Blog](https://vercel.com/blog) | 📰 Articles | Frontend/platform engineering posts from Vercel |
+| [Cloudflare Blog](https://blog.cloudflare.com/) | 📰 Articles | Networking, security, and edge computing deep dives |
+| [AWS Architecture Blog](https://aws.amazon.com/blogs/architecture/) | 📰 Articles | Cloud architecture patterns and case studies |
+| [Microservices (Martin Fowler)](https://martinfowler.com/articles/microservices.html) | 📰 Article | Classic definition and guidance on microservices |
+| [Chrome for Developers](https://developer.chrome.com/) | 📚 Documentation | Docs, blogs, and tools from the Chrome team |
+| [Microsoft Edge Learn](https://learn.microsoft.com/en-us/microsoft-edge/) | 📚 Documentation | Edge browser docs and developer resources |
+| [Firefox Source Docs](https://firefox-source-docs.mozilla.org/) | 📚 Documentation | Documentation for Firefox and Mozilla platform |
 | [Exercism](https://exercism.org/) | 💻 Practice | Mentored coding practice across dozens of languages |
 | [Advent of Code](https://adventofcode.com/) | 🏆 Challenge | Seasonal algorithmic puzzles loved by developers |
 
@@ -740,7 +2125,36 @@ flowchart LR
 | [Contentful University](https://www.contentful.com/developers/docs/) | 📚 Documentation | Headless CMS documentation |
 | [Strapi Documentation](https://docs.strapi.io/) | 📚 Documentation | Open-source headless CMS |
 | [Ghost Publishing Platform](https://ghost.org/docs/) | 📚 Documentation | Modern publishing platform |
+| [Hugo Docs](https://gohugo.io/documentation/) | 📚 Documentation | Extremely fast static site generator |
+| [Eleventy Docs](https://www.11ty.dev/docs/) | 📚 Documentation | Simpler static site generator (11ty) |
+| [Jekyll Docs](https://jekyllrb.com/docs/) | 📚 Documentation | Blog-aware static site generator |
+| [Zola Docs](https://www.getzola.org/documentation/getting-started/overview/) | 📚 Documentation | Fast static site generator written in Rust |
+| [VitePress](https://vitepress.dev/) | 📚 Documentation | Vite & Vue powered static site generator |
 | [TinaCMS](https://tina.io/docs/) | 📚 Documentation | Git-based CMS (Forestry successor) |
+| [Payload CMS](https://payloadcms.com/docs) | 📚 Documentation | Code-first TypeScript headless CMS |
+| [KeystoneJS Docs](https://keystonejs.com/docs) | 📚 Documentation | Headless CMS for Node.js with GraphQL API |
+| [Refine Docs](https://refine.dev/docs/) | 📚 Documentation | React framework for building admin panels and internal tools |
+| [Directus Docs](https://docs.directus.io/) | 📚 Documentation | Open-source data platform / headless CMS |
+| [Appwrite Docs](https://appwrite.io/docs) | 📚 Documentation | Open-source backend platform for web and mobile |
+| [PocketBase](https://pocketbase.io/docs/) | 📚 Documentation | Open-source backend in a single file |
+| [Nhost Docs](https://docs.nhost.io/) | 📚 Documentation | Open-source Firebase alternative with GraphQL and Auth |
+| [Encore.ts Docs](https://encore.dev/docs/ts) | 📚 Documentation | TypeScript backend framework with infra from code |
+| [Convex Docs](https://www.convex.dev/docs) | 📚 Documentation | Reactive backend-as-a-service for TypeScript |
+| [Hasura Docs](https://hasura.io/docs/3.0/index/) | 📚 Documentation | Instant GraphQL/REST APIs on Postgres |
+| [PostgREST](https://docs.postgrest.org/) | 📚 Documentation | Turn Postgres into a RESTful API |
+| [ElectricSQL](https://github.com/electric-sql/electric) | 📚 Documentation | Sync layer for local-first Postgres apps |
+| [Liveblocks Docs](https://liveblocks.io/docs) | 📚 Documentation | APIs for collaborative products |
+| [TinyBase](https://tinybase.org/) | 📚 Documentation | Reactive local-first data store |
+| [RxDB](https://rxdb.info/) | 📚 Documentation | Offline-first JavaScript database |
+| [WatermelonDB](https://watermelondb.dev/docs) | 📚 Documentation | High-performance local database for React/RN |
+| [PouchDB](https://pouchdb.com/) | 📚 Documentation | Offline-first database inspired by CouchDB |
+| [Yjs Docs](https://docs.yjs.dev/) | 📚 Documentation | CRDT framework for shared editing |
+| [Zero Docs](https://zero.rocicorp.dev/docs) | 📚 Documentation | Sync engine for building instant apps |
+| [TanStack DB](https://tanstack.com/db/latest) | 📚 Documentation | Reactive client store for syncing and live queries |
+| [AFFiNE Docs](https://docs.affine.pro/) | 📚 Documentation | Open-source Notion/Miro-style collaborative workspace |
+| [Automerge](https://automerge.org/docs/hello/) | 📚 Documentation | Conflict-free replicated data types library |
+| [PartyKit Docs](https://docs.partykit.io/) | 📚 Documentation | Build realtime multiplayer apps on the edge |
+| [PowerSync Docs](https://docs.powersync.com/) | 📚 Documentation | Sync Postgres to on-device SQLite |
 
 ## <img src="https://img.shields.io/badge/Interview%20Prep-00C851?style=for-the-badge&logo=target&logoColor=white" /> Career & Interview Prep
 
@@ -748,6 +2162,8 @@ flowchart LR
 |----------|------|-------------|
 | [LeetCode](https://leetcode.com/) | 💻 Practice Platform | Algorithm and data structure problems |
 | [HackerRank](https://www.hackerrank.com/) | 💻 Practice Platform | Programming challenges and contests |
+| [CodeSignal Arcade](https://codesignal.com/learn/) | 💻 Practice | Interactive coding practice and assessments |
+| [freeCodeCamp Coding Interview Prep](https://www.freecodecamp.org/learn/coding-interview-prep/) | 💻 Practice | Free algorithm and interview practice challenges |
 | [Codewars](https://www.codewars.com/) | 💻 Practice Platform | Code challenges and kata |
 | [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook) | 📋 Guide | Comprehensive interview preparation guide |
 | [System Design Interview](https://github.com/checkcheckzz/system-design-interview) | 📋 Guide | System design interview questions and answers |
@@ -756,6 +2172,11 @@ flowchart LR
 | [Pramp](https://www.pramp.com/) | 🎤 Practice | Peer-to-peer interview practice |
 | [Front End Interview Handbook](https://github.com/yangshun/front-end-interview-handbook) | 📋 Guide | HTML/CSS/JS frontend interview questions and answers |
 | [Excalidraw](https://excalidraw.com/) | 🛠️ Tool | Sketch system-design diagrams during interviews |
+| [tldraw](https://tldraw.dev/) | 📚 Documentation | Infinite canvas SDK for React |
+| [TipTap](https://tiptap.dev/docs) | 📚 Documentation | Headless rich-text editor framework |
+| [Lexical](https://lexical.dev/docs/intro) | 📚 Documentation | Extensible text editor framework by Meta |
+| [diagrams.net](https://www.diagrams.net/) | 🛠️ Tool | Free diagramming (draw.io) |
+| [Penpot](https://penpot.app/) | 🛠️ Tool | Open-source design and prototyping platform |
 
 ---
 
@@ -770,23 +2191,109 @@ flowchart LR
 | [pnpm Docs](https://pnpm.io/) | 📚 Documentation | Fast, disk-efficient JavaScript package manager |
 | [npm Docs](https://docs.npmjs.com/) | 📚 Documentation | Official npm package manager documentation |
 | [Chrome DevTools](https://developer.chrome.com/docs/devtools) | 📚 Documentation | Debug and profile web apps in Chrome |
+| [ESLint Getting Started](https://eslint.org/docs/latest/use/getting-started) | 📚 Documentation | Find and fix problems in JavaScript code |
+| [Prettier Docs](https://prettier.io/docs/en/) | 📚 Documentation | Opinionated code formatter |
+| [Biome Getting Started](https://biomejs.dev/guides/getting-started/) | 📚 Documentation | Fast formatter and linter (Rust-based) |
+| [oxc / oxlint](https://oxc.rs/) | 🛠️ Tool | High-performance Rust-based JS/TS compiler tooling and linter |
+| [typos](https://github.com/crate-ci/typos) | 🛠️ Tool | Fast source-code spell checker |
+| [dprint](https://dprint.dev/) | 🛠️ Tool | Pluggable code formatting platform |
+| [mise](https://mise.jdx.dev/) | 🛠️ Tool | Dev tools / runtime version manager (asdf-compatible) |
+| [Oxc](https://oxc.rs/) | 📚 Documentation | High-performance Rust-based JS/TS toolchain |
+| [dprint](https://dprint.dev/) | 📚 Documentation | Pluggable and configurable code formatting platform |
+| [Ruff](https://docs.astral.sh/ruff/) | 📚 Documentation | Extremely fast Python linter and formatter |
+| [ShellCheck](https://www.shellcheck.net/) | 🛠️ Tool | Static analysis for shell scripts |
+| [tldr pages](https://tldr.sh/) | 🛠️ Tool | Simplified, community-driven man pages |
+| [Devhints](https://devhints.io/) | 📋 Cheatsheets | Beautiful cheatsheets for developers |
+| [asciinema](https://www.asciinema.org/) | 🛠️ Tool | Record and share terminal sessions |
+| [Carbon](https://carbon.now.sh/) | 🛠️ Tool | Create beautiful images of your source code |
+| [Mermaid Intro](https://mermaid.js.org/intro/) | 📚 Documentation | Diagrams as code for Markdown and docs |
+| [C4 Model Diagrams](https://c4model.com/diagrams) | 📋 Guide | Context, containers, components, and code diagrams |
+| [hadolint](https://github.com/hadolint/hadolint) | 🛠️ Tool | Dockerfile linter |
+| [actionlint](https://github.com/rhysd/actionlint) | 🛠️ Tool | Static checker for GitHub Actions workflows |
+| [Vale](https://vale.sh/) | 📚 Documentation | Syntax-aware prose linter for docs and blogs |
+| [Turborepo Handbook](https://turbo.build/repo/docs/handbook) | 📚 Documentation | High-performance monorepo build system |
+| [Turborepo Docs](https://turborepo.com/docs) | 📚 Documentation | Official Turborepo documentation |
+| [pnpm Motivation](https://pnpm.io/motivation) | 📖 Guide | Why pnpm uses a content-addressable store |
+| [npm Workspaces](https://docs.npmjs.com/cli/v10/using-npm/workspaces) | 📚 Documentation | Manage multiple packages in one repo with npm |
+| [Yarn Workspaces](https://yarnpkg.com/features/workspaces) | 📚 Documentation | Install and link packages across a monorepo |
+| [Bun Workspaces](https://bun.sh/docs/install/workspaces) | 📚 Documentation | Workspace support in the Bun package manager |
+| [Moonrepo Docs](https://moonrepo.dev/docs) | 📚 Documentation | Fast, developer-friendly monorepo build system |
+| [Bazel Docs](https://bazel.build/start) | 📚 Documentation | Fast, scalable multi-language build system |
+| [Nx Intro](https://nx.dev/getting-started/intro) | 📚 Documentation | Smart monorepos and AI-assisted tooling |
+| [Just](https://just.systems/man/en/) | 🛠️ Tool | Handy command runner for project tasks |
+| [Starship](https://starship.rs/) | 🛠️ Tool | Minimal, blazing-fast, customizable shell prompt |
+| [Zellij](https://zellij.dev/documentation/) | 🛠️ Tool | Terminal workspace / multiplexer with a friendly UX |
+| [tmux Wiki](https://github.com/tmux/tmux/wiki) | 📚 Documentation | Terminal multiplexer for sessions and panes |
+| [WezTerm](https://wezfurlong.org/wezterm/index.html) | 🛠️ Tool | GPU-accelerated cross-platform terminal emulator |
+| [Alacritty](https://alacritty.org/) | 🛠️ Tool | Fast, cross-platform OpenGL terminal emulator |
+| [Kitty](https://sw.kovidgoyal.net/kitty/) | 🛠️ Tool | Fast, feature-rich, GPU-based terminal emulator |
+| [ripgrep](https://github.com/BurntSushi/ripgrep) | 🛠️ Tool | Extremely fast recursive search (grep alternative) |
+| [fd](https://github.com/sharkdp/fd) | 🛠️ Tool | Simple, fast, and user-friendly alternative to find |
+| [eza](https://github.com/eza-community/eza) | 🛠️ Tool | Modern, maintained replacement for ls |
+| [fzf](https://github.com/junegunn/fzf) | 🛠️ Tool | Command-line fuzzy finder |
+| [zoxide](https://github.com/ajeetdsouza/zoxide) | 🛠️ Tool | Smarter cd command that learns your habits |
+| [lazygit](https://github.com/jesseduffield/lazygit) | 🛠️ Tool | Simple terminal UI for git commands |
+| [lazydocker](https://github.com/jesseduffield/lazydocker) | 🛠️ Tool | Terminal UI for Docker and Docker Compose |
+| [bottom](https://github.com/ClementTsang/bottom) | 🛠️ Tool | Graphical process/system monitor for the terminal |
+| [Charm](https://charm.sh/) | 🛠️ Tool | Libraries and tools for delightful terminal apps |
+| [Bubble Tea](https://github.com/charmbracelet/bubbletea) | 📚 Documentation | Powerful Go framework for terminal UIs (Elm Architecture) |
+| [Gum](https://github.com/charmbracelet/gum) | 🛠️ Tool | Glue for delightful shell scripts |
+| [Cobra](https://github.com/spf13/cobra) | 📚 Documentation | Popular Go library for creating powerful CLI applications |
+| [Clap](https://docs.rs/clap/latest/clap/) | 📚 Documentation | Command-line argument parser for Rust |
+| [Typer](https://typer.tiangolo.com/) | 📚 Documentation | Build great CLIs with Python type hints |
+| [Click](https://click.palletsprojects.com/) | 📚 Documentation | Composable command-line interface toolkit for Python |
+| [Scoop](https://scoop.sh/) | 🛠️ Tool | Command-line installer for Windows |
+| [winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/) | 🛠️ Tool | Windows Package Manager from Microsoft |
+| [Chocolatey Docs](https://docs.chocolatey.org/en-us/) | 📚 Documentation | Package manager for Windows |
 
 ## <img src="https://img.shields.io/badge/CS%20Fundamentals-6B73FF?style=for-the-badge&logo=computer&logoColor=white" /> Computer Science Fundamentals
 
 | Resource | Type | Description |
 |----------|------|-------------|
 | [CS50x](https://cs50.harvard.edu/x/) | 🎓 Course | Harvard's introduction to computer science (free audit) |
+| [CS50 on Harvard Online](https://pll.harvard.edu/course/cs50-introduction-computer-science) | 🎓 Course | CS50 Introduction to Computer Science (Harvard/edX listing) |
+| [MIT 6.0001 Intro to CS with Python](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/) | 🎓 Course | MIT OpenCourseWare Python CS intro |
+| [Khan Academy Computer Science](https://www.khanacademy.org/computing/computer-science) | 🎓 Courses | Free CS fundamentals from Khan Academy |
+| [edX Computer Science](https://www.edx.org/learn/computer-science) | 🎓 Courses | Free/audit CS courses across universities |
+| [Coursera Python for Everybody](https://www.coursera.org/learn/python) | 🎓 Course | Popular Python intro (audit for free) |
+| [HTML, CSS, and Javascript for Web Developers](https://www.coursera.org/learn/html-css-javascript-for-web-developers) | 🎓 Course | Johns Hopkins web development course (audit for free) |
+| [CS50's Web Programming](https://cs50.harvard.edu/web/) | 🎓 Course | Harvard CS50W — web programming with Python and JavaScript |
+| [CS50's AI](https://cs50.harvard.edu/ai/) | 🎓 Course | Harvard CS50AI — introduction to artificial intelligence |
+| [MIT OpenCourseWare](https://ocw.mit.edu/) | 🎓 Courses | Free MIT course materials across CS and engineering |
+| [Scrimba](https://scrimba.com/) | 🎓 Courses | Interactive frontend coding courses (free tracks available) |
+| [The Odin Project Foundations](https://www.theodinproject.com/paths/foundations/courses/foundations) | 🎓 Course | Foundations path before fullstack specializations |
+| [Learn X in Y Minutes](https://www.learnxinyminutes.com/) | 📖 Guide | Whirlwind tours of dozens of programming languages |
+| [Boot.dev](https://www.boot.dev/) | 🎓 Courses | Backend learning path with free lessons available |
 | [MIT Missing Semester](https://missing.csail.mit.edu/) | 🎓 Course | Tools and practices for programmers (shell, git, vim) |
 | [OSSU Computer Science](https://github.com/ossu/computer-science) | 🗺️ Curriculum | Free self-taught CS degree path |
 | [Teach Yourself CS](https://teachyourselfcs.com/) | 📋 Guide | Curated CS fundamentals reading list |
+| [MIT 6.006 Introduction to Algorithms](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/) | 🎓 Course | MIT OpenCourseWare algorithms course materials |
+| [Algorithms, Part I (Coursera)](https://www.coursera.org/learn/algorithms-part1) | 🎓 Course | Princeton algorithms course (audit for free) |
+| [Vim Golf](https://www.vimgolf.com/) | 🏆 Challenge | Practice Vim editing skills with real challenges |
+| [Learn Enough Command Line](https://www.learnenough.com/command-line-tutorial/basics) | 📖 Tutorial | Practical command-line basics tutorial |
 | [Nand2Tetris](https://www.nand2tetris.org/) | 🎓 Course | Build a computer from first principles |
+| [Command line for beginners](https://ubuntu.com/tutorials/command-line-for-beginners) | 📖 Tutorial | Practical Linux shell introduction |
+| [SS64 Command References](https://ss64.com/) | 📋 Reference | Command-line references across platforms |
+| [SS64 Bash](https://ss64.com/bash/) | 📋 Reference | Bash builtin and common Unix command reference |
+| [GNU Bash Manual](https://www.gnu.org/software/bash/manual/) | 📚 Documentation | Official Bash reference manual |
+| [Advanced Bash-Scripting Guide](https://tldp.org/LDP/abs/html/) | 📚 Book | Classic free guide to Bash scripting |
 
 ## <img src="https://img.shields.io/badge/Documentation-4B8BBE?style=for-the-badge&logo=read%20the%20docs&logoColor=white" /> Documentation & Communication
 
 | Resource | Type | Description |
 |----------|------|-------------|
 | [Write the Docs Guide](https://www.writethedocs.org/guide/) | 📖 Guide | Community-written documentation best practices |
+| [Outline Docs](https://docs.getoutline.com/) | 📚 Documentation | Open-source team knowledge base / wiki |
+| [BookStack Docs](https://www.bookstackapp.com/docs/) | 📚 Documentation | Simple, self-hosted platform for organising documentation |
+| [Wiki.js Docs](https://docs.requarks.io/) | 📚 Documentation | Modern and powerful open-source wiki app |
+| [Matomo Docs](https://matomo.org/guide/) | 📚 Documentation | Open-source web analytics platform |
 | [Diátaxis Framework](https://diataxis.fr/) | 📋 Framework | Approach for structuring technical documentation |
+| [Diátaxis — Tutorials](https://diataxis.fr/tutorials/) | 📖 Guide | Learning-oriented documentation |
+| [Diátaxis — How-to guides](https://diataxis.fr/how-to-guides/) | 📖 Guide | Goal-oriented documentation |
+| [Diátaxis — Reference](https://diataxis.fr/reference/) | 📖 Guide | Information-oriented documentation |
+| [Diátaxis — Explanation](https://diataxis.fr/explanation/) | 📖 Guide | Understanding-oriented documentation |
+| [Beginners guide to docs](https://www.writethedocs.org/guide/writing/beginners-guide-to-docs/) | 📖 Guide | Write the Docs beginner documentation guide |
+| [Divio Documentation System](https://documentation.divio.com/) | 📋 Framework | Four types of documentation: tutorials, how-tos, reference, explanation |
 | [Google Technical Writing Courses](https://developers.google.com/tech-writing) | 🎓 Courses | Free technical writing courses from Google |
 | [The Good Docs Project](https://www.thegooddocsproject.dev/) | 📋 Templates | Templates and guidance for project docs |
 | [Markdown Guide](https://www.markdownguide.org/) | 📖 Guide | Complete Markdown syntax and best practices |
@@ -801,7 +2308,80 @@ flowchart LR
 | [Railway Docs](https://docs.railway.com) | ☁️ Platform | Deploy apps, databases, and workers quickly |
 | [Fly.io Docs](https://fly.io/docs/) | ☁️ Platform | Run containers close to your users |
 | [Cloudflare Workers Docs](https://developers.cloudflare.com/workers/) | ☁️ Platform | Serverless compute on Cloudflare's edge |
+| [Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/) | 📚 Documentation | Run AI models on Cloudflare's global network |
+| [Wrangler Docs](https://developers.cloudflare.com/workers/wrangler/) | 📚 Documentation | CLI for developing and deploying Cloudflare Workers |
+| [Miniflare](https://developers.cloudflare.com/workers/testing/miniflare/) | 📚 Documentation | Local simulator for Cloudflare Workers |
+| [Cloudflare Hyperdrive](https://developers.cloudflare.com/hyperdrive/) | 📚 Documentation | Accelerate queries to existing databases from Workers |
+| [Firebase Emulator Suite](https://firebase.google.com/docs/emulator-suite) | 📚 Documentation | Local emulators for Firebase Auth, Firestore, Functions, and more |
+| [Supabase CLI](https://supabase.com/docs/reference/cli/introduction) | 📚 Documentation | Local development and management CLI for Supabase |
+| [Cloudflare AI Gateway](https://developers.cloudflare.com/ai-gateway/) | 📚 Documentation | Control, cache, and observe AI traffic |
+| [Cloudflare Vectorize](https://developers.cloudflare.com/vectorize/) | 📚 Documentation | Vector database for AI applications |
+| [Cloudflare Queues](https://developers.cloudflare.com/queues/) | 📚 Documentation | Message queues for Workers |
+| [Cloudflare Workflows](https://developers.cloudflare.com/workflows/) | 📚 Documentation | Durable multi-step applications on Workers |
+| [Cloudflare Durable Objects](https://developers.cloudflare.com/durable-objects/) | 📚 Documentation | Strongly consistent stateful edge compute |
+| [Fly Machines](https://fly.io/docs/machines/overview/) | 📚 Documentation | Fast-booting VMs for fullstack workloads |
+| [Coolify Docs](https://coolify.io/docs) | 📚 Documentation | Self-host PaaS alternative (open source) |
+| [Dokploy Docs](https://docs.dokploy.com/) | 📚 Documentation | Self-hosted PaaS for deploying apps with Docker |
+| [Portainer Docs](https://docs.portainer.io/) | 📚 Documentation | Container management UI for Docker and Kubernetes |
+| [CapRover Docs](https://caprover.com/docs/get-started.html) | 📚 Documentation | Self-hosted Heroku-like PaaS on your own VPS |
 | [GitHub Student Developer Pack](https://education.github.com/pack) | 🎁 Bundle | Free developer tools and credits for students |
+| [date-fns](https://date-fns.org/) | 📚 Documentation | Modern JavaScript date utility library |
+| [Day.js](https://day.js.org/docs/en/installation/installation) | 📚 Documentation | Tiny date library with a Moment-like API |
+| [PostHog Docs](https://posthog.com/docs) | 📚 Documentation | Open-source product analytics |
+| [Plausible Docs](https://plausible.io/docs) | 📚 Documentation | Privacy-friendly web analytics |
+| [Umami Docs](https://umami.is/docs) | 📚 Documentation | Simple, self-hosted web analytics |
+| [Homebrew](https://brew.sh/) | 🛠️ Tool | Package manager for macOS (and Linux) |
+| [SDKMAN!](https://sdkman.io/) | 🛠️ Tool | Manage multiple SDKs on Unix systems |
+| [Gradle Docs](https://docs.gradle.org/) | 📚 Documentation | Flexible build automation for JVM projects |
+| [Maven Guides](https://maven.apache.org/guides/) | 📚 Documentation | Project management and comprehension tool for Java |
+| [devenv](https://devenv.sh/) | 📚 Documentation | Fast, declarative, reproducible developer environments |
+| [Flox Docs](https://flox.dev/docs/) | 📚 Documentation | Developer environments powered by Nix |
+| [asdf](https://asdf-vm.com/) | 🛠️ Tool | Manage multiple runtime versions with a single CLI |
+| [nvm](https://github.com/nvm-sh/nvm) | 🛠️ Tool | Node Version Manager |
+| [pyenv](https://github.com/pyenv/pyenv) | 🛠️ Tool | Simple Python version management |
+| [rbenv](https://github.com/rbenv/rbenv) | 🛠️ Tool | Manage multiple Ruby versions |
+| [atuin](https://github.com/atuinsh/atuin) | 🛠️ Tool | Magical shell history with sync and search |
+| [delta](https://dandavison.github.io/delta/) | 🛠️ Tool | Syntax-highlighting pager for git and diffs |
+| [Glow](https://github.com/charmbracelet/glow) | 🛠️ Tool | Render Markdown in the terminal |
+| [htop](https://github.com/htop-dev/htop) | 🛠️ Tool | Interactive process viewer |
+| [btop](https://github.com/aristocratos/btop) | 🛠️ Tool | Resource monitor with a beautiful TUI |
+| [mise](https://mise.jdx.dev/) | 🛠️ Tool | Polyglot runtime version manager (asdf-compatible) |
+| [Volta](https://volta.sh/) | 🛠️ Tool | Hassle-free JavaScript tool manager |
+| [fnm](https://github.com/Schniz/fnm) | 🛠️ Tool | Fast Node.js version manager |
+| [uv](https://docs.astral.sh/uv/) | 🛠️ Tool | Extremely fast Python package/project manager |
+| [Poetry](https://python-poetry.org/docs/) | 📚 Documentation | Python dependency management and packaging |
+| [Just](https://github.com/casey/just) | 🛠️ Tool | Handy command runner (Makefile alternative) |
+| [Task](https://taskfile.dev/) | 📚 Documentation | Task runner / build tool using YAML |
+| [direnv](https://direnv.net/) | 🛠️ Tool | Per-directory environment variables |
+| [Colima](https://colima.io/) | 🛠️ Tool | Container runtimes on macOS with minimal setup |
+| [OrbStack](https://orbstack.dev/) | 🛠️ Tool | Fast, light Docker Desktop alternative for Mac |
+| [Dev Containers](https://containers.dev/) | 📚 Documentation | Consistent, reproducible development environments |
+| [GitHub Codespaces](https://docs.github.com/en/codespaces) | 📚 Documentation | Cloud development environments on GitHub |
+| [Gitpod Docs](https://www.gitpod.io/docs) | 📚 Documentation | Automated cloud developer environments |
+| [Devbox](https://www.jetify.com/devbox/docs) | 📚 Documentation | Isolated, reproducible shell environments |
+| [SDKMAN!](https://sdkman.io/) | 🛠️ Tool | Manage multiple SDKs (Java, Kotlin, Gradle, etc.) |
+| [Tilt Docs](https://docs.tilt.dev/) | 📚 Documentation | Better Kubernetes inner-loop development |
+| [Skaffold Docs](https://skaffold.dev/docs/) | 📚 Documentation | Continuous development for Kubernetes applications |
+| [Telepresence](https://www.telepresence.io/docs/latest/) | 📚 Documentation | Code and test Kubernetes services locally |
+| [mirrord](https://mirrord.dev/docs/) | 📚 Documentation | Run local processes in the context of a cloud env |
+| [Hoppscotch](https://hoppscotch.io/) | 🛠️ Tool | Open-source API development ecosystem |
+| [Bruno](https://docs.usebruno.com/introduction) | 📚 Documentation | Git-friendly, offline-first API client |
+| [Insomnia Docs](https://docs.insomnia.rest/) | 📚 Documentation | Collaborative API client for REST, GraphQL, and gRPC |
+| [HTTPie Docs](https://httpie.io/docs) | 📚 Documentation | Human-friendly HTTP client for the API era |
+| [jq](https://jqlang.org/) | 🛠️ Tool | Lightweight and flexible command-line JSON processor |
+| [yq](https://mikefarah.gitbook.io/yq/) | 🛠️ Tool | Portable command-line YAML, JSON, and XML processor |
+| [Datasette](https://datasette.io/) | 🛠️ Tool | Explore and publish data with a lightweight web UI |
+| [sqlite-utils](https://sqlite-utils.datasette.io/) | 🛠️ Tool | Python CLI/library for manipulating SQLite databases |
+| [Pandoc](https://pandoc.org/) | 🛠️ Tool | Universal document converter |
+| [Typst Docs](https://typst.app/docs/) | 📚 Documentation | Modern markup-based typesetting system |
+| [Sphinx](https://www.sphinx-doc.org/) | 📚 Documentation | Python documentation generator |
+| [AsciiDoctor Docs](https://asciidoctor.org/docs/) | 📚 Documentation | Fast text processor for converting AsciiDoc to HTML/PDF |
+| [Antora Docs](https://docs.antora.org/antora/latest/) | 📚 Documentation | Multi-repository documentation site generator |
+| [xh](https://github.com/ducaale/xh) | 🛠️ Tool | Friendly and fast HTTP client (HTTPie-compatible, Rust) |
+| [HTTPie](https://httpie.io/docs/cli) | 📚 Documentation | Human-friendly HTTP client for the terminal |
+| [Testcontainers](https://www.testcontainers.org/) | 📚 Documentation | Throwaway Docker containers for integration tests |
+| [LocalStack Docs](https://docs.localstack.cloud/) | 📚 Documentation | Local AWS cloud stack for development |
+| [Pact Docs](https://docs.pact.io/) | 📚 Documentation | Contract testing for microservices |
 
 
 <a id="hands-on-projects"></a>
@@ -836,6 +2416,25 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [WAI Accessibility Intro](https://www.w3.org/WAI/fundamentals/accessibility-intro/) | 📚 Documentation | W3C introduction to web accessibility |
 | [ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/) | 📋 Patterns | Correct keyboard/semantics patterns for widgets |
 | [MDN Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility) | 📖 Tutorial | MDN accessibility learning modules |
+| [Accessibility Developer Guide](https://www.accessibility-developer-guide.com/) | 📖 Guide | Practical a11y patterns for everyday UI work |
+| [axe-core](https://github.com/dequelabs/axe-core) | 🛠️ Tool | Accessibility engine for automated testing |
+| [axe DevTools](https://www.deque.com/axe/devtools/) | 🛠️ Tool | Browser extension for accessibility audits |
+| [Pa11y](https://pa11y.org/) | 🛠️ Tool | Automated accessibility testing from the command line |
+| [WAVE](https://wave.webaim.org/) | 🛠️ Tool | Web accessibility evaluation tool |
+| [Inclusive Components](https://inclusive-components.design/) | 📖 Guide | Accessible component design patterns |
+| [Inclusive Components — Toggle Button](https://inclusive-components.design/toggle-button/) | 📖 Guide | Accessible toggle button pattern deep dive |
+| [A11Y Project Checklist](https://www.a11yproject.com/checklist/) | 📋 Checklist | Practical WCAG-oriented accessibility checklist |
+| [ARIA APG Patterns](https://www.w3.org/WAI/ARIA/apg/patterns/) | 📋 Patterns | Widget patterns with keyboard interaction guidance |
+| [WAI Tutorials](https://www.w3.org/WAI/tutorials/) | 🎓 Tutorials | W3C tutorials for accessible web content |
+| [Sara Soueidan Blog](https://www.sarasoueidan.com/blog/) | 📰 Articles | SVG, CSS, and accessibility deep dives |
+| [Adrian Roselli](https://adrianroselli.com/) | 📰 Articles | Practical accessibility testing and patterns |
+| [Smashing A11y Guides](https://www.smashingmagazine.com/guides/accessibility/) | 📖 Guides | Curated accessibility guides from Smashing Magazine |
+| [WebAIM Contrast](https://webaim.org/articles/contrast/) | 📖 Article | Understanding color contrast for accessibility |
+| [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) | 🛠️ Tool | Check foreground/background contrast ratios |
+| [Color Contrast](https://colorcontrast.app/) | 🛠️ Tool | Fast WCAG contrast checking tool |
+| [React Aria](https://react-spectrum.adobe.com/react-aria/) | 📚 Documentation | Accessible UI primitives for React |
+| [WCAG Overview](https://www.w3.org/WAI/standards-guidelines/wcag/) | 📋 Guidelines | Web Content Accessibility Guidelines (W3C) |
+| [a11ysupport.io](https://a11ysupport.io/) | 🛠️ Tool | Accessibility support tables for browsers and AT |
 
 <a id="browser--networking"></a>
 ## <img src="https://img.shields.io/badge/HTTP-8A2BE2?style=for-the-badge&logo=firefox&logoColor=white" /> Browser & Networking
@@ -843,10 +2442,77 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | Resource | Type | Description |
 |----------|------|-------------|
 | [MDN HTTP Overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview) | 📚 Documentation | How HTTP actually works for web developers |
+| [MDN HTTP Caching](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Caching) | 📚 Documentation | Browser and intermediary HTTP caching |
+| [MDN HTTP Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Cookies) | 📚 Documentation | How cookies work for sessions and tracking |
+| [MDN HTTP Messages](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Messages) | 📚 Documentation | Structure of HTTP requests and responses |
+| [MDN HTTP Status Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status) | 📋 Reference | Complete list of HTTP response status codes |
+| [HTTP Caching (RFC 9111)](https://www.rfc-editor.org/rfc/rfc9111.html) | 📋 Specification | HTTP caching semantics |
+| [Structured Field Values (RFC 8941)](https://www.rfc-editor.org/rfc/rfc8941.html) | 📋 Specification | Structured syntax for HTTP header field values |
+| [HTTP Core (httpwg)](https://httpwg.org/http-core/) | 📋 Specification | HTTP/1.1 core specs maintained by the HTTP WG |
+| [http.dev](https://http.dev/) | 🛠️ Tool | Human-friendly HTTP status code and header reference |
 | [MDN Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) | 📖 Tutorial | Modern browser networking with fetch |
+| [Fetch Living Standard](https://fetch.spec.whatwg.org/) | 📋 Specification | WHATWG Fetch standard |
+| [AbortController (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/AbortController) | 📚 Documentation | Cancel fetch and other async operations |
+| [Streams API (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/Streams_API) | 📚 Documentation | Readable/writable streams in the browser |
+| [Streams on web.dev](https://web.dev/articles/streams) | 📖 Article | Working with the Streams API |
+| [Intersection Observer (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API) | 📚 Documentation | Asynchronously observe element visibility |
+| [Resize Observer (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/Resize_Observer_API) | 📚 Documentation | Observe element size changes |
+| [MutationObserver (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver) | 📚 Documentation | Watch for DOM tree mutations |
+| [Performance API (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/Performance_API) | 📚 Documentation | High-resolution timing and performance metrics |
+| [Service Worker API (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API) | 📚 Documentation | Background scripts for offline and caching |
+| [Service Worker lifecycle](https://web.dev/articles/service-worker-lifecycle) | 📖 Article | Install, activate, and update service workers |
+| [PWA service workers (web.dev)](https://web.dev/learn/pwa/service-workers) | 📖 Guide | Service workers in Progressive Web Apps |
+| [MDN Progressive Web Apps](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps) | 📚 Documentation | Installable, offline-capable web apps |
+| [Push notifications overview](https://web.dev/articles/push-notifications-overview) | 📖 Article | Web push notification fundamentals |
+| [HTML forms (MDN Learn)](https://developer.mozilla.org/en-US/docs/Learn/Forms) | 🎓 Tutorials | Building and validating web forms |
+| [CustomElementRegistry (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/CustomElementRegistry) | 📚 Documentation | Register and upgrade custom elements |
 | [web.dev Learn PWA](https://web.dev/learn/pwa) | 🎓 Course | Progressive Web Apps fundamentals |
 | [Can I Use](https://www.caniuse.com/) | 🛠️ Tool | Feature support across browsers |
 | [Chrome DevTools](https://developer.chrome.com/docs/devtools) | 📚 Documentation | Network, performance, and debugging panels |
+| [Three.js Manual](https://threejs.org/manual/) | 📖 Tutorial | 3D graphics on the web with Three.js |
+| [Babylon.js Docs](https://www.babylonjs.com/) | 📚 Documentation | Powerful, beautiful, simple 3D engine for the web |
+| [PlayCanvas](https://playcanvas.com/) | 📚 Documentation | WebGL game engine and collaborative editor |
+| [A-Frame](https://aframe.io/) | 📚 Documentation | Web framework for building VR experiences |
+| [Immersive Web](https://immersiveweb.dev/) | 📚 Documentation | WebXR Device API resources and demos |
+| [model-viewer](https://modelviewer.dev/) | 📚 Documentation | Embed interactive 3D models on the web easily |
+| [glTF](https://www.khronos.org/gltf/) | 📋 Specification | Runtime 3D asset delivery format |
+| [Filament](https://google.github.io/filament/) | 📚 Documentation | Real-time physically based rendering engine |
+| [WebGPU Fundamentals](https://webgpufundamentals.org/) | 📖 Tutorial | Next-generation GPU graphics/compute on the web |
+| [WebGPU API (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API) | 📚 Documentation | Modern GPU access for graphics and compute |
+| [WebNN](https://webmachinelearning.github.io/webnn/) | 📚 Documentation | Hardware-accelerated neural networks in the browser |
+| [WebTransport (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/WebTransport) | 📚 Documentation | Low-latency client-server messaging over HTTP/3 |
+| [HTTP/3 (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Protocol_upgrade_mechanism) | 📚 Documentation | Next-generation HTTP over QUIC |
+| [QUIC (MDN)](https://developer.mozilla.org/en-US/docs/Glossary/QUIC) | 📋 Reference | Transport protocol underlying HTTP/3 |
+| [Server-Timing (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Server-Timing) | 📚 Documentation | Communicate backend timing metrics to the browser |
+| [gRPC-Web](https://github.com/grpc/grpc-web) | 📚 Documentation | gRPC for browser clients |
+| [Web Crypto API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API) | 📚 Documentation | Cryptography primitives in the browser |
+| [Push API](https://developer.mozilla.org/en-US/docs/Web/API/Push_API) | 📚 Documentation | Push notifications from a server to a web app |
+| [FedCM API](https://developer.mozilla.org/en-US/docs/Web/API/FedCM_API) | 📚 Documentation | Privacy-preserving federated identity on the web |
+| [Chrome FedCM guide](https://developer.chrome.com/docs/privacy-sandbox/fedcm/) | 📖 Guide | Practical Federated Credential Management overview |
+| [MDN Forms](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms) | 📖 Tutorial | Accessible, robust web forms |
+| [web.dev Learn Forms](https://web.dev/learn/forms) | 🎓 Course | Modern form UX and validation |
+| [Workbox](https://developer.chrome.com/docs/workbox) | 📚 Documentation | Service worker libraries for offline-ready PWAs |
+| [IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API) | 📚 Documentation | Client-side structured storage |
+| [Dexie.js](https://dexie.org/docs/) | 📚 Documentation | Friendly wrapper around IndexedDB |
+| [File System Access / OPFS](https://developer.mozilla.org/en-US/docs/Web/API/File_System_API) | 📚 Documentation | Local and origin-private file access |
+| [Trusted Types](https://web.dev/articles/trusted-types) | 📖 Guide | DOM XSS mitigation with Trusted Types |
+| [Lighthouse CI](https://github.com/GoogleChrome/lighthouse-ci) | 🛠️ Tool | Automate Lighthouse checks in CI |
+| [TLS 1.3 (RFC 8446)](https://datatracker.ietf.org/doc/html/rfc8446) | 📋 Specification | Modern Transport Layer Security protocol |
+| [QUIC (RFC 9000)](https://datatracker.ietf.org/doc/html/rfc9000) | 📋 Specification | UDP-based multiplexed and secure transport |
+| [ACME (RFC 8555)](https://datatracker.ietf.org/doc/html/rfc8555) | 📋 Specification | Automated Certificate Management Environment |
+| [DNS over HTTPS (RFC 8484)](https://datatracker.ietf.org/doc/html/rfc8484) | 📋 Specification | DNS queries over HTTPS |
+| [WebSocket (RFC 6455)](https://datatracker.ietf.org/doc/html/rfc6455) | 📋 Specification | Bidirectional communication protocol for the web |
+| [HTTP Semantics (RFC 9110)](https://datatracker.ietf.org/doc/html/rfc9110) | 📋 Specification | Core HTTP semantics shared by HTTP/1.1, HTTP/2, and HTTP/3 |
+| [HTTP/2 glossary (MDN)](https://developer.mozilla.org/en-US/docs/Glossary/HTTP_2) | 📋 Glossary | What HTTP/2 is and why it matters |
+| [HTTP/3 glossary (MDN)](https://developer.mozilla.org/en-US/docs/Glossary/HTTP_3) | 📋 Glossary | HTTP over QUIC overview |
+| [HTTP/2 (RFC 9113)](https://www.rfc-editor.org/rfc/rfc9113.html) | 📋 Specification | Current HTTP/2 protocol specification |
+| [HTTP/3 (RFC 9114)](https://www.rfc-editor.org/rfc/rfc9114.html) | 📋 Specification | HTTP semantics mapped onto QUIC |
+| [High Performance Browser Networking — HTTP/2](https://hpbn.co/http2/) | 📚 Book | Deep dive into HTTP/2 (free online book chapter) |
+| [HTTP/2 (RFC 7540)](https://www.rfc-editor.org/rfc/rfc7540.html) | 📋 Specification | Hypertext Transfer Protocol Version 2 |
+| [HTTP/3 (RFC 9114)](https://www.rfc-editor.org/rfc/rfc9114) | 📋 Specification | HTTP over QUIC |
+| [QPACK (RFC 9204)](https://www.rfc-editor.org/rfc/rfc9204.html) | 📋 Specification | Field compression for HTTP/3 |
+| [QUIC Working Group](https://quicwg.org/) | 🌐 Website | Specs and resources for the QUIC protocol |
+| [HTTP Working Group Specs](https://httpwg.org/specs/) | 📋 Specification | Active HTTP protocol specifications |
 
 <a id="design-patterns"></a>
 ## <img src="https://img.shields.io/badge/Patterns-222222?style=for-the-badge&logo=pattern&logoColor=white" /> Design Patterns
@@ -856,6 +2522,19 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [Patterns.dev](https://www.patterns.dev/) | 📚 Guide | Rendering, performance, and design patterns for the web |
 | [Refactoring Guru](https://refactoring.guru/design-patterns) | 📚 Guide | Visual design-pattern encyclopedia |
 | [Martin Fowler](https://martinfowler.com/) | 📰 Articles | Architecture, refactoring, and enterprise patterns |
+| [C4 Model](https://c4model.com/) | 📋 Guide | Hierarchical software architecture diagrams |
+| [Architecture Decision Records](https://adr.github.io/) | 📋 Guide | Capture important architecture decisions |
+| [ADR examples & templates](https://github.com/architecture-decision-record/architecture-decision-record) | 📋 Repository | Collection of ADR templates and examples |
+| [Design Patterns Catalog](https://refactoring.guru/design-patterns/catalog) | 📚 Guide | Full catalog of GoF patterns with examples |
+| [EAA Catalog (Fowler)](https://www.martinfowler.com/eaaCatalog/) | 📚 Guide | Patterns of Enterprise Application Architecture catalog |
+| [Enterprise Integration Patterns](https://www.enterpriseintegrationpatterns.com/) | 📚 Guide | Messaging and integration pattern catalog |
+| [EventStorming](https://www.eventstorming.com/) | 📖 Guide | Collaborative modeling technique for complex domains |
+| [CQRS](https://cqrs.wordpress.com/) | 📰 Articles | Command Query Responsibility Segregation resources |
+| [Thoughtworks Technology Radar](https://www.thoughtworks.com/radar) | 🗺️ Map | Opinionated technology adoption radar (updated regularly) |
+| [InfoQ](https://www.infoq.com/) | 📰 Articles | Software architecture and engineering news |
+| [DDD Community](https://www.dddcommunity.org/) | 👥 Community | Domain-Driven Design resources and community |
+| [Domain-Driven Design](https://martinfowler.com/bliki/DomainDrivenDesign.html) | 📰 Article | Fowler's overview of DDD |
+| [The Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) | 📰 Article | Uncle Bob's Clean Architecture essay |
 
 <a id="communities--open-source"></a>
 ## <img src="https://img.shields.io/badge/Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" /> Communities & Open Source
@@ -873,6 +2552,169 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 | [The Net Ninja](https://www.youtube.com/@NetNinja) | 🎥 YouTube | Long-form free framework courses |
 | [TkDodo's Blog](https://tkdodo.eu/blog/) | 📰 Articles | Excellent React Query / TanStack insights |
 | [Kent C. Dodds Blog](https://kentcdodds.com/blog) | 📰 Articles | Testing and React best practices |
+| [Awesome Lists](https://github.com/sindresorhus/awesome) | 📋 Repository | Curated lists of awesome resources across topics |
+| [Slack API](https://api.slack.com/start) | 📚 Documentation | Build Slack apps and workflow integrations |
+| [Discord Developer Docs](https://discord.com/developers/docs/intro) | 📚 Documentation | Bots and apps for Discord |
+| [Notion API](https://developers.notion.com/docs/getting-started) | 📚 Documentation | Read and write Notion workspaces programmatically |
+
+
+
+
+<a id="realtime--media"></a>
+## <img src="https://img.shields.io/badge/Realtime-0EA5E9?style=for-the-badge&logo=webrtc&logoColor=white" /> Realtime & Media
+
+| Resource | Type | Description |
+|----------|------|-------------|
+| [WebRTC Overview](https://webrtc.org/getting-started/overview) | 📚 Documentation | Peer-to-peer audio, video, and data |
+| [LiveKit Docs](https://docs.livekit.io/home/) | 📚 Documentation | Open-source WebRTC application platform |
+| [mediasoup Docs](https://mediasoup.org/documentation/v3/) | 📚 Documentation | Powerful WebRTC SFU for scalable realtime media |
+| [Matrix Client-Server API](https://matrix.org/docs/guides/client-server-api/) | 📚 Documentation | Open standard for decentralized realtime communication |
+| [Zulip Docs](https://zulip.readthedocs.io/en/stable/) | 📚 Documentation | Powerful open-source team chat organized by topics |
+| [Mattermost Docs](https://docs.mattermost.com/) | 📚 Documentation | Open-source Slack alternative for team collaboration |
+| [Leaflet](https://leafletjs.com/reference.html) | 📚 Documentation | Lightweight open-source map library |
+| [Sharp](https://sharp.pixelplumbing.com/) | 📚 Documentation | High-performance Node.js image processing |
+| [FFmpeg Documentation](https://ffmpeg.org/documentation.html) | 📚 Documentation | Record, convert, and stream audio/video |
+| [Mux Docs](https://docs.mux.com/) | 📚 Documentation | Video API for streaming and on-demand playback |
+| [HLS.js Docs](https://github.com/video-dev/hls.js/#getting-started) | 📚 Documentation | HTTP Live Streaming client for browsers |
+| [MediaRecorder API (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/MediaRecorder) | 📚 Documentation | Record media streams in the browser |
+
+<a id="background-jobs--queues"></a>
+## <img src="https://img.shields.io/badge/Jobs-111827?style=for-the-badge&logo=redis&logoColor=white" /> Background Jobs & Queues
+
+| Resource | Type | Description |
+|----------|------|-------------|
+| [BullMQ Docs](https://docs.bullmq.io/) | 📚 Documentation | Redis-based Node.js job queues |
+| [Bull](https://github.com/OptimalBits/bull) | 📚 Documentation | Premium Queue package for handling jobs in Node |
+| [node-schedule](https://github.com/node-schedule/node-schedule) | 🛠️ Tool | Cron-like job scheduler for Node.js |
+| [Croner](https://github.com/Hexagon/croner) | 🛠️ Tool | Trigger functions or evaluate cron expressions |
+| [Graphile Worker](https://worker.graphile.org/) | 📚 Documentation | High-performance Node.js/PostgreSQL job queue |
+| [pg-boss](https://github.com/timgit/pg-boss) | 📚 Documentation | Queueing jobs in Postgres for Node.js |
+| [Sidekiq](https://sidekiq.org/) | 📚 Documentation | Efficient background processing for Ruby |
+| [Inngest Docs](https://www.inngest.com/docs) | 📚 Documentation | Event-driven background jobs and workflows |
+| [Restate Docs](https://docs.restate.dev/) | 📚 Documentation | Durable execution platform for reliable distributed apps |
+| [Trigger.dev Docs](https://trigger.dev/docs) | 📚 Documentation | Background jobs for TypeScript apps |
+| [Temporal Docs](https://docs.temporal.io/) | 📚 Documentation | Durable workflow execution platform |
+| [Temporal TypeScript SDK](https://docs.temporal.io/develop/typescript) | 📚 Documentation | Build durable workflows and activities in TypeScript |
+| [Temporal Workflows](https://docs.temporal.io/workflows) | 📚 Documentation | Durable workflow execution model |
+| [Temporal Learn](https://learn.temporal.io/) | 🎓 Courses | Free Temporal courses and learning paths |
+| [Cadence Docs](https://cadenceworkflow.io/docs/) | 📚 Documentation | Distributed, scalable, durable, and highly available workflow orchestration (Uber) |
+| [Conductor OSS](https://conductor-oss.github.io/conductor/) | 📚 Documentation | Microservice orchestration engine (Netflix Conductor fork) |
+| [Zeebe Docs](https://docs.camunda.io/) | 📚 Documentation | Cloud-native workflow engine for microservices orchestration |
+| [Flowable Docs](https://www.flowable.com/open-source/docs) | 📚 Documentation | Open-source BPMN, CMMN, and DMN engines |
+| [jBPM Docs](https://docs.jbpm.org/) | 📚 Documentation | Flexible Business Process Management suite |
+| [Camunda Docs](https://docs.camunda.io/) | 📚 Documentation | Process orchestration and workflow automation platform |
+| [Kestra Docs](https://kestra.io/docs) | 📚 Documentation | Infinitely scalable, event-driven, language-agnostic orchestration |
+| [Windmill Docs](https://www.windmill.dev/docs) | 📚 Documentation | Open-source developer platform for scripts and workflows |
+| [Activepieces Docs](https://www.activepieces.com/docs) | 📚 Documentation | Open-source Zapier alternative for automation |
+| [Node-RED Docs](https://nodered.org/docs/) | 📚 Documentation | Low-code programming for event-driven applications |
+| [MassTransit Introduction](https://masstransit.io/introduction) | 📚 Documentation | Distributed application framework for .NET |
+| [NServiceBus Docs](https://docs.particular.net/) | 📚 Documentation | Messaging and workflow framework for .NET |
+| [Rebus](https://github.com/rebus-org/Rebus) | 📚 Documentation | Simple .NET service bus for messaging |
+| [Wolverine](https://wolverinefx.net/) | 📚 Documentation | Next-generation .NET messaging and command handling |
+| [MediatR](https://github.com/jbogard/MediatR) | 📚 Documentation | In-process messaging library for .NET |
+| [Azure Circuit Breaker Pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/circuit-breaker) | 📋 Pattern | Stop cascading failures in distributed systems |
+| [Azure Rate Limiting Pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/rate-limiting-pattern) | 📋 Pattern | Protect services from overload |
+| [Unkey Docs](https://www.unkey.com/docs) | 📚 Documentation | API key management and rate limiting |
+| [Arcjet Docs](https://docs.arcjet.com/) | 📚 Documentation | Security SDK for rate limiting, bots, and email validation |
+| [Upstash Ratelimit](https://upstash.com/docs/redis/sdks/ratelimit-ts/overview) | 📚 Documentation | Serverless rate limiting with Redis |
+| [Celery Docs](https://docs.celeryq.dev/en/stable/) | 📚 Documentation | Distributed task queue for Python |
+
+<a id="payments-email--files"></a>
+## <img src="https://img.shields.io/badge/Payments-635BFF?style=for-the-badge&logo=stripe&logoColor=white" /> Payments, Email & Files
+
+| Resource | Type | Description |
+|----------|------|-------------|
+| [Stripe Get Started](https://docs.stripe.com/get-started) | 📚 Documentation | Accept payments and build billing flows |
+| [Stripe Payments](https://docs.stripe.com/payments) | 📚 Documentation | Accept online payments with Stripe |
+| [Plaid Docs](https://plaid.com/docs/) | 📚 Documentation | APIs for bank linking, payments, and financial data |
+| [Adyen Docs](https://docs.adyen.com/) | 📚 Documentation | Global payments platform developer documentation |
+| [Braintree Developers](https://www.braintreepayments.com/developers) | 📚 Documentation | PayPal-owned payments platform docs and SDKs |
+| [Square Developer Docs](https://developer.squareup.com/) | 📚 Documentation | Payments, commerce, and point-of-sale APIs |
+| [PayPal Developer Docs](https://developer.paypal.com/docs/) | 📚 Documentation | Checkout, subscriptions, and payouts APIs |
+| [Stripe Development Docs](https://stripe.com/docs/development) | 📚 Documentation | APIs, testing, and integration guides |
+| [Polar Docs](https://polar.sh/docs) | 📚 Documentation | Payments and monetization for open-source / indie hackers |
+| [Lemon Squeezy Docs](https://docs.lemonsqueezy.com/) | 📚 Documentation | Payments, tax, and subscriptions for digital products |
+| [Paddle Billing Docs](https://developer.paddle.com/) | 📚 Documentation | Merchant-of-record billing APIs for SaaS |
+| [Resend Docs](https://resend.com/docs/introduction) | 📚 Documentation | Modern transactional email for developers |
+| [Loops Docs](https://loops.so/docs) | 📚 Documentation | Email platform for SaaS product and transactional mail |
+| [Customer.io Docs](https://docs.customer.io/) | 📚 Documentation | Automated messaging based on customer behavior |
+| [Knock Docs](https://docs.knock.app/) | 📚 Documentation | Notification infrastructure for product messaging |
+| [Vonage Developer Docs](https://developer.vonage.com/) | 📚 Documentation | Communications APIs for SMS, voice, and video |
+| [Mailgun Docs](https://documentation.mailgun.com/docs/mailgun/) | 📚 Documentation | Email API for sending, receiving, and tracking |
+| [Twilio Docs](https://www.twilio.com/docs) | 📚 Documentation | SMS, voice, WhatsApp, and communications APIs |
+| [Backblaze B2 Docs](https://www.backblaze.com/docs/cloud-storage) | 📚 Documentation | Affordable S3-compatible cloud object storage |
+| [Wasabi Docs](https://docs.wasabi.com/) | 📚 Documentation | Hot cloud storage with S3-compatible APIs |
+| [Postmark Docs](https://postmarkapp.com/developer) | 📚 Documentation | Reliable transactional email delivery |
+| [SendGrid Docs](https://www.twilio.com/docs/sendgrid) | 📚 Documentation | Email delivery and marketing APIs |
+| [Amazon SES](https://docs.aws.amazon.com/ses/) | 📚 Documentation | Scalable cloud email sending service |
+| [Novu Docs](https://docs.novu.co/) | 📚 Documentation | Open-source notification infrastructure |
+| [Courier Docs](https://www.courier.com/docs) | 📚 Documentation | Multi-channel notification platform |
+| [OneSignal Docs](https://documentation.onesignal.com/) | 📚 Documentation | Push notifications and messaging |
+| [Listmonk](https://listmonk.app/) | 🛠️ Tool | Self-hosted newsletter and mailing list manager |
+| [Ghost Docs](https://ghost.org/docs/) | 📚 Documentation | Publishing platform with memberships and newsletters |
+| [React Email](https://react.email/docs/introduction) | 📚 Documentation | Build and send emails using React components |
+| [MJML](https://mjml.io/) | 📚 Documentation | Responsive email markup language |
+| [Mailpit](https://github.com/axllent/mailpit) | 🛠️ Tool | Local email testing with a web UI |
+| [Ethereal Email](https://ethereal.email/) | 🛠️ Tool | Fake SMTP service for testing outbound email |
+| [Can I Email](https://www.caniemail.com/) | 🛠️ Tool | Email client CSS/HTML support tables |
+| [UploadThing Docs](https://docs.uploadthing.com/) | 📚 Documentation | Type-safe file uploads for fullstack apps |
+| [Uppy Docs](https://uppy.io/docs/) | 📚 Documentation | Modular open-source file uploader for the web |
+| [FilePond Docs](https://pqina.nl/filepond/docs/) | 📚 Documentation | Accessible and flexible JavaScript file upload library |
+| [SheetJS](https://sheetjs.com/) | 📚 Documentation | Spreadsheet data toolkit for browsers and servers |
+| [Papa Parse](https://www.papaparse.com/) | 📚 Documentation | Fast in-browser CSV parser |
+| [JSZip](https://stuk.github.io/jszip/) | 📚 Documentation | Create, read, and edit .zip files with JavaScript |
+| [PDFKit](https://pdfkit.org/) | 📚 Documentation | PDF generation library for Node and the browser |
+| [pdf-lib](https://pdf-lib.js.org/) | 📚 Documentation | Create and modify PDF documents in any JavaScript environment |
+| [WeasyPrint](https://doc.courtbouillon.org/weasyprint/stable/) | 📚 Documentation | Convert HTML/CSS documents to PDF |
+| [Stirling PDF](https://stirlingpdf.io/) | 🛠️ Tool | Locally hosted web app for PDF manipulation |
+| [Nextcloud](https://nextcloud.com/) | 📚 Documentation | Self-hosted content collaboration and file sync platform |
+| [Syncthing](https://syncthing.net/) | 🛠️ Tool | Continuous file synchronization without a central server |
+| [rclone](https://rclone.org/) | 🛠️ Tool | rsync for cloud storage (S3, Drive, and dozens more) |
+| [restic](https://restic.net/) | 🛠️ Tool | Fast, secure, efficient backup program |
+| [BorgBackup](https://www.borgbackup.org/) | 🛠️ Tool | Deduplicating backup program with compression and encryption |
+| [OpenEBS](https://openebs.io/) | 📚 Documentation | Open-source container-attached storage for Kubernetes |
+| [JuiceFS](https://juicefs.com/docs/community/introduction/) | 📚 Documentation | Distributed POSIX file system built on object storage |
+| [Alluxio](https://www.alluxio.io/) | 📚 Documentation | Data orchestration for analytics and AI workloads |
+
+<a id="seo--discoverability"></a>
+## <img src="https://img.shields.io/badge/SEO-0F9D58?style=for-the-badge&logo=google&logoColor=white" /> SEO & Discoverability
+
+| Resource | Type | Description |
+|----------|------|-------------|
+| [Google SEO Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide) | 📋 Guide | Official SEO fundamentals for site owners |
+| [Next.js Learn SEO](https://nextjs.org/learn/seo/introduction-to-seo) | 🎓 Course | Practical SEO concepts in a Next.js learning path |
+| [Open Graph Protocol](https://ogp.me/) | 📋 Specification | Social preview metadata standard |
+| [Intro to Structured Data](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data) | 📖 Guide | Help search engines understand your pages |
+| [Schema.org](https://schema.org/) | 📚 Documentation | Vocabulary for structured data on the web |
+| [MDN SEO Glossary](https://developer.mozilla.org/en-US/docs/Glossary/SEO) | 📋 Reference | Quick SEO definition and related concepts |
+| [Google Sitemaps Guide](https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview) | 📖 Guide | Create and submit XML sitemaps for search discovery |
+| [XML Sitemaps Protocol](https://www.sitemaps.org/protocol.html) | 📋 Specification | Sitemap format for search engine crawlers |
+| [robots.txt Specification](https://www.rfc-editor.org/rfc/rfc9309.html) | 📋 Specification | Robots Exclusion Protocol (RFC 9309) |
+| [DMARC](https://dmarc.org/) | 📋 Specification | Email authentication, policy, and reporting |
+
+<a id="i18n--feature-flags"></a>
+## <img src="https://img.shields.io/badge/i18n-1D4ED8?style=for-the-badge" /> i18n & Feature Flags
+
+| Resource | Type | Description |
+|----------|------|-------------|
+| [i18next](https://www.i18next.com/) | 📚 Documentation | Internationalization framework for JavaScript |
+| [next-intl](https://next-intl.dev/docs/getting-started) | 📚 Documentation | Internationalization for Next.js apps |
+| [Unleash Docs](https://docs.getunleash.io/) | 📚 Documentation | Open-source feature flag platform |
+| [Flagsmith Docs](https://docs.flagsmith.com/) | 📚 Documentation | Feature flags and remote config |
+| [FormatJS](https://formatjs.github.io/docs/getting-started/installation/) | 📚 Documentation | Internationalization libraries and tools (ICU message format) |
+| [ICU MessageFormat](https://formatjs.github.io/docs/core-concepts/icu-syntax/) | 📖 Guide | MessageFormat syntax for pluralization and gender |
+| [FormatJS React Intl](https://formatjs.github.io/docs/react-intl/) | 📚 Documentation | React bindings for FormatJS internationalization |
+| [ICU Messages (Unicode)](https://unicode-org.github.io/icu/userguide/format_parse/messages/) | 📚 Documentation | Unicode ICU message formatting user guide |
+| [Unicode Locale Data (CLDR)](https://cldr.unicode.org/) | 📚 Documentation | Common Locale Data Repository for languages and locales |
+| [Unicode Locale Data Markup (TR35)](https://unicode.org/reports/tr35/) | 📋 Specification | LDML standard behind CLDR |
+| [Declaring language in HTML](https://www.w3.org/International/questions/qa-html-language-declarations) | 📖 Guide | Correct lang attributes for internationalized pages |
+| [Google Developer Style Guide](https://developers.google.com/style) | 📋 Guide | Style guidance for developer documentation |
+| [Lingui](https://lingui.dev/) | 📚 Documentation | Readable, automated i18n for JavaScript projects |
+| [Paraglide JS](https://inlang.com/m/gerre34r/library-inlang-paraglideJs) | 📚 Documentation | Tiny, type-safe i18n library compiled at build time |
+| [OpenFeature](https://openfeature.dev/docs/reference/intro) | 📚 Documentation | Vendor-neutral feature flag standard and SDKs |
+| [ConfigCat Docs](https://configcat.com/docs/) | 📚 Documentation | Feature flag service with a generous free tier and clear docs |
+| [GrowthBook Docs](https://docs.growthbook.io/) | 📚 Documentation | Open-source feature flags and A/B testing |
+| [LaunchDarkly Docs](https://docs.launchdarkly.com/home) | 📚 Documentation | Feature management platform (free tier / docs) |
 
 <a id="learning-paths"></a>
 ## <img src="https://img.shields.io/badge/Learning%20Paths-9B59B6?style=for-the-badge&logo=roadmap&logoColor=white" /> Learning Paths
@@ -902,6 +2744,17 @@ Build these (or variations) into a portfolio. Prefer shipping and deploying over
 1. **🐳 Docker** → **☸️ Kubernetes fundamentals** → **📦 CI/CD (GitHub Actions)**
 2. **📐 Infrastructure as Code (Terraform)** → **📊 Observability (Prometheus/OpenTelemetry)**
 3. **☁️ Pick a cloud (AWS/GCP/Azure)** → **🛡️ Security + cost-aware architecture**
+
+### 🎓 freeCodeCamp Certifications (free)
+| Certification | Link |
+|---------------|------|
+| Responsive Web Design | [Start](https://www.freecodecamp.org/learn/responsive-web-design/) |
+| JavaScript Algorithms and Data Structures | [Start](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/) |
+| Front End Development Libraries | [Start](https://www.freecodecamp.org/learn/front-end-development-libraries/) |
+| Back End Development and APIs | [Start](https://www.freecodecamp.org/learn/back-end-development-and-apis/) |
+| Relational Database | [Start](https://www.freecodecamp.org/learn/relational-database/) |
+| Quality Assurance | [Start](https://www.freecodecamp.org/learn/quality-assurance/) |
+| Information Security | [Start](https://www.freecodecamp.org/learn/information-security/) |
 
 ### ✅ First Week Checklist (absolute beginners)
 - [ ] Complete [MDN Learn HTML/CSS basics](https://developer.mozilla.org/en-US/docs/Learn_web_development) intro modules
